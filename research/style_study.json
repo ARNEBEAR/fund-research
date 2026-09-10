@@ -1,0 +1,41 @@
+{
+  "as_of": "2026-09-08",
+  "report_date": "2026-09-09",
+  "pre_observations": [60, 120],
+  "minimum_post_observations": 20,
+  "hac_lags": 3,
+  "false_discovery_rate": 0.10,
+  "reference_note": "Daily NAV total-return proxies, not contractual benchmarks. Align levels on shared valuation dates before computing interval returns. Overseas references are CNY NAV proxies; no claim of exact local-market close or FX fixing match.",
+  "new_series": [
+    {"code": "515880", "name": "通信ETF净值", "type": "sector_proxy"},
+    {"code": "159928", "name": "消费ETF净值", "type": "sector_proxy"},
+    {"code": "515220", "name": "煤炭ETF净值", "type": "sector_proxy"},
+    {"code": "159770", "name": "机器人ETF净值", "type": "sector_proxy"},
+    {"code": "510900", "name": "H股ETF净值", "type": "regional_proxy"},
+    {"code": "513100", "name": "纳指100ETF人民币净值", "type": "regional_style_proxy"},
+    {"code": "513500", "name": "标普500目标ETF人民币净值", "type": "target_etf_proxy"},
+    {"code": "501225", "name": "全球芯片基金净值（含境内资产）", "type": "mixed_domestic_overseas_sector_fund_proxy"},
+    {"code": "002910", "name": "易方达供给改革（同经理另一产品）", "type": "manager_other_product_not_user_holding"}
+  ],
+  "domestic_references": ["510300", "512480", "515880", "159770", "510880", "159928", "512010", "515220"],
+  "overseas_references": ["513100", "513500", "501225", "510900"],
+  "fund_focus_reference": {
+    "wanjia": "515880",
+    "qianhai": "510880",
+    "efunds": "512480",
+    "invesco": "515880",
+    "bocom": "515880",
+    "franklin": "501225",
+    "guangfa_global": "513100",
+    "guangfa_theme": "510880",
+    "bosera": "513500"
+  },
+  "statistical_notes": [
+    "Pre/post beta changes use a pooled regression y=a+b*x+c*post+d*x*post with Newey-West HAC covariance. d is not a holdings change estimate.",
+    "Apply Benjamini-Hochberg FDR across all eligible fund/reference/event tests for each pre-window, not only attractive findings.",
+    "Require 20 post observations for inference; insufficient windows show descriptive returns only.",
+    "Current sources were selected retrospectively. This is an exploratory diagnostic, not preregistered confirmatory research or a trading backtest.",
+    "Nested Q2 and H1 windows and correlated references are not independent replications.",
+    "Publication date is known, historical intraday availability is not. Start at the first common closing NAV on/after publication and measure from there."
+  ]
+}

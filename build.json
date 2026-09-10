@@ -1,0 +1,22 @@
+{
+  "generated_on": "2026-09-10",
+  "data_as_of": "2026-09-08",
+  "output": "publish/github-pages/index.html",
+  "sha256": "2a9b5e4b54b419373184c37d7d64579d63600ac28a628fb59f4f2043c309bcff",
+  "bytes": 3307945,
+  "sources": 48,
+  "profiles": 9,
+  "offline": true,
+  "public_deployment": true,
+  "contractual_daily_benchmark_complete": false,
+  "dependencies": {
+    "echarts": "5.6.0",
+    "lucide": "0.468.0"
+  },
+  "source_hashes": {
+    "research/manager_profiles.json": "c71bbf2ebabdf4e1ea1de557550b93e1fa113a58ac8a35bb36c5bf08e8318df3",
+    "report/template.html": "146b3c273b3db7bdf848eb3a5330515e9d6022dc02f441552c3a91c1267852a4",
+    "report/report.css": "79b6fa410b53fe73fade7ad612fc4bc9f02da78a75e9f30f44991c7a625ca9a7",
+    "report/report.js": "83dda2d98521bfe0fa21af0a5271152b9c260d5aff19f1f42457eb04b8798240"
+  }
+}
