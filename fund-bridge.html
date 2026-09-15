@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'nonce-fund-data-bridge-v1' https://fund.eastmoney.com; connect-src 'none'; img-src 'none'; style-src 'none'; form-action 'none'; base-uri 'none'">
+  <title>基金公开净值读取</title>
+</head>
+<body>
+<script nonce="fund-data-bridge-v1">
+"use strict";
+// This document must be sandboxed without allow-same-origin. Third-party code
+// never executes in the report origin and receives no portfolio or account data.
+const params = new URLSearchParams(location.search);
+const code = params.get("code"), requestId = params.get("request");
+let sent = false;
+const send = (payload) => {
+  if (sent) return;
+  sent = true;
+  parent.postMessage({ type: "fund-nav-bridge-v1", requestId, ...payload }, "*");
+};
+if (!/^\d{6}$/.test(code || "") || !/^[a-z0-9-]{8,80}$/i.test(requestId || "")) {
+  send({ error: "无效基金代码" });
+} else {
+  const loader = document.createElement("script");
+  loader.src = "https://fund.eastmoney.com/pingzhongdata/" + code + ".js";
+  loader.referrerPolicy = "no-referrer";
+  loader.onerror = () => send({ error: "公开净值源暂不可达，可稍后重试" });
+  loader.onload = () => {
+    try {
+      if (globalThis.fS_code !== code || !Array.isArray(globalThis.Data_netWorthTrend) ||
+          !Array.isArray(globalThis.Data_ACWorthTrend)) throw Error("该产品没有适用的单位净值历史");
+      const raw = globalThis.Data_netWorthTrend;
+      if (raw.length < 2 || raw.length > 20000) throw Error("净值历史为空或格式超限");
+      const cumulative = new Map(globalThis.Data_ACWorthTrend.map((p) => [p[0], Number(p[1])]));
+      const history = [];
+      let prev = null, wealth = 1, fallbackCount = 0;
+      for (const row of raw) {
+        const time = Number(row.x), unit = Number(row.y), reported = Number(row.equityReturn) / 100;
+        const cum = cumulative.get(time);
+        if (!Number.isFinite(time) || time < 0 || !Number.isFinite(unit) || unit <= 0 ||
+            (prev && time <= prev.time)) throw Error("净值时间或数值异常");
+        const date = new Date(time + 8 * 3600000).toISOString().slice(0, 10);
+        if (prev) {
+          if (row.equityReturn == null || row.equityReturn === "" || !Number.isFinite(reported) || reported <= -1)
+            throw Error("供应商收益率缺失");
+          const dividend = (cum - unit) - (prev.cum - prev.unit);
+          const exact = (unit + Math.max(0, dividend)) / prev.unit - 1;
+          const fallback = !Number.isFinite(exact) || dividend < -0.0002 || Math.abs(exact - reported) > 0.00011;
+          const change = fallback ? reported : exact;
+          if (fallback) fallbackCount++;
+          wealth *= 1 + change;
+          if (!Number.isFinite(wealth) || wealth <= 0) throw Error("总收益重建异常");
+        }
+        if (history.length && date <= history[history.length - 1][0]) throw Error("重复估值日");
+        history.push([date, wealth, unit]);
+        prev = { time, unit, cum };
+      }
+      const managers = Array.isArray(globalThis.Data_currentFundManager) ?
+        globalThis.Data_currentFundManager.map((m) => String(m.name || "").slice(0, 60)).filter(Boolean).slice(0, 8) : [];
+      send({ result: { code, name: String(globalThis.fS_name || code).slice(0, 160),
+        history, fallback_count: fallbackCount, managers, source: "eastmoney_browser",
+        retrieved_at: new Date().toISOString(), independent_validation: false } });
+    } catch (error) { send({ error: error.message || "净值解析失败" }); }
+  };
+  document.head.append(loader);
+  setTimeout(() => send({ error: "净值加载超时" }), 18000);
+}
+</script>
+</body>
+</html>

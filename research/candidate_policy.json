@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "screened_on": "2026-09-10",
+  "nav_as_of": "2026-09-08",
+  "catalogue_url": "https://fund.eastmoney.com/js/fundcode_search.js",
+  "catalogue_variable": "r",
+  "scope": "遍历公开名录的名称与类型字段，仅做入口过滤；从中目的性选择8个外部产品做机制对照，不是全市场逐只业绩、费用或经理尽调。",
+  "universe_rules": {
+    "share_pattern": "C(?:类)?(?:[（(].*[）)])?$",
+    "allowed_types": ["混合", "股票", "QDII", "指数"],
+    "exclude_types": ["债券", "货币", "FOF", "商品"],
+    "exclude_name_patterns": ["持有", "定开", "定期开放", "封闭", "美元", "港币"]
+  },
+  "selection_basis": "本轮优先检验交银行业分散职责，选择价值/质量类对照；另选择主动科技、境内半导体联接、全球芯片和纳指工具。选取不是收益排名结果；名录过滤不会自动选出这些8只，存在研究者选择偏差。",
+  "comparison": {
+    "trailing_weeks": [26, 52],
+    "half_life_weeks": 13,
+    "minimum_weekly_intervals": 26,
+    "max_nav_age_days": 7,
+    "technology_sleeve": ["wanjia", "efunds", "invesco", "franklin", "guangfa_global"],
+    "technology_sleeve_note": "按已报权重在这五项内部归一，仅为已知科技相关仓参照，不是实际科技持仓穿透；含身份待核的低碳。",
+    "replacement_scope": "九项76.6%已列基金研究子组合内部归一，未包含现金15%与未识别8.4%；含两项身份待核名称代理，不是完整账户。",
+    "simulation": "固定当前权重在共同完整周上再平衡，按原持仓整项替换；不择时、不增杠杆。净值已含产品运作费，但不含实际申赎摩擦。",
+    "switch_cost_stress_bps": [0, 50, 150],
+    "cost_note": "额外一次性转换摩擦按被替换金额的0/50/150bp扣除；不是实际报价，不含资金在途错失行情。",
+    "superiority_gate": "低相关只证明某个分散维度；必须同时核实角色、当期可买、份额身份、费用/限购、经理历史与净收益代价，才可从研究候选升级为替换建议。本轮没有已证实全面更优的产品。"
+  },
+  "candidates": [
+    {
+      "id": "external_dacheng", "code": "011066", "name": "大成高鑫股票C",
+      "manager": "刘旭", "manager_since": "2015-07-29", "qdii": false,
+      "role": "行业分散候选", "replaces": "bocom", "collect_nav": true,
+      "selection_reason": "质量制造、消费与现金流企业的自下而上选择，检查是否比交银提供更独立的非AI收益来源。",
+      "decision": "优先尽调，不直接替换", "gate": "蚂蚁交易规则与实际费用待核；不是固定低波动产品。",
+      "identity_note": "原名大成高新技术产业，已更名为大成高鑫，不能按旧名称断言仍是科技主题。",
+      "official_url": "https://www.dcfund.com.cn/main/fund/productdetail/index.shtml?product_code=011066",
+      "known_nav": {"date": "2026-09-08", "value": 4.8774, "source_url": "https://www.zocaifu.com/product/011066", "tolerance": 0.00011}
+    },
+    {
+      "id": "external_zhongtai", "code": "012940", "name": "中泰星元灵活配置混合C",
+      "manager": "姜诚", "manager_since": "2018-12-05", "qdii": false,
+      "role": "行业分散候选", "replaces": "bocom", "collect_nav": true,
+      "selection_reason": "价值、逆向与低换手对照；重点检查与前海的价值风险是否重复，而非只看与科技低相关。",
+      "decision": "次级候选，先查与前海重复", "gate": "银行、化工、地产链不是天然避险，蚂蚁费用待核。",
+      "identity_note": "C类2021年设立，A类长历史不拼入C类。本轮不把2026年管理职务变动直接解释为投研退化。",
+      "official_url": "https://www.ztzqzg.com/products/publicDetail?fundCode=012940&type=cpfee",
+      "known_nav": {"date": "2026-09-08", "value": 2.8356, "source_url": "https://www.ztzqzg.com/products/publicDetail?fundCode=012940&type=cpfee", "tolerance": 0.00011}
+    },
+    {
+      "id": "external_energy", "code": "017090", "name": "景顺长城能源基建混合C",
+      "manager": "邹立虎", "manager_since": "2025-04-26", "qdii": false,
+      "role": "基座对照", "replaces": "qianhai", "collect_nav": false,
+      "selection_reason": "检验市场上常见的价值型候选是否仍由原经理管理。",
+      "decision": "本轮不入围", "gate": "现任经理不到两个完整年度，尚未完成独立任期尽调；能源基建主题不等同国企价值。",
+      "identity_note": "2025年已换为邹立虎，不能沿用鲍无可任期表现作现任能力证明。",
+      "official_url": "https://www.igwfmc.com/main/jjcp/product/017090/detail.html"
+    },
+    {
+      "id": "external_value", "code": "015779", "name": "景顺长城价值边际混合C",
+      "manager": "刘苏", "manager_since": "2025-04-26", "qdii": false,
+      "role": "基座对照", "replaces": "qianhai", "collect_nav": false,
+      "selection_reason": "检查另一只历史价值型产品的现任经理和组合约束。",
+      "decision": "本轮不入围", "gate": "经理切换后完整周期不足，本轮不把旧经理长期成绩作为替换理由。",
+      "identity_note": "C类代码015779，现任刘苏；不是鲍无可当前产品。",
+      "official_url": "https://www.igwfmc.com/main/jjcp/product/015779/detail.html"
+    },
+    {
+      "id": "external_huaan", "code": "013620", "name": "华安媒体互联网混合C",
+      "manager": "胡宜斌", "manager_since": "2015-11-26", "qdii": false,
+      "role": "泛科技对照", "replaces": "invesco", "collect_nav": true,
+      "selection_reason": "用媒体互联网、软件应用与硬件并存的主动产品，检验低碳之外是否有真正不同的科技结构。",
+      "decision": "观察对照，不建议再添一只", "gate": "披露中仍含光模块与半导体，新增可能重复现有科技仓。",
+      "identity_note": "C类2021-10-18起，不能把2015年产品成立日当C类起点。",
+      "official_url": "https://www.huaan.com.cn/funds/013620/index.shtml",
+      "known_nav": {"date": "2026-09-08", "value": 3.734, "source_url": "https://www.huaan.com.cn/funds/013620/index.shtml", "tolerance": 0.00011}
+    },
+    {
+      "id": "external_semiconductor", "code": "007301", "name": "国联安半导体ETF联接C",
+      "manager": "指数管理：黄欣、章椹元", "manager_since": "2019-06-26", "qdii": false,
+      "role": "泛科技工具对照", "replaces": "efunds", "collect_nav": true,
+      "selection_reason": "提供行业规则更明确的半导体敞口，对照主动经理可降仓、可换行业的选择。",
+      "decision": "工具参照，不是自动更优", "gate": "泛科技收窄为半导体；波动与回撤可显著增加。",
+      "identity_note": "指数管理不作主动经理跨期归因；管理人自2019年成立日是产品起点，不表示各位现任经理任期均从此日起。",
+      "official_url": "https://www.cpicfunds.com/product/007301/"
+    },
+    {
+      "id": "external_globalchip", "code": "016668", "name": "景顺全球半导体芯片C（人民币）",
+      "manager": "汪洋、金璜", "manager_since": "2023-03-30", "qdii": true,
+      "role": "海外硬科技对照", "replaces": "franklin", "collect_nav": true,
+      "selection_reason": "全球芯片ETF组合，对照主动台韩与全球选股的独立作用。",
+      "decision": "只作对照，当前不建议新增", "gate": "官方产品页采集时显示暂停申购；境内资产至少20%，不符合纯海外替换的假设。",
+      "identity_note": "此前研究参照501225的C类，不是新发现的纯海外指数；更集中不等于更优。",
+      "official_url": "https://etrade.igwfmc.com/main/jjcp/product/016668/detail.html",
+      "known_nav": {"date": "2026-09-08", "value": 2.9498, "source_url": "https://etrade.igwfmc.com/main/jjcp/product/016668/detail.html", "tolerance": 0.00011}
+    },
+    {
+      "id": "external_nasdaq", "code": "006479", "name": "广发纳指100联接人民币C",
+      "manager": "刘杰 / 指数管理", "manager_since": "2022-04-01", "qdii": true,
+      "role": "海外科技工具对照", "replaces": "guangfa_global", "collect_nav": true,
+      "selection_reason": "用规则化美国成长指数，对照主动海外科技选股与更复杂的区域配置。",
+      "decision": "只作对照，额度门槛未过", "gate": "官方页面检索内容显示单日上限2元，静态归档未渲染限额；渠道上限可能不同，需蚂蚁下单页确认，尚不能视为可承接仓位。",
+      "identity_note": "纳指100包含多类非硬科技业务，不是纯半导体或台韩制造替代。",
+      "official_url": "https://www.gffunds.com.cn/funds/?fundcode=006479&fromSearch=1",
+      "known_nav": {"date": "2026-09-08", "value": 8.0221, "source_url": "https://www.gffunds.com.cn/funds/?fundcode=006479&fromSearch=1", "tolerance": 0.00011}
+    }
+  ]
+}

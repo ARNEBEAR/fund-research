@@ -1,10 +1,12 @@
 {
-  "generated_on": "2026-09-10",
+  "generated_on": "2026-09-15",
+  "research_snapshot_date": "2026-09-10",
+  "explorer_snapshot_date": "2026-09-14",
   "data_as_of": "2026-09-08",
   "output": "publish/github-pages/index.html",
-  "sha256": "2a9b5e4b54b419373184c37d7d64579d63600ac28a628fb59f4f2043c309bcff",
-  "bytes": 3307945,
-  "sources": 48,
+  "sha256": "7108f760ef41bbddd2bb0202ac2e04091f027d4540fcdcf49d50b5f2dbe37055",
+  "bytes": 7623547,
+  "sources": 72,
   "profiles": 9,
   "offline": true,
   "public_deployment": true,
@@ -15,8 +17,14 @@
   },
   "source_hashes": {
     "research/manager_profiles.json": "c71bbf2ebabdf4e1ea1de557550b93e1fa113a58ac8a35bb36c5bf08e8318df3",
-    "report/template.html": "146b3c273b3db7bdf848eb3a5330515e9d6022dc02f441552c3a91c1267852a4",
-    "report/report.css": "79b6fa410b53fe73fade7ad612fc4bc9f02da78a75e9f30f44991c7a625ca9a7",
-    "report/report.js": "83dda2d98521bfe0fa21af0a5271152b9c260d5aff19f1f42457eb04b8798240"
+    "report/template.html": "00187f713bd192b233561009e1b4ae6b231370a67f55fefcf47bb4842d9c3a39",
+    "report/report.css": "6f2ab9acca2d231435bb07dc9b0472177b56fad9e1cfd4db699c20b1310c5e8a",
+    "report/report.js": "5980fac0406234145c11921029ecd65b56251c4c51a15f17eb021c0905520cee",
+    "report/assessment.js": "772004eedbdfd54660999a6d2b5b330fc6492a354acf82c7fa344b4ee6a15e9b",
+    "report/explorer.js": "4fbbc4d74ac797e437d5f0ad1bd8ab70a530329251b0cce16ea305cb498e9b0f",
+    "report/explorer-math.js": "a7f2177936c5f7a8bb8c72acd88972265cab513271befc97e34fa6ebee328b69",
+    "report/fund-bridge.html": "325d66eb425a9b71e03cd93880e14656b3b96025cea3c1f33c4b13e85b296a19",
+    "data/explorer/2026-09-15/bundle.json": "b1a09de1020297fd02d3783bce7b27b5dcc4417b8faab3f8fd471a52362fa48e",
+    "data/candidates/2026-09-10/assessment.json": "36765692fb5af09c0584dd027223b616835e544a6bbdb8e970f48f519cc5901b"
   }
 }

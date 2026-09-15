@@ -1,0 +1,2221 @@
+{
+  "date": "2026-09-10",
+  "nav_as_of": "2026-09-08",
+  "decision_policy": {
+    "version": 1,
+    "date": "2026-09-10",
+    "nav_as_of": "2026-09-08",
+    "label": "角色综合研究分",
+    "meaning": "研究者将已核证据归纳为0至5档，再按公开权重映射到100分；不是全市场排名、经理能力分、预期收益或上涨概率。",
+    "formula": "score = 20 * sum(dimension_rating * dimension_weight)",
+    "weights": {
+      "method": 0.25,
+      "role": 0.35,
+      "behavior": 0.2,
+      "necessity": 0.2
+    },
+    "sensitivity_weights": {
+      "role_priority": {
+        "method": 0.2,
+        "role": 0.45,
+        "behavior": 0.2,
+        "necessity": 0.15
+      },
+      "evidence_priority": {
+        "method": 0.35,
+        "role": 0.25,
+        "behavior": 0.25,
+        "necessity": 0.15
+      },
+      "equal": {
+        "method": 0.25,
+        "role": 0.25,
+        "behavior": 0.25,
+        "necessity": 0.25
+      }
+    },
+    "dimensions": [
+      {
+        "id": "method",
+        "label": "方法证据",
+        "weight": 25,
+        "question": "长期方法能否从跨期材料追溯，并解释当前行为？",
+        "anchors": [
+          "0 无可信证据",
+          "1 仅产品宣传标签",
+          "2 单期或回顾性资料",
+          "3 有框架但产品历史较短",
+          "4 多期直接材料与反例可核",
+          "5 完整多周期且现任经理归因清楚"
+        ]
+      },
+      {
+        "id": "role",
+        "label": "角色适配",
+        "weight": 35,
+        "question": "合同、方法和当期行为是否适合你赋予的职责？",
+        "anchors": [
+          "0 与任务不相容",
+          "1 明显偏离",
+          "2 职责与当前暴露有冲突",
+          "3 有条件成立",
+          "4 多项证据支持但强度可变",
+          "5 定位与当前方向清晰一致"
+        ]
+      },
+      {
+        "id": "behavior",
+        "label": "近期行为证据",
+        "weight": 20,
+        "question": "披露后净值对该角色提供多少支持，而不是涨得多就加分？",
+        "anchors": [
+          "0 无适用数据",
+          "1 证据显著反向",
+          "2 关键职责未兑现",
+          "3 混合证据或窗口敏感",
+          "4 观察与角色大致相容",
+          "5 多窗口、独立数据和反事实充分支持"
+        ]
+      },
+      {
+        "id": "necessity",
+        "label": "组合必要性",
+        "weight": 20,
+        "question": "相对已有基金是否有值得保留的独立任务？",
+        "anchors": [
+          "0 无明确任务",
+          "1 多数重复且未见补偿",
+          "2 独立作用尚待证明",
+          "3 有差异但重复较多",
+          "4 方法或地域有可解释差异",
+          "5 现结构中承担清晰互补任务"
+        ]
+      }
+    ],
+    "bands": [
+      {
+        "min": 80,
+        "label": "角色支持较强"
+      },
+      {
+        "min": 65,
+        "label": "可保留，跟踪边界"
+      },
+      {
+        "min": 50,
+        "label": "优先复核角色"
+      },
+      {
+        "min": 0,
+        "label": "不宜按此角色使用"
+      }
+    ],
+    "score_limits": [
+      "评分是带证据的主观研究归纳，不伪装为统计自动评出的基金质量；未做样本外校准。",
+      "不同职责不能按分数高低直接互换，国富87分不意味着应取代万家76分。",
+      "权重敏感区间只改变权重，不是统计置信区间；单档判断本身也可能修订。",
+      "资料缺口、份额身份、费用、限购和风险预算是独立门槛，不能被较高分数抵消。",
+      "角色尚未明确时不强行给总分；不以基金管理人资历或短期收益排名直接赋分。"
+    ],
+    "execution_gates": [
+      "核实实际六位代码与份额；景顺、交银代理身份不等于账户确认。",
+      "核实蚂蚁当日申赎、限额、最低持有期和每笔赎回费，不能以网页直销规则代替。",
+      "补齐其余QDII，明确可接受的全账户回撤与资金用途。",
+      "候选在职责上有明确改善，并接受其收益机会成本；至少比较26/52周和不同市场状态。",
+      "不以此分数自动生成交易，不因短期显著或低相关就认定持仓还原、因果或全面更优。"
+    ],
+    "decisions": [
+      {
+        "id": "wanjia",
+        "ratings": {
+          "method": 4,
+          "role": 4,
+          "behavior": 3,
+          "necessity": 4
+        },
+        "reasons": {
+          "method": "2020、2025与2026披露支持自上而下和逆向框架，2020本地归档缺失。",
+          "role": "符合进攻型长期基座，但科技已在基座内部。",
+          "behavior": "通信敏感度下降在60/120前窗结论不同，不上调为确认降风险。",
+          "necessity": "与前海的决策方法互补，20%仓位已是主要风险来源。"
+        },
+        "action": "保留基座，暂不提高权重",
+        "action_type": "retain",
+        "why": "不因为波动或科技重叠就移除；当前没有足够证据支持进一步放大这一主要仓位。",
+        "change_trigger": "多窗口持续与科技卫星共振且缺少主动轮动补偿，或经理方法出现实质变化时，再讨论减权重。",
+        "confidence": "中等；窗口敏感、全账户风险预算未核",
+        "sources": [
+          "mo_2025",
+          "wanjia_2026q2",
+          "wanjia_h1"
+        ]
+      },
+      {
+        "id": "qianhai",
+        "ratings": {
+          "method": 3,
+          "role": 5,
+          "behavior": 4,
+          "necessity": 5
+        },
+        "reasons": {
+          "method": "价值＋框架清楚，但本产品历史较短，早年过程部分依赖2026回顾。",
+          "role": "国企约束与价值现金流思路适合另一侧基座。",
+          "behavior": "发布后红利联动变化未通过校正检验，与价值职责相容，不以跑输红利代理扣经理能力。",
+          "necessity": "目前在已知结构中提供较清楚的非科技互补。"
+        },
+        "action": "保留基座，不因科技强势而替换",
+        "action_type": "retain",
+        "why": "它不是为了每轮科技行情都领先而配置；阶段弱势本身不构成换基理由。",
+        "change_trigger": "国企/价值特征持续稀释，或盈利、现金流、分红证据恶化，再复核。",
+        "confidence": "中等；产品历史短，长期框架未完全独立验证",
+        "sources": [
+          "tian_2026",
+          "qianhai_2026q2"
+        ]
+      },
+      {
+        "id": "efunds",
+        "ratings": {
+          "method": 4,
+          "role": 4,
+          "behavior": 4,
+          "necessity": 4
+        },
+        "reasons": {
+          "method": "2021官网观点与2025手记可追溯产业供给和竞争格局方法。",
+          "role": "当前科技加权有依据，但可回到传统行业，不是固定科技工具。",
+          "behavior": "披露后较半导体参照抗跌，与季末部分兑现相容；不直接归因为择时alpha。",
+          "necessity": "产业方法有独立性，仍需与万家和低碳一起管理科技风险。"
+        },
+        "action": "保留科技位，不追涨式加仓",
+        "action_type": "retain",
+        "why": "允许经理估值约束与行业切换，现有16%已经形成明显加权。",
+        "change_trigger": "连续两个完整月的科技敏感度和披露均不再符合科技任务时，先重新定义角色，再比较工具替换。",
+        "confidence": "中等；本产品历史短、合同基准分段未完整复算",
+        "sources": [
+          "yang_2021",
+          "yang_2025",
+          "efunds_2026q2"
+        ]
+      },
+      {
+        "id": "invesco",
+        "ratings": {
+          "method": 4,
+          "role": 4,
+          "behavior": 3,
+          "necessity": 3
+        },
+        "reasons": {
+          "method": "材料、先进制造、机器人研究跨期可追溯。",
+          "role": "硬件制造符合科技加权，但可主动降仓。",
+          "behavior": "通信敏感度上升仅在60点前窗显著，仍需后续证据。",
+          "necessity": "与易方达方法有差异，但与万家、交银当前科技链重复较多。"
+        },
+        "action": "保留观察，先核代码与实际弹性",
+        "action_type": "watch",
+        "why": "暂不以“多一个科技经理”为理由加仓，先确认持有的确实是002244。",
+        "change_trigger": "确认代码后，若低股票仓位长期不符合所需加权，或与其余科技仓持续同质化，再评估减量或替代。",
+        "confidence": "有限；账户份额待核、窗口敏感",
+        "sources": [
+          "meng_2020",
+          "meng_2025",
+          "invesco_2026q2"
+        ]
+      },
+      {
+        "id": "bocom",
+        "ratings": {
+          "method": 4,
+          "role": 2,
+          "behavior": 2,
+          "necessity": 2
+        },
+        "reasons": {
+          "method": "2018、2019至2026资料可追溯自下而上与估值纪律。",
+          "role": "你要求行业分散，当前通信暴露与该职责有冲突。",
+          "behavior": "发布后通信相关性约0.92，beta上升在两个前窗均通过探索性阈值；不是全行业持仓证明。",
+          "necessity": "研究方法虽独立，但当前收益来源未充分证明能分散现有科技仓。"
+        },
+        "action": "暂停按分散理由加仓，优先比较替代",
+        "action_type": "review",
+        "why": "优先审查这5.7%的任务，研究大成高鑫与中泰星元对照；不是判定何帅能力差或立即赎回。",
+        "change_trigger": "若代码核实后，26/52周与已知科技仓联动持续较高、下跌期无改善，且候选的成本和机会损失可接受，才讨论替换。",
+        "confidence": "角色冲突证据较清楚；替换结论仍有限",
+        "sources": [
+          "he_2018",
+          "he_2019",
+          "bocom_2026q2",
+          "bocom_h1"
+        ]
+      },
+      {
+        "id": "franklin",
+        "ratings": {
+          "method": 4,
+          "role": 5,
+          "behavior": 4,
+          "necessity": 4
+        },
+        "reasons": {
+          "method": "2023第三方研究、2026直接访谈及季报支持产品定位演变。",
+          "role": "亚太AI与制造链明确符合海外硬科技任务。",
+          "behavior": "披露后与芯片参照差异不构成显著转向，仍与当前任务相容。",
+          "necessity": "台韩产业链有地域及环节差异，但与广发全球共享需求周期。"
+        },
+        "action": "保留海外硬科技，合并核算风险",
+        "action_type": "retain",
+        "why": "不因与广发全球相关性高就自动二选一，也不在其余QDII未识别前继续追加。",
+        "change_trigger": "海外各基金穿透后若制造链高度重复、费用与主动研究没有补偿，再做同角色精简。",
+        "confidence": "中等；海外参照含境内资产、完整QDII范围未核",
+        "sources": [
+          "xu_2026",
+          "franklin_2026q2"
+        ]
+      },
+      {
+        "id": "guangfa_global",
+        "ratings": {
+          "method": 4,
+          "role": 5,
+          "behavior": 4,
+          "necessity": 3
+        },
+        "reasons": {
+          "method": "2021、2022、2023直接观点形成全球科技GARP证据链。",
+          "role": "科技成长是主动配置功能，不因高波动判失职。",
+          "behavior": "与纳指参照的敏感度没有显著变化，不证明持仓完全不变。",
+          "necessity": "机会集更广，但与国富及其他未知QDII的重叠还需穿透。"
+        },
+        "action": "保留海外科技，不据旧低分卖出",
+        "action_type": "retain",
+        "why": "旧21分是低波动/低相关偏好的结果，不是经理能力判决。先核海外合计风险。",
+        "change_trigger": "长期费用后不如同角色可投工具，或同质化后没有独立研究价值，才评估精简。",
+        "confidence": "中等；未完成合同基准和全部海外基金对比",
+        "sources": [
+          "li_2021",
+          "li_2023",
+          "guangfa_global_2026q2"
+        ]
+      },
+      {
+        "id": "guangfa_theme",
+        "ratings": {
+          "method": 3,
+          "role": null,
+          "behavior": 3,
+          "necessity": null
+        },
+        "reasons": {
+          "method": "低频估值与仓位管理有依据，但本基金独立任期归因仍需分段。",
+          "role": "尚未说明独立职责，不能强行按前海替代计分。",
+          "behavior": "较低仓位与价值判断有机会成本，短期落后不直接证明失效。",
+          "necessity": "须证明主动仓位管理任务与前海不同。"
+        },
+        "action": "不追加，列为优先精简审查项",
+        "action_type": "clarify",
+        "why": "先问这1.8%必须承担什么独立任务；如果没有，才有减少基金数量的理由。",
+        "change_trigger": "若唯一理由只是“再多一个价值经理”，优先讨论合并；若明确需要主动仓位管理，则按新职责重评。",
+        "confidence": "职责未定义，不给总分",
+        "sources": [
+          "feng_2024",
+          "guangfa_theme_2026q2"
+        ]
+      },
+      {
+        "id": "bosera",
+        "ratings": {
+          "method": 4,
+          "role": null,
+          "behavior": 4,
+          "necessity": null
+        },
+        "reasons": {
+          "method": "复制目标、费用和跟踪口径较明确，按指数管理评估。",
+          "role": "未明确美国宽基任务；宽基不是纯硬科技。",
+          "behavior": "披露后与目标ETF接近1的相关性支持复制逻辑，极小beta变化不作主动转向。",
+          "necessity": "需先区分它是宽基底仓、海外风险平衡还是临时持仓。"
+        },
+        "action": "不追加，先定义美国宽基任务",
+        "action_type": "clarify",
+        "why": "若你需要美国大盘股配置可保留；若海外唯一目的就是硬科技，它不应被误计为同一工具。",
+        "change_trigger": "确认006075联接身份、其他QDII与宽基任务后，再决定保留或精简。",
+        "confidence": "职责与产品身份未完全确认，不给总分",
+        "sources": [
+          "bosera_2026q2",
+          "bosera_2026h1"
+        ]
+      }
+    ]
+  },
+  "scores": [
+    {
+      "id": "wanjia",
+      "ratings": {
+        "method": 4,
+        "role": 4,
+        "behavior": 3,
+        "necessity": 4
+      },
+      "reasons": {
+        "method": "2020、2025与2026披露支持自上而下和逆向框架，2020本地归档缺失。",
+        "role": "符合进攻型长期基座，但科技已在基座内部。",
+        "behavior": "通信敏感度下降在60/120前窗结论不同，不上调为确认降风险。",
+        "necessity": "与前海的决策方法互补，20%仓位已是主要风险来源。"
+      },
+      "action": "保留基座，暂不提高权重",
+      "action_type": "retain",
+      "why": "不因为波动或科技重叠就移除；当前没有足够证据支持进一步放大这一主要仓位。",
+      "change_trigger": "多窗口持续与科技卫星共振且缺少主动轮动补偿，或经理方法出现实质变化时，再讨论减权重。",
+      "confidence": "中等；窗口敏感、全账户风险预算未核",
+      "sources": [
+        "mo_2025",
+        "wanjia_2026q2",
+        "wanjia_h1"
+      ],
+      "name": "万家新兴蓝筹",
+      "role_name": "长期基座",
+      "code": "022714",
+      "weight": 20.0,
+      "score": 76,
+      "raw_score": 76.0,
+      "band": "可保留，跟踪边界",
+      "weight_sensitivity": {
+        "role_priority": 76.0,
+        "evidence_priority": 75.0,
+        "equal": 75.0
+      },
+      "sensitivity_range": [
+        75.0,
+        76.0
+      ]
+    },
+    {
+      "id": "qianhai",
+      "ratings": {
+        "method": 3,
+        "role": 5,
+        "behavior": 4,
+        "necessity": 5
+      },
+      "reasons": {
+        "method": "价值＋框架清楚，但本产品历史较短，早年过程部分依赖2026回顾。",
+        "role": "国企约束与价值现金流思路适合另一侧基座。",
+        "behavior": "发布后红利联动变化未通过校正检验，与价值职责相容，不以跑输红利代理扣经理能力。",
+        "necessity": "目前在已知结构中提供较清楚的非科技互补。"
+      },
+      "action": "保留基座，不因科技强势而替换",
+      "action_type": "retain",
+      "why": "它不是为了每轮科技行情都领先而配置；阶段弱势本身不构成换基理由。",
+      "change_trigger": "国企/价值特征持续稀释，或盈利、现金流、分红证据恶化，再复核。",
+      "confidence": "中等；产品历史短，长期框架未完全独立验证",
+      "sources": [
+        "tian_2026",
+        "qianhai_2026q2"
+      ],
+      "name": "前海开源国企精选",
+      "role_name": "长期基座",
+      "code": "022415",
+      "weight": 15.0,
+      "score": 86,
+      "raw_score": 86.0,
+      "band": "角色支持较强",
+      "weight_sensitivity": {
+        "role_priority": 88.0,
+        "evidence_priority": 81.0,
+        "equal": 85.0
+      },
+      "sensitivity_range": [
+        81.0,
+        88.0
+      ]
+    },
+    {
+      "id": "efunds",
+      "ratings": {
+        "method": 4,
+        "role": 4,
+        "behavior": 4,
+        "necessity": 4
+      },
+      "reasons": {
+        "method": "2021官网观点与2025手记可追溯产业供给和竞争格局方法。",
+        "role": "当前科技加权有依据，但可回到传统行业，不是固定科技工具。",
+        "behavior": "披露后较半导体参照抗跌，与季末部分兑现相容；不直接归因为择时alpha。",
+        "necessity": "产业方法有独立性，仍需与万家和低碳一起管理科技风险。"
+      },
+      "action": "保留科技位，不追涨式加仓",
+      "action_type": "retain",
+      "why": "允许经理估值约束与行业切换，现有16%已经形成明显加权。",
+      "change_trigger": "连续两个完整月的科技敏感度和披露均不再符合科技任务时，先重新定义角色，再比较工具替换。",
+      "confidence": "中等；本产品历史短、合同基准分段未完整复算",
+      "sources": [
+        "yang_2021",
+        "yang_2025",
+        "efunds_2026q2"
+      ],
+      "name": "易方达产业机遇",
+      "role_name": "泛科技加权",
+      "code": "021180",
+      "weight": 16.0,
+      "score": 80,
+      "raw_score": 80.0,
+      "band": "角色支持较强",
+      "weight_sensitivity": {
+        "role_priority": 80.0,
+        "evidence_priority": 80.0,
+        "equal": 80.0
+      },
+      "sensitivity_range": [
+        80.0,
+        80.0
+      ]
+    },
+    {
+      "id": "invesco",
+      "ratings": {
+        "method": 4,
+        "role": 4,
+        "behavior": 3,
+        "necessity": 3
+      },
+      "reasons": {
+        "method": "材料、先进制造、机器人研究跨期可追溯。",
+        "role": "硬件制造符合科技加权，但可主动降仓。",
+        "behavior": "通信敏感度上升仅在60点前窗显著，仍需后续证据。",
+        "necessity": "与易方达方法有差异，但与万家、交银当前科技链重复较多。"
+      },
+      "action": "保留观察，先核代码与实际弹性",
+      "action_type": "watch",
+      "why": "暂不以“多一个科技经理”为理由加仓，先确认持有的确实是002244。",
+      "change_trigger": "确认代码后，若低股票仓位长期不符合所需加权，或与其余科技仓持续同质化，再评估减量或替代。",
+      "confidence": "有限；账户份额待核、窗口敏感",
+      "sources": [
+        "meng_2020",
+        "meng_2025",
+        "invesco_2026q2"
+      ],
+      "name": "景顺长城低碳科技",
+      "role_name": "泛科技加权",
+      "code": "002244",
+      "weight": 11.0,
+      "score": 72,
+      "raw_score": 72.0,
+      "band": "可保留，跟踪边界",
+      "weight_sensitivity": {
+        "role_priority": 73.0,
+        "evidence_priority": 72.0,
+        "equal": 70.0
+      },
+      "sensitivity_range": [
+        70.0,
+        73.0
+      ]
+    },
+    {
+      "id": "bocom",
+      "ratings": {
+        "method": 4,
+        "role": 2,
+        "behavior": 2,
+        "necessity": 2
+      },
+      "reasons": {
+        "method": "2018、2019至2026资料可追溯自下而上与估值纪律。",
+        "role": "你要求行业分散，当前通信暴露与该职责有冲突。",
+        "behavior": "发布后通信相关性约0.92，beta上升在两个前窗均通过探索性阈值；不是全行业持仓证明。",
+        "necessity": "研究方法虽独立，但当前收益来源未充分证明能分散现有科技仓。"
+      },
+      "action": "暂停按分散理由加仓，优先比较替代",
+      "action_type": "review",
+      "why": "优先审查这5.7%的任务，研究大成高鑫与中泰星元对照；不是判定何帅能力差或立即赎回。",
+      "change_trigger": "若代码核实后，26/52周与已知科技仓联动持续较高、下跌期无改善，且候选的成本和机会损失可接受，才讨论替换。",
+      "confidence": "角色冲突证据较清楚；替换结论仍有限",
+      "sources": [
+        "he_2018",
+        "he_2019",
+        "bocom_2026q2",
+        "bocom_h1"
+      ],
+      "name": "交银优势行业",
+      "role_name": "行业分散加权",
+      "code": "519697",
+      "weight": 5.7,
+      "score": 50,
+      "raw_score": 50.0,
+      "band": "优先复核角色",
+      "weight_sensitivity": {
+        "role_priority": 48.0,
+        "evidence_priority": 53.99999999999999,
+        "equal": 50.0
+      },
+      "sensitivity_range": [
+        48.0,
+        53.99999999999999
+      ]
+    },
+    {
+      "id": "franklin",
+      "ratings": {
+        "method": 4,
+        "role": 5,
+        "behavior": 4,
+        "necessity": 4
+      },
+      "reasons": {
+        "method": "2023第三方研究、2026直接访谈及季报支持产品定位演变。",
+        "role": "亚太AI与制造链明确符合海外硬科技任务。",
+        "behavior": "披露后与芯片参照差异不构成显著转向，仍与当前任务相容。",
+        "necessity": "台韩产业链有地域及环节差异，但与广发全球共享需求周期。"
+      },
+      "action": "保留海外硬科技，合并核算风险",
+      "action_type": "retain",
+      "why": "不因与广发全球相关性高就自动二选一，也不在其余QDII未识别前继续追加。",
+      "change_trigger": "海外各基金穿透后若制造链高度重复、费用与主动研究没有补偿，再做同角色精简。",
+      "confidence": "中等；海外参照含境内资产、完整QDII范围未核",
+      "sources": [
+        "xu_2026",
+        "franklin_2026q2"
+      ],
+      "name": "国富亚洲机会",
+      "role_name": "海外硬科技加权",
+      "code": "021662",
+      "weight": 2.7,
+      "score": 87,
+      "raw_score": 87.0,
+      "band": "角色支持较强",
+      "weight_sensitivity": {
+        "role_priority": 88.99999999999999,
+        "evidence_priority": 85.0,
+        "equal": 85.0
+      },
+      "sensitivity_range": [
+        85.0,
+        88.99999999999999
+      ]
+    },
+    {
+      "id": "guangfa_global",
+      "ratings": {
+        "method": 4,
+        "role": 5,
+        "behavior": 4,
+        "necessity": 3
+      },
+      "reasons": {
+        "method": "2021、2022、2023直接观点形成全球科技GARP证据链。",
+        "role": "科技成长是主动配置功能，不因高波动判失职。",
+        "behavior": "与纳指参照的敏感度没有显著变化，不证明持仓完全不变。",
+        "necessity": "机会集更广，但与国富及其他未知QDII的重叠还需穿透。"
+      },
+      "action": "保留海外科技，不据旧低分卖出",
+      "action_type": "retain",
+      "why": "旧21分是低波动/低相关偏好的结果，不是经理能力判决。先核海外合计风险。",
+      "change_trigger": "长期费用后不如同角色可投工具，或同质化后没有独立研究价值，才评估精简。",
+      "confidence": "中等；未完成合同基准和全部海外基金对比",
+      "sources": [
+        "li_2021",
+        "li_2023",
+        "guangfa_global_2026q2"
+      ],
+      "name": "广发全球精选",
+      "role_name": "海外硬科技加权",
+      "code": "021277",
+      "weight": 3.0,
+      "score": 83,
+      "raw_score": 83.0,
+      "band": "角色支持较强",
+      "weight_sensitivity": {
+        "role_priority": 86.0,
+        "evidence_priority": 82.0,
+        "equal": 80.0
+      },
+      "sensitivity_range": [
+        80.0,
+        86.0
+      ]
+    },
+    {
+      "id": "guangfa_theme",
+      "ratings": {
+        "method": 3,
+        "role": null,
+        "behavior": 3,
+        "necessity": null
+      },
+      "reasons": {
+        "method": "低频估值与仓位管理有依据，但本基金独立任期归因仍需分段。",
+        "role": "尚未说明独立职责，不能强行按前海替代计分。",
+        "behavior": "较低仓位与价值判断有机会成本，短期落后不直接证明失效。",
+        "necessity": "须证明主动仓位管理任务与前海不同。"
+      },
+      "action": "不追加，列为优先精简审查项",
+      "action_type": "clarify",
+      "why": "先问这1.8%必须承担什么独立任务；如果没有，才有减少基金数量的理由。",
+      "change_trigger": "若唯一理由只是“再多一个价值经理”，优先讨论合并；若明确需要主动仓位管理，则按新职责重评。",
+      "confidence": "职责未定义，不给总分",
+      "sources": [
+        "feng_2024",
+        "guangfa_theme_2026q2"
+      ],
+      "name": "广发主题领先",
+      "role_name": "独立角色待定义",
+      "code": "021902",
+      "weight": 1.8,
+      "score": null,
+      "raw_score": null,
+      "band": "职责未定义",
+      "weight_sensitivity": {
+        "role_priority": null,
+        "evidence_priority": null,
+        "equal": null
+      },
+      "sensitivity_range": null
+    },
+    {
+      "id": "bosera",
+      "ratings": {
+        "method": 4,
+        "role": null,
+        "behavior": 4,
+        "necessity": null
+      },
+      "reasons": {
+        "method": "复制目标、费用和跟踪口径较明确，按指数管理评估。",
+        "role": "未明确美国宽基任务；宽基不是纯硬科技。",
+        "behavior": "披露后与目标ETF接近1的相关性支持复制逻辑，极小beta变化不作主动转向。",
+        "necessity": "需先区分它是宽基底仓、海外风险平衡还是临时持仓。"
+      },
+      "action": "不追加，先定义美国宽基任务",
+      "action_type": "clarify",
+      "why": "若你需要美国大盘股配置可保留；若海外唯一目的就是硬科技，它不应被误计为同一工具。",
+      "change_trigger": "确认006075联接身份、其他QDII与宽基任务后，再决定保留或精简。",
+      "confidence": "职责与产品身份未完全确认，不给总分",
+      "sources": [
+        "bosera_2026q2",
+        "bosera_2026h1"
+      ],
+      "name": "博时标普500联接",
+      "role_name": "独立角色待定义",
+      "code": "006075",
+      "weight": 1.4,
+      "score": null,
+      "raw_score": null,
+      "band": "职责未定义",
+      "weight_sensitivity": {
+        "role_priority": null,
+        "evidence_priority": null,
+        "equal": null
+      },
+      "sensitivity_range": null
+    }
+  ],
+  "candidate_policy": {
+    "version": 1,
+    "screened_on": "2026-09-10",
+    "nav_as_of": "2026-09-08",
+    "catalogue_url": "https://fund.eastmoney.com/js/fundcode_search.js",
+    "catalogue_variable": "r",
+    "scope": "遍历公开名录的名称与类型字段，仅做入口过滤；从中目的性选择8个外部产品做机制对照，不是全市场逐只业绩、费用或经理尽调。",
+    "universe_rules": {
+      "share_pattern": "C(?:类)?(?:[（(].*[）)])?$",
+      "allowed_types": [
+        "混合",
+        "股票",
+        "QDII",
+        "指数"
+      ],
+      "exclude_types": [
+        "债券",
+        "货币",
+        "FOF",
+        "商品"
+      ],
+      "exclude_name_patterns": [
+        "持有",
+        "定开",
+        "定期开放",
+        "封闭",
+        "美元",
+        "港币"
+      ]
+    },
+    "selection_basis": "本轮优先检验交银行业分散职责，选择价值/质量类对照；另选择主动科技、境内半导体联接、全球芯片和纳指工具。选取不是收益排名结果；名录过滤不会自动选出这些8只，存在研究者选择偏差。",
+    "comparison": {
+      "trailing_weeks": [
+        26,
+        52
+      ],
+      "half_life_weeks": 13,
+      "minimum_weekly_intervals": 26,
+      "max_nav_age_days": 7,
+      "technology_sleeve": [
+        "wanjia",
+        "efunds",
+        "invesco",
+        "franklin",
+        "guangfa_global"
+      ],
+      "technology_sleeve_note": "按已报权重在这五项内部归一，仅为已知科技相关仓参照，不是实际科技持仓穿透；含身份待核的低碳。",
+      "replacement_scope": "九项76.6%已列基金研究子组合内部归一，未包含现金15%与未识别8.4%；含两项身份待核名称代理，不是完整账户。",
+      "simulation": "固定当前权重在共同完整周上再平衡，按原持仓整项替换；不择时、不增杠杆。净值已含产品运作费，但不含实际申赎摩擦。",
+      "switch_cost_stress_bps": [
+        0,
+        50,
+        150
+      ],
+      "cost_note": "额外一次性转换摩擦按被替换金额的0/50/150bp扣除；不是实际报价，不含资金在途错失行情。",
+      "superiority_gate": "低相关只证明某个分散维度；必须同时核实角色、当期可买、份额身份、费用/限购、经理历史与净收益代价，才可从研究候选升级为替换建议。本轮没有已证实全面更优的产品。"
+    },
+    "candidates": [
+      {
+        "id": "external_dacheng",
+        "code": "011066",
+        "name": "大成高鑫股票C",
+        "manager": "刘旭",
+        "manager_since": "2015-07-29",
+        "qdii": false,
+        "role": "行业分散候选",
+        "replaces": "bocom",
+        "collect_nav": true,
+        "selection_reason": "质量制造、消费与现金流企业的自下而上选择，检查是否比交银提供更独立的非AI收益来源。",
+        "decision": "优先尽调，不直接替换",
+        "gate": "蚂蚁交易规则与实际费用待核；不是固定低波动产品。",
+        "identity_note": "原名大成高新技术产业，已更名为大成高鑫，不能按旧名称断言仍是科技主题。",
+        "official_url": "https://www.dcfund.com.cn/main/fund/productdetail/index.shtml?product_code=011066",
+        "known_nav": {
+          "date": "2026-09-08",
+          "value": 4.8774,
+          "source_url": "https://www.zocaifu.com/product/011066",
+          "tolerance": 0.00011
+        }
+      },
+      {
+        "id": "external_zhongtai",
+        "code": "012940",
+        "name": "中泰星元灵活配置混合C",
+        "manager": "姜诚",
+        "manager_since": "2018-12-05",
+        "qdii": false,
+        "role": "行业分散候选",
+        "replaces": "bocom",
+        "collect_nav": true,
+        "selection_reason": "价值、逆向与低换手对照；重点检查与前海的价值风险是否重复，而非只看与科技低相关。",
+        "decision": "次级候选，先查与前海重复",
+        "gate": "银行、化工、地产链不是天然避险，蚂蚁费用待核。",
+        "identity_note": "C类2021年设立，A类长历史不拼入C类。本轮不把2026年管理职务变动直接解释为投研退化。",
+        "official_url": "https://www.ztzqzg.com/products/publicDetail?fundCode=012940&type=cpfee",
+        "known_nav": {
+          "date": "2026-09-08",
+          "value": 2.8356,
+          "source_url": "https://www.ztzqzg.com/products/publicDetail?fundCode=012940&type=cpfee",
+          "tolerance": 0.00011
+        }
+      },
+      {
+        "id": "external_energy",
+        "code": "017090",
+        "name": "景顺长城能源基建混合C",
+        "manager": "邹立虎",
+        "manager_since": "2025-04-26",
+        "qdii": false,
+        "role": "基座对照",
+        "replaces": "qianhai",
+        "collect_nav": false,
+        "selection_reason": "检验市场上常见的价值型候选是否仍由原经理管理。",
+        "decision": "本轮不入围",
+        "gate": "现任经理不到两个完整年度，尚未完成独立任期尽调；能源基建主题不等同国企价值。",
+        "identity_note": "2025年已换为邹立虎，不能沿用鲍无可任期表现作现任能力证明。",
+        "official_url": "https://www.igwfmc.com/main/jjcp/product/017090/detail.html"
+      },
+      {
+        "id": "external_value",
+        "code": "015779",
+        "name": "景顺长城价值边际混合C",
+        "manager": "刘苏",
+        "manager_since": "2025-04-26",
+        "qdii": false,
+        "role": "基座对照",
+        "replaces": "qianhai",
+        "collect_nav": false,
+        "selection_reason": "检查另一只历史价值型产品的现任经理和组合约束。",
+        "decision": "本轮不入围",
+        "gate": "经理切换后完整周期不足，本轮不把旧经理长期成绩作为替换理由。",
+        "identity_note": "C类代码015779，现任刘苏；不是鲍无可当前产品。",
+        "official_url": "https://www.igwfmc.com/main/jjcp/product/015779/detail.html"
+      },
+      {
+        "id": "external_huaan",
+        "code": "013620",
+        "name": "华安媒体互联网混合C",
+        "manager": "胡宜斌",
+        "manager_since": "2015-11-26",
+        "qdii": false,
+        "role": "泛科技对照",
+        "replaces": "invesco",
+        "collect_nav": true,
+        "selection_reason": "用媒体互联网、软件应用与硬件并存的主动产品，检验低碳之外是否有真正不同的科技结构。",
+        "decision": "观察对照，不建议再添一只",
+        "gate": "披露中仍含光模块与半导体，新增可能重复现有科技仓。",
+        "identity_note": "C类2021-10-18起，不能把2015年产品成立日当C类起点。",
+        "official_url": "https://www.huaan.com.cn/funds/013620/index.shtml",
+        "known_nav": {
+          "date": "2026-09-08",
+          "value": 3.734,
+          "source_url": "https://www.huaan.com.cn/funds/013620/index.shtml",
+          "tolerance": 0.00011
+        }
+      },
+      {
+        "id": "external_semiconductor",
+        "code": "007301",
+        "name": "国联安半导体ETF联接C",
+        "manager": "指数管理：黄欣、章椹元",
+        "manager_since": "2019-06-26",
+        "qdii": false,
+        "role": "泛科技工具对照",
+        "replaces": "efunds",
+        "collect_nav": true,
+        "selection_reason": "提供行业规则更明确的半导体敞口，对照主动经理可降仓、可换行业的选择。",
+        "decision": "工具参照，不是自动更优",
+        "gate": "泛科技收窄为半导体；波动与回撤可显著增加。",
+        "identity_note": "指数管理不作主动经理跨期归因；管理人自2019年成立日是产品起点，不表示各位现任经理任期均从此日起。",
+        "official_url": "https://www.cpicfunds.com/product/007301/"
+      },
+      {
+        "id": "external_globalchip",
+        "code": "016668",
+        "name": "景顺全球半导体芯片C（人民币）",
+        "manager": "汪洋、金璜",
+        "manager_since": "2023-03-30",
+        "qdii": true,
+        "role": "海外硬科技对照",
+        "replaces": "franklin",
+        "collect_nav": true,
+        "selection_reason": "全球芯片ETF组合，对照主动台韩与全球选股的独立作用。",
+        "decision": "只作对照，当前不建议新增",
+        "gate": "官方产品页采集时显示暂停申购；境内资产至少20%，不符合纯海外替换的假设。",
+        "identity_note": "此前研究参照501225的C类，不是新发现的纯海外指数；更集中不等于更优。",
+        "official_url": "https://etrade.igwfmc.com/main/jjcp/product/016668/detail.html",
+        "known_nav": {
+          "date": "2026-09-08",
+          "value": 2.9498,
+          "source_url": "https://etrade.igwfmc.com/main/jjcp/product/016668/detail.html",
+          "tolerance": 0.00011
+        }
+      },
+      {
+        "id": "external_nasdaq",
+        "code": "006479",
+        "name": "广发纳指100联接人民币C",
+        "manager": "刘杰 / 指数管理",
+        "manager_since": "2022-04-01",
+        "qdii": true,
+        "role": "海外科技工具对照",
+        "replaces": "guangfa_global",
+        "collect_nav": true,
+        "selection_reason": "用规则化美国成长指数，对照主动海外科技选股与更复杂的区域配置。",
+        "decision": "只作对照，额度门槛未过",
+        "gate": "官方页面检索内容显示单日上限2元，静态归档未渲染限额；渠道上限可能不同，需蚂蚁下单页确认，尚不能视为可承接仓位。",
+        "identity_note": "纳指100包含多类非硬科技业务，不是纯半导体或台韩制造替代。",
+        "official_url": "https://www.gffunds.com.cn/funds/?fundcode=006479&fromSearch=1",
+        "known_nav": {
+          "date": "2026-09-08",
+          "value": 8.0221,
+          "source_url": "https://www.gffunds.com.cn/funds/?fundcode=006479&fromSearch=1",
+          "tolerance": 0.00011
+        }
+      }
+    ]
+  },
+  "catalogue": {
+    "date": "2026-09-10",
+    "total_directory_rows": 27811,
+    "counts": {
+      "non_c_or_unrecognized_share": 17630,
+      "outside_equity_type": 3254,
+      "eligible_for_research_not_diligenced": 6214,
+      "locked_or_non_cny_name": 713
+    },
+    "selected_count": 8,
+    "rules": {
+      "share_pattern": "C(?:类)?(?:[（(].*[）)])?$",
+      "allowed_types": [
+        "混合",
+        "股票",
+        "QDII",
+        "指数"
+      ],
+      "exclude_types": [
+        "债券",
+        "货币",
+        "FOF",
+        "商品"
+      ],
+      "exclude_name_patterns": [
+        "持有",
+        "定开",
+        "定期开放",
+        "封闭",
+        "美元",
+        "港币"
+      ]
+    },
+    "scope": "遍历公开名录的名称与类型字段，仅做入口过滤；从中目的性选择8个外部产品做机制对照，不是全市场逐只业绩、费用或经理尽调。",
+    "selection_basis": "本轮优先检验交银行业分散职责，选择价值/质量类对照；另选择主动科技、境内半导体联接、全球芯片和纳指工具。选取不是收益排名结果；名录过滤不会自动选出这些8只，存在研究者选择偏差。"
+  },
+  "comparisons": [
+    {
+      "id": "external_dacheng",
+      "code": "011066",
+      "name": "大成高鑫股票C",
+      "manager": "刘旭",
+      "manager_since": "2015-07-29",
+      "qdii": false,
+      "role": "行业分散候选",
+      "replaces": "bocom",
+      "collect_nav": true,
+      "selection_reason": "质量制造、消费与现金流企业的自下而上选择，检查是否比交银提供更独立的非AI收益来源。",
+      "decision": "优先尽调，不直接替换",
+      "gate": "蚂蚁交易规则与实际费用待核；不是固定低波动产品。",
+      "identity_note": "原名大成高新技术产业，已更名为大成高鑫，不能按旧名称断言仍是科技主题。",
+      "official_url": "https://www.dcfund.com.cn/main/fund/productdetail/index.shtml?product_code=011066",
+      "known_nav": {
+        "date": "2026-09-08",
+        "value": 4.8774,
+        "source_url": "https://www.zocaifu.com/product/011066",
+        "tolerance": 0.00011
+      },
+      "notes": {
+        "long_method": "刘旭以企业长期现金流、竞争优势和价格为核心，质量制造是重要能力圈。2024年中国证券报访谈中，他反思2022年对制造企业安全边际的判断不足，强调财务报表之外的企业应变能力。稳定持仓不等于不犯错，也不保证低回撤。",
+        "current_evidence": "当前产品已更名为大成高鑫。2026H1辅助产品页列示福耀玻璃、美的、豪迈科技、中国移动、宏发等重要持仓，与现组合的AI硬件主线有所区别；这些是披露持仓，不是实时持仓。",
+        "decision_reason": "优先研究的是其可能提供不同的企业盈利来源，而不是近期涨幅。与中泰相比，对前海的近期相关性较低；但制造与耐用消费也受宏观需求影响，行业广度仍需证券级持仓核验。",
+        "costs": "本轮未完整取得该C类最新费用原件与蚂蚁交易规则，不把动态页面上的通用费率模板当本基金收费事实。",
+        "sources": [
+          "external_dacheng",
+          "external_dacheng_point",
+          "external_dacheng_interview"
+        ]
+      },
+      "target_name": "交银优势行业",
+      "original_account_weight_pct": 5.7,
+      "returns": {
+        "20": {
+          "start": "2026-08-11",
+          "end": "2026-09-08",
+          "candidate": -0.03667713455872923,
+          "target": -0.029437532855258297,
+          "difference_pp": -0.7239601703470933
+        },
+        "60": {
+          "start": "2026-06-15",
+          "end": "2026-09-08",
+          "candidate": -0.0008194370439940091,
+          "target": -0.0635672020282887,
+          "difference_pp": 6.2747764984294685
+        },
+        "120": {
+          "start": "2026-03-17",
+          "end": "2026-09-08",
+          "candidate": -0.06311947752432989,
+          "target": 0.2385957066184361,
+          "difference_pp": -30.171518414276598
+        }
+      },
+      "windows": [
+        {
+          "weeks": 26,
+          "start": "2026-03-06",
+          "end": "2026-09-04",
+          "candidate_corr_tech": -0.2243117019083227,
+          "target_corr_tech": 0.7764120071445918,
+          "candidate_corr_qianhai": 0.5369316301271482,
+          "candidate_down_corr": -0.2974066771362227,
+          "target_down_corr": 0.6409218709950016,
+          "down_weeks": 12,
+          "daily_pair_start": "2026-03-06",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.11521286660320751,
+          "target_daily_mdd": -0.1822214919503352,
+          "base_return": 0.31278014684932365,
+          "base_weekly_mdd": -0.03335588904121689,
+          "base_volatility": 0.16602189575053908,
+          "replacement_volatility": 0.14974701084623887,
+          "replacement_weight_pct_in_sleeve": 7.441253263707572,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.28707445764557393,
+              "max_drawdown": -0.0382108865218872,
+              "difference_pp": -2.5705689203749715
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.2865955852951445,
+              "max_drawdown": -0.03856873234087055,
+              "difference_pp": -2.618456155417914
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.28563784059428543,
+              "max_drawdown": -0.03928442397883736,
+              "difference_pp": -2.7142306255038218
+            }
+          ]
+        },
+        {
+          "weeks": 52,
+          "start": "2025-09-05",
+          "end": "2026-09-04",
+          "candidate_corr_tech": -0.10857834759368866,
+          "target_corr_tech": 0.7281999906301769,
+          "candidate_corr_qianhai": 0.5351497472701023,
+          "candidate_down_corr": -0.16875569762202164,
+          "target_down_corr": 0.503710229678852,
+          "down_weeks": 20,
+          "daily_pair_start": "2025-09-05",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.12235360360353165,
+          "target_daily_mdd": -0.1822214919503352,
+          "base_return": 0.6442257887710314,
+          "base_weekly_mdd": -0.05431648247773069,
+          "base_volatility": 0.17461804222679572,
+          "replacement_volatility": 0.16657696592413987,
+          "replacement_weight_pct_in_sleeve": 7.441253263707572,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.6211704401318396,
+              "max_drawdown": -0.05793637438400523,
+              "difference_pp": -2.3055348639191786
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.6205672631404069,
+              "max_drawdown": -0.05793637438400523,
+              "difference_pp": -2.365852563062454
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.6193609091575409,
+              "max_drawdown": -0.05793637438400523,
+              "difference_pp": -2.4864879613490487
+            }
+          ]
+        }
+      ],
+      "annual": [
+        {
+          "year": 2022,
+          "return": -0.18242574257412514,
+          "max_drawdown": -0.2561881188097983,
+          "annualized_volatility": 0.17884690276412427,
+          "partial_year": false,
+          "start": "2021-12-31",
+          "end": "2022-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2023,
+          "return": 0.04783530124401625,
+          "max_drawdown": -0.1256558237113713,
+          "annualized_volatility": 0.10699312445314671,
+          "partial_year": false,
+          "start": "2022-12-31",
+          "end": "2023-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2024,
+          "return": 0.28618896272896355,
+          "max_drawdown": -0.08496962225565452,
+          "annualized_volatility": 0.13636855018691377,
+          "partial_year": false,
+          "start": "2023-12-31",
+          "end": "2024-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2025,
+          "return": 0.14900595305092845,
+          "max_drawdown": -0.09123606783761085,
+          "annualized_volatility": 0.1243951162282196,
+          "partial_year": false,
+          "start": "2024-12-31",
+          "end": "2025-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2026,
+          "return": -0.046414327051245596,
+          "max_drawdown": -0.12235360360353165,
+          "annualized_volatility": 0.12683808989302708,
+          "partial_year": true,
+          "start": "2025-12-31",
+          "end": "2026-09-08",
+          "current_manager_period": true
+        }
+      ]
+    },
+    {
+      "id": "external_zhongtai",
+      "code": "012940",
+      "name": "中泰星元灵活配置混合C",
+      "manager": "姜诚",
+      "manager_since": "2018-12-05",
+      "qdii": false,
+      "role": "行业分散候选",
+      "replaces": "bocom",
+      "collect_nav": true,
+      "selection_reason": "价值、逆向与低换手对照；重点检查与前海的价值风险是否重复，而非只看与科技低相关。",
+      "decision": "次级候选，先查与前海重复",
+      "gate": "银行、化工、地产链不是天然避险，蚂蚁费用待核。",
+      "identity_note": "C类2021年设立，A类长历史不拼入C类。本轮不把2026年管理职务变动直接解释为投研退化。",
+      "official_url": "https://www.ztzqzg.com/products/publicDetail?fundCode=012940&type=cpfee",
+      "known_nav": {
+        "date": "2026-09-08",
+        "value": 2.8356,
+        "source_url": "https://www.ztzqzg.com/products/publicDetail?fundCode=012940&type=cpfee",
+        "tolerance": 0.00011
+      },
+      "notes": {
+        "long_method": "姜诚2023年直接访谈将价值投资定义为企业经营带来的长期现金回报，强调坏情形定价与安全边际；不以短期景气和排名作为主要目标。低估值并非充分条件，低回撤也不是产品保证。",
+        "current_evidence": "2026Q2原件明确承认组合偏离市场主线，强调长期生存能力而非追逐AI。C类该季度-9.95%，报告基准8.42%，差额-18.37个百分点。必须把这一机会成本与2022等历史较强阶段同时呈现。",
+        "decision_reason": "比交银更弱的科技联动支持分散研究，但与前海价值风险的联动也较强。若只是把AI重复换成价值重复，并不等于增加了真正独立的收益来源。",
+        "costs": "C类销售服务费与持有期赎回规则待最新原件及蚂蚁页面核实；本轮只核验净值单点，不称完整独立历史验证。",
+        "sources": [
+          "external_zhongtai",
+          "external_zhongtai_interview",
+          "external_zhongtai_q2"
+        ]
+      },
+      "target_name": "交银优势行业",
+      "original_account_weight_pct": 5.7,
+      "returns": {
+        "20": {
+          "start": "2026-08-11",
+          "end": "2026-09-08",
+          "candidate": 0.007675906181688674,
+          "target": -0.029437532855258297,
+          "difference_pp": 3.711343903694697
+        },
+        "60": {
+          "start": "2026-06-15",
+          "end": "2026-09-08",
+          "candidate": 0.023571454348328746,
+          "target": -0.0635672020282887,
+          "difference_pp": 8.713865637661744
+        },
+        "120": {
+          "start": "2026-03-17",
+          "end": "2026-09-08",
+          "candidate": -0.03274662300428566,
+          "target": 0.2385957066184361,
+          "difference_pp": -27.134232962272176
+        }
+      },
+      "windows": [
+        {
+          "weeks": 26,
+          "start": "2026-03-06",
+          "end": "2026-09-04",
+          "candidate_corr_tech": -0.5557158138443345,
+          "target_corr_tech": 0.7764120071445918,
+          "candidate_corr_qianhai": 0.7387252002081017,
+          "candidate_down_corr": -0.28792782395147193,
+          "target_down_corr": 0.6409218709950016,
+          "down_weeks": 12,
+          "daily_pair_start": "2026-03-06",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.12752132123961013,
+          "target_daily_mdd": -0.1822214919503352,
+          "base_return": 0.31278014684932365,
+          "base_weekly_mdd": -0.03335588904121689,
+          "base_volatility": 0.16602189575053908,
+          "replacement_volatility": 0.1462307284928951,
+          "replacement_weight_pct_in_sleeve": 7.441253263707572,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.29020558720431366,
+              "max_drawdown": -0.03656471531639571,
+              "difference_pp": -2.2574559645009984
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.2897255498774818,
+              "max_drawdown": -0.036923173614221816,
+              "difference_pp": -2.3054596971841868
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.288765475223818,
+              "max_drawdown": -0.03764009020987413,
+              "difference_pp": -2.4014671625505635
+            }
+          ]
+        },
+        {
+          "weeks": 52,
+          "start": "2025-09-05",
+          "end": "2026-09-04",
+          "candidate_corr_tech": -0.4618655872965833,
+          "target_corr_tech": 0.7281999906301769,
+          "candidate_corr_qianhai": 0.6973676665310933,
+          "candidate_down_corr": -0.1344757266488456,
+          "target_down_corr": 0.503710229678852,
+          "down_weeks": 20,
+          "daily_pair_start": "2025-09-05",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.12752132123961013,
+          "target_daily_mdd": -0.1822214919503352,
+          "base_return": 0.6442257887710314,
+          "base_weekly_mdd": -0.05431648247773069,
+          "base_volatility": 0.17461804222679572,
+          "replacement_volatility": 0.16347674013329835,
+          "replacement_weight_pct_in_sleeve": 7.441253263707572,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.6249177337425862,
+              "max_drawdown": -0.055849437568075366,
+              "difference_pp": -1.9308055028445237
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.6243131625231129,
+              "max_drawdown": -0.055849437568075255,
+              "difference_pp": -1.9912626247918563
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.623104020084166,
+              "max_drawdown": -0.055849437568075366,
+              "difference_pp": -2.112176868686544
+            }
+          ]
+        }
+      ],
+      "annual": [
+        {
+          "year": 2022,
+          "return": 0.04053702902049583,
+          "max_drawdown": -0.1644258939668395,
+          "annualized_volatility": 0.19142688300388166,
+          "partial_year": false,
+          "start": "2021-12-31",
+          "end": "2022-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2023,
+          "return": -0.07557778559929318,
+          "max_drawdown": -0.14708421631492652,
+          "annualized_volatility": 0.12497390185113924,
+          "partial_year": false,
+          "start": "2022-12-31",
+          "end": "2023-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2024,
+          "return": 0.1776887408292227,
+          "max_drawdown": -0.17285511744717474,
+          "annualized_volatility": 0.18280384841560965,
+          "partial_year": false,
+          "start": "2023-12-31",
+          "end": "2024-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2025,
+          "return": 0.07698776758294512,
+          "max_drawdown": -0.051741745145635565,
+          "annualized_volatility": 0.10870741304535207,
+          "partial_year": false,
+          "start": "2024-12-31",
+          "end": "2025-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2026,
+          "return": 0.00645985659976045,
+          "max_drawdown": -0.12752132123961013,
+          "annualized_volatility": 0.13562743347948622,
+          "partial_year": true,
+          "start": "2025-12-31",
+          "end": "2026-09-08",
+          "current_manager_period": true
+        }
+      ]
+    },
+    {
+      "id": "external_huaan",
+      "code": "013620",
+      "name": "华安媒体互联网混合C",
+      "manager": "胡宜斌",
+      "manager_since": "2015-11-26",
+      "qdii": false,
+      "role": "泛科技对照",
+      "replaces": "invesco",
+      "collect_nav": true,
+      "selection_reason": "用媒体互联网、软件应用与硬件并存的主动产品，检验低碳之外是否有真正不同的科技结构。",
+      "decision": "观察对照，不建议再添一只",
+      "gate": "披露中仍含光模块与半导体，新增可能重复现有科技仓。",
+      "identity_note": "C类2021-10-18起，不能把2015年产品成立日当C类起点。",
+      "official_url": "https://www.huaan.com.cn/funds/013620/index.shtml",
+      "known_nav": {
+        "date": "2026-09-08",
+        "value": 3.734,
+        "source_url": "https://www.huaan.com.cn/funds/013620/index.shtml",
+        "tolerance": 0.00011
+      },
+      "notes": {
+        "long_method": "胡宜斌从TMT出发，研究算力、模型与应用。2026官方访谈强调技术改变商业模式，软件与传媒可扩展泛科技机会集，但并不排除光模块和半导体。",
+        "current_evidence": "C类资料概要规定股票30%至95%，媒体互联网相关证券不低于非现金资产80%。2026H1官网行业结构同时包含制造、软件信息服务与文娱。",
+        "decision_reason": "有方法差异，却未显示能在现组合中以更低复杂度创造明确改善；不能因为名字像应用端就当成硬件仓的天然分散器。",
+        "costs": "2026-06-26概要：管理费1.2%、托管费0.2%、C类销售服务费0.6%/年；赎回不足7天1.5%、7至不足30天0.5%、30天起0。实际交易仍以蚂蚁为准，运作费已反映在净值中，不重复扣除。",
+        "sources": [
+          "external_huaan",
+          "external_huaan_interview",
+          "external_huaan_fees"
+        ]
+      },
+      "target_name": "景顺长城低碳科技",
+      "original_account_weight_pct": 11.0,
+      "returns": {
+        "20": {
+          "start": "2026-08-11",
+          "end": "2026-09-08",
+          "candidate": -0.04379001280188399,
+          "target": -0.032501450955895295,
+          "difference_pp": -1.1288561845988698
+        },
+        "60": {
+          "start": "2026-06-15",
+          "end": "2026-09-08",
+          "candidate": -0.13744513744528508,
+          "target": -0.05552407931790049,
+          "difference_pp": -8.19210581273846
+        },
+        "120": {
+          "start": "2026-03-17",
+          "end": "2026-09-08",
+          "candidate": -0.01399524690053544,
+          "target": 0.459080962804608,
+          "difference_pp": -47.30762097051434
+        }
+      },
+      "windows": [
+        {
+          "weeks": 26,
+          "start": "2026-03-06",
+          "end": "2026-09-04",
+          "candidate_corr_tech": 0.8045268288269534,
+          "target_corr_tech": 0.7653162686629943,
+          "candidate_corr_qianhai": -0.39426462982117055,
+          "candidate_down_corr": 0.9205481029201865,
+          "target_down_corr": 0.5199546297450446,
+          "down_weeks": 10,
+          "daily_pair_start": "2026-03-06",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.17207938655438682,
+          "target_daily_mdd": -0.1465517241380735,
+          "base_return": 0.31278014684932365,
+          "base_weekly_mdd": -0.03335588904121689,
+          "base_volatility": 0.16602189575053908,
+          "replacement_volatility": 0.15456329969445648,
+          "replacement_weight_pct_in_sleeve": 14.360313315926893,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.25162452211719444,
+              "max_drawdown": -0.0419045883955389,
+              "difference_pp": -6.115562473212921
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.25072583610261945,
+              "max_drawdown": -0.0419045883955389,
+              "difference_pp": -6.20543107467042
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.24892846407346925,
+              "max_drawdown": -0.0419045883955389,
+              "difference_pp": -6.38516827758544
+            }
+          ]
+        },
+        {
+          "weeks": 52,
+          "start": "2025-09-05",
+          "end": "2026-09-04",
+          "candidate_corr_tech": 0.7966081823479367,
+          "target_corr_tech": 0.7791920615142475,
+          "candidate_corr_qianhai": -0.2565341911804366,
+          "candidate_down_corr": 0.8087508261178287,
+          "target_down_corr": 0.58304093269089,
+          "down_weeks": 18,
+          "daily_pair_start": "2025-09-05",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.17207938655438682,
+          "target_daily_mdd": -0.1465517241380735,
+          "base_return": 0.6442257887710314,
+          "base_weekly_mdd": -0.05431648247773069,
+          "base_volatility": 0.17461804222679572,
+          "replacement_volatility": 0.16208884407992236,
+          "replacement_weight_pct_in_sleeve": 14.360313315926893,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.5298031085414021,
+              "max_drawdown": -0.049834183785280706,
+              "difference_pp": -11.442268022962931
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.5287046859438855,
+              "max_drawdown": -0.049834183785280706,
+              "difference_pp": -11.55211028271459
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.5265078407488519,
+              "max_drawdown": -0.049834183785280595,
+              "difference_pp": -11.77179480221795
+            }
+          ]
+        }
+      ],
+      "annual": [
+        {
+          "year": 2022,
+          "return": -0.14882425742327732,
+          "max_drawdown": -0.27475247524605095,
+          "annualized_volatility": 0.24523051979914004,
+          "partial_year": false,
+          "start": "2021-12-31",
+          "end": "2022-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2023,
+          "return": -0.02542489270416437,
+          "max_drawdown": -0.2928551256693115,
+          "annualized_volatility": 0.2553880545325002,
+          "partial_year": false,
+          "start": "2022-12-31",
+          "end": "2023-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2024,
+          "return": 0.1099925428786126,
+          "max_drawdown": -0.2628635346750744,
+          "annualized_volatility": 0.31963523737645394,
+          "partial_year": false,
+          "start": "2023-12-31",
+          "end": "2024-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2025,
+          "return": 0.31004366812368267,
+          "max_drawdown": -0.16108007448809392,
+          "annualized_volatility": 0.22931782028883246,
+          "partial_year": false,
+          "start": "2024-12-31",
+          "end": "2025-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2026,
+          "return": -0.04256410256479859,
+          "max_drawdown": -0.17207938655438682,
+          "annualized_volatility": 0.274723525842697,
+          "partial_year": true,
+          "start": "2025-12-31",
+          "end": "2026-09-08",
+          "current_manager_period": true
+        }
+      ]
+    },
+    {
+      "id": "external_semiconductor",
+      "code": "007301",
+      "name": "国联安半导体ETF联接C",
+      "manager": "指数管理：黄欣、章椹元",
+      "manager_since": "2019-06-26",
+      "qdii": false,
+      "role": "泛科技工具对照",
+      "replaces": "efunds",
+      "collect_nav": true,
+      "selection_reason": "提供行业规则更明确的半导体敞口，对照主动经理可降仓、可换行业的选择。",
+      "decision": "工具参照，不是自动更优",
+      "gate": "泛科技收窄为半导体；波动与回撤可显著增加。",
+      "identity_note": "指数管理不作主动经理跨期归因；管理人自2019年成立日是产品起点，不表示各位现任经理任期均从此日起。",
+      "official_url": "https://www.cpicfunds.com/product/007301/",
+      "notes": {
+        "long_method": "被动联接的作用是提供更规则化的行业敞口，不依赖主动经理判断何时退出科技。代价是行业集中、完整承受半导体周期，且不覆盖全部泛科技。",
+        "current_evidence": "官方产品资料核实007301为C类。合同基准为半导体指数95%与税后活期5%；它不是易方达产业机遇的合同基准，也不是其相同风险的替代。",
+        "decision_reason": "作为主动管理的机会成本参照有价值。若只是希望低费率，不能忽略从主动跨行业变成单行业暴露的风险变化。",
+        "costs": "2026-05-15概要：管理费0.5%、托管费0.1%、销售服务费0.25%/年，测算综合费率0.86%；C无申购费，赎回不足7天1.5%、7天起0。ETF与联接费用不可机械双加。",
+        "sources": [
+          "external_semiconductor",
+          "external_semi_fees"
+        ]
+      },
+      "target_name": "易方达产业机遇",
+      "original_account_weight_pct": 16.0,
+      "returns": {
+        "20": {
+          "start": "2026-08-11",
+          "end": "2026-09-08",
+          "candidate": -0.0710439207559268,
+          "target": -0.023679301950968346,
+          "difference_pp": -4.736461880495845
+        },
+        "60": {
+          "start": "2026-06-15",
+          "end": "2026-09-08",
+          "candidate": -0.10568370987063047,
+          "target": 0.25905088062216985,
+          "difference_pp": -36.47345904928003
+        },
+        "120": {
+          "start": "2026-03-17",
+          "end": "2026-09-08",
+          "candidate": 0.27677055747915635,
+          "target": 0.9962508080102439,
+          "difference_pp": -71.94802505310875
+        }
+      },
+      "windows": [
+        {
+          "weeks": 26,
+          "start": "2026-03-06",
+          "end": "2026-09-04",
+          "candidate_corr_tech": 0.7881991176259264,
+          "target_corr_tech": 0.4878940445979634,
+          "candidate_corr_qianhai": -0.5255639883261688,
+          "candidate_down_corr": 0.7403556574217461,
+          "target_down_corr": 0.2883980931268869,
+          "down_weeks": 13,
+          "daily_pair_start": "2026-03-06",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.36623544864036706,
+          "target_daily_mdd": -0.10738886749548382,
+          "base_return": 0.31278014684932365,
+          "base_weekly_mdd": -0.03335588904121689,
+          "base_volatility": 0.16602189575053908,
+          "replacement_volatility": 0.21385936482217582,
+          "replacement_weight_pct_in_sleeve": 20.887728459530024,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.2031989253859452,
+              "max_drawdown": -0.08208339558637123,
+              "difference_pp": -10.958122146337846
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.2019423207641322,
+              "max_drawdown": -0.08208339558637123,
+              "difference_pp": -11.083782608519144
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.19942911152050624,
+              "max_drawdown": -0.08208339558637112,
+              "difference_pp": -11.33510353288174
+            }
+          ]
+        },
+        {
+          "weeks": 52,
+          "start": "2025-09-05",
+          "end": "2026-09-04",
+          "candidate_corr_tech": 0.7890110627217222,
+          "target_corr_tech": 0.5428282449012717,
+          "candidate_corr_qianhai": -0.3764632209669289,
+          "candidate_down_corr": 0.7082779516897069,
+          "target_down_corr": 0.3567604169156002,
+          "down_weeks": 23,
+          "daily_pair_start": "2025-09-05",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.36623544864036706,
+          "target_daily_mdd": -0.14273321380775694,
+          "base_return": 0.6442257887710314,
+          "base_weekly_mdd": -0.05431648247773069,
+          "base_volatility": 0.17461804222679572,
+          "replacement_volatility": 0.2014828190723002,
+          "replacement_weight_pct_in_sleeve": 20.887728459530024,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.4496824463384028,
+              "max_drawdown": -0.08208339558637112,
+              "difference_pp": -19.45433424326286
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.44816841767381965,
+              "max_drawdown": -0.08208339558637112,
+              "difference_pp": -19.605737109721176
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.4451403603446531,
+              "max_drawdown": -0.08208339558637112,
+              "difference_pp": -19.908542842637832
+            }
+          ]
+        }
+      ],
+      "annual": [
+        {
+          "year": 2022,
+          "return": -0.34054857234662894,
+          "max_drawdown": -0.39612866952989667,
+          "annualized_volatility": 0.3147238734610845,
+          "partial_year": false,
+          "start": "2021-12-31",
+          "end": "2022-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2023,
+          "return": -0.020339808779014645,
+          "max_drawdown": -0.28441894892380915,
+          "annualized_volatility": 0.2508934906924997,
+          "partial_year": false,
+          "start": "2022-12-31",
+          "end": "2023-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2024,
+          "return": 0.23491017591241015,
+          "max_drawdown": -0.2646236091267523,
+          "annualized_volatility": 0.4116567701687713,
+          "partial_year": false,
+          "start": "2023-12-31",
+          "end": "2024-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2025,
+          "return": 0.4194603845814544,
+          "max_drawdown": -0.18227914498897368,
+          "annualized_volatility": 0.3202526173232078,
+          "partial_year": false,
+          "start": "2024-12-31",
+          "end": "2025-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2026,
+          "return": 0.3335933898339183,
+          "max_drawdown": -0.36623544864036706,
+          "annualized_volatility": 0.5104207604846321,
+          "partial_year": true,
+          "start": "2025-12-31",
+          "end": "2026-09-08",
+          "current_manager_period": true
+        }
+      ]
+    },
+    {
+      "id": "external_globalchip",
+      "code": "016668",
+      "name": "景顺全球半导体芯片C（人民币）",
+      "manager": "汪洋、金璜",
+      "manager_since": "2023-03-30",
+      "qdii": true,
+      "role": "海外硬科技对照",
+      "replaces": "franklin",
+      "collect_nav": true,
+      "selection_reason": "全球芯片ETF组合，对照主动台韩与全球选股的独立作用。",
+      "decision": "只作对照，当前不建议新增",
+      "gate": "官方产品页采集时显示暂停申购；境内资产至少20%，不符合纯海外替换的假设。",
+      "identity_note": "此前研究参照501225的C类，不是新发现的纯海外指数；更集中不等于更优。",
+      "official_url": "https://etrade.igwfmc.com/main/jjcp/product/016668/detail.html",
+      "known_nav": {
+        "date": "2026-09-08",
+        "value": 2.9498,
+        "source_url": "https://etrade.igwfmc.com/main/jjcp/product/016668/detail.html",
+        "tolerance": 0.00011
+      },
+      "notes": {
+        "long_method": "以境内外芯片ETF和相关资产构成主题组合；减少部分主动个股选择，却提高对单一产业链周期的依赖。",
+        "current_evidence": "官方页面约束：ETF至少80%，境外资产至少20%，境内资产也至少20%。因此即使名称带全球，它也不是纯海外资产；此前已使用其A类501225作研究参照。",
+        "decision_reason": "列为工具对照，不建议在现有硬科技仓上继续叠加；官方页面显示暂停申购，蚂蚁当前状态未核。",
+        "costs": "公开页面列管理费1.2%、托管费0.2%、C服务费0.4%，但仍需核实最新概要及底层ETF费用豁免规则，不据此宣称总成本更低。",
+        "sources": [
+          "external_globalchip_official",
+          "external_globalchip"
+        ]
+      },
+      "target_name": "国富亚洲机会",
+      "original_account_weight_pct": 2.7,
+      "returns": {
+        "20": {
+          "start": "2026-08-10",
+          "end": "2026-09-07",
+          "candidate": -0.03511495771576445,
+          "target": 0.04149197628766532,
+          "difference_pp": -7.660693400342977
+        },
+        "60": {
+          "start": "2026-06-12",
+          "end": "2026-09-07",
+          "candidate": -0.10853044407180945,
+          "target": -0.030775957755709737,
+          "difference_pp": -7.775448631609971
+        },
+        "120": {
+          "start": "2026-03-16",
+          "end": "2026-09-07",
+          "candidate": 0.3704138125138736,
+          "target": 0.3800105358891366,
+          "difference_pp": -0.9596723375262961
+        }
+      },
+      "windows": [
+        {
+          "weeks": 26,
+          "start": "2026-03-06",
+          "end": "2026-09-04",
+          "candidate_corr_tech": 0.7311662657311276,
+          "target_corr_tech": 0.5875222114700936,
+          "candidate_corr_qianhai": -0.416911855757205,
+          "candidate_down_corr": 0.5600020158056315,
+          "target_down_corr": 0.6315892612296636,
+          "down_weeks": 11,
+          "daily_pair_start": "2026-03-06",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.27228559924895945,
+          "target_daily_mdd": -0.2543979963015419,
+          "base_return": 0.31278014684932365,
+          "base_weekly_mdd": -0.03335588904121689,
+          "base_volatility": 0.16602189575053908,
+          "replacement_volatility": 0.16771147511379833,
+          "replacement_weight_pct_in_sleeve": 3.5248041775456915,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.31428576066394265,
+              "max_drawdown": -0.03279699095998301,
+              "difference_pp": 0.1505613814619
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.31405413066695886,
+              "max_drawdown": -0.03279699095998301,
+              "difference_pp": 0.12739838176352158
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.3135908706729911,
+              "max_drawdown": -0.03279699095998312,
+              "difference_pp": 0.08107238236674252
+            }
+          ]
+        },
+        {
+          "weeks": 52,
+          "start": "2025-09-05",
+          "end": "2026-09-04",
+          "candidate_corr_tech": 0.7193771043280873,
+          "target_corr_tech": 0.6141514541778521,
+          "candidate_corr_qianhai": -0.28919652963603737,
+          "candidate_down_corr": 0.4368998654377781,
+          "target_down_corr": 0.5951873957592703,
+          "down_weeks": 19,
+          "daily_pair_start": "2025-09-05",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.27228559924895945,
+          "target_daily_mdd": -0.2543979963015419,
+          "base_return": 0.6442257887710314,
+          "base_weekly_mdd": -0.05431648247773069,
+          "base_volatility": 0.17461804222679572,
+          "replacement_volatility": 0.17516541880427258,
+          "replacement_weight_pct_in_sleeve": 3.5248041775456915,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.6438005993568405,
+              "max_drawdown": -0.05266344783167132,
+              "difference_pp": -0.04251894141908963
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.6435108955958573,
+              "max_drawdown": -0.05266344783167132,
+              "difference_pp": -0.07148931751741472
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.6429314880738908,
+              "max_drawdown": -0.05266344783167132,
+              "difference_pp": -0.1294300697140649
+            }
+          ]
+        }
+      ],
+      "annual": [
+        {
+          "year": 2024,
+          "return": 0.2383495563766751,
+          "max_drawdown": -0.19727707757048396,
+          "annualized_volatility": 0.2743597504295209,
+          "partial_year": false,
+          "start": "2023-12-31",
+          "end": "2024-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2025,
+          "return": 0.3609488035606552,
+          "max_drawdown": -0.27696301103177756,
+          "annualized_volatility": 0.3086836240518545,
+          "partial_year": false,
+          "start": "2024-12-31",
+          "end": "2025-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2026,
+          "return": 0.5076923076902058,
+          "max_drawdown": -0.27228559924895945,
+          "annualized_volatility": 0.42047065588664695,
+          "partial_year": true,
+          "start": "2025-12-31",
+          "end": "2026-09-08",
+          "current_manager_period": true
+        }
+      ]
+    },
+    {
+      "id": "external_nasdaq",
+      "code": "006479",
+      "name": "广发纳指100联接人民币C",
+      "manager": "刘杰 / 指数管理",
+      "manager_since": "2022-04-01",
+      "qdii": true,
+      "role": "海外科技工具对照",
+      "replaces": "guangfa_global",
+      "collect_nav": true,
+      "selection_reason": "用规则化美国成长指数，对照主动海外科技选股与更复杂的区域配置。",
+      "decision": "只作对照，额度门槛未过",
+      "gate": "官方页面检索内容显示单日上限2元，静态归档未渲染限额；渠道上限可能不同，需蚂蚁下单页确认，尚不能视为可承接仓位。",
+      "identity_note": "纳指100包含多类非硬科技业务，不是纯半导体或台韩制造替代。",
+      "official_url": "https://www.gffunds.com.cn/funds/?fundcode=006479&fromSearch=1",
+      "known_nav": {
+        "date": "2026-09-08",
+        "value": 8.0221,
+        "source_url": "https://www.gffunds.com.cn/funds/?fundcode=006479&fromSearch=1",
+        "tolerance": 0.00011
+      },
+      "notes": {
+        "long_method": "被动跟踪美国非金融大盘成长指数，不是纯硬科技，也不能覆盖台韩制造链。评价重点是跟踪、费用、申赎可达性，不比较主动经理的产业选股认知。",
+        "current_evidence": "2026-06-05官方概要核实C人民币代码006479、基金经理刘杰以及人民币纳斯达克100总收益基准。网站检索内容显示上限2元，静态归档未渲染该动态字段，故限额只列为待下单页确认的执行障碍。",
+        "decision_reason": "有可解释的规则化替代方向，但本轮没有足够额度和费用后优势证据，不能用一个小额限购产品直接替换现有海外仓。",
+        "costs": "官方概要：管理费0.8%、托管费0.2%、C服务费0.2%，目标ETF部分不另收联接管理和托管费；概要测算综合费率1.20%。C无申购费，7天内赎回1.5%、7天起0。不是把底层和上层名义费率简单相加。",
+        "sources": [
+          "external_nasdaq",
+          "external_nasdaq_fees"
+        ]
+      },
+      "target_name": "广发全球精选",
+      "original_account_weight_pct": 3.0,
+      "returns": {
+        "20": {
+          "start": "2026-08-10",
+          "end": "2026-09-07",
+          "candidate": -0.0050543215673571895,
+          "target": 0.004197776140147935,
+          "difference_pp": -0.9252097707505125
+        },
+        "60": {
+          "start": "2026-06-12",
+          "end": "2026-09-07",
+          "candidate": -0.014539877299876713,
+          "target": -0.051197432557976486,
+          "difference_pp": 3.665755525809977
+        },
+        "120": {
+          "start": "2026-03-16",
+          "end": "2026-09-07",
+          "candidate": 0.1648295866572833,
+          "target": 0.2504439079834837,
+          "difference_pp": -8.56143213262004
+        }
+      },
+      "windows": [
+        {
+          "weeks": 26,
+          "start": "2026-03-06",
+          "end": "2026-09-04",
+          "candidate_corr_tech": 0.5435539359888767,
+          "target_corr_tech": 0.7270052425153908,
+          "candidate_corr_qianhai": -0.21302285449873437,
+          "candidate_down_corr": 0.38974412192278496,
+          "target_down_corr": 0.541664336658724,
+          "down_weeks": 11,
+          "daily_pair_start": "2026-03-06",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.12180018470763176,
+          "target_daily_mdd": -0.25674478856678573,
+          "base_return": 0.31278014684932365,
+          "base_weekly_mdd": -0.03335588904121689,
+          "base_volatility": 0.16602189575053908,
+          "replacement_volatility": 0.16160345019981295,
+          "replacement_weight_pct_in_sleeve": 3.9164490861618795,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.30755755279973473,
+              "max_drawdown": -0.034972604186461864,
+              "difference_pp": -0.5222594049588913
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.3073015036705964,
+              "max_drawdown": -0.035161578219584544,
+              "difference_pp": -0.547864317872726
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.3067894054123197,
+              "max_drawdown": -0.035539526285830125,
+              "difference_pp": -0.5990741437003955
+            }
+          ]
+        },
+        {
+          "weeks": 52,
+          "start": "2025-09-05",
+          "end": "2026-09-04",
+          "candidate_corr_tech": 0.5234676122533594,
+          "target_corr_tech": 0.7228255142448438,
+          "candidate_corr_qianhai": -0.1338451523789802,
+          "candidate_down_corr": 0.32708031656071385,
+          "target_down_corr": 0.48120358561891163,
+          "down_weeks": 19,
+          "daily_pair_start": "2025-09-05",
+          "daily_pair_end": "2026-09-04",
+          "candidate_daily_mdd": -0.1433648815946872,
+          "target_daily_mdd": -0.25674478856678573,
+          "base_return": 0.6442257887710314,
+          "base_weekly_mdd": -0.05431648247773069,
+          "base_volatility": 0.17461804222679572,
+          "replacement_volatility": 0.1709154715751402,
+          "replacement_weight_pct_in_sleeve": 3.9164490861618795,
+          "scenarios": [
+            {
+              "cost_bps": 0,
+              "return": 0.6307719350884844,
+              "max_drawdown": -0.054689860448766336,
+              "difference_pp": -1.3453853682547035
+            },
+            {
+              "cost_bps": 50,
+              "return": 0.6304525933257388,
+              "max_drawdown": -0.054689860448766225,
+              "difference_pp": -1.3773195445292652
+            },
+            {
+              "cost_bps": 150,
+              "return": 0.6298139098002471,
+              "max_drawdown": -0.054689860448766114,
+              "difference_pp": -1.441187897078433
+            }
+          ]
+        }
+      ],
+      "annual": [
+        {
+          "year": 2022,
+          "return": -0.2843246795934704,
+          "max_drawdown": -0.3001204951272758,
+          "annualized_volatility": 0.3174732321930012,
+          "partial_year": false,
+          "start": "2021-12-31",
+          "end": "2022-12-31",
+          "current_manager_period": false
+        },
+        {
+          "year": 2023,
+          "return": 0.5378609130829439,
+          "max_drawdown": -0.10559692930294207,
+          "annualized_volatility": 0.1797501843680628,
+          "partial_year": false,
+          "start": "2022-12-31",
+          "end": "2023-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2024,
+          "return": 0.24318891918099683,
+          "max_drawdown": -0.136021950545261,
+          "annualized_volatility": 0.1810792069554979,
+          "partial_year": false,
+          "start": "2023-12-31",
+          "end": "2024-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2025,
+          "return": 0.15217147705385692,
+          "max_drawdown": -0.22201806767800059,
+          "annualized_volatility": 0.23357593620366277,
+          "partial_year": false,
+          "start": "2024-12-31",
+          "end": "2025-12-31",
+          "current_manager_period": true
+        },
+        {
+          "year": 2026,
+          "return": 0.11456755817690989,
+          "max_drawdown": -0.1252701545506293,
+          "annualized_volatility": 0.21382821651742268,
+          "partial_year": true,
+          "start": "2025-12-31",
+          "end": "2026-09-08",
+          "current_manager_period": true
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "external_energy",
+      "code": "017090",
+      "name": "景顺长城能源基建混合C",
+      "manager": "邹立虎",
+      "manager_since": "2025-04-26",
+      "qdii": false,
+      "role": "基座对照",
+      "replaces": "qianhai",
+      "collect_nav": false,
+      "selection_reason": "检验市场上常见的价值型候选是否仍由原经理管理。",
+      "decision": "本轮不入围",
+      "gate": "现任经理不到两个完整年度，尚未完成独立任期尽调；能源基建主题不等同国企价值。",
+      "identity_note": "2025年已换为邹立虎，不能沿用鲍无可任期表现作现任能力证明。",
+      "official_url": "https://www.igwfmc.com/main/jjcp/product/017090/detail.html",
+      "notes": {
+        "long_method": "先做身份门槛检查，未进入本轮长期经理尽调。",
+        "current_evidence": "官网明确邹立虎自2025-04-26任职，能源基建业务股票占股票投资比例有主题约束。鲍无可历史业绩不能证明现任的复制能力。",
+        "decision_reason": "暂时剔除的是本轮替换论证，不是判定现任经理差；先补足其独立任期与主题风险。",
+        "costs": "本轮不拟执行替换，未核蚂蚁交易条件。",
+        "sources": [
+          "external_energy"
+        ]
+      }
+    },
+    {
+      "id": "external_value",
+      "code": "015779",
+      "name": "景顺长城价值边际混合C",
+      "manager": "刘苏",
+      "manager_since": "2025-04-26",
+      "qdii": false,
+      "role": "基座对照",
+      "replaces": "qianhai",
+      "collect_nav": false,
+      "selection_reason": "检查另一只历史价值型产品的现任经理和组合约束。",
+      "decision": "本轮不入围",
+      "gate": "经理切换后完整周期不足，本轮不把旧经理长期成绩作为替换理由。",
+      "identity_note": "C类代码015779，现任刘苏；不是鲍无可当前产品。",
+      "official_url": "https://www.igwfmc.com/main/jjcp/product/015779/detail.html",
+      "notes": {
+        "long_method": "先做身份门槛检查，未进入本轮长期经理尽调。",
+        "current_evidence": "官网明确现任刘苏自2025-04-26管理，C类代码015779。历史价值形象不足以替代现任经理分析。",
+        "decision_reason": "不能用鲍无可的旧成绩包装成新的低风险基座候选，暂不入围。",
+        "costs": "本轮不拟执行替换，未核蚂蚁交易条件。",
+        "sources": [
+          "external_value"
+        ]
+      }
+    }
+  ],
+  "candidate_series": 6,
+  "candidate_nav_rows": 8328,
+  "external_points": [
+    {
+      "date": "2026-09-08",
+      "value": 4.8774,
+      "source_url": "https://www.zocaifu.com/product/011066",
+      "tolerance": 0.00011,
+      "calculated": 4.8774,
+      "passed": true
+    },
+    {
+      "date": "2026-09-08",
+      "value": 2.8356,
+      "source_url": "https://www.ztzqzg.com/products/publicDetail?fundCode=012940&type=cpfee",
+      "tolerance": 0.00011,
+      "calculated": 2.8356,
+      "passed": true
+    },
+    {
+      "date": "2026-09-08",
+      "value": 3.734,
+      "source_url": "https://www.huaan.com.cn/funds/013620/index.shtml",
+      "tolerance": 0.00011,
+      "calculated": 3.734,
+      "passed": true
+    },
+    {
+      "date": "2026-09-08",
+      "value": 2.9498,
+      "source_url": "https://etrade.igwfmc.com/main/jjcp/product/016668/detail.html",
+      "tolerance": 0.00011,
+      "calculated": 2.9498,
+      "passed": true
+    },
+    {
+      "date": "2026-09-08",
+      "value": 8.0221,
+      "source_url": "https://www.gffunds.com.cn/funds/?fundcode=006479&fromSearch=1",
+      "tolerance": 0.00011,
+      "calculated": 8.0221,
+      "passed": true
+    }
+  ],
+  "account_coverage_pct": 76.60000000000001,
+  "full_account_simulation": false,
+  "proven_superior_candidates": 0,
+  "trade_recommendations_generated": false,
+  "input_sha256": {
+    "data/history/2026-09-08/022714.csv": "14b0e717ea2725cd241401791369f4b8c2df75dc59fc90866f7127ee1a059f82",
+    "data/history/2026-09-08/022415.csv": "64ddcfcbfbd5057749fcd997a967a009092147d618aa85e705c1f49ef1d1a06c",
+    "data/history/2026-09-08/021180.csv": "a48dcb648aaf59d4a2e732a495f68d01b1eae5fa1245bcd060f4e8c423ec6a87",
+    "data/history/2026-09-08/002244.csv": "44b700eb07376a37c76d67cb23f27995250a87cfea35dad6469e8bcaab9cec81",
+    "data/history/2026-09-08/519697.csv": "442928170e48148c10fb117649424135f6480070d3aed8c0a6659a1f04298559",
+    "data/history/2026-09-08/021662.csv": "c86f7dc384e1231f97964fd85725d6d16fae2ed26a2f1d9f0f62b1f95e26ea7a",
+    "data/history/2026-09-08/021277.csv": "b084dbd3b87c26895bd63ebf7036b42babf2eb871a3680a599f21b2e9eb107f6",
+    "data/history/2026-09-08/021902.csv": "d4a87450a9bec64521cc945f64fb418192590f29227e2203dad5dd84d4f686cf",
+    "data/history/2026-09-08/006075.csv": "bf3d85ebb215f5005c98a4733c41c2685fbe677ba9519fd2cfb5e54faa7209df",
+    "data/candidates/2026-09-10/nav/011066.csv": "641665d1e89f270a24e0e11ee08e865661966c9c865ea75ae8624c3fcb62640d",
+    "data/candidates/2026-09-10/nav/012940.csv": "f9550ce107a1c7969751b1248dc4c054e56c80d594c120de22e0574848f958c1",
+    "data/candidates/2026-09-10/nav/013620.csv": "2f82fba39a5a2112701f9af66c7cdecbedbdb89ec02dec3ffd802d450b07b70b",
+    "data/candidates/2026-09-10/nav/007301.csv": "7869583064e533cabe1237c913e777da6ae05da9432300ac08407e0fb7453583",
+    "data/candidates/2026-09-10/nav/016668.csv": "cd0fb3a8891dd7692b462e12d8c953314c6fce4d2163bdb1e0a2d975f76b203b",
+    "data/candidates/2026-09-10/nav/006479.csv": "f61ad8d8a8a7aef3b7aa31c91b7ba244105f2d304e8e80be2e3a1262ed291902",
+    "research/candidate_policy.json": "abaf8b094887bc7a1157d457a7b590c838bdbeb4f90223646fcad69d815a3004",
+    "research/decision_policy.json": "af27994e343f61e27cc0772e55d61bbf4f86497ed103c5d5dde153e6047a9e0e",
+    "research/candidate_sources.json": "3c91a69add0d87b8881e614f65bd111ed1163f29f8e0189bcd1f562669193780",
+    "research/candidate_notes.json": "b5dafed8d161d1fcaca3496c333eaffb910faa5aace7f465d8edd1ac3f46d48f",
+    "research/manager_profiles.json": "c71bbf2ebabdf4e1ea1de557550b93e1fa113a58ac8a35bb36c5bf08e8318df3",
+    "research/experiment.json": "21bab892abe9b8425d6c2ce4758ebaddf9cc735224b686f7366bf25cc76c795c",
+    "data/holdings.json": "6cda30365f2b393e74345a10d12f06b5178c9116c3ff726a2729a1b26fee03cf",
+    "data/candidates/2026-09-10/catalogue.json": "d310554361bfb2203433aba75125bd1a9a8f68d74d5d242c1f4fc240e0aa3f6c",
+    "data/candidates/2026-09-10/nav/manifest.json": "c059e503fea7f683150dec7419deeb2245a6a3bfa6243e6f81ffd8934c0901ae",
+    "data/candidates/2026-09-10/sources/manifest.json": "d5104f05944ec446dc935e980245b4c86ef35b309d79e72c4d084c70f806cdca",
+    "tools/analyze_candidates.py": "18ddf781e2cbc6b2c3b4e1e44ac1766d2bfdeb5d82bb9866f21fa601c4e1c7fe"
+  }
+}
