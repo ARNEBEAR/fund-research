@@ -1,0 +1,3062 @@
+{
+  "report_period": "2026-06-30",
+  "holdings": {
+    "wanjia": {
+      "stocks": [
+        {
+          "rank": 1,
+          "code": "300502",
+          "name": "新易盛",
+          "pct_nav": 9.88
+        },
+        {
+          "rank": 2,
+          "code": "688256",
+          "name": "寒武纪",
+          "pct_nav": 9.82
+        },
+        {
+          "rank": 3,
+          "code": "688041",
+          "name": "海光信息",
+          "pct_nav": 9.58
+        },
+        {
+          "rank": 4,
+          "code": "300308",
+          "name": "中际旭创",
+          "pct_nav": 8.81
+        },
+        {
+          "rank": 5,
+          "code": "688235",
+          "name": "百济神州",
+          "pct_nav": 7.79
+        },
+        {
+          "rank": 6,
+          "code": "600276",
+          "name": "恒瑞医药",
+          "pct_nav": 6.91
+        },
+        {
+          "rank": 7,
+          "code": "600519",
+          "name": "贵州茅台",
+          "pct_nav": 3.99
+        },
+        {
+          "rank": 8,
+          "code": "002602",
+          "name": "世纪华通",
+          "pct_nav": 3.76
+        },
+        {
+          "rank": 9,
+          "code": "002714",
+          "name": "牧原股份",
+          "pct_nav": 3.67
+        },
+        {
+          "rank": 10,
+          "code": "601888",
+          "name": "中国中免",
+          "pct_nav": 3.42
+        },
+        {
+          "rank": 11,
+          "code": "002558",
+          "name": "巨人网络",
+          "pct_nav": 3.07
+        },
+        {
+          "rank": 12,
+          "code": "601699",
+          "name": "潞安环能",
+          "pct_nav": 2.89
+        },
+        {
+          "rank": 13,
+          "code": "000063",
+          "name": "中兴通讯",
+          "pct_nav": 2.71
+        },
+        {
+          "rank": 14,
+          "code": "601225",
+          "name": "陕西煤业",
+          "pct_nav": 2.58
+        },
+        {
+          "rank": 15,
+          "code": "600489",
+          "name": "中金黄金",
+          "pct_nav": 1.91
+        },
+        {
+          "rank": 16,
+          "code": "600985",
+          "name": "淮北矿业",
+          "pct_nav": 1.75
+        },
+        {
+          "rank": 17,
+          "code": "688981",
+          "name": "中芯国际",
+          "pct_nav": 1.52
+        },
+        {
+          "rank": 18,
+          "code": "000932",
+          "name": "华菱钢铁",
+          "pct_nav": 1.38
+        },
+        {
+          "rank": 19,
+          "code": "600546",
+          "name": "山煤国际",
+          "pct_nav": 0.96
+        },
+        {
+          "rank": 20,
+          "code": "002517",
+          "name": "恺英网络",
+          "pct_nav": 0.93
+        },
+        {
+          "rank": 21,
+          "code": "601666",
+          "name": "平煤股份",
+          "pct_nav": 0.81
+        },
+        {
+          "rank": 22,
+          "code": "688795",
+          "name": "摩尔线程",
+          "pct_nav": 0.19
+        },
+        {
+          "rank": 23,
+          "code": "688820",
+          "name": "盛合晶微",
+          "pct_nav": 0.12
+        },
+        {
+          "rank": 24,
+          "code": "688808",
+          "name": "联讯仪器",
+          "pct_nav": 0.1
+        },
+        {
+          "rank": 25,
+          "code": "603986",
+          "name": "兆易创新",
+          "pct_nav": 0.06
+        },
+        {
+          "rank": 26,
+          "code": "688017",
+          "name": "绿的谐波",
+          "pct_nav": 0.06
+        },
+        {
+          "rank": 27,
+          "code": "688797",
+          "name": "臻宝科技",
+          "pct_nav": 0.04
+        },
+        {
+          "rank": 28,
+          "code": "688818",
+          "name": "电科蓝天",
+          "pct_nav": 0.03
+        },
+        {
+          "rank": 29,
+          "code": "688783",
+          "name": "西安奕材",
+          "pct_nav": 0.02
+        },
+        {
+          "rank": 30,
+          "code": "688802",
+          "name": "沐曦股份",
+          "pct_nav": 0.02
+        },
+        {
+          "rank": 31,
+          "code": "301666",
+          "name": "大普微",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 32,
+          "code": "688635",
+          "name": "长进光子",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 33,
+          "code": "688785",
+          "name": "恒运昌",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 34,
+          "code": "001399",
+          "name": "惠科股份",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 35,
+          "code": "688813",
+          "name": "泰金新能",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 36,
+          "code": "688781",
+          "name": "视涯科技",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 37,
+          "code": "301682",
+          "name": "宏明电子",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 38,
+          "code": "603459",
+          "name": "红板科技",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 39,
+          "code": "301669",
+          "name": "高特电子",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 40,
+          "code": "301531",
+          "name": "春光集团",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 41,
+          "code": "688809",
+          "name": "强一股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 42,
+          "code": "001280",
+          "name": "中国铀业",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 43,
+          "code": "688729",
+          "name": "屹唐股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 44,
+          "code": "001257",
+          "name": "盛龙股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 45,
+          "code": "601112",
+          "name": "振石股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 46,
+          "code": "603407",
+          "name": "长裕集团",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 47,
+          "code": "301683",
+          "name": "慧谷新材",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 48,
+          "code": "688712",
+          "name": "北芯生命",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 49,
+          "code": "603435",
+          "name": "嘉德利",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 50,
+          "code": "688807",
+          "name": "优迅股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 51,
+          "code": "301563",
+          "name": "云汉芯城",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 52,
+          "code": "001233",
+          "name": "海安集团",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 53,
+          "code": "603284",
+          "name": "林平发展",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 54,
+          "code": "301687",
+          "name": "新广益",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 55,
+          "code": "603175",
+          "name": "超颖电子",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 56,
+          "code": "688765",
+          "name": "禾元生物",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 57,
+          "code": "688805",
+          "name": "健信超导",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 58,
+          "code": "001369",
+          "name": "双欣材料",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 59,
+          "code": "301632",
+          "name": "广东建科",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 60,
+          "code": "301609",
+          "name": "山大电力",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 61,
+          "code": "603092",
+          "name": "德力佳",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 62,
+          "code": "601026",
+          "name": "道生天合",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 63,
+          "code": "688608",
+          "name": "恒玄科技",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 64,
+          "code": "603262",
+          "name": "技源集团",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 65,
+          "code": "603334",
+          "name": "丰倍生物",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 66,
+          "code": "001396",
+          "name": "誉帆科技",
+          "pct_nav": 0.0
+        }
+      ],
+      "stock_pct_sum": 88.88,
+      "source": "data/trade_review/2026-09-17/old_reports/wanjia.json",
+      "covered_rows": 66
+    },
+    "qianhai": {
+      "stocks": [
+        {
+          "rank": 1,
+          "code": "600900",
+          "name": "长江电力",
+          "pct_nav": 9.8
+        },
+        {
+          "rank": 2,
+          "code": "600674",
+          "name": "川投能源",
+          "pct_nav": 8.45
+        },
+        {
+          "rank": 3,
+          "code": "002371",
+          "name": "北方华创",
+          "pct_nav": 8.41
+        },
+        {
+          "rank": 4,
+          "code": "00941",
+          "name": "中国移动",
+          "pct_nav": 7.56
+        },
+        {
+          "rank": 5,
+          "code": "600886",
+          "name": "国投电力",
+          "pct_nav": 7.08
+        },
+        {
+          "rank": 6,
+          "code": "601918",
+          "name": "新集能源",
+          "pct_nav": 6.68
+        },
+        {
+          "rank": 7,
+          "code": "600036",
+          "name": "招商银行",
+          "pct_nav": 6.26
+        },
+        {
+          "rank": 8,
+          "code": "601816",
+          "name": "京沪高铁",
+          "pct_nav": 6.17
+        },
+        {
+          "rank": 9,
+          "code": "00883",
+          "name": "中国海洋石油",
+          "pct_nav": 4.15
+        },
+        {
+          "rank": 10,
+          "code": "601166",
+          "name": "兴业银行",
+          "pct_nav": 3.08
+        },
+        {
+          "rank": 11,
+          "code": "601298",
+          "name": "青岛港",
+          "pct_nav": 2.67
+        },
+        {
+          "rank": 12,
+          "code": "00762",
+          "name": "中国联通",
+          "pct_nav": 2.56
+        },
+        {
+          "rank": 13,
+          "code": "01209",
+          "name": "华润万象生活",
+          "pct_nav": 2.46
+        },
+        {
+          "rank": 14,
+          "code": "01398",
+          "name": "工商银行",
+          "pct_nav": 1.6
+        },
+        {
+          "rank": 15,
+          "code": "600026",
+          "name": "中远海能",
+          "pct_nav": 1.44
+        },
+        {
+          "rank": 16,
+          "code": "603369",
+          "name": "今世缘",
+          "pct_nav": 1.39
+        },
+        {
+          "rank": 17,
+          "code": "00728",
+          "name": "中国电信",
+          "pct_nav": 1.35
+        },
+        {
+          "rank": 18,
+          "code": "603198",
+          "name": "迎驾贡酒",
+          "pct_nav": 1.3
+        },
+        {
+          "rank": 19,
+          "code": "600547",
+          "name": "山东黄金",
+          "pct_nav": 1.16
+        },
+        {
+          "rank": 20,
+          "code": "000596",
+          "name": "古井贡酒",
+          "pct_nav": 1.07
+        },
+        {
+          "rank": 21,
+          "code": "601168",
+          "name": "西部矿业",
+          "pct_nav": 0.96
+        },
+        {
+          "rank": 22,
+          "code": "02099",
+          "name": "中国黄金国际",
+          "pct_nav": 0.85
+        }
+      ],
+      "stock_pct_sum": 86.45,
+      "source": "data/trade_review/2026-09-17/old_reports/qianhai.json",
+      "covered_rows": 22
+    },
+    "efunds": {
+      "stocks": [
+        {
+          "rank": 1,
+          "code": "688200",
+          "name": "华峰测控",
+          "pct_nav": 9.21
+        },
+        {
+          "rank": 2,
+          "code": "002371",
+          "name": "北方华创",
+          "pct_nav": 9.09
+        },
+        {
+          "rank": 3,
+          "code": "688256",
+          "name": "寒武纪",
+          "pct_nav": 6.44
+        },
+        {
+          "rank": 4,
+          "code": "688521",
+          "name": "芯原股份",
+          "pct_nav": 6.39
+        },
+        {
+          "rank": 5,
+          "code": "688233",
+          "name": "神工股份",
+          "pct_nav": 6.23
+        },
+        {
+          "rank": 6,
+          "code": "688361",
+          "name": "中科飞测",
+          "pct_nav": 5.31
+        },
+        {
+          "rank": 7,
+          "code": "688372",
+          "name": "伟测科技",
+          "pct_nav": 5.31
+        },
+        {
+          "rank": 8,
+          "code": "688652",
+          "name": "京仪装备",
+          "pct_nav": 3.71
+        },
+        {
+          "rank": 9,
+          "code": "688409",
+          "name": "富创精密",
+          "pct_nav": 3.18
+        },
+        {
+          "rank": 10,
+          "code": "301018",
+          "name": "申菱环境",
+          "pct_nav": 2.52
+        },
+        {
+          "rank": 11,
+          "code": "603259",
+          "name": "药明康德",
+          "pct_nav": 2.4
+        },
+        {
+          "rank": 12,
+          "code": "00175",
+          "name": "吉利汽车",
+          "pct_nav": 2.38
+        },
+        {
+          "rank": 13,
+          "code": "300604",
+          "name": "长川科技",
+          "pct_nav": 2.21
+        },
+        {
+          "rank": 14,
+          "code": "300820",
+          "name": "英杰电气",
+          "pct_nav": 2.1
+        },
+        {
+          "rank": 15,
+          "code": "688596",
+          "name": "正帆科技",
+          "pct_nav": 2.05
+        },
+        {
+          "rank": 16,
+          "code": "688785",
+          "name": "恒运昌",
+          "pct_nav": 1.77
+        },
+        {
+          "rank": 17,
+          "code": "300666",
+          "name": "江丰电子",
+          "pct_nav": 1.67
+        },
+        {
+          "rank": 18,
+          "code": "300567",
+          "name": "精测电子",
+          "pct_nav": 1.42
+        },
+        {
+          "rank": 19,
+          "code": "002536",
+          "name": "飞龙股份",
+          "pct_nav": 1.29
+        },
+        {
+          "rank": 20,
+          "code": "688605",
+          "name": "先锋精科",
+          "pct_nav": 1.08
+        },
+        {
+          "rank": 21,
+          "code": "002444",
+          "name": "巨星科技",
+          "pct_nav": 0.77
+        },
+        {
+          "rank": 22,
+          "code": "600660",
+          "name": "福耀玻璃",
+          "pct_nav": 0.73
+        },
+        {
+          "rank": 23,
+          "code": "300037",
+          "name": "新宙邦",
+          "pct_nav": 0.49
+        },
+        {
+          "rank": 24,
+          "code": "688610",
+          "name": "埃科光电",
+          "pct_nav": 0.48
+        },
+        {
+          "rank": 25,
+          "code": "688352",
+          "name": "颀中科技",
+          "pct_nav": 0.45
+        },
+        {
+          "rank": 26,
+          "code": "603005",
+          "name": "晶方科技",
+          "pct_nav": 0.4
+        },
+        {
+          "rank": 27,
+          "code": "301039",
+          "name": "中集车辆",
+          "pct_nav": 0.26
+        },
+        {
+          "rank": 28,
+          "code": "688170",
+          "name": "德龙激光",
+          "pct_nav": 0.2
+        },
+        {
+          "rank": 29,
+          "code": "688797",
+          "name": "臻宝科技",
+          "pct_nav": 0.14
+        },
+        {
+          "rank": 30,
+          "code": "600348",
+          "name": "华阳股份",
+          "pct_nav": 0.13
+        },
+        {
+          "rank": 31,
+          "code": "301161",
+          "name": "唯万密封",
+          "pct_nav": 0.03
+        },
+        {
+          "rank": 32,
+          "code": "002463",
+          "name": "沪电股份",
+          "pct_nav": 0.02
+        },
+        {
+          "rank": 33,
+          "code": "688635",
+          "name": "长进光子",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 34,
+          "code": "301669",
+          "name": "高特电子",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 35,
+          "code": "001248",
+          "name": "华润新能源",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 36,
+          "code": "603435",
+          "name": "嘉德利",
+          "pct_nav": 0.0
+        }
+      ],
+      "stock_pct_sum": 79.86,
+      "source": "data/trade_review/2026-09-17/old_reports/efunds.json",
+      "covered_rows": 36
+    },
+    "invesco": {
+      "stocks": [
+        {
+          "rank": 1,
+          "code": "300308",
+          "name": "中际旭创",
+          "pct_nav": 7.26
+        },
+        {
+          "rank": 2,
+          "code": "300502",
+          "name": "新易盛",
+          "pct_nav": 5.91
+        },
+        {
+          "rank": 3,
+          "code": "603986",
+          "name": "兆易创新",
+          "pct_nav": 5.36
+        },
+        {
+          "rank": 4,
+          "code": "600183",
+          "name": "生益科技",
+          "pct_nav": 4.3
+        },
+        {
+          "rank": 5,
+          "code": "002463",
+          "name": "沪电股份",
+          "pct_nav": 4.08
+        },
+        {
+          "rank": 6,
+          "code": "300274",
+          "name": "阳光电源",
+          "pct_nav": 3.94
+        },
+        {
+          "rank": 7,
+          "code": "603129",
+          "name": "春风动力",
+          "pct_nav": 3.9
+        },
+        {
+          "rank": 8,
+          "code": "002850",
+          "name": "科达利",
+          "pct_nav": 3.79
+        },
+        {
+          "rank": 9,
+          "code": "601138",
+          "name": "工业富联",
+          "pct_nav": 2.68
+        },
+        {
+          "rank": 10,
+          "code": "601100",
+          "name": "恒立液压",
+          "pct_nav": 2.66
+        },
+        {
+          "rank": 11,
+          "code": "002126",
+          "name": "银轮股份",
+          "pct_nav": 2.61
+        },
+        {
+          "rank": 12,
+          "code": "603179",
+          "name": "新泉股份",
+          "pct_nav": 1.23
+        }
+      ],
+      "stock_pct_sum": 47.72,
+      "source": "data/trade_review/2026-09-17/old_reports/invesco.json",
+      "covered_rows": 12
+    },
+    "guangfa_theme": {
+      "stocks": [
+        {
+          "rank": 1,
+          "code": "000333",
+          "name": "美的集团",
+          "pct_nav": 3.18
+        },
+        {
+          "rank": 2,
+          "code": "600660",
+          "name": "福耀玻璃",
+          "pct_nav": 2.92
+        },
+        {
+          "rank": 3,
+          "code": "600887",
+          "name": "伊利股份",
+          "pct_nav": 2.44
+        },
+        {
+          "rank": 4,
+          "code": "600123",
+          "name": "兰花科创",
+          "pct_nav": 2.25
+        },
+        {
+          "rank": 5,
+          "code": "600188",
+          "name": "兖矿能源",
+          "pct_nav": 2.25
+        },
+        {
+          "rank": 6,
+          "code": "000895",
+          "name": "双汇发展",
+          "pct_nav": 2.13
+        },
+        {
+          "rank": 7,
+          "code": "603259",
+          "name": "药明康德",
+          "pct_nav": 1.71
+        },
+        {
+          "rank": 8,
+          "code": "601898",
+          "name": "中煤能源",
+          "pct_nav": 1.54
+        },
+        {
+          "rank": 9,
+          "code": "600900",
+          "name": "长江电力",
+          "pct_nav": 1.4
+        },
+        {
+          "rank": 10,
+          "code": "002170",
+          "name": "芭田股份",
+          "pct_nav": 1.37
+        },
+        {
+          "rank": 11,
+          "code": "000100",
+          "name": "TCL 科技",
+          "pct_nav": 1.23
+        },
+        {
+          "rank": 12,
+          "code": "600985",
+          "name": "淮北矿业",
+          "pct_nav": 1.18
+        },
+        {
+          "rank": 13,
+          "code": "000921",
+          "name": "海信家电",
+          "pct_nav": 1.15
+        },
+        {
+          "rank": 14,
+          "code": "600674",
+          "name": "川投能源",
+          "pct_nav": 1.05
+        },
+        {
+          "rank": 15,
+          "code": "600060",
+          "name": "海信视像",
+          "pct_nav": 1.0
+        },
+        {
+          "rank": 16,
+          "code": "600546",
+          "name": "山煤国际",
+          "pct_nav": 0.92
+        },
+        {
+          "rank": 17,
+          "code": "600885",
+          "name": "宏发股份",
+          "pct_nav": 0.91
+        },
+        {
+          "rank": 18,
+          "code": "600690",
+          "name": "海尔智家",
+          "pct_nav": 0.86
+        },
+        {
+          "rank": 19,
+          "code": "600483",
+          "name": "福能股份",
+          "pct_nav": 0.86
+        },
+        {
+          "rank": 20,
+          "code": "601225",
+          "name": "陕西煤业",
+          "pct_nav": 0.86
+        },
+        {
+          "rank": 21,
+          "code": "000983",
+          "name": "山西焦煤",
+          "pct_nav": 0.86
+        },
+        {
+          "rank": 22,
+          "code": "000651",
+          "name": "格力电器",
+          "pct_nav": 0.79
+        },
+        {
+          "rank": 23,
+          "code": "600298",
+          "name": "安琪酵母",
+          "pct_nav": 0.76
+        },
+        {
+          "rank": 24,
+          "code": "603345",
+          "name": "安井食品",
+          "pct_nav": 0.76
+        },
+        {
+          "rank": 25,
+          "code": "601666",
+          "name": "平煤股份",
+          "pct_nav": 0.75
+        },
+        {
+          "rank": 26,
+          "code": "600863",
+          "name": "华能蒙电",
+          "pct_nav": 0.74
+        },
+        {
+          "rank": 27,
+          "code": "601101",
+          "name": "昊华能源",
+          "pct_nav": 0.72
+        },
+        {
+          "rank": 28,
+          "code": "002315",
+          "name": "焦点科技",
+          "pct_nav": 0.64
+        },
+        {
+          "rank": 29,
+          "code": "600941",
+          "name": "中国移动",
+          "pct_nav": 0.64
+        },
+        {
+          "rank": 30,
+          "code": "301039",
+          "name": "中集车辆",
+          "pct_nav": 0.57
+        },
+        {
+          "rank": 31,
+          "code": "601728",
+          "name": "中国电信",
+          "pct_nav": 0.55
+        },
+        {
+          "rank": 32,
+          "code": "600011",
+          "name": "华能国际",
+          "pct_nav": 0.48
+        },
+        {
+          "rank": 33,
+          "code": "600346",
+          "name": "恒力石化",
+          "pct_nav": 0.47
+        },
+        {
+          "rank": 34,
+          "code": "601001",
+          "name": "晋控煤业",
+          "pct_nav": 0.46
+        },
+        {
+          "rank": 35,
+          "code": "600285",
+          "name": "羚锐制药",
+          "pct_nav": 0.41
+        },
+        {
+          "rank": 36,
+          "code": "600989",
+          "name": "宝丰能源",
+          "pct_nav": 0.32
+        },
+        {
+          "rank": 37,
+          "code": "688802",
+          "name": "沐曦股份-U",
+          "pct_nav": 0.19
+        },
+        {
+          "rank": 38,
+          "code": "301666",
+          "name": "大普微-UW",
+          "pct_nav": 0.06
+        },
+        {
+          "rank": 39,
+          "code": "001248",
+          "name": "华润新能源",
+          "pct_nav": 0.05
+        },
+        {
+          "rank": 40,
+          "code": "688759",
+          "name": "必贝特-U",
+          "pct_nav": 0.04
+        },
+        {
+          "rank": 41,
+          "code": "688790",
+          "name": "昂瑞微-UW",
+          "pct_nav": 0.03
+        },
+        {
+          "rank": 42,
+          "code": "688781",
+          "name": "视涯科技-UW",
+          "pct_nav": 0.03
+        },
+        {
+          "rank": 43,
+          "code": "688808",
+          "name": "联讯仪器",
+          "pct_nav": 0.03
+        },
+        {
+          "rank": 44,
+          "code": "688820",
+          "name": "盛合晶微",
+          "pct_nav": 0.02
+        },
+        {
+          "rank": 45,
+          "code": "001399",
+          "name": "惠科股份",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 46,
+          "code": "688818",
+          "name": "电科蓝天",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 47,
+          "code": "301682",
+          "name": "宏明电子",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 48,
+          "code": "688797",
+          "name": "臻宝科技",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 49,
+          "code": "688712",
+          "name": "北芯生命",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 50,
+          "code": "688785",
+          "name": "恒运昌",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 51,
+          "code": "920186",
+          "name": "中科仪",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 52,
+          "code": "688813",
+          "name": "泰金新能",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 53,
+          "code": "688635",
+          "name": "长进光子",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 54,
+          "code": "001257",
+          "name": "盛龙股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 55,
+          "code": "603459",
+          "name": "红板科技",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 56,
+          "code": "920156",
+          "name": "海昌智能",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 57,
+          "code": "001365",
+          "name": "天海电子",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 58,
+          "code": "688811",
+          "name": "有研复材",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 59,
+          "code": "301696",
+          "name": "三瑞智能",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 60,
+          "code": "920161",
+          "name": "龙辰科技",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 61,
+          "code": "001237",
+          "name": "惠康科技",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 62,
+          "code": "920200",
+          "name": "振宏股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 63,
+          "code": "920220",
+          "name": "朗信电气",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 64,
+          "code": "301669",
+          "name": "高特电子",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 65,
+          "code": "301687",
+          "name": "新广益",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 66,
+          "code": "001393",
+          "name": "维通利",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 67,
+          "code": "301531",
+          "name": "春光集团",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 68,
+          "code": "301599",
+          "name": "理奇智能",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 69,
+          "code": "601112",
+          "name": "振石股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 70,
+          "code": "301680",
+          "name": "固德电材",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 71,
+          "code": "301683",
+          "name": "慧谷新材",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 72,
+          "code": "920083",
+          "name": "金戈新材",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 73,
+          "code": "688816",
+          "name": "易思维",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 74,
+          "code": "920096",
+          "name": "嘉晨智能",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 75,
+          "code": "301513",
+          "name": "尚水智能",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 76,
+          "code": "920136",
+          "name": "永励精密",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 77,
+          "code": "920218",
+          "name": "新天力",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 78,
+          "code": "920206",
+          "name": "彩客科技",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 79,
+          "code": "920222",
+          "name": "益坤电气",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 80,
+          "code": "603352",
+          "name": "至信股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 81,
+          "code": "920193",
+          "name": "吉和昌",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 82,
+          "code": "603293",
+          "name": "埃泰克",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 83,
+          "code": "001312",
+          "name": "福恩股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 84,
+          "code": "603284",
+          "name": "林平发展",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 85,
+          "code": "001220",
+          "name": "世盟股份",
+          "pct_nav": 0.0
+        }
+      ],
+      "stock_pct_sum": 41.64,
+      "source": "data/trade_review/2026-09-17/old_reports/guangfa_theme.json",
+      "covered_rows": 85
+    },
+    "keyi": {
+      "stocks": [
+        {
+          "rank": 1,
+          "code": "002396",
+          "name": "星网锐捷",
+          "pct_nav": 9.96
+        },
+        {
+          "rank": 2,
+          "code": "300408",
+          "name": "三环集团",
+          "pct_nav": 8.26
+        },
+        {
+          "rank": 3,
+          "code": "301165",
+          "name": "锐捷网络",
+          "pct_nav": 8.02
+        },
+        {
+          "rank": 4,
+          "code": "000977",
+          "name": "浪潮信息",
+          "pct_nav": 7.06
+        },
+        {
+          "rank": 5,
+          "code": "002916",
+          "name": "深南电路",
+          "pct_nav": 6.7
+        },
+        {
+          "rank": 6,
+          "code": "000938",
+          "name": "紫光股份",
+          "pct_nav": 6.63
+        },
+        {
+          "rank": 7,
+          "code": "002837",
+          "name": "英维克",
+          "pct_nav": 6.36
+        },
+        {
+          "rank": 8,
+          "code": "301202",
+          "name": "朗威股份",
+          "pct_nav": 5.59
+        },
+        {
+          "rank": 9,
+          "code": "301151",
+          "name": "冠龙节能",
+          "pct_nav": 5.38
+        },
+        {
+          "rank": 10,
+          "code": "300308",
+          "name": "中际旭创",
+          "pct_nav": 3.89
+        },
+        {
+          "rank": 11,
+          "code": "002871",
+          "name": "伟隆股份",
+          "pct_nav": 3.74
+        },
+        {
+          "rank": 12,
+          "code": "300502",
+          "name": "新易盛",
+          "pct_nav": 3.62
+        },
+        {
+          "rank": 13,
+          "code": "601728",
+          "name": "中国电信",
+          "pct_nav": 3.36
+        },
+        {
+          "rank": 14,
+          "code": "603757",
+          "name": "大元泵业",
+          "pct_nav": 3.29
+        },
+        {
+          "rank": 15,
+          "code": "301205",
+          "name": "联特科技",
+          "pct_nav": 3.28
+        },
+        {
+          "rank": 16,
+          "code": "01860",
+          "name": "汇量科技",
+          "pct_nav": 3.1
+        },
+        {
+          "rank": 17,
+          "code": "002126",
+          "name": "银轮股份",
+          "pct_nav": 1.99
+        },
+        {
+          "rank": 18,
+          "code": "920190",
+          "name": "雷神科技",
+          "pct_nav": 1.01
+        },
+        {
+          "rank": 19,
+          "code": "920914",
+          "name": "远航精密",
+          "pct_nav": 0.7
+        },
+        {
+          "rank": 20,
+          "code": "09911",
+          "name": "赤子城科技",
+          "pct_nav": 0.51
+        },
+        {
+          "rank": 21,
+          "code": "600601",
+          "name": "方正科技",
+          "pct_nav": 0.44
+        },
+        {
+          "rank": 22,
+          "code": "02513",
+          "name": "智谱",
+          "pct_nav": 0.43
+        },
+        {
+          "rank": 23,
+          "code": "688759",
+          "name": "必贝特",
+          "pct_nav": 0.05
+        },
+        {
+          "rank": 24,
+          "code": "301666",
+          "name": "大普微",
+          "pct_nav": 0.04
+        },
+        {
+          "rank": 25,
+          "code": "688781",
+          "name": "视涯科技",
+          "pct_nav": 0.02
+        },
+        {
+          "rank": 26,
+          "code": "688808",
+          "name": "联讯仪器",
+          "pct_nav": 0.02
+        },
+        {
+          "rank": 27,
+          "code": "688783",
+          "name": "西安奕材",
+          "pct_nav": 0.02
+        },
+        {
+          "rank": 28,
+          "code": "001399",
+          "name": "惠科股份",
+          "pct_nav": 0.02
+        },
+        {
+          "rank": 29,
+          "code": "688797",
+          "name": "臻宝科技",
+          "pct_nav": 0.02
+        },
+        {
+          "rank": 30,
+          "code": "688818",
+          "name": "电科蓝天",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 31,
+          "code": "688820",
+          "name": "盛合晶微",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 32,
+          "code": "301682",
+          "name": "宏明电子",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 33,
+          "code": "688712",
+          "name": "北芯生命",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 34,
+          "code": "688785",
+          "name": "恒运昌",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 35,
+          "code": "688813",
+          "name": "泰金新能",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 36,
+          "code": "688635",
+          "name": "长进光子",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 37,
+          "code": "001257",
+          "name": "盛龙股份",
+          "pct_nav": 0.01
+        },
+        {
+          "rank": 38,
+          "code": "603459",
+          "name": "红板科技",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 39,
+          "code": "688811",
+          "name": "有研复材",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 40,
+          "code": "301696",
+          "name": "三瑞智能",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 41,
+          "code": "301669",
+          "name": "高特电子",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 42,
+          "code": "301687",
+          "name": "新广益",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 43,
+          "code": "001248",
+          "name": "华润新能源",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 44,
+          "code": "301531",
+          "name": "春光集团",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 45,
+          "code": "301599",
+          "name": "理奇智能",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 46,
+          "code": "301680",
+          "name": "固德电材",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 47,
+          "code": "001365",
+          "name": "天海电子",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 48,
+          "code": "001393",
+          "name": "维通利",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 49,
+          "code": "301683",
+          "name": "慧谷新材",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 50,
+          "code": "688816",
+          "name": "易思维",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 51,
+          "code": "001237",
+          "name": "惠康科技",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 52,
+          "code": "301513",
+          "name": "尚水智能",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 53,
+          "code": "601112",
+          "name": "振石股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 54,
+          "code": "603435",
+          "name": "嘉德利",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 55,
+          "code": "603352",
+          "name": "至信股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 56,
+          "code": "001312",
+          "name": "福恩股份",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 57,
+          "code": "603293",
+          "name": "埃泰克",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 58,
+          "code": "603284",
+          "name": "林平发展",
+          "pct_nav": 0.0
+        },
+        {
+          "rank": 59,
+          "code": "001220",
+          "name": "世盟股份",
+          "pct_nav": 0.0
+        }
+      ],
+      "stock_pct_sum": 93.59,
+      "source": "data/trade_review/2026-09-17/sources/keyi_h1.text.json",
+      "covered_rows": 59
+    },
+    "huashang": {
+      "stocks": [
+        {
+          "rank": 1,
+          "code": "300308",
+          "name": "中际旭创",
+          "pct_nav": 7.13
+        },
+        {
+          "rank": 2,
+          "code": "300502",
+          "name": "新易盛",
+          "pct_nav": 6.64
+        },
+        {
+          "rank": 3,
+          "code": "000636",
+          "name": "风华高科",
+          "pct_nav": 5.95
+        },
+        {
+          "rank": 4,
+          "code": "300408",
+          "name": "三环集团",
+          "pct_nav": 5.6
+        },
+        {
+          "rank": 5,
+          "code": "688498",
+          "name": "源杰科技",
+          "pct_nav": 3.84
+        },
+        {
+          "rank": 6,
+          "code": "605376",
+          "name": "博迁新材",
+          "pct_nav": 3.6
+        },
+        {
+          "rank": 7,
+          "code": "600105",
+          "name": "永鼎股份",
+          "pct_nav": 3.6
+        },
+        {
+          "rank": 8,
+          "code": "688048",
+          "name": "长光华芯",
+          "pct_nav": 3.35
+        },
+        {
+          "rank": 9,
+          "code": "002428",
+          "name": "云南锗业",
+          "pct_nav": 2.88
+        },
+        {
+          "rank": 10,
+          "code": "600183",
+          "name": "生益科技",
+          "pct_nav": 2.68
+        },
+        {
+          "rank": 11,
+          "code": "603678",
+          "name": "火炬电子",
+          "pct_nav": 2.66
+        },
+        {
+          "rank": 12,
+          "code": "601869",
+          "name": "长飞光纤",
+          "pct_nav": 2.45
+        },
+        {
+          "rank": 13,
+          "code": "002384",
+          "name": "东山精密",
+          "pct_nav": 2.34
+        },
+        {
+          "rank": 14,
+          "code": "600487",
+          "name": "亨通光电",
+          "pct_nav": 1.97
+        },
+        {
+          "rank": 15,
+          "code": "300285",
+          "name": "国瓷材料",
+          "pct_nav": 1.88
+        },
+        {
+          "rank": 16,
+          "code": "688313",
+          "name": "仕佳光子",
+          "pct_nav": 1.78
+        },
+        {
+          "rank": 17,
+          "code": "002916",
+          "name": "深南电路",
+          "pct_nav": 1.58
+        },
+        {
+          "rank": 18,
+          "code": "002080",
+          "name": "中材科技",
+          "pct_nav": 1.55
+        },
+        {
+          "rank": 19,
+          "code": "603256",
+          "name": "宏和科技",
+          "pct_nav": 1.52
+        },
+        {
+          "rank": 20,
+          "code": "002859",
+          "name": "洁美科技",
+          "pct_nav": 1.48
+        },
+        {
+          "rank": 21,
+          "code": "688183",
+          "name": "生益电子",
+          "pct_nav": 1.2
+        },
+        {
+          "rank": 22,
+          "code": "300476",
+          "name": "胜宏科技",
+          "pct_nav": 1.15
+        },
+        {
+          "rank": 23,
+          "code": "003031",
+          "name": "中瓷电子",
+          "pct_nav": 1.13
+        },
+        {
+          "rank": 24,
+          "code": "688603",
+          "name": "天承科技",
+          "pct_nav": 1.08
+        },
+        {
+          "rank": 25,
+          "code": "603986",
+          "name": "兆易创新",
+          "pct_nav": 1.07
+        },
+        {
+          "rank": 26,
+          "code": "301377",
+          "name": "鼎泰高科",
+          "pct_nav": 1.07
+        },
+        {
+          "rank": 27,
+          "code": "688300",
+          "name": "联瑞新材",
+          "pct_nav": 1.06
+        },
+        {
+          "rank": 28,
+          "code": "301526",
+          "name": "国际复材",
+          "pct_nav": 1.05
+        },
+        {
+          "rank": 29,
+          "code": "002484",
+          "name": "江海股份",
+          "pct_nav": 1.04
+        },
+        {
+          "rank": 30,
+          "code": "002222",
+          "name": "福晶科技",
+          "pct_nav": 1.04
+        },
+        {
+          "rank": 31,
+          "code": "688260",
+          "name": "昀冢科技",
+          "pct_nav": 0.98
+        },
+        {
+          "rank": 32,
+          "code": "002463",
+          "name": "沪电股份",
+          "pct_nav": 0.89
+        },
+        {
+          "rank": 33,
+          "code": "301511",
+          "name": "德福科技",
+          "pct_nav": 0.88
+        },
+        {
+          "rank": 34,
+          "code": "301150",
+          "name": "中一科技",
+          "pct_nav": 0.73
+        },
+        {
+          "rank": 35,
+          "code": "002436",
+          "name": "兴森科技",
+          "pct_nav": 0.7
+        },
+        {
+          "rank": 36,
+          "code": "002741",
+          "name": "光华科技",
+          "pct_nav": 0.67
+        },
+        {
+          "rank": 37,
+          "code": "688158",
+          "name": "优刻得",
+          "pct_nav": 0.61
+        },
+        {
+          "rank": 38,
+          "code": "300394",
+          "name": "天孚通信",
+          "pct_nav": 0.61
+        },
+        {
+          "rank": 39,
+          "code": "688766",
+          "name": "普冉股份",
+          "pct_nav": 0.6
+        },
+        {
+          "rank": 40,
+          "code": "301486",
+          "name": "致尚科技",
+          "pct_nav": 0.59
+        },
+        {
+          "rank": 41,
+          "code": "300548",
+          "name": "长芯博创",
+          "pct_nav": 0.55
+        },
+        {
+          "rank": 42,
+          "code": "688625",
+          "name": "呈和科技",
+          "pct_nav": 0.54
+        },
+        {
+          "rank": 43,
+          "code": "688545",
+          "name": "兴福电子",
+          "pct_nav": 0.54
+        },
+        {
+          "rank": 44,
+          "code": "605589",
+          "name": "圣泉集团",
+          "pct_nav": 0.54
+        },
+        {
+          "rank": 45,
+          "code": "300620",
+          "name": "光库科技",
+          "pct_nav": 0.52
+        },
+        {
+          "rank": 46,
+          "code": "688233",
+          "name": "神工股份",
+          "pct_nav": 0.5
+        },
+        {
+          "rank": 47,
+          "code": "600673",
+          "name": "东阳光",
+          "pct_nav": 0.5
+        },
+        {
+          "rank": 48,
+          "code": "688041",
+          "name": "海光信息",
+          "pct_nav": 0.5
+        },
+        {
+          "rank": 49,
+          "code": "601208",
+          "name": "东材科技",
+          "pct_nav": 0.45
+        },
+        {
+          "rank": 50,
+          "code": "688020",
+          "name": "方邦股份",
+          "pct_nav": 0.45
+        },
+        {
+          "rank": 51,
+          "code": "688205",
+          "name": "德科立",
+          "pct_nav": 0.45
+        },
+        {
+          "rank": 52,
+          "code": "600330",
+          "name": "天通股份",
+          "pct_nav": 0.44
+        },
+        {
+          "rank": 53,
+          "code": "300814",
+          "name": "中富电路",
+          "pct_nav": 0.41
+        },
+        {
+          "rank": 54,
+          "code": "603989",
+          "name": "艾华集团",
+          "pct_nav": 0.29
+        },
+        {
+          "rank": 55,
+          "code": "688167",
+          "name": "炬光科技",
+          "pct_nav": 0.29
+        },
+        {
+          "rank": 56,
+          "code": "301217",
+          "name": "铜冠铜箔",
+          "pct_nav": 0.27
+        },
+        {
+          "rank": 57,
+          "code": "300868",
+          "name": "杰美特",
+          "pct_nav": 0.2
+        },
+        {
+          "rank": 58,
+          "code": "688256",
+          "name": "寒武纪",
+          "pct_nav": 0.1
+        }
+      ],
+      "stock_pct_sum": 90.17,
+      "source": "data/explorer/2026-09-15/sources/huashang_2026h1.text.json",
+      "covered_rows": 58
+    }
+  },
+  "pairs": [
+    {
+      "a": "wanjia",
+      "b": "qianhai",
+      "overlap_pct_nav": 0,
+      "common": []
+    },
+    {
+      "a": "wanjia",
+      "b": "efunds",
+      "overlap_pct_nav": 6.49,
+      "common": [
+        {
+          "code": "688256",
+          "name": "寒武纪",
+          "a_pct": 9.82,
+          "b_pct": 6.44
+        },
+        {
+          "code": "688797",
+          "name": "臻宝科技",
+          "a_pct": 0.04,
+          "b_pct": 0.14
+        },
+        {
+          "code": "688785",
+          "name": "恒运昌",
+          "a_pct": 0.01,
+          "b_pct": 1.77
+        },
+        {
+          "code": "688635",
+          "name": "长进光子",
+          "a_pct": 0.01,
+          "b_pct": 0.0
+        },
+        {
+          "code": "603435",
+          "name": "嘉德利",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301669",
+          "name": "高特电子",
+          "a_pct": 0.01,
+          "b_pct": 0.0
+        }
+      ]
+    },
+    {
+      "a": "wanjia",
+      "b": "invesco",
+      "overlap_pct_nav": 13.23,
+      "common": [
+        {
+          "code": "300308",
+          "name": "中际旭创",
+          "a_pct": 8.81,
+          "b_pct": 7.26
+        },
+        {
+          "code": "300502",
+          "name": "新易盛",
+          "a_pct": 9.88,
+          "b_pct": 5.91
+        },
+        {
+          "code": "603986",
+          "name": "兆易创新",
+          "a_pct": 0.06,
+          "b_pct": 5.36
+        }
+      ]
+    },
+    {
+      "a": "wanjia",
+      "b": "guangfa_theme",
+      "overlap_pct_nav": 3.85,
+      "common": [
+        {
+          "code": "600985",
+          "name": "淮北矿业",
+          "a_pct": 1.75,
+          "b_pct": 1.18
+        },
+        {
+          "code": "600546",
+          "name": "山煤国际",
+          "a_pct": 0.96,
+          "b_pct": 0.92
+        },
+        {
+          "code": "601225",
+          "name": "陕西煤业",
+          "a_pct": 2.58,
+          "b_pct": 0.86
+        },
+        {
+          "code": "601666",
+          "name": "平煤股份",
+          "a_pct": 0.81,
+          "b_pct": 0.75
+        },
+        {
+          "code": "688808",
+          "name": "联讯仪器",
+          "a_pct": 0.1,
+          "b_pct": 0.03
+        },
+        {
+          "code": "688802",
+          "name": "沐曦股份",
+          "a_pct": 0.02,
+          "b_pct": 0.19
+        },
+        {
+          "code": "688820",
+          "name": "盛合晶微",
+          "a_pct": 0.12,
+          "b_pct": 0.02
+        },
+        {
+          "code": "301666",
+          "name": "大普微",
+          "a_pct": 0.01,
+          "b_pct": 0.06
+        },
+        {
+          "code": "001399",
+          "name": "惠科股份",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688781",
+          "name": "视涯科技",
+          "a_pct": 0.01,
+          "b_pct": 0.03
+        },
+        {
+          "code": "688797",
+          "name": "臻宝科技",
+          "a_pct": 0.04,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688785",
+          "name": "恒运昌",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688818",
+          "name": "电科蓝天",
+          "a_pct": 0.03,
+          "b_pct": 0.01
+        },
+        {
+          "code": "301682",
+          "name": "宏明电子",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "601112",
+          "name": "振石股份",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "688712",
+          "name": "北芯生命",
+          "a_pct": 0.0,
+          "b_pct": 0.01
+        },
+        {
+          "code": "301687",
+          "name": "新广益",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301669",
+          "name": "高特电子",
+          "a_pct": 0.01,
+          "b_pct": 0.0
+        },
+        {
+          "code": "603284",
+          "name": "林平发展",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301683",
+          "name": "慧谷新材",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301531",
+          "name": "春光集团",
+          "a_pct": 0.01,
+          "b_pct": 0.0
+        },
+        {
+          "code": "688813",
+          "name": "泰金新能",
+          "a_pct": 0.01,
+          "b_pct": 0.0
+        },
+        {
+          "code": "688635",
+          "name": "长进光子",
+          "a_pct": 0.01,
+          "b_pct": 0.0
+        },
+        {
+          "code": "603459",
+          "name": "红板科技",
+          "a_pct": 0.01,
+          "b_pct": 0.0
+        },
+        {
+          "code": "001257",
+          "name": "盛龙股份",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        }
+      ]
+    },
+    {
+      "a": "wanjia",
+      "b": "keyi",
+      "overlap_pct_nav": 7.66,
+      "common": [
+        {
+          "code": "300308",
+          "name": "中际旭创",
+          "a_pct": 8.81,
+          "b_pct": 3.89
+        },
+        {
+          "code": "300502",
+          "name": "新易盛",
+          "a_pct": 9.88,
+          "b_pct": 3.62
+        },
+        {
+          "code": "688808",
+          "name": "联讯仪器",
+          "a_pct": 0.1,
+          "b_pct": 0.02
+        },
+        {
+          "code": "688783",
+          "name": "西安奕材",
+          "a_pct": 0.02,
+          "b_pct": 0.02
+        },
+        {
+          "code": "688797",
+          "name": "臻宝科技",
+          "a_pct": 0.04,
+          "b_pct": 0.02
+        },
+        {
+          "code": "301666",
+          "name": "大普微",
+          "a_pct": 0.01,
+          "b_pct": 0.04
+        },
+        {
+          "code": "001399",
+          "name": "惠科股份",
+          "a_pct": 0.01,
+          "b_pct": 0.02
+        },
+        {
+          "code": "688781",
+          "name": "视涯科技",
+          "a_pct": 0.01,
+          "b_pct": 0.02
+        },
+        {
+          "code": "688785",
+          "name": "恒运昌",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688818",
+          "name": "电科蓝天",
+          "a_pct": 0.03,
+          "b_pct": 0.01
+        },
+        {
+          "code": "301682",
+          "name": "宏明电子",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688813",
+          "name": "泰金新能",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688635",
+          "name": "长进光子",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688820",
+          "name": "盛合晶微",
+          "a_pct": 0.12,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688712",
+          "name": "北芯生命",
+          "a_pct": 0.0,
+          "b_pct": 0.01
+        },
+        {
+          "code": "601112",
+          "name": "振石股份",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301687",
+          "name": "新广益",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301669",
+          "name": "高特电子",
+          "a_pct": 0.01,
+          "b_pct": 0.0
+        },
+        {
+          "code": "603284",
+          "name": "林平发展",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301683",
+          "name": "慧谷新材",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "603435",
+          "name": "嘉德利",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301531",
+          "name": "春光集团",
+          "a_pct": 0.01,
+          "b_pct": 0.0
+        },
+        {
+          "code": "603459",
+          "name": "红板科技",
+          "a_pct": 0.01,
+          "b_pct": 0.0
+        },
+        {
+          "code": "001257",
+          "name": "盛龙股份",
+          "a_pct": 0.0,
+          "b_pct": 0.01
+        }
+      ]
+    },
+    {
+      "a": "wanjia",
+      "b": "huashang",
+      "overlap_pct_nav": 14.43,
+      "common": [
+        {
+          "code": "300308",
+          "name": "中际旭创",
+          "a_pct": 8.81,
+          "b_pct": 7.13
+        },
+        {
+          "code": "300502",
+          "name": "新易盛",
+          "a_pct": 9.88,
+          "b_pct": 6.64
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "a_pct": 9.58,
+          "b_pct": 0.5
+        },
+        {
+          "code": "688256",
+          "name": "寒武纪",
+          "a_pct": 9.82,
+          "b_pct": 0.1
+        },
+        {
+          "code": "603986",
+          "name": "兆易创新",
+          "a_pct": 0.06,
+          "b_pct": 1.07
+        }
+      ]
+    },
+    {
+      "a": "qianhai",
+      "b": "efunds",
+      "overlap_pct_nav": 8.41,
+      "common": [
+        {
+          "code": "002371",
+          "name": "北方华创",
+          "a_pct": 8.41,
+          "b_pct": 9.09
+        }
+      ]
+    },
+    {
+      "a": "qianhai",
+      "b": "invesco",
+      "overlap_pct_nav": 0,
+      "common": []
+    },
+    {
+      "a": "qianhai",
+      "b": "guangfa_theme",
+      "overlap_pct_nav": 2.45,
+      "common": [
+        {
+          "code": "600900",
+          "name": "长江电力",
+          "a_pct": 9.8,
+          "b_pct": 1.4
+        },
+        {
+          "code": "600674",
+          "name": "川投能源",
+          "a_pct": 8.45,
+          "b_pct": 1.05
+        }
+      ]
+    },
+    {
+      "a": "qianhai",
+      "b": "keyi",
+      "overlap_pct_nav": 0,
+      "common": []
+    },
+    {
+      "a": "qianhai",
+      "b": "huashang",
+      "overlap_pct_nav": 0,
+      "common": []
+    },
+    {
+      "a": "efunds",
+      "b": "invesco",
+      "overlap_pct_nav": 0.02,
+      "common": [
+        {
+          "code": "002463",
+          "name": "沪电股份",
+          "a_pct": 0.02,
+          "b_pct": 4.08
+        }
+      ]
+    },
+    {
+      "a": "efunds",
+      "b": "guangfa_theme",
+      "overlap_pct_nav": 2.72,
+      "common": [
+        {
+          "code": "603259",
+          "name": "药明康德",
+          "a_pct": 2.4,
+          "b_pct": 1.71
+        },
+        {
+          "code": "600660",
+          "name": "福耀玻璃",
+          "a_pct": 0.73,
+          "b_pct": 2.92
+        },
+        {
+          "code": "301039",
+          "name": "中集车辆",
+          "a_pct": 0.26,
+          "b_pct": 0.57
+        },
+        {
+          "code": "688797",
+          "name": "臻宝科技",
+          "a_pct": 0.14,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688785",
+          "name": "恒运昌",
+          "a_pct": 1.77,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688635",
+          "name": "长进光子",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301669",
+          "name": "高特电子",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "001248",
+          "name": "华润新能源",
+          "a_pct": 0.0,
+          "b_pct": 0.05
+        }
+      ]
+    },
+    {
+      "a": "efunds",
+      "b": "keyi",
+      "overlap_pct_nav": 0.03,
+      "common": [
+        {
+          "code": "688797",
+          "name": "臻宝科技",
+          "a_pct": 0.14,
+          "b_pct": 0.02
+        },
+        {
+          "code": "688785",
+          "name": "恒运昌",
+          "a_pct": 1.77,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688635",
+          "name": "长进光子",
+          "a_pct": 0.0,
+          "b_pct": 0.01
+        },
+        {
+          "code": "603435",
+          "name": "嘉德利",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301669",
+          "name": "高特电子",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "001248",
+          "name": "华润新能源",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        }
+      ]
+    },
+    {
+      "a": "efunds",
+      "b": "huashang",
+      "overlap_pct_nav": 0.62,
+      "common": [
+        {
+          "code": "688233",
+          "name": "神工股份",
+          "a_pct": 6.23,
+          "b_pct": 0.5
+        },
+        {
+          "code": "688256",
+          "name": "寒武纪",
+          "a_pct": 6.44,
+          "b_pct": 0.1
+        },
+        {
+          "code": "002463",
+          "name": "沪电股份",
+          "a_pct": 0.02,
+          "b_pct": 0.89
+        }
+      ]
+    },
+    {
+      "a": "invesco",
+      "b": "guangfa_theme",
+      "overlap_pct_nav": 0,
+      "common": []
+    },
+    {
+      "a": "invesco",
+      "b": "keyi",
+      "overlap_pct_nav": 9.5,
+      "common": [
+        {
+          "code": "300308",
+          "name": "中际旭创",
+          "a_pct": 7.26,
+          "b_pct": 3.89
+        },
+        {
+          "code": "300502",
+          "name": "新易盛",
+          "a_pct": 5.91,
+          "b_pct": 3.62
+        },
+        {
+          "code": "002126",
+          "name": "银轮股份",
+          "a_pct": 2.61,
+          "b_pct": 1.99
+        }
+      ]
+    },
+    {
+      "a": "invesco",
+      "b": "huashang",
+      "overlap_pct_nav": 17.68,
+      "common": [
+        {
+          "code": "300308",
+          "name": "中际旭创",
+          "a_pct": 7.26,
+          "b_pct": 7.13
+        },
+        {
+          "code": "300502",
+          "name": "新易盛",
+          "a_pct": 5.91,
+          "b_pct": 6.64
+        },
+        {
+          "code": "600183",
+          "name": "生益科技",
+          "a_pct": 4.3,
+          "b_pct": 2.68
+        },
+        {
+          "code": "603986",
+          "name": "兆易创新",
+          "a_pct": 5.36,
+          "b_pct": 1.07
+        },
+        {
+          "code": "002463",
+          "name": "沪电股份",
+          "a_pct": 4.08,
+          "b_pct": 0.89
+        }
+      ]
+    },
+    {
+      "a": "guangfa_theme",
+      "b": "keyi",
+      "overlap_pct_nav": 0.74,
+      "common": [
+        {
+          "code": "601728",
+          "name": "中国电信",
+          "a_pct": 0.55,
+          "b_pct": 3.36
+        },
+        {
+          "code": "688759",
+          "name": "必贝特-U",
+          "a_pct": 0.04,
+          "b_pct": 0.05
+        },
+        {
+          "code": "301666",
+          "name": "大普微-UW",
+          "a_pct": 0.06,
+          "b_pct": 0.04
+        },
+        {
+          "code": "688808",
+          "name": "联讯仪器",
+          "a_pct": 0.03,
+          "b_pct": 0.02
+        },
+        {
+          "code": "688781",
+          "name": "视涯科技-UW",
+          "a_pct": 0.03,
+          "b_pct": 0.02
+        },
+        {
+          "code": "688712",
+          "name": "北芯生命",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "001399",
+          "name": "惠科股份",
+          "a_pct": 0.01,
+          "b_pct": 0.02
+        },
+        {
+          "code": "688797",
+          "name": "臻宝科技",
+          "a_pct": 0.01,
+          "b_pct": 0.02
+        },
+        {
+          "code": "688785",
+          "name": "恒运昌",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688818",
+          "name": "电科蓝天",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "301682",
+          "name": "宏明电子",
+          "a_pct": 0.01,
+          "b_pct": 0.01
+        },
+        {
+          "code": "688820",
+          "name": "盛合晶微",
+          "a_pct": 0.02,
+          "b_pct": 0.01
+        },
+        {
+          "code": "001393",
+          "name": "维通利",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "001365",
+          "name": "天海电子",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "601112",
+          "name": "振石股份",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301696",
+          "name": "三瑞智能",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301687",
+          "name": "新广益",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301680",
+          "name": "固德电材",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "001237",
+          "name": "惠康科技",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "688816",
+          "name": "易思维",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301669",
+          "name": "高特电子",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "603352",
+          "name": "至信股份",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "001220",
+          "name": "世盟股份",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "603284",
+          "name": "林平发展",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301683",
+          "name": "慧谷新材",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301531",
+          "name": "春光集团",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "688813",
+          "name": "泰金新能",
+          "a_pct": 0.0,
+          "b_pct": 0.01
+        },
+        {
+          "code": "301599",
+          "name": "理奇智能",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "688635",
+          "name": "长进光子",
+          "a_pct": 0.0,
+          "b_pct": 0.01
+        },
+        {
+          "code": "603459",
+          "name": "红板科技",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "001312",
+          "name": "福恩股份",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "688811",
+          "name": "有研复材",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "301513",
+          "name": "尚水智能",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "603293",
+          "name": "埃泰克",
+          "a_pct": 0.0,
+          "b_pct": 0.0
+        },
+        {
+          "code": "001248",
+          "name": "华润新能源",
+          "a_pct": 0.05,
+          "b_pct": 0.0
+        },
+        {
+          "code": "001257",
+          "name": "盛龙股份",
+          "a_pct": 0.0,
+          "b_pct": 0.01
+        }
+      ]
+    },
+    {
+      "a": "guangfa_theme",
+      "b": "huashang",
+      "overlap_pct_nav": 0,
+      "common": []
+    },
+    {
+      "a": "keyi",
+      "b": "huashang",
+      "overlap_pct_nav": 14.69,
+      "common": [
+        {
+          "code": "300408",
+          "name": "三环集团",
+          "a_pct": 8.26,
+          "b_pct": 5.6
+        },
+        {
+          "code": "300308",
+          "name": "中际旭创",
+          "a_pct": 3.89,
+          "b_pct": 7.13
+        },
+        {
+          "code": "300502",
+          "name": "新易盛",
+          "a_pct": 3.62,
+          "b_pct": 6.64
+        },
+        {
+          "code": "002916",
+          "name": "深南电路",
+          "a_pct": 6.7,
+          "b_pct": 1.58
+        }
+      ]
+    }
+  ],
+  "optical_three_stock_mapping": [
+    {
+      "id": "wanjia",
+      "amount_cny": 520000,
+      "basket_pct_nav": 18.69,
+      "static_mapping_cny": 97188.0
+    },
+    {
+      "id": "qianhai",
+      "amount_cny": 410000,
+      "basket_pct_nav": 0,
+      "static_mapping_cny": 0.0
+    },
+    {
+      "id": "efunds",
+      "amount_cny": 420000,
+      "basket_pct_nav": 0,
+      "static_mapping_cny": 0.0
+    },
+    {
+      "id": "invesco",
+      "amount_cny": 310000,
+      "basket_pct_nav": 13.17,
+      "static_mapping_cny": 40827.0
+    },
+    {
+      "id": "huashang",
+      "amount_cny": 150000,
+      "basket_pct_nav": 14.379999999999999,
+      "static_mapping_cny": 21570.0
+    },
+    {
+      "id": "keyi",
+      "amount_cny": 150000,
+      "basket_pct_nav": 7.51,
+      "static_mapping_cny": 11265.0
+    },
+    {
+      "id": "guangfa_theme",
+      "amount_cny": 50000,
+      "basket_pct_nav": 0,
+      "static_mapping_cny": 0.0
+    }
+  ],
+  "note": "重叠=sum(min(两基金对同证券净资产占比))；是披露期股票重叠，不含现金/衍生品，不证明当前持仓或未来相关。静态金额=9月口述金额×6月披露权重，不能称真实持有股票市值或纯CPO敞口。"
+}
