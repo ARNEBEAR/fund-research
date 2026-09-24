@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-21",
+  "nav_cutoff": "2026-09-18",
+  "positions_date": "2026-09-17",
+  "revision": 2,
+  "html_sha256": "702a9b31ca5a62d9177fc31cbdf34f96c4a45656a12a894e45f33cf275ff3d46",
+  "files": {
+    "sources.json": "d51388d8ff4b29efcbda8a367bdac03855c9d286b244e410ec3ea1bb338fa6e6",
+    "index.html": "702a9b31ca5a62d9177fc31cbdf34f96c4a45656a12a894e45f33cf275ff3d46",
+    "methodology.json": "a0ef893aae599a0dea1dcf52e4e3dca62c4e242803a3f6e47229b1dc7e7c9e13",
+    "report.md": "1b0d5ee09cb118ea1d83468d0deab3ceeb9061a4b781b7bf90b071d484da4fcd",
+    "analysis.json": "6c610abefaeb096aa45cec7f838be38194fa32989ec105ba473cea3332e82e04",
+    "dataset.zip": "11d744260f5fd63cff1d92827bd76cb7dba02d7e6bf3503ae07e9a840f6b8fbd"
+  },
+  "source_hashes": {
+    "report/portfolio-template.html": "8ba0483a0ce926e8715204c6ca432a284bee2b4cb8f95826317129640be87263",
+    "report/portfolio.css": "5f645d29c8ec4d2d30937860a828e454b8785ca339fb3fabe240d9235b3c9987",
+    "report/portfolio.js": "3f43bd2fa58c1b013e666ab5483b7b064fa7f541dd6829e60a0c5f09d0f07299",
+    "report/home-template.html": "6e532206730403d5065b271a224b2507050267d53772229b4d28feb9e0609efb",
+    "tools/build_portfolio_site.py": "83a160ff37d426941d1482cdba8def2b96821ed8db3e4fcbc59d1788c1ce944c",
+    "data/portfolio/2026-09-21/analysis.json": "6c610abefaeb096aa45cec7f838be38194fa32989ec105ba473cea3332e82e04",
+    "research/portfolio_notes_2026-09-21.json": "100a46f66d6c103dadb993afe580170017cf10ab40bef54908111be86922e8b8"
+  },
+  "status": "published_research_not_trades",
+  "data_scope": "11只为已报持有/申购；科益计划纳入为12只，新增诺安方案为13只。金额是用户9月17日约数，报告期已过不会自动把计划变成实际交易。"
+}
