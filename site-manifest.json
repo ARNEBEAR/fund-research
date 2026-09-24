@@ -1,15 +1,23 @@
 {
-  "updated_on": "2026-09-21",
-  "home_sha256": "329a4ee7cd1a51ea81673daf0ecb04fe4686c06544eb94d7fc10625cdd5a263f",
+  "updated_on": "2026-09-24",
+  "home_sha256": "0a6107aa774bfe39732daa1b1e55349edaaf69c24ef6cd393c231b86af85fcbf",
   "latest_report": {
-    "date": "2026-09-21",
-    "path": "reports/2026-09-21/",
+    "date": "2026-09-24",
+    "path": "reports/2026-09-24/",
     "title": "整体持仓 · 动态适配与精简",
-    "nav_cutoff": "2026-09-18",
-    "revision": 2,
-    "html_sha256": "702a9b31ca5a62d9177fc31cbdf34f96c4a45656a12a894e45f33cf275ff3d46"
+    "nav_cutoff": "2026-09-23",
+    "revision": 1,
+    "html_sha256": "73fb4f51ef51192216432d54b9ed550a754df7b65eb0d20b4ed0609d56105920"
   },
   "archive": [
+    {
+      "date": "2026-09-24",
+      "path": "reports/2026-09-24/",
+      "title": "整体持仓 · 动态适配与精简",
+      "nav_cutoff": "2026-09-23",
+      "revision": 1,
+      "html_sha256": "73fb4f51ef51192216432d54b9ed550a754df7b65eb0d20b4ed0609d56105920"
+    },
     {
       "date": "2026-09-21",
       "path": "reports/2026-09-21/",
