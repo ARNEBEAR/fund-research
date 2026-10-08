@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-09",
+  "built_at": "2026-10-08T18:20:52.360878+00:00",
+  "nav_cutoff": "2026-10-08",
+  "weekly_cutoff": "2026-10-02",
+  "latest_qdii_date": "2026-09-30",
+  "positions_date": "2026-09-17",
+  "revision": 2,
+  "html_sha256": "38fb7a462c6d12f5d985efc95d2701727f7d5eafc88b0d672b676434a69acedd",
+  "files": {
+    "sources.json": "a46f2fb744eed7c7dd305eebb06d0eed80d0cf61300461924000d78dbe7318a2",
+    "index.html": "38fb7a462c6d12f5d985efc95d2701727f7d5eafc88b0d672b676434a69acedd",
+    "methodology.json": "3ae5b503c6118c9b9cc17dff00779c873f145af6e4250034c62b7ca1cd5ff545",
+    "report.md": "5f2bfd9ca058270f235d92f3afb00506cb76f47c9c6c271da72d667747ec80d9",
+    "analysis.json": "20e61966faa2b4c7b2d3edf37a332210609590d0c5e511b480737e87e514b686",
+    "dataset.zip": "65edef89dd1def76d5fc116341199d7dd6f4205eafc5adee2d4b7b95795a96b3"
+  },
+  "source_hashes": {
+    "report/portfolio-template.html": "3000cdce84c27c4e73e0fd285e55c6c7eddd469b13c75fb6d5438b9446ac52a7",
+    "report/portfolio.css": "5f645d29c8ec4d2d30937860a828e454b8785ca339fb3fabe240d9235b3c9987",
+    "report/portfolio.js": "cff2628c2293914ad82ab2b7b21864f133b7b02389a78ecfbbdabb582fb1f12a",
+    "report/home-template.html": "16fa26b4b47cb2adcc81cac3ebbda3789f0a1951be20ca8d698dfb68cd460b06",
+    "tools/build_portfolio_site.py": "abae1a6b36b0b8019ce00633fad9b608a19d99070a5ba1c217942e276b138e46",
+    "data/portfolio/2026-10-09/analysis.json": "20e61966faa2b4c7b2d3edf37a332210609590d0c5e511b480737e87e514b686",
+    "research/portfolio_notes_2026-10-09.json": "b370e6c179e16de1cdc49819b9fb3e55ef918bcfdf25d575844bf7eeb9c4eaa2",
+    "data/portfolio/2026-10-09/manager_check.json": "d2437556fb7c33e607997fc86d648cfcf431f602142b57e5809dffc11f108c26",
+    "data/portfolio/2026-10-09/sources/manifest.json": "0e323c54f90c707fa310b8828ecdd56fa28ca18e577ed6a4cacc74365784da50",
+    "research/portfolio_sources_2026-10-09.json": "9c8386f6b2ca886997b28333ae6120dbe99857b4c8a2d8d1a6b614e2bbaa5fa2"
+  },
+  "status": "published_research_not_trades",
+  "data_scope": "11只为已报持有/申购；科益计划纳入为12只，新增诺安方案为13只。金额是用户9月17日约数，报告期已过不会自动把计划变成实际交易。"
+}
