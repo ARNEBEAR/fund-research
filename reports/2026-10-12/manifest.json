@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-12",
+  "built_at": "2026-10-12T07:02:30.207348+00:00",
+  "nav_cutoff": "2026-10-09",
+  "weekly_cutoff": "2026-10-09",
+  "latest_qdii_date": "2026-10-08",
+  "positions_date": "2026-09-17",
+  "revision": 2,
+  "html_sha256": "b5405cb773a49d1b30c25c674ca1cae938b5896b8254c73b7d7b3b2b30266e21",
+  "files": {
+    "sources.json": "8384a165b0c7fe7a8552ab239eafce90f5f7c6d83c3c029e91f9c0133dbb07d9",
+    "defense.json": "359406cb79b0c251a57f12e06cdb38ac63383fde538828f389a30b700d0a4187",
+    "index.html": "b5405cb773a49d1b30c25c674ca1cae938b5896b8254c73b7d7b3b2b30266e21",
+    "methodology.json": "fb40b3c0389cffc909f1fcc720ce6db1fa4c0c8819f85bfc0be141818cd52094",
+    "report.md": "9778b20df09c0742df933cca419ad48785ef145a86fa788a4d74ad12ebe0ab02",
+    "analysis.json": "dfdc9049f2a7eebae9b937abee099fc113a1b7f7119a13a415eec768c389d00f",
+    "dataset.zip": "ff395f67abc4ff24521cfa21d677b146c4830b714ca34fb7b47b76307da511d8",
+    "pair.json": "1552aa82227fb33323bbd497a1b317f766bef2639ec57ab62ee2cb8151875e9e"
+  },
+  "source_hashes": {
+    "report/portfolio-template.html": "ef478ac6f22daa3334cc1bf80d75a1689ffc047a10e05099adc9deeab549d1fd",
+    "report/portfolio.css": "5f645d29c8ec4d2d30937860a828e454b8785ca339fb3fabe240d9235b3c9987",
+    "report/portfolio.js": "c7a0559d1be5f61fadb6d5db7c730f691d514d5a4156ca2439273d9a620b7c69",
+    "report/home-template.html": "6a0295311ac522d2716761b87a3972351b231155207bd4cc2249115293f10b74",
+    "tools/build_portfolio_site.py": "db5b4af780b29ef180045ff78ebc25893af66a0c59dcafcff48da53b011ca5ef",
+    "data/portfolio/2026-10-12/analysis.json": "dfdc9049f2a7eebae9b937abee099fc113a1b7f7119a13a415eec768c389d00f",
+    "research/portfolio_notes_2026-10-12.json": "1f845d3b4446b80d4967c2fe69d2d576a3aebc963f9772d22f2546c1b3a8fe2f",
+    "data/portfolio/2026-10-12/sources/manifest.json": "7d414fc05dfc4cc940a9238c4810bac39bd3b0720a7ac2d33d8ee35891471a7d",
+    "research/portfolio_sources_2026-10-12.json": "3dfac781abb438f47f58682beac86140a1b79d60f3ec446e1ab9bda8f9f7ce7d",
+    "data/portfolio/2026-10-12/defense.json": "359406cb79b0c251a57f12e06cdb38ac63383fde538828f389a30b700d0a4187",
+    "data/portfolio/2026-10-12/pair.json": "1552aa82227fb33323bbd497a1b317f766bef2639ec57ab62ee2cb8151875e9e",
+    "research/defense_policy_2026-10-12.json": "6644d5093c67ce82413061d9f6a42bc923a51b35662d7b3bae6bc5548eaa2847",
+    "tools/analyze_defense.py": "b38a367fee8f2628cb7c569fee8e778339cca29d9d820136dd4f9ad2f60b6e4c",
+    "tools/analyze_pair.py": "65490351d08c4577680cfaec4fbe349895f5e7fb95f501c494d72a65e472f9ac"
+  },
+  "status": "published_research_not_trades",
+  "data_scope": "已报基金229万元/11只；科益原计划纳入为244万元/12只，诺安及更大换仓另列假设。金额是9月17日约数，未知现金不计入。环保/宏观择时仅为外部对照，没有购入记录。"
+}
