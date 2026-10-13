@@ -1,13 +1,13 @@
 {
-  "generated_on": "2026-10-12",
+  "generated_on": "2026-10-13",
   "type": "archive_home",
-  "sha256": "e8482e91aa69de93037e2f7b6e2d86644a6b0dee6e5851ea6679788ea1221bfd",
+  "sha256": "91e35b0ea5ba4b9221d709cbb56cdf0f6dfd6f0382ed8787c8c596fb79aba4aa",
   "latest_report": {
-    "date": "2026-10-12",
-    "path": "reports/2026-10-12/",
+    "date": "2026-10-13",
+    "path": "reports/2026-10-13/",
     "title": "整体持仓 · 动态适配与精简",
-    "nav_cutoff": "2026-10-09",
-    "revision": 2,
-    "html_sha256": "b5405cb773a49d1b30c25c674ca1cae938b5896b8254c73b7d7b3b2b30266e21"
+    "nav_cutoff": "2026-10-12",
+    "revision": 1,
+    "html_sha256": "519b1ceed1a9c034977c7939c853eca942a11a7a8277803a4ca9d02e6e3d4edd"
   }
 }

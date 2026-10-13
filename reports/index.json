@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-10-13",
+    "path": "reports/2026-10-13/",
+    "title": "整体持仓 · 动态适配与精简",
+    "nav_cutoff": "2026-10-12",
+    "revision": 1,
+    "html_sha256": "519b1ceed1a9c034977c7939c853eca942a11a7a8277803a4ca9d02e6e3d4edd"
+  },
+  {
     "date": "2026-10-12",
     "path": "reports/2026-10-12/",
     "title": "整体持仓 · 动态适配与精简",
