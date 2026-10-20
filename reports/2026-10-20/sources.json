@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bocom_advantage_h1",
+    "title": "交银优势行业2026年中期报告",
+    "url": "https://pdf.dfcfw.com/pdf/H2_AN202608311828778690_1.pdf",
+    "date": "2026-08-31",
+    "publisher": "交银施罗德基金",
+    "kind": "法定披露原文，6月底仓位不是实时仓位"
+  },
+  {
+    "id": "bocom_advantage_product",
+    "title": "交银优势行业官方产品与净值",
+    "url": "https://www.fund001.com/fund/519697/",
+    "date": "2026-10-20",
+    "publisher": "交银施罗德基金",
+    "kind": "官方动态页面；回到中报核对各栏目日期"
+  },
+  {
+    "id": "sp500_availability",
+    "title": "博时标普500ETF联接C申购状态",
+    "url": "https://fundf10.eastmoney.com/jjfl_006075.html",
+    "date": "2026-10-20",
+    "publisher": "天天基金",
+    "kind": "代销动态信息，不代表蚂蚁额度"
+  },
+  {
+    "id": "gold_product",
+    "title": "博时黄金ETF联接C产品与跟踪标的",
+    "url": "https://fundf10.eastmoney.com/jbgk_002611.html",
+    "date": "2026-10-20",
+    "publisher": "天天基金",
+    "kind": "截图未指定黄金产品，本品仅作价格敞口代理"
+  },
+  {
+    "id": "oct19_close",
+    "title": "10月19日A股收盘分化",
+    "url": "https://english.news.cn/20261019/24bc622feefc4e50be0b1cbb608fc8db/c.html",
+    "date": "2026-10-19",
+    "publisher": "新华社",
+    "kind": "收盘数据；沪指上涨不等于科技全面修复"
+  },
+  {
+    "id": "fed_calendar",
+    "title": "FOMC会议日历",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "date": "2026-10-20",
+    "publisher": "Federal Reserve",
+    "kind": "官方事件日期；会议结果尚未知"
+  }
+]

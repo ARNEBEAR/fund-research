@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-20",
+    "path": "reports/2026-10-20/",
+    "title": "目标组合 · 最新判断与条件赔率",
+    "type": "target_portfolio_review",
+    "nav_cutoff": "2026-10-19",
+    "revision": 2,
+    "html_sha256": "d655c5833fd6f9e0b0d42b6b852317c70916951db12a6ca4330b5314ffe20c69"
+  },
+  {
     "date": "2026-10-13",
     "path": "reports/2026-10-13/",
     "title": "整体持仓 · 动态适配与精简",
