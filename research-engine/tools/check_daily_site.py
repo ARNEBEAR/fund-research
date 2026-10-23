@@ -22,7 +22,9 @@ if not args.url:
 else:url=args.url.rstrip("/")+"/"
 errors=[];screens=ROOT/"report/daily-check";screens.mkdir(parents=True,exist_ok=True)
 with sync_playwright() as pw:
-    browser=pw.chromium.launch(headless=True)
+    launch={"headless":True}
+    if os.environ.get("CHROMIUM_EXECUTABLE"):launch["executable_path"]=os.environ["CHROMIUM_EXECUTABLE"]
+    browser=pw.chromium.launch(**launch)
     for width in [1440,390]:
         page=browser.new_page(viewport={"width":width,"height":950 if width==1440 else 844})
         page.on("pageerror",lambda e:errors.append(str(e)))

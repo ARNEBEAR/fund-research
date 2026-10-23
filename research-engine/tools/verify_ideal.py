@@ -16,6 +16,7 @@ for pos in x["policy"]["positions"]+[{"code":"000217","name":"华安黄金ETF联
     c=pos["code"]
     item={"id":"sina_"+c,"code":c,"title":pos["name"]+" 新浪净值核验","publisher":"新浪财经",
           "url":"https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_JJGK.php?symbol="+c,"date":date}
+    contradiction=False
     try:
         result=archive(item,folder)
         text=(folder/(item["id"]+".txt")).read_text()
@@ -26,14 +27,16 @@ for pos in x["policy"]["positions"]+[{"code":"000217","name":"华安黄金ETF联
         nav=float(m.group(1))
         s=pd.read_csv(base/"nav"/f"{c}.csv",parse_dates=["date"]).set_index("date")
         result.update(date_observed=str(when.date()),nav=nav,passed=bool(abs(s.loc[when,"unit_nav"]-nav)<.00011))
-        assert result["passed"]
-    except Exception as exc:result={**item,"passed":False,"error":str(exc)}
+        contradiction=not result["passed"]
+        if contradiction:result.update(contradiction=True,error="Same-date NAV contradicts secondary publication")
+    except Exception as exc:result={**item,"passed":False,"error":str(exc),"contradiction":contradiction}
     rows.append(result)
     (folder/"manifest.json").write_text(json.dumps(rows,ensure_ascii=False,indent=2))
     print(c,result["passed"],result.get("date_observed"),flush=True)
 minimum=11
 config_path=ROOT/"research/daily_config.json"
 if config_path.exists():minimum=json.loads(config_path.read_text()).get("minimum_independent_nav_points",11)
+assert not any(r.get("contradiction") for r in rows),"Conflicting same-date NAV; publication blocked."
 assert sum(r["passed"] for r in rows)>=minimum
 for filename,h in x["inputs"].items():assert hashlib.sha256((ROOT/filename).read_bytes()).hexdigest()==h
 for filename,h in x.get("nav_hashes",{}).items():assert hashlib.sha256((ROOT/filename).read_bytes()).hexdigest()==h
