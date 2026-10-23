@@ -1,0 +1,132 @@
+name: Daily fund research
+on:
+  schedule:
+    - cron: '20 0 * * *'
+    - cron: '20 1 * * *'
+  workflow_dispatch:
+    inputs:
+      full_recheck:
+        description: Run a fresh isolated collection before checking the frozen publication
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-research.yml'
+      - 'research-engine/**'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: daily-research-publish
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      TZ: Asia/Shanghai
+      RESEARCH_PUBLIC_ROOT: ${{ github.workspace }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: research-engine/requirements.txt
+      - name: Install research tools
+        run: |
+          python -m pip install -r research-engine/requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Snapshot previous publication
+        run: |
+          mkdir -p /tmp/research-before
+          for f in index.html archive.html build.json site-manifest.json reports/index.json README.md; do
+            cp --parents "$f" /tmp/research-before/
+          done
+      - name: Fresh cloud pipeline check
+        if: github.event_name == 'workflow_dispatch' && inputs.full_recheck
+        run: |
+          mkdir -p /tmp/research-smoke
+          rsync -a --exclude='.git' --exclude='.github' --exclude='research-engine' ./ /tmp/research-smoke/
+          python - <<'PY'
+          import datetime,json,pathlib,shutil
+          from zoneinfo import ZoneInfo
+          root=pathlib.Path('/tmp/research-smoke')
+          today=datetime.datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat()
+          p=root/'reports/index.json'
+          rows=json.loads(p.read_text())
+          p.write_text(json.dumps([r for r in rows if r['date']!=today],ensure_ascii=False))
+          report=root/'reports'/today
+          if report.exists():shutil.rmtree(report)
+          PY
+          RESEARCH_PUBLIC_ROOT=/tmp/research-smoke python research-engine/tools/daily_research.py
+          RESEARCH_PUBLIC_ROOT=/tmp/research-smoke python research-engine/tools/check_daily_site.py
+          rm -rf research-engine/data/ideal_review
+          rm -f research-engine/research/ideal_policy_$(date +%F).json research-engine/research/ideal_notes_$(date +%F).json research-engine/research/ideal_sources_$(date +%F).json
+      - name: Daily evidence and analysis
+        id: analysis
+        continue-on-error: true
+        run: python research-engine/tools/daily_research.py
+      - name: Verify latest in clean environment
+        id: verification
+        if: steps.analysis.outcome == 'success'
+        continue-on-error: true
+        run: |
+          python research-engine/tools/cold_check_daily.py
+          python research-engine/tools/verify_ideal.py
+          python research-engine/tools/verify_forward.py
+          python research-engine/tools/check_daily_site.py
+      - name: Restore last report if checks failed
+        if: steps.analysis.outcome == 'failure' || steps.verification.outcome == 'failure'
+        run: |
+          cp -a /tmp/research-before/. .
+          python - <<'PY'
+          import json,datetime,pathlib,shutil
+          from zoneinfo import ZoneInfo
+          p=pathlib.Path('automation-status.json')
+          state=json.loads(p.read_text()) if p.exists() else {}
+          index=json.loads(pathlib.Path('reports/index.json').read_text())
+          today=datetime.datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat()
+          if today not in {r['date'] for r in index}:
+            unpublished=pathlib.Path('reports')/today
+            if unpublished.exists():shutil.rmtree(unpublished)
+          state.update(state='failed_keep_previous',last_success=index[0]['date'],
+                       attempted_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                       detail='Collection or verification failed; last successful publication retained.')
+          p.write_text(json.dumps(state,ensure_ascii=False,indent=2))
+          PY
+      - name: Commit generated publication
+        run: |
+          git add index.html archive.html build.json site-manifest.json README.md reports automation-status.json
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: refresh daily fund research'
+            git push origin main
+          fi
+      - name: Assemble public site
+        run: |
+          mkdir -p /tmp/fund-site
+          rsync -a --exclude='.git' --exclude='.github' --exclude='research-engine' ./ /tmp/fund-site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/fund-site
+      - uses: actions/deploy-pages@v4
+        id: deployment
+      - name: Keep run diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-research-diagnostics
+          path: |
+            research-engine/report/daily-check/
+            automation-status.json
+          retention-days: 14
+      - name: Report failed research
+        if: steps.analysis.outcome == 'failure' || steps.verification.outcome == 'failure'
+        run: exit 1

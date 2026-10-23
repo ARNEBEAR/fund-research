@@ -1,0 +1,8 @@
+{
+  "state":"generated_and_verified",
+  "last_success":"2026-10-23",
+  "attempted_at":"2026-10-23",
+  "schedule":"每日08:20北京时间；09:20同日失败补偿。GitHub调度可能延迟。",
+  "timezone":"Asia/Shanghai",
+  "workflow":"https://github.com/ARNEBEAR/fund-research/actions/workflows/daily-research.yml"
+}

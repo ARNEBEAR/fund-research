@@ -1,0 +1,29 @@
+{
+  "schema_version":2,
+  "reported_on":"2026-09-17",
+  "source":"用户明确逐项提供；替代此前粗略比例用于当前配置研究。",
+  "amount_unit":"CNY",
+  "amount_basis":"用户报告的约数，非账户连接读取的同一估值时点；华商为买入金额，科益为待执行金额。",
+  "share_class_policy":"按用户要求统一以C类研究；无真实C类的同名产品保留实有码，不制造C份额。",
+  "cash_cny":null,
+  "account_total_cny":null,
+  "reported_fund_amount_excluding_pending_cny":2290000,
+  "reported_fund_amount_including_pending_cny":2440000,
+  "pending_amount_cny":150000,
+  "unlisted_previous_holdings":[{"id":"bocom","name":"交银优势行业","status":"本次清单未列，不纳入当前组合；未据此断言已赎回。"}],
+  "positions":[
+    {"id":"wanjia","name":"万家新兴蓝筹C","reported_name":"万家新兴蓝筹","code":"022714","amount_cny":520000,"status":"reported_held","group":"core","role":"产业机会型长期基座","manager":"莫海波","manager_since":"2016-01-26","qdii":false},
+    {"id":"qianhai","name":"前海开源国企精选C","reported_name":"前海开源国企精选","code":"022415","amount_cny":410000,"status":"reported_held","group":"core","role":"国企价值型长期基座","manager":"田维","manager_since":"2024-12-06","qdii":false},
+    {"id":"efunds","name":"易方达产业机遇C","reported_name":"易方达产业机遇混合","code":"021180","amount_cny":420000,"status":"reported_held","group":"technology","role":"产业格局与泛科技加权","manager":"杨宗昌","manager_since":"2024-08-28","qdii":false},
+    {"id":"invesco","name":"景顺长城低碳科技主题","reported_name":"景顺长城低碳科技","code":"002244","amount_cny":310000,"status":"reported_held","group":"technology","role":"先进制造与泛科技加权","manager":"孟棋","manager_since":"2023-11-07","qdii":false,"identity_note":"该同名产品在名录/披露中无C后缀，用002244作实有码研究，不改成另只基金。"},
+    {"id":"huashang","name":"华商均衡成长C","reported_name":"华商均衡成长","code":"011370","amount_cny":150000,"status":"subscription_reported","group":"technology","role":"CPO相关的光通信与AI基建加权","manager":"张明昕","manager_since":"2025-03-04","qdii":false,"order_date":"2026-09-14","before_cutoff_1500":true,"allotment_verified":false,"amount_basis":"用户报告申购额，不等于9月17日市值"},
+    {"id":"keyi","name":"易方达科益C","reported_name":"易方达科益","code":"010390","amount_cny":150000,"status":"pending_cancellable","group":"technology","role":"待评：网络设备、服务器与数据中心AI配套","manager":"黄蕴藉","manager_since":"2025-09-17","solo_manager_since":"2026-05-29","qdii":false,"planned_order_date":"2026-09-18","user_reported_cancel_deadline":"2026-09-18T15:00:00+08:00","platform_deadline_verified":false,"preference":"用户暂不计划撤销，除非有充分理由；不得自动交易。"},
+    {"id":"fuguo","name":"富国全球科技互联网C","reported_name":"富国全球科技互联","code":"022184","amount_cny":150000,"status":"reported_held","group":"overseas","role":"海外硬科技加权","manager":"赵年珅","manager_since":"2025-03-07","qdii":true,"identity_note":"按用户写的富国匹配022184；不是国富全球科技互联021842。若账户实为国富则须更换研究结论。"},
+    {"id":"franklin","name":"国富亚洲机会C","reported_name":"国富亚洲机会","code":"021662","amount_cny":80000,"status":"reported_held","group":"overseas","role":"亚太制造与半导体","manager":"徐成","manager_since":"2015-12-24","qdii":true},
+    {"id":"bocom_global","name":"交银环球精选C","reported_name":"交银环球精选","code":"027170","amount_cny":80000,"status":"reported_held","group":"overseas","role":"全球权益，是否适配硬科技任务待评","manager":"陈舒薇、蔡铮","manager_since":"2026-01-22","c_inception":"2026-04-15","qdii":true,"identity_note":"C份额仅自2026-04-15有净值；519696只作A类历史敏感性，不拼接虚构C历史。"},
+    {"id":"guangfa_global","name":"广发全球精选人民币C","reported_name":"广发全球精选","code":"021277","amount_cny":80000,"status":"reported_held","group":"overseas","role":"全球科技产业链","manager":"李耀柱","manager_since":"2021-04-07","qdii":true},
+    {"id":"guangfa_theme","name":"广发主题领先C","reported_name":"广发主题领先","code":"021902","amount_cny":50000,"status":"reported_held","group":"other","role":"职责待明确","manager":"冯汉杰","manager_since":"2023-11-01","qdii":false},
+    {"id":"bosera","name":"博时标普500ETF联接人民币C","reported_name":"博时标普500ETF联接","code":"006075","amount_cny":40000,"status":"reported_held","group":"other","role":"美股宽基","manager":"万琼","manager_since":"2015-10-08","qdii":true}
+  ],
+  "interpretation":["只在所列基金内部展示229万/244万两种归一比例，不称账户仓位。","旧15%现金、8.4%未知与45万元全球金额不延用或重复计入。","申购已报不等于基金公司已确认份额；撤销截止采用用户提供状态，仍以平台订单为准。","当前分析不对未列交银优势作卖出指令。"]
+}
