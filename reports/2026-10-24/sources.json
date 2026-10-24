@@ -1,0 +1,146 @@
+[
+  {
+    "id": "fed_press",
+    "title": "美联储公告",
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "date": "2026-10-24",
+    "publisher": "official",
+    "kind": "rss"
+  },
+  {
+    "id": "msft_ir",
+    "title": "微软投资者关系",
+    "url": "https://www.microsoft.com/en-us/investor/default",
+    "date": "2026-10-24",
+    "publisher": "issuer",
+    "kind": "html"
+  },
+  {
+    "id": "fed_calendar",
+    "title": "FOMC日历",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "date": "2026-10-24",
+    "publisher": "official",
+    "kind": "html"
+  },
+  {
+    "id": "sp500_availability",
+    "title": "标普代理申购状态",
+    "url": "https://fundf10.eastmoney.com/jjfl_006075.html",
+    "date": "2026-10-24",
+    "publisher": "distributor",
+    "kind": "html"
+  },
+  {
+    "id": "announcement_022714",
+    "title": "万家新兴蓝筹C公告目录",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=022714&pageIndex=1&pageSize=20&type=0",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_021180",
+    "title": "易方达产业机遇C公告目录",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=021180&pageIndex=1&pageSize=20&type=0",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_010390",
+    "title": "易方达科益C公告目录",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=010390&pageIndex=1&pageSize=20&type=0",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_011370",
+    "title": "华商均衡成长C公告目录",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=011370&pageIndex=1&pageSize=20&type=0",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_519697",
+    "title": "交银优势行业公告目录",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=519697&pageIndex=1&pageSize=20&type=0",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_022415",
+    "title": "前海开源国企精选C公告目录",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=022415&pageIndex=1&pageSize=20&type=0",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_021902",
+    "title": "广发主题领先C公告目录",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=021902&pageIndex=1&pageSize=20&type=0",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_006075",
+    "title": "标普500宽基资产公告目录",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=006075&pageIndex=1&pageSize=20&type=0",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_027170",
+    "title": "交银环球精选C公告目录",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=027170&pageIndex=1&pageSize=20&type=0",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_002611",
+    "title": "黄金ETF联接C公告目录",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=002611&pageIndex=1&pageSize=20&type=0",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_300308",
+    "title": "300308公告目录",
+    "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=8&page_index=1&ann_type=A&client_source=web&stock_list=300308",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_300502",
+    "title": "300502公告目录",
+    "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=8&page_index=1&ann_type=A&client_source=web&stock_list=300502",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_300394",
+    "title": "300394公告目录",
+    "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=8&page_index=1&ann_type=A&client_source=web&stock_list=300394",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  },
+  {
+    "id": "announcement_300620",
+    "title": "300620公告目录",
+    "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=8&page_index=1&ann_type=A&client_source=web&stock_list=300620",
+    "date": "2026-10-24",
+    "publisher": "disclosure_index",
+    "kind": "公告与情报原文"
+  }
+]
