@@ -1,8 +1,8 @@
 {
   "schedule": "每日08:20；09:20补偿重试，同日首次成功后冻结",
   "timezone": "Asia/Shanghai",
-  "attempted_at": "2026-10-24T13:55:53.596579+08:00",
-  "last_success": "2026-10-24",
+  "attempted_at": "2026-10-25T12:56:06.685996+08:00",
+  "last_success": "2026-10-25",
   "workflow": "https://github.com/ARNEBEAR/fund-research/actions/workflows/daily-research.yml",
-  "state": "current_date_frozen"
+  "state": "generated_and_verified"
 }
