@@ -2,7 +2,7 @@
 
 入口：https://arnebear.github.io/fund-research/
 
-最新报告：https://arnebear.github.io/fund-research/reports/2026-10-25/
+最新报告：https://arnebear.github.io/fund-research/reports/2026-10-26/
 
 本期按用户截图中的246.80万元/10项目标配置研究，不当作已成交或当前市值。境内与黄金正式净值至2026-10-23，QDII至2026-10-22，完整周截止2026-10-23。
 
