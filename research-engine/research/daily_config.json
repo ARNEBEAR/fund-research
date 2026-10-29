@@ -1,9 +1,19 @@
 {
-  "version":"2026-10-23.1",
+  "version":"2026-10-29.1",
   "timezone":"Asia/Shanghai",
   "schedule_local":"每日08:20；09:20补偿重试，同日首次成功后冻结",
   "target_template":"research/ideal_policy_2026-10-20.json",
-  "notes_template":"research/ideal_notes_2026-10-20.json",
+  "notes_template":"research/ideal_notes_2026-10-29.json",
+  "quarter_review_date":"2026-10-29",
+  "forward_factor_model":{
+    "version":"Q3-disclosure-2026-10-29",
+    "factor_codes":["510300","515880","510880","006075","002611","512480","512400","515220","159992","512010"],
+    "factor_names":["沪深300","通信","红利","人民币标普","黄金","半导体","有色金属","煤炭","创新药","医药"],
+    "maximum_observations":60,
+    "selectors":{"022714":[0,1,5,8],"021180":[0,6,7,9],"010390":[0,1,5],"011370":[0,1,5],"519697":[0,2,9],"022415":[0,2,6],"021902":[0,2,7],"027170":[3,0]},
+    "extra_shocks":{"base":[-0.03,0.03,0.03,0.03,0.03],"bull":[0.10,0.01,0.00,0.04,0.04],"bear":[-0.18,-0.10,-0.06,-0.06,-0.08],"rates":[-0.20,-0.08,-0.05,-0.12,-0.10]},
+    "reason":"三季报显示产业转资源/CXO、万家增加创新药，新增行业参照并采用最近60个共同日收益；不将旧科技标签当当前持仓。模型与前版不直接可比，因子选择和新增冲击为人工研究设定，尚未样本外校准。"
+  },
   "minimum_independent_nav_points":8,
   "max_nav_age_days":12,
   "horizon_days":20,

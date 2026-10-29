@@ -37,6 +37,12 @@ def main():
     if "forward" in extra:assert extra["forward_verification"]["passed"]
     payload={"analysis":analysis,"notes":notes,"sources":sources,**extra}
     html=(ROOT/"report/ideal-template.html").read_text()
+    quarter_date=notes.get("quarter_review_date")
+    quarter_html=""
+    if quarter_date:
+        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}",quarter_date) and quarter_date<=date
+        quarter_html=f'<section id="quarter-review"><span class="label">三季报深度复核 · {quarter_date}</span><h2>持仓变了，经理评价也要更新</h2><p class="intro">{escape(notes["quarter_review_summary"])}</p><a class="text-link" href="../{quarter_date}/quarterly.html">查看逐只经理、三期持仓变化与情景关系 ↗</a></section>'
+    html=html.replace("<!-- QUARTER_REVIEW -->",quarter_html)
     for key,value in {"DATE":date,"HEADLINE":notes["headline"],"VERDICT":notes["verdict"],"SCOPE":notes["scope"],
                       "GOLD_JUDGMENT":notes["gold_judgment"],"SIMPLIFICATION_JUDGMENT":notes["simplification_judgment"],
                       "METHOD_LIMIT":notes["method_limit"],"DATA_QUALITY":notes["data_quality"]}.items():
@@ -52,6 +58,11 @@ def main():
     for name,value in [("analysis.json",analysis),("notes.json",notes),("methodology.json",analysis["policy"]),("sources.json",sources),("verification.json",check)]:
         (target/name).write_text(json.dumps(value,ensure_ascii=False,indent=2))
     for name,value in extra.items():(target/f"{name}.json").write_text(json.dumps(value,ensure_ascii=False,indent=2))
+    quarter_base=ROOT/f"data/quarter_review/{date}"
+    if (quarter_base/"review.html").exists():
+        for src,dst in [("review.html","quarterly.html"),("review.md","quarterly.md"),
+                        ("review.json","quarterly.json"),("review-data.zip","quarterly-data.zip")]:
+            shutil.copyfile(quarter_base/src,target/dst)
     labels={"target":"截图目标","no_gold":"无黄金，其余按比例分配","gold_6%":"黄金6%","gold_20%":"黄金20%","eight_role_merge":"8项敏感性变体","old_reported_scaled":"9月17日旧口径，同额比例放大"}
     positions=analysis["policy"]["positions"];latest={r["code"]:r for r in analysis["latest"]}
     event=analysis["latest_event"];prev=analysis["previous_review"]
@@ -78,6 +89,9 @@ def main():
         for i in intel["items"][:12]:lines += [f'- {i["published_on"]} [{i["title"]}]({i["url"]})：{i["status"]}。']
         lines += ["",f'情报覆盖{intel["coverage"]["ok"]}/{intel["coverage"]["total"]}路；不可用源不补造。',""]
     for row in notes["changes"]:lines += [f'**{row["title"]}**：{row["text"]}',""]
+    if quarter_date:
+        lines += [f'## 三季报深度复核 · {quarter_date}',"",notes["quarter_review_summary"],"",
+                  f'[逐只经理、三期持仓与情境推演](../{quarter_date}/quarterly.html)',""]
     if prev and not prev["followup"]:
         lines += [f'{prev["date"]}冻结目标之后尚无足够共同净值形成前瞻成绩。逐只新增净值与建议发布后的实际跟踪分开。',""]
     lines += ["## 目标持仓与处理倾向","","| 名称 / 代码 | 目标金额 | 比例 | 最新净值日 | 当前判断 |","|---|---:|---:|---|---|"]
@@ -92,7 +106,7 @@ def main():
               f'共同日频每日恢复权重：年化波动{analysis["daily"]["vol"]*100:.2f}%、回撤{pct(analysis["daily"]["mdd"])}；周频不再平衡敏感性：波动{analysis["buyhold"]["vol"]*100:.2f}%、回撤{pct(analysis["buyhold"]["mdd"])}。',
               f'交银环球独立A类敏感性限制新团队后{analysis["a_sensitivity"]["n"]}周，不拼接C类：波动{analysis["a_sensitivity"]["vol"]*100:.2f}%、回撤{pct(analysis["a_sensitivity"]["mdd"])}。',""]
     risk=analysis["weekly"]["risk_contributions"]
-    lines += [f'国内科技/成长占资金{analysis["groups"]["domestic_technology"]*100:.2f}%，共同样本方差贡献{sum(risk[c] for c in ["022714","021180","010390","011370"])*100:.1f}%；科益＋华商贡献{(risk["010390"]+risk["011370"])*100:.1f}%。这是历史方差分解，不是未来损失比例。',"",
+    lines += [f'万家、产业、科益、华商原分组占资金{analysis["groups"]["domestic_technology"]*100:.2f}%，共同样本方差贡献{sum(risk[c] for c in ["022714","021180","010390","011370"])*100:.1f}%；科益＋华商贡献{(risk["010390"]+risk["011370"])*100:.1f}%。分组不等于穿透科技占比；这是历史方差分解，不是未来损失比例。',"",
               "## 黄金与精简的取舍","",notes["gold_judgment"],"","| 窗口 | 黄金/科技相关 | 科技下跌周 | 黄金同跌周 | 这些周黄金平均收益 |","|---|---:|---:|---:|---:|"]
     for r in analysis["gold_evidence"]:
         lines += [f'| {r["window"]}周 | {r["correlation_tech"]:.3f} | {r["technology_down_weeks"]} | {r["both_down_weeks"]} | {pct(r["gold_mean_when_tech_down"])} |']

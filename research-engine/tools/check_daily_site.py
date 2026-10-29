@@ -54,6 +54,20 @@ with sync_playwright() as pw:
             page.wait_for_url("**/reports/"+previous+"/")
             page.goto(url,wait_until="networkidle")
             page.wait_for_function("window.DATE_PICKER_READY")
+        quarterly=page.locator("#quarter-review a")
+        if quarterly.count():
+            quarterly.click()
+            page.wait_for_function("window.QUARTER_REVIEW_READY")
+            assert page.locator(".fund-review").count()==10
+            for code in ["021180","010390","011370","519697","021902"]:
+                page.select_option("#behavior-fund",code)
+                assert page.locator("#behavior-fund").input_value()==code
+            page.locator("#fund-011370 summary").click()
+            assert "张明昕" in page.locator("#fund-011370").inner_text()
+            assert not page.locator("#fund-011370").evaluate("(e)=>e.innerText.includes('周海栋')")
+            assert page.locator("canvas").count()==2
+            assert page.evaluate("document.documentElement.scrollWidth<=innerWidth+1")
+            page.screenshot(path=str(screens/f"quarterly-{width}.png"))
         page.goto(url+"?date=2026-10-20",wait_until="networkidle")
         assert "/reports/2026-10-20/" in page.url
         page.goto(url+"#fund-explorer",wait_until="domcontentloaded")

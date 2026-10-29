@@ -96,14 +96,14 @@ for source in config["source_feeds"]:
                         try:
                             day=pd.Timestamp(int(match.group(1)),list(calendar.month_name).index(mon),int(day_nums[-1]))+pd.Timedelta(days=1)
                         except Exception:continue
-                        if now<=day<=now+pd.Timedelta(days=35):
+                        if now<day<=now+pd.Timedelta(days=35):
                             events.append({"id":"fomc_"+str(day.date()),"date":str(day.date()),"name":"FOMC决议（北京时间）","topic":"rates","source":source["url"],"verified":True,
                                            "positive":"实际利率预期回落，成长与黄金压力缓解","negative":"利率预期再上行，股金可能同跌"})
             if source["id"]=="msft_ir":
                 found=re.search(r"next earnings release will be on ([A-Za-z]+ \d{1,2}, \d{4})",text,re.I)
                 if found:
                     day=pd.Timestamp(found.group(1))+pd.Timedelta(days=1)
-                    if now<=day<=now+pd.Timedelta(days=35):
+                    if now<day<=now+pd.Timedelta(days=35):
                         events.append({"id":"msft_"+str(day.date()),"date":str(day.date()),"name":"微软财报（北京时间）","topic":"earnings","source":source["url"],"verified":True,
                                        "positive":"云收入、AI投入及订单兑现相互支持","negative":"投入、利润回报或指引弱于预期"})
                 for a in soup.find_all("a",href=True):
@@ -133,6 +133,7 @@ for code,name,kind in watch:
             if kind=="fund" and rec.get("FUNDCODE")!=code:continue
             title=rec.get("TITLE" if kind=="fund" else "title","")
             published=str(rec.get("PUBLISHDATE" if kind=="fund" else "notice_date",""))[:10]
+            if kind=="fund" and ("提示性公告" in title or "报告提示" in title):continue
             if not re.search(r"季.*报告|中期报告|年度报告|基金经理|限.*申购|暂停.*申购|生产经营|业绩|回购|调研",title):continue
             if not published or published>date or (now-pd.Timestamp(published)).days>21:continue
             article=rec.get("ID" if kind=="fund" else "art_code","")
@@ -175,7 +176,7 @@ for cur in config["curated_evidence"]:
             sources.append({**cur,"status":"unavailable","error":type(exc).__name__})
 # Known dates are valid only when the live official page still confirms the marker.
 for event in config["events"]:
-    if now<=pd.Timestamp(event["date"])<=now+pd.Timedelta(days=35) and event["verify_text"] in texts.get(event["source_id"],""):
+    if now<pd.Timestamp(event["date"])<=now+pd.Timedelta(days=35) and event["verify_text"] in texts.get(event["source_id"],""):
         if not any(e["topic"]==event["topic"] and e["date"]==event["date"] for e in events):
             events.append({**event,"verified":True})
 unique={}

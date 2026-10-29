@@ -12,11 +12,13 @@ if (Path(os.environ.get("RESEARCH_PUBLIC_ROOT",ROOT/"publish/github-pages"))/f"r
     raise SystemExit("Published date: do not overwrite its data.")
 raw=base/"nav/raw";raw.mkdir(parents=True,exist_ok=True)
 rows=[]
-codes=list(dict.fromkeys([p["code"] for p in policy["positions"]]+policy["extra_codes"]))
+config=json.loads((ROOT/"research/daily_config.json").read_text())
+factor_codes=config.get("forward_factor_model",{}).get("factor_codes",[])
+codes=list(dict.fromkeys([p["code"] for p in policy["positions"]]+policy["extra_codes"]+factor_codes))
 assert sum(p["amount_cny"] for p in policy["positions"])==policy["total_cny"]
 for c in codes:
     try:
-        frame,row=collect_nav(c,"2021-01-01",date,raw,c in ["510300","515880","512480","512720","510880"])
+        frame,row=collect_nav(c,"2021-01-01",date,raw,c in set(["510300","515880","512480","512720","510880"]+factor_codes)-{"006075","002611"})
         product=collect_product(c,raw,frame)
         assert not product["same_vendor_mismatches"],c
         assert product["history_row_count_matches_api"],c

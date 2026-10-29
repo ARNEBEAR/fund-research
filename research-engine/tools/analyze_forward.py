@@ -13,21 +13,23 @@ a=json.loads((base/"analysis.json").read_text())
 intel=json.loads((base/"intelligence.json").read_text())
 cfg=json.loads((ROOT/"research/daily_config.json").read_text())
 codes=[p["code"] for p in a["policy"]["positions"]]
-factors=["510300","515880","510880","006075","002611"]
+model=cfg.get("forward_factor_model",{})
+factors=model.get("factor_codes",["510300","515880","510880","006075","002611"])
+nf=len(factors)
 levels={c:pd.read_csv(base/"nav"/f"{c}.csv",parse_dates=["date"]).set_index("date").wealth for c in set(codes+factors)}
 joined=pd.DataFrame(levels).dropna()
 # Restrict the common MC estimation sample to the youngest independently managed strategy.
-logret=np.log(joined/joined.shift(1)).dropna().loc["2026-05-30":].tail(120)
+logret=pd.DataFrame({c:np.log(s/s.shift(1)) for c,s in levels.items()}).dropna().loc["2026-05-30":].tail(model.get("maximum_observations",120))
 assert len(logret)>=50
 X=logret[factors].to_numpy();Y=logret[codes].to_numpy()
 n=len(X);horizon=cfg["horizon_days"];nsim=cfg["simulations_per_branch"]
 rng=np.random.default_rng(cfg["seed"])
 selectors={}
 for c in codes:
-    selectors[c]=[3,0] if c=="027170" else ([3] if c=="006075" else ([4] if c=="002611" else [0,1,2]))
+    selectors[c]=model.get("selectors",{}).get(c,[3,0] if c=="027170" else ([3] if c=="006075" else ([4] if c=="002611" else [0,1,2])))
 
 def fit(index):
-    B=np.zeros((len(codes),5));intercept=np.zeros(len(codes))
+    B=np.zeros((len(codes),nf));intercept=np.zeros(len(codes))
     for i,c in enumerate(codes):
         if c in ["006075","002611"]:
             B[i,3 if c=="006075" else 4]=1;continue
@@ -86,13 +88,15 @@ v=vertices();assert len(v) and np.allclose(v.sum(axis=1),1)
 branches=[];terminal_by_plan={k:[] for k in plans}
 path_fans={}
 for s in a["policy"]["scenarios"]:
-    scenario_shock=np.log1p([s[k] for k in ["market","communication","dividend","sp500","gold"]])
+    shock_values=[s[k] for k in ["market","communication","dividend","sp500","gold"]]+model.get("extra_shocks",{}).get(s["id"],[])
+    assert len(shock_values)==nf
+    scenario_shock=np.log1p(shock_values)
     # 50% innovation scale around expert shock; full residual scale, both broadened in pressure branch.
     multiplier=cfg["tail_noise_multiplier"] if s["id"] in ["bear","rates"] else 1.
-    factor_noise=innovations[:,:,:5].copy()
+    factor_noise=innovations[:,:,:nf].copy()
     if s["id"] in ["bull","bear"]:factor_noise[:,:,1]*=uncertainty_multiplier
     factor_paths=timing[None,:,None]*scenario_shock[None,None,:]+factor_noise*.5*multiplier
-    log_fund=np.einsum("sdf,skf->sdk",factor_paths,draws)+innovations[:,:,5:]*multiplier
+    log_fund=np.einsum("sdf,skf->sdk",factor_paths,draws)+innovations[:,:,nf:]*multiplier
     assert np.isfinite(log_fund).all()
     fund_returns=np.expm1(log_fund)
     responses={}
@@ -114,7 +118,7 @@ for s in a["policy"]["scenarios"]:
     fund_terminal=np.prod(1+fund_returns,axis=1)-1
     branches.append({"id":s["id"],"name":s["name"],"weight_bounds":bounds[s["id"]],"responses":responses,
                      "fund_responses":{c:{"mean":fund_terminal[:,i].mean(),"q10":np.quantile(fund_terminal[:,i],.1),"q90":np.quantile(fund_terminal[:,i],.9)} for i,c in enumerate(codes)},
-                     "shock":{k:s[k] for k in ["market","communication","dividend","sp500","gold"]}})
+                     "shock":dict(zip(model.get("factor_names",["market","communication","dividend","sp500","gold"]),shock_values))})
 robust=[]
 for name in plans:
     bybranch=np.array(terminal_by_plan[name])
@@ -164,7 +168,7 @@ for old_file in sorted((public/"reports").glob("*/forward.json")):
 result={"date":date,"horizon_sessions":horizon,"approximate_end":str(future_days[-1].date()),
         "calendar_note":"路径用20个工作日近似；节假日和场外成交时差另有误差。",
         "estimation":{"start":str(logret.index[0].date()),"end":str(logret.index[-1].date()),"n":n,
-                      "coefficients":dict(zip(codes,B.tolist())),"factor_codes":factors},
+                      "coefficients":dict(zip(codes,B.tolist())),"factor_codes":factors,"factor_model":model},
         "simulations_per_branch":nsim,"branches":branches,"robust":robust,"weight_rule":weight_rule,
         "vertices":v,"breakeven_bull_vs_bear":breakeven,
         "breakeven_note":"只在修复/增长担忧两情景且忽略其他分支时，盈亏平衡所需修复权重；不是估计出的实际上涨概率。",
@@ -175,13 +179,14 @@ result={"date":date,"horizon_sessions":horizon,"approximate_end":str(future_days
         "path_days":[str(x.date()) for x in future_days],
         "calibration":{"status":"uncalibrated_event_probabilities","completed_walkforward_nodes":len(backtest),"nodes":backtest,"prospective":prospective,
                        "note":"这里只能审视短样本残差尺度；事件分支没有足够历史标签与前瞻实绩，不输出可信市场胜率。每日冻结后再登记已实现的20日表现。"},
-        "limits":["分支冲击和权重界限为人工假设；日历事件改变路径冲击时点，不制造预期收益。",
+        "limits":[model.get("reason","沿用原五因子研究模型。"),
+                  "分支冲击和权重界限为人工假设；日历事件改变路径冲击时点，不制造预期收益。",
                   "共同5日块扰动保留残差共振，300组参数重采样；不把模拟分位数当真实未来置信区间。",
                   "冲击附近加入半倍因子噪声、压力分支残差放大1.35；这些尺度是保守研究设定而非样本外最优。",
                   "盈亏比=权重下正收益期望/负收益绝对值期望；只有假设集内的含义。",
                   "路径每日再平衡，未含申赎费、在途、实际持仓变化；目标配置未记为交易。"],
         "inputs":{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in
-                  [base/"analysis.json",base/"intelligence.json",ROOT/"research/daily_config.json",Path(__file__)]}}
+                  [base/"analysis.json",base/"intelligence.json",ROOT/"research/daily_config.json",Path(__file__)]+[base/"nav"/f"{c}.csv" for c in set(codes+factors)]}}
 (base/"forward.json").write_text(json.dumps(serial(result),ensure_ascii=False,indent=2,allow_nan=False))
 np.savez_compressed(base/"forward_paths.npz",**{k:np.array(value) for k,value in terminal_by_plan.items()})
 print(json.dumps(serial({"robust":robust,"breakeven":breakeven,"events":intel["events"],"n":n}),ensure_ascii=False,indent=2))
