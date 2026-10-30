@@ -1,7 +1,7 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>ARNEBEAR · 最新基金研究</title></head><body style="background:#090b0d;color:#edf2f1;font:16px sans-serif;padding:32px"><p><a style="color:#98e1c3" href="reports/2026-10-29/">打开最新报告 · 2026-10-29</a> · <a style="color:#98e1c3" href="archive.html">日期档案</a></p><script>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>ARNEBEAR · 最新基金研究</title></head><body style="background:#090b0d;color:#edf2f1;font:16px sans-serif;padding:32px"><p><a style="color:#98e1c3" href="reports/2026-10-30/">打开最新报告 · 2026-10-30</a> · <a style="color:#98e1c3" href="archive.html">日期档案</a></p><script>
 const legacy=new Set(["rotation-review","current-review","fund-explorer","huashang","assessment","alternatives","managers","disclosures","synergy","history","decisions","method","sources","trade-transactions","current-fund-actions","rotation-comparison","rotation-facts","rotation-cost"]);
 const h=location.hash;const d=new URLSearchParams(location.search).get("date");
 if(legacy.has(h.slice(1)))location.replace("research-2026-09-20.html"+h);
-else if(d&&/^\d{4}-\d{2}-\d{2}$/.test(d))fetch("reports/index.json",{cache:"no-store"}).then(r=>r.json()).then(rows=>{const chosen=rows.find(r=>r.date===d);location.replace(chosen?chosen.path:"reports/2026-10-29/");}).catch(()=>location.replace("reports/2026-10-29/"));
-else location.replace("reports/2026-10-29/"+h);
+else if(d&&/^\d{4}-\d{2}-\d{2}$/.test(d))fetch("reports/index.json",{cache:"no-store"}).then(r=>r.json()).then(rows=>{const chosen=rows.find(r=>r.date===d);location.replace(chosen?chosen.path:"reports/2026-10-30/");}).catch(()=>location.replace("reports/2026-10-30/"));
+else location.replace("reports/2026-10-30/"+h);
 </script></body></html>
