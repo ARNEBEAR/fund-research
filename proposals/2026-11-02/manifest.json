@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-02",
+  "type": "allocation_proposal_not_trades",
+  "status": "reviewed_not_accepted",
+  "files": {
+    "index.html": "049c128cb3fdf939b7320b4848a92153d1046fcb4d5289c54c415626b3174a58",
+    "report.md": "6bd32d767bd021eb02b1ce885d5d7fd9d3c2b29eb9e5c3a2b7be609309df5223",
+    "notes.json": "65ce6701470c50bfcab16e26b8b085d4d85e5b7ee3d0701b93c4d380fa0b1fc3",
+    "analysis.json": "4c51094ba80bf4dfde38a4f9ef30f579a306892d65312f4bc93490b3f80e18ea",
+    "verification.json": "c7bbbde05fb4c084430ffd80aedcf1aa3ebe267e108684e2803b6dc272586e8c",
+    "dataset.zip": "9efa48a815fc19b0f9cc5a3586924f5457f30b52f3ee0f6467698c45876853c1"
+  }
+}

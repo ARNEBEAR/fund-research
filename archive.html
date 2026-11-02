@@ -14,4 +14,18 @@
 <script>
 const legacy=new Set(["rotation-review","current-review","overview","fund-explorer","huashang","assessment","alternatives","managers","disclosures","synergy","history","decisions","method","sources","trade-transactions","current-fund-actions","rotation-comparison","rotation-facts","rotation-cost"]);
 if(legacy.has(location.hash.slice(1)))location.replace("research-2026-09-20.html"+location.hash);
+fetch("proposals/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():[]).then(rows=>{
+  if(!rows.length)return;
+  const section=document.createElement("section");section.id="proposals";
+  const heading=document.createElement("h2");heading.textContent="配置提案 · 待评估";section.append(heading);
+  for(const row of rows){
+    if(!/^proposals\/\d{4}-\d{2}-\d{2}\/$/.test(row.path))continue;
+    const link=document.createElement("a");link.className="archive-row";link.href=row.path;
+    const time=document.createElement("time");time.textContent=row.date;
+    const title=document.createElement("span");title.textContent=row.title;
+    const arrow=document.createElement("b");arrow.textContent="↗";link.append(time,title,arrow);section.append(link);
+  }
+  const note=document.createElement("p");note.className="archive-note";note.textContent="独立比较用户提出的新比例，不代表接受、成交或替换每日研究基准。";section.append(note);
+  document.getElementById("archive").before(section);window.PROPOSAL_ARCHIVE_READY=true;
+}).catch(()=>{});
 </script></body></html>
