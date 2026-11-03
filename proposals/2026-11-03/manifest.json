@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-03",
+  "type": "transition_plan_not_trades",
+  "files": {
+    "index.html": "3aeaf421538310bf4047f4acb7a89c8289756ab3220b9a32157e6b1b4ee5f7e3",
+    "report.md": "0d5d85bb165cfa419f582c97cbbf758f319e762411298d9e4e6a83ec4cc6cab3",
+    "notes.json": "297dd4cc31a8b54e74ab9e3010b699063e077006efa18a043779a3072d6983ae",
+    "analysis.json": "9265c6e4c9fed199c364e84ffdae0d847a52e00d7d7842685581a4e52671f488",
+    "verification.json": "fa834b4feacc3ecd4632e3c4685f72bc39ff82683288058f0003749422d15ac1",
+    "dataset.zip": "f47f288ee2a5a71196775d94a77c45afe1f93b1a2b5450f95c1370d235c112b8"
+  }
+}
