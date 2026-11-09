@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-09",
+    "path": "reports/2026-11-09/",
+    "title": "目标组合 · 最新判断与条件赔率",
+    "type": "target_portfolio_review",
+    "nav_cutoff": "2026-11-06",
+    "revision": 1,
+    "html_sha256": "8695174a899f3831b24cfbf24a6378016d0888990a92b5798a6887d82b760c7e"
+  },
+  {
     "date": "2026-11-08",
     "path": "reports/2026-11-08/",
     "title": "目标组合 · 最新判断与条件赔率",
