@@ -1,14 +1,14 @@
 {
-  "generated_on": "2026-11-09",
+  "generated_on": "2026-11-10",
   "type": "archive_home",
-  "sha256": "6f8ea9054a2d4d23086bd5f4162be0a00304f2c7d2111adcb4651bae754b625c",
+  "sha256": "7192bb961804cde9d79a99982c5f25d0a84993d0f632eb5f9a54540ed404e61e",
   "latest_report": {
-    "date": "2026-11-09",
-    "path": "reports/2026-11-09/",
+    "date": "2026-11-10",
+    "path": "reports/2026-11-10/",
     "title": "目标组合 · 最新判断与条件赔率",
     "type": "target_portfolio_review",
-    "nav_cutoff": "2026-11-06",
+    "nav_cutoff": "2026-11-09",
     "revision": 1,
-    "html_sha256": "8695174a899f3831b24cfbf24a6378016d0888990a92b5798a6887d82b760c7e"
+    "html_sha256": "7e163eeab97b0fe945882c81f60ebed2cdc0b25e835a3f473cca775ece23efee"
   }
 }
