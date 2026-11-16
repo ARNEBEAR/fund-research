@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-16",
+  "status": "execution_unconfirmed",
+  "market_status": "intraday",
+  "files": {
+    "index.html": "f1becd5056ce1671aa9b07fcf1389fee97c8c6380a95748b467455b83e1426ea",
+    "report.md": "b839fa707ed8c2b1b6acb0833b6691fb3f1316d5c359dae602c7400a8b9ff329",
+    "notes.json": "0c891e0bbb062aae2b7ddfecd7bd8738ce0ab240b24fcdaefe28aefd5bcd6da7",
+    "weekly-verification.json": "a47f679a10ac1e53f2f0b523fa6bb60edb1be847e73d56492fd6d99755db1905",
+    "analysis.json": "20ff064b6d90cf226164e275698d5447e5efdcdefbc881a40a03f0ddd9fccd9b",
+    "verification.json": "7457e27c0707afdfa56d2ed59c627180b5d1e6b011179ff8f8eebbe3c232a426",
+    "dataset.zip": "13f832752940ef1150c1df26aa8092e4e1095ad047e3cf3d2e5da3b2015cde5d",
+    "weekly.json": "0aea4b6735cee776854fd124a4f35ae2fccac33795990e3e8c312e8f8563fe15",
+    "web-observations.json": "8fd756f6ed521a24ddcc5f8d30b91b039dccef94aee38929125f9f150f7bf252",
+    "2026-11-16.html": "f1becd5056ce1671aa9b07fcf1389fee97c8c6380a95748b467455b83e1426ea",
+    "_shared/js/ECHARTS-LICENSE.txt": "634293835b43a6dd2094fa39182a3d9a6b9ca43b7fdb9ac354e8037af2a3093a",
+    "_shared/js/echarts.min.js": "bf4a223524e40b77c304bec67e1222cf551f14880cf42c69dc046558e11c07b1",
+    "_shared/fonts/InstrumentSans-OFL.txt": "d772141ef2499f6fbd6780dbb1be06a1bc21817a75d4a060e7cb5262a145e12b",
+    "_shared/fonts/InstrumentSans-Regular.ttf": "a22cb26e48fd79bcb01bf2fc92d36785474dce36d9c544ab0a8868c2657c4a87",
+    "_shared/fonts/InstrumentSans-Bold.ttf": "444f85bf1c4b0e1ce1ca624f6be54bcd832207714ccaf4ea99ee531341683bdf",
+    "assets/charts.js": "41f0c4a9e537818f5b7808300bd063eb0638aa79c105a47c4a38403b8d8ff82e",
+    "assets/data.js": "f33ac95a62bd977d7ef85dbbdf4d62ccc58691c59aa8addc27bf221488e7f670"
+  }
+}

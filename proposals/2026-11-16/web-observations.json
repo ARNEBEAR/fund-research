@@ -1,0 +1,10 @@
+{
+  "retrieved_on":"2026-11-16",
+  "method":"网页工具读取结果的人工结构化摘录；不是网站完整原文存档，不加入净值回归输入。",
+  "observations":[
+    {"source":"https://www.bls.gov/news.release/archives/cpi_11102026.htm","published_on":"2026-11-10","period":"2026-10","headline_mom_pct":0.4,"core_mom_pct":0.3,"headline_yoy_pct":null,"core_yoy_pct":null,"note":"BLS未收集2025年10月调查数据，大部分同比无法发布。网页转换内容含ForexFactory转载链接；本地直连失败，未声称官方全文已归档。"},
+    {"source":"https://www.bls.gov/news.release/archives/ppi_11132026.htm","published_on":"2026-11-13","period":"2026-10","final_demand_mom_pct":0.3,"final_demand_yoy_pct":6.5,"less_food_energy_trade_mom_pct":0.5,"note":"食品、能源和贸易服务均剔除的口径不混同仅剔除食品能源的核心PPI；本地直连失败。"},
+    {"source":"https://fred.stlouisfed.org/series/DFII10","latest_visible_date":"2026-11-10","latest_visible_pct":2.78,"prior_date":"2026-11-09","prior_pct":2.66,"note":"最新可见日期滞后；不当作11月16日或PPI之后的现时利率。"},
+    {"source":"https://fred.stlouisfed.org/series/DGS10","latest_visible_date":"2026-11-10","latest_visible_pct":4.98,"prior_date":"2026-11-09","prior_pct":4.88,"note":"本地获取失败，仅保留带日期的网页观察。"}
+  ]
+}
