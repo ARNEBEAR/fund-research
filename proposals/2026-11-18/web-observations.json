@@ -1,0 +1,9 @@
+{
+  "retrieved_on":"2026-11-18",
+  "method":"网页工具读取后的结构化摘要，非网站全文归档。",
+  "observations":[
+    {"source":"https://fred.stlouisfed.org/series/DFII10","visible_date":"2026-11-10","visible_value_pct":2.78,"note":"未获后续最新正式收益率，不作为11月18日现值。"},
+    {"source":"https://investor.nvidia.com/financial-info/quarterly-results-and-annual-reports/default.aspx","note":"Q3业绩公告、CFO PDF与补充财务PDF可见；Q3电话会Transcript和Form 10-Q项无链接。本地获取目录失败，不声称已下载逐字稿或10-Q。"},
+    {"source":"https://finance.sina.com.cn/jjxw/2026-11-18/doc-inizcexp1716260.shtml","claim":"媒体转述董事会主席在电话会中表示无意恢复黄仁勋CEO职务。","status":"media_relay","note":"不与官方文字稿混同，不采用未核实的个人细节。"}
+  ]
+}

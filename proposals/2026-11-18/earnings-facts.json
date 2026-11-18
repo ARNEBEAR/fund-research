@@ -1,0 +1,37 @@
+{
+  "revenue_million": 115844,
+  "net_income_million": 65287,
+  "operating_cash_million": 48253,
+  "receivables_million": 81033,
+  "inventories_million": 39724,
+  "capital_purchase_million": 4422,
+  "capital_principal_million": 54,
+  "free_cash_million": 43777,
+  "cash_to_net_income": 0.7390904774304226,
+  "revenue_guide_million": 130000,
+  "revenue_guide_sequential": 0.1221988191015504,
+  "q3_gaap_gross_margin": 0.748,
+  "guide_gaap_gross_margin": [
+    0.71,
+    0.72
+  ],
+  "gross_margin_drop_pp": [
+    2.799999999999997,
+    3.799999999999997
+  ],
+  "supply_commitment_billions": [
+    279,
+    390
+  ],
+  "supply_commitment_change": 0.3978494623655915,
+  "gross_guarantee_exposure_billions": 118,
+  "note": "本季报表未经审计；指引含额外一周。承诺及担保上限不是当期支出或已确认债务，不加总为现金缺口。",
+  "source_pages": {
+    "supplement": "1—3页",
+    "cfo": "3—5、8页"
+  },
+  "sources_sha256": {
+    "nvidia_cfo.pdf": "0c77eb60e0d87ed4a1c38508b97ac262befe9876f778dd6075cd15e66e403d14",
+    "nvidia_supplement.pdf": "79b85874e81c611229bb10f31766de9857a842d7e83e1b50c37862f4fb19a142"
+  }
+}

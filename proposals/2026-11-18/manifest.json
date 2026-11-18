@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-18",
+  "status": "execution_unconfirmed",
+  "market_status": "intraday",
+  "files": {
+    "2026-11-18.html": "1ad3dc4b2e8da7b265beb4348d9c74aead0493b150c980bfd422480e4c69cd9b",
+    "index.html": "1ad3dc4b2e8da7b265beb4348d9c74aead0493b150c980bfd422480e4c69cd9b",
+    "report.md": "c0195a3899f997881b6b8a22ea67147e1980a568403305568f59641bb7638eb0",
+    "notes.json": "4f7e61088a00d037259aaa6983c48ba29c6f6d2fe3e6e8aa9d8dedfd12b7b474",
+    "weekly-verification.json": "a04a47cffda63cb19d72bee9e5ca9dd657dfac6e560082ef449c388dbfb86487",
+    "analysis.json": "b243721eba74ab933df00e4afaddef6ca81075192e717442a7fc40d57c12e672",
+    "verification.json": "2a75bdcdb45730bdcd85c242038ec9d722cc6fd704befb42e81aa01f9722bc42",
+    "dataset.zip": "015da686c565b3b7225956728b5968dec008c75260f2a9e80ce15a840597984b",
+    "weekly.json": "f8fa99afcb072e821f06c8aef0f10532c3b7c2e293f84a51005e229ad91cd45f",
+    "web-observations.json": "ba1d23fe65fca671a45019d951dfccaf4440981f6a0ddfa17ae35b64a4c281a1",
+    "earnings-facts.json": "a3ab7e9b747bbc487809607f085e3e48e7c10d56908df98fb29b6e348dec6443",
+    "_shared/js/ECHARTS-LICENSE.txt": "634293835b43a6dd2094fa39182a3d9a6b9ca43b7fdb9ac354e8037af2a3093a",
+    "_shared/js/echarts.min.js": "bf4a223524e40b77c304bec67e1222cf551f14880cf42c69dc046558e11c07b1",
+    "_shared/fonts/InstrumentSans-OFL.txt": "d772141ef2499f6fbd6780dbb1be06a1bc21817a75d4a060e7cb5262a145e12b",
+    "_shared/fonts/InstrumentSans-Regular.ttf": "a22cb26e48fd79bcb01bf2fc92d36785474dce36d9c544ab0a8868c2657c4a87",
+    "_shared/fonts/InstrumentSans-Bold.ttf": "444f85bf1c4b0e1ce1ca624f6be54bcd832207714ccaf4ea99ee531341683bdf",
+    "assets/charts.js": "41f0c4a9e537818f5b7808300bd063eb0638aa79c105a47c4a38403b8d8ff82e",
+    "assets/data.js": "b2c898a40db91e33351b04860a048b96c90ffb8b14c509551d6555744933d099"
+  }
+}
