@@ -1,0 +1,12 @@
+{
+  "feedback_date":"2026-11-19",
+  "instruction_date":"2026-11-17",
+  "timing":"用户报告前天收盘前操作；按正常交易日15:00前提交评估，订单细节待核",
+  "status":"user_reported_executed_not_broker_verified",
+  "trades":[
+    {"from_code":"002244","from_name":"景顺长城低碳科技主题","fraction_of_pretrade_holding":0.5,"to_code":"021902","to_name":"广发主题领先C","destination_status":"根据前文将用户简称广发解释为广发主题领先C，待订单确认"},
+    {"from_code":"002051","from_name":"诺安创新驱动C","fraction_of_pretrade_holding":1.0,"to_code":"021902","to_name":"广发主题领先C","destination_status":"同上"}
+  ],
+  "unknown":["低碳与诺安成交前市值","诺安原买入日期和份额","广发转入前市值","转出及转入各自净值日期","交易确认份额与费率","当前组合总市值","科益是否成交"],
+  "constraints":["不得假设诺安金额是此前讨论的15万元","不得将其他未反馈动作当成成交","若份额已按这次减半，不再叠加旧计划的1/3或2/3","历史原始持仓快照不覆盖；此文件仅记录用户反馈增量"]
+}
