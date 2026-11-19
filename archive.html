@@ -17,7 +17,7 @@ if(legacy.has(location.hash.slice(1)))location.replace("research-2026-09-20.html
 fetch("proposals/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():[]).then(rows=>{
   if(!rows.length)return;
   const section=document.createElement("section");section.id="proposals";
-  const heading=document.createElement("h2");heading.textContent="配置提案 · 待评估";section.append(heading);
+  const heading=document.createElement("h2");heading.textContent="配置提案与操作复核";section.append(heading);
   for(const row of rows){
     if(!/^proposals\/\d{4}-\d{2}-\d{2}\/$/.test(row.path))continue;
     const link=document.createElement("a");link.className="archive-row";link.href=row.path;
@@ -25,7 +25,7 @@ fetch("proposals/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():[]).then(
     const title=document.createElement("span");title.textContent=row.title;
     const arrow=document.createElement("b");arrow.textContent="↗";link.append(time,title,arrow);section.append(link);
   }
-  const note=document.createElement("p");note.className="archive-note";note.textContent="独立比较用户提出的新比例，不代表接受、成交或替换每日研究基准。";section.append(note);
+  const note=document.createElement("p");note.className="archive-note";note.textContent="各页分别标注待评估方案或用户已报操作；成交细节以反馈及订单为准，每日目标组合研究基准另列。";section.append(note);
   document.getElementById("archive").before(section);window.PROPOSAL_ARCHIVE_READY=true;
 }).catch(()=>{});
 </script></body></html>
