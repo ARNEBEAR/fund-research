@@ -1,0 +1,498 @@
+[
+  {
+    "code": "022714",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=022714&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:14.973242+00:00",
+    "sha256": "b85f6af160cbc076cc6e9dac5141ba080ca7acb3b9224bf3b79937233e2ba0ad",
+    "bytes": 4586,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "012940",
+    "url": "https://fund.eastmoney.com/pingzhongdata/012940.js",
+    "retrieved_at": "2026-11-20T09:56:15.308267+00:00",
+    "sha256": "0b060ce9d7e3b263c1abad26924b2039730267b3dba74b3bd78f4c61ab72e2bf",
+    "bytes": 209522,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "004237",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=004237&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:16.080328+00:00",
+    "sha256": "c5c67dd9f53dbdb880396c34fb9b946d4654a12f769a64af60a7b58d5abfc56e",
+    "bytes": 4467,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "013620",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=013620&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:16.580147+00:00",
+    "sha256": "33391712461abfc0a0e31d8d3c375bd2e44dec5b772351be4d86fbb86e5d2513",
+    "bytes": 4467,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "022714",
+    "url": "https://fund.eastmoney.com/pingzhongdata/022714.js",
+    "retrieved_at": "2026-11-20T09:56:12.836003+00:00",
+    "sha256": "e04c4135e7143d7fdba7b9b6de0ebb6d834c922f7b65069af043a357516d1107",
+    "bytes": 84039,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "008270",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=008270&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:16.022997+00:00",
+    "sha256": "02ac77e5654f736103697cf9380eae106e0e49bd9dc4602f8090b216231fd9af",
+    "bytes": 4469,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "006038",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=006038&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:17.826699+00:00",
+    "sha256": "8a2b603eb2297d8aa59f866ba60c651fe62a24d2e3566fc12902da5d62a69c47",
+    "bytes": 4587,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "021662",
+    "url": "https://fund.eastmoney.com/pingzhongdata/021662.js",
+    "retrieved_at": "2026-11-20T09:56:17.455859+00:00",
+    "sha256": "82964b3a29152f056f84bec38ac6d00e79196483d03fada190adb2185c0f6b5c",
+    "bytes": 88893,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "010390",
+    "url": "https://fund.eastmoney.com/pingzhongdata/010390.js",
+    "retrieved_at": "2026-11-20T09:56:12.858332+00:00",
+    "sha256": "8bddf83464bde1861ab8206832230b9ca7cea348e5770f924da2f777e37626f3",
+    "bytes": 234781,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "002943",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=002943&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:17.858297+00:00",
+    "sha256": "89936acf46737f0f70e4e540677339438094f79e04ceecd4b718f945a4b14a5c",
+    "bytes": 4467,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "010390",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=010390&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:14.965110+00:00",
+    "sha256": "fabe511a7901ca1a4dd46b397143c5d18004e54be2c1d18edd7df14c88633f4b",
+    "bytes": 4471,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "012817",
+    "url": "https://fund.eastmoney.com/pingzhongdata/012817.js",
+    "retrieved_at": "2026-11-20T09:56:15.814204+00:00",
+    "sha256": "dcf742a139a5088ed5074044828bba267824927acfa549d1e3c31a93d89ab9b2",
+    "bytes": 134344,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "006038",
+    "url": "https://fund.eastmoney.com/pingzhongdata/006038.js",
+    "retrieved_at": "2026-11-20T09:56:17.606735+00:00",
+    "sha256": "0571323c3a0bc680f106a7c50ccd062c7a382d6edc3a2c4815906de359f3ab64",
+    "bytes": 320763,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "019484",
+    "url": "https://fund.eastmoney.com/pingzhongdata/019484.js",
+    "retrieved_at": "2026-11-20T09:56:16.344621+00:00",
+    "sha256": "890d1531a69f0cd7eb3a66e312cf550b68338616a784e0056acceb63840adc41",
+    "bytes": 126361,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "019032",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=019032&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:16.570541+00:00",
+    "sha256": "7bf1ddb0b701e9825905a080731a50707023afd0a8dc5e589dfad3900c468f37",
+    "bytes": 4468,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "011437",
+    "url": "https://fund.eastmoney.com/pingzhongdata/011437.js",
+    "retrieved_at": "2026-11-20T09:56:15.825160+00:00",
+    "sha256": "2f98ff19ab1327c6592958ddc43ded8665378c0d2264da22fcfac644be5bade4",
+    "bytes": 226361,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "008270",
+    "url": "https://fund.eastmoney.com/pingzhongdata/008270.js",
+    "retrieved_at": "2026-11-20T09:56:15.780573+00:00",
+    "sha256": "53a2b504962aef1393ab193e36db7c1982b720b650042b362b494bf1dfbaacd0",
+    "bytes": 265941,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "012940",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=012940&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:15.535181+00:00",
+    "sha256": "1d520b4447376d60f9db31db70598fef8ad5220a50d398d9ac190e6fde5c99eb",
+    "bytes": 4464,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "002051",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=002051&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:15.548695+00:00",
+    "sha256": "a438051b20db9cab2f41e386c9f7a7876dd03cbfaee67b2369124a00ca1ea7a6",
+    "bytes": 4465,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "021902",
+    "url": "https://fund.eastmoney.com/pingzhongdata/021902.js",
+    "retrieved_at": "2026-11-20T09:56:12.918688+00:00",
+    "sha256": "ddc318060029b1bf0673aa1ef68b61a8f1b50b6f2df838b93778d53fa28061cd",
+    "bytes": 96855,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "012449",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=012449&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:17.764921+00:00",
+    "sha256": "116d2ac782174161aff50c6ead8a2dcbe95454e3a8dab678351f222de704b8e4",
+    "bytes": 4463,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "002244",
+    "url": "https://fund.eastmoney.com/pingzhongdata/002244.js",
+    "retrieved_at": "2026-11-20T09:56:15.275188+00:00",
+    "sha256": "ee593c678626435e09a6f5d646e2239b56af1523839ffa2c78e9452ebde0a0aa",
+    "bytes": 405034,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "004407",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=004407&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:17.341467+00:00",
+    "sha256": "de1b77a84cdf606e634e2db2fcac096994bdbcf16857203611c6fc14afe6434b",
+    "bytes": 4478,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "019484",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=019484&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:16.554407+00:00",
+    "sha256": "a0e0520d78492bbf25cdf7d5e23109c64272202e74fbb4ad682a058eff9b4c09",
+    "bytes": 4467,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "019032",
+    "url": "https://fund.eastmoney.com/pingzhongdata/019032.js",
+    "retrieved_at": "2026-11-20T09:56:16.344287+00:00",
+    "sha256": "24214d0d993ce901c49d266fcd04746127f30eba73665b81c68189393d32ca17",
+    "bytes": 121099,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "017787",
+    "url": "https://fund.eastmoney.com/pingzhongdata/017787.js",
+    "retrieved_at": "2026-11-20T09:56:16.803971+00:00",
+    "sha256": "aab2b968f950ef7cbd7e6de0275e9113f127fe1cc89ed2a00085da7a97d8f71d",
+    "bytes": 153160,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "011370",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=011370&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:15.475008+00:00",
+    "sha256": "0f1ab14dcf6fb5167ed3e69017783d678502d91199ddff40ce0536abae6e0b3b",
+    "bytes": 4552,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "519697",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=519697&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:15.560655+00:00",
+    "sha256": "c901300ff6d39a2c41e9a8c9deeaefc314cede61b754aa5098cf3bc4dd88a746",
+    "bytes": 4466,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "001076",
+    "url": "https://fund.eastmoney.com/pingzhongdata/001076.js",
+    "retrieved_at": "2026-11-20T09:56:16.862836+00:00",
+    "sha256": "5f2e29e60f1ac05f58b8c25f25a8bd437b31a107955bd289df1cb408d3aff01a",
+    "bytes": 436753,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "023875",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=023875&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:16.559417+00:00",
+    "sha256": "17f40b2196d410a2be4048f432894ab9c46c1d98eb02d0df9ae8a9b86e3a3f22",
+    "bytes": 4465,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "021180",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021180&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:14.969440+00:00",
+    "sha256": "ef983825349e6cc7172493c47305803612bc561a6497c48acfe93249ec141a79",
+    "bytes": 4591,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "022415",
+    "url": "https://fund.eastmoney.com/pingzhongdata/022415.js",
+    "retrieved_at": "2026-11-20T09:56:12.914668+00:00",
+    "sha256": "62babeef75edc3af29cff733e08aad3c2571d13b1fba84874fd5de612a382b05",
+    "bytes": 80997,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "004407",
+    "url": "https://fund.eastmoney.com/pingzhongdata/004407.js",
+    "retrieved_at": "2026-11-20T09:56:16.845639+00:00",
+    "sha256": "76f25586fb1b49f3e2b988b2921f8288cf9e3951469f0fc6c48f5fb2723e08b0",
+    "bytes": 360039,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "519697",
+    "url": "https://fund.eastmoney.com/pingzhongdata/519697.js",
+    "retrieved_at": "2026-11-20T09:56:15.326823+00:00",
+    "sha256": "5a43233955fe05657794265ccc914e86dad1e712a4e255aa4f59befa30d552eb",
+    "bytes": 609618,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "011437",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=011437&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:16.062349+00:00",
+    "sha256": "2f8653c52c63e67916358b16c5c91ebc5a057ef0317337611c821d658442948f",
+    "bytes": 4462,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "002244",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=002244&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:15.516252+00:00",
+    "sha256": "3a0d3a72776a16400a7d39348bc00c8489be3d1f8046fe2d59201f2f24885eb3",
+    "bytes": 4466,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "027170",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=027170&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-18",
+    "retrieved_at": "2026-11-20T09:56:17.195178+00:00",
+    "sha256": "1fd0b736d8f065d82482c0d3335162d8852cde2cd1ac6c32a525f8c3ddc3125e",
+    "bytes": 4467,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "012817",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=012817&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:16.062607+00:00",
+    "sha256": "602dc6995f056a1fbe2053d52892c06889d2c6460ab3ae7ac9da5d57c25db6a3",
+    "bytes": 4466,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "001076",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=001076&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:17.341409+00:00",
+    "sha256": "7ed7f11b8c8ae95b2fd8be2573fa0fb43d609f23c1ceca24f2b9d844932b4158",
+    "bytes": 4588,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "002943",
+    "url": "https://fund.eastmoney.com/pingzhongdata/002943.js",
+    "retrieved_at": "2026-11-20T09:56:17.641828+00:00",
+    "sha256": "928cbbf8c288bf38d15bc9e5b96a801c16aabf10bb5e2e8cbd9bd75aa3d5b971",
+    "bytes": 380658,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "011066",
+    "url": "https://fund.eastmoney.com/pingzhongdata/011066.js",
+    "retrieved_at": "2026-11-20T09:56:15.825529+00:00",
+    "sha256": "b925291524a92b8cf0b2e2bb2cce3071fa0115d4b002727ab2f8bc26a6cf8f0e",
+    "bytes": 226864,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "013620",
+    "url": "https://fund.eastmoney.com/pingzhongdata/013620.js",
+    "retrieved_at": "2026-11-20T09:56:16.361136+00:00",
+    "sha256": "1b0edf7fbbd1aa2618ebc5c627496a7a1d1873033b9e13b6d2a6752385d209d5",
+    "bytes": 197950,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "021902",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021902&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:14.972274+00:00",
+    "sha256": "9947330fbf72181e871815691acb6fbce7176b1e3d9a83afb6ee59d7eebbec91",
+    "bytes": 4464,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "002051",
+    "url": "https://fund.eastmoney.com/pingzhongdata/002051.js",
+    "retrieved_at": "2026-11-20T09:56:15.317195+00:00",
+    "sha256": "8b03db5256b5c40925abd571a6ebfa569e77c87045957ce456f39063ce481aaf",
+    "bytes": 417208,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "021277",
+    "url": "https://fund.eastmoney.com/pingzhongdata/021277.js",
+    "retrieved_at": "2026-11-20T09:56:18.051637+00:00",
+    "sha256": "62bd4bb328facd8d587a846b7048db4bf7935373815f99c7cd606b69b33ccbab",
+    "bytes": 104215,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "022415",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=022415&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:14.969483+00:00",
+    "sha256": "b7ca65b0351075fe4c9c132fc6bf634887570cc8a5ab48e636c93dae0094197b",
+    "bytes": 4472,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "004237",
+    "url": "https://fund.eastmoney.com/pingzhongdata/004237.js",
+    "retrieved_at": "2026-11-20T09:56:15.839617+00:00",
+    "sha256": "acd3828056ee7681b990bee3596016eafee26b8b9c95418ba8796b9a814a363e",
+    "bytes": 380747,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "011066",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=011066&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:16.062905+00:00",
+    "sha256": "9f7b9c4cff552e3a111778ce8d5780ad5273b9248954b98d1901be2bf2b80a64",
+    "bytes": 4462,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "020254",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=020254&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:16.564283+00:00",
+    "sha256": "c81304197fd18cf8e0742019752de0cad54a6e68a6fc9378144ee7641fd08223",
+    "bytes": 4465,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "017787",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=017787&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:17.196124+00:00",
+    "sha256": "3f0a00a806a52b480590ddfd1d4772365de263c92ef788d7a5bf08c116cf020c",
+    "bytes": 4588,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "023875",
+    "url": "https://fund.eastmoney.com/pingzhongdata/023875.js",
+    "retrieved_at": "2026-11-20T09:56:16.309697+00:00",
+    "sha256": "d4b3a349cea27ef60707f821e802054c5843843ccf74e4e1959ac96223cfb635",
+    "bytes": 71167,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "011370",
+    "url": "https://fund.eastmoney.com/pingzhongdata/011370.js",
+    "retrieved_at": "2026-11-20T09:56:15.245113+00:00",
+    "sha256": "4d1b928dcfb015561f3c3df953fe0c1d9b848cb3dfbe69d7608c0efe48e91a47",
+    "bytes": 217048,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "021180",
+    "url": "https://fund.eastmoney.com/pingzhongdata/021180.js",
+    "retrieved_at": "2026-11-20T09:56:12.883994+00:00",
+    "sha256": "7661ab3d99c733cbbc88b95d8246828fae14b64db96179439912ec255e2e2cc9",
+    "bytes": 92016,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "020254",
+    "url": "https://fund.eastmoney.com/pingzhongdata/020254.js",
+    "retrieved_at": "2026-11-20T09:56:16.309719+00:00",
+    "sha256": "553bb2a9372e347a0d8623de85759befccffce2d5b61fec5578d87cc7a3889a8",
+    "bytes": 119832,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "027170",
+    "url": "https://fund.eastmoney.com/pingzhongdata/027170.js",
+    "retrieved_at": "2026-11-20T09:56:16.881734+00:00",
+    "sha256": "5f6338f99397cf03eff158d36d2801548aed06a5c1f1fd2bcb0c3c14f33269c7",
+    "bytes": 31715,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "021277",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021277&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-18",
+    "retrieved_at": "2026-11-20T09:56:18.281142+00:00",
+    "sha256": "e93dc4cf245bad823b293ea2423daa46303c5b3c83b9bdf80e223d74056daa8d",
+    "bytes": 4584,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "021662",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021662&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-18",
+    "retrieved_at": "2026-11-20T09:56:17.738196+00:00",
+    "sha256": "d9c2e0d104002a898739c05163709d282b811767b7f892556a78e3850ddf10a1",
+    "bytes": 4585,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "022184",
+    "url": "https://fund.eastmoney.com/pingzhongdata/022184.js",
+    "retrieved_at": "2026-11-20T09:56:16.883944+00:00",
+    "sha256": "fb5f89a86c88d3a062aee4a55d40b1af7d516b6080ce437832daf54de652edc4",
+    "bytes": 88617,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "013860",
+    "url": "https://fund.eastmoney.com/pingzhongdata/013860.js",
+    "retrieved_at": "2026-11-20T09:56:17.688605+00:00",
+    "sha256": "99bedbc7754e8330a90948271a65694ba05b356229854331f7d2ca0c9e823abe",
+    "bytes": 191437,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "012449",
+    "url": "https://fund.eastmoney.com/pingzhongdata/012449.js",
+    "retrieved_at": "2026-11-20T09:56:17.532212+00:00",
+    "sha256": "e352d06a02a7d71e747058f5016895584e6139f5478006471d26fb169326ba89",
+    "bytes": 214503,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "022184",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=022184&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-18",
+    "retrieved_at": "2026-11-20T09:56:17.315174+00:00",
+    "sha256": "264f62948a68c3b8afdf9f8aa01e8b2143f259a9f3dbbe5c46e3451c5dae3ca1",
+    "bytes": 4586,
+    "source_family": "eastmoney"
+  },
+  {
+    "code": "013860",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=013860&pageIndex=1&pageSize=20&startDate=2026-09-01&endDate=2026-11-19",
+    "retrieved_at": "2026-11-20T09:56:17.901780+00:00",
+    "sha256": "028e67b8fc770cefd32662b473d26775ae8920e664be11370567ba1fe222e3ee",
+    "bytes": 4464,
+    "source_family": "eastmoney"
+  }
+]

@@ -1,0 +1,4503 @@
+[
+  {
+    "code": "021180",
+    "date": "2024-08-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0004999999999999449,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "021180",
+    "date": "2024-09-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0007996001999002189,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "021180",
+    "date": "2024-09-13",
+    "old_return": 0.0,
+    "corrected_return": -0.002097273544392375,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "021180",
+    "date": "2024-09-20",
+    "old_return": 0.0,
+    "corrected_return": 0.0011008807045636004,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000628",
+    "date": "2015-02-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0009999999999998899,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "519212",
+    "date": "2017-04-07",
+    "old_return": 0.0,
+    "corrected_return": 0.01200000000000001,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "519212",
+    "date": "2017-04-14",
+    "old_return": 0.0,
+    "corrected_return": 0.010276679841897174,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "519212",
+    "date": "2017-04-21",
+    "old_return": 0.0,
+    "corrected_return": -0.014182316118935834,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "519212",
+    "date": "2017-04-28",
+    "old_return": 0.0,
+    "corrected_return": -0.007143565829943577,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "008270",
+    "date": "2020-01-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0004999999999999449,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "008270",
+    "date": "2020-01-10",
+    "old_return": 0.0,
+    "corrected_return": -0.0001999000499749437,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "008270",
+    "date": "2020-01-17",
+    "old_return": 0.0,
+    "corrected_return": -0.0014995501349595042,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "008270",
+    "date": "2020-01-23",
+    "old_return": 0.0,
+    "corrected_return": -0.007609130957148658,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "008270",
+    "date": "2020-02-07",
+    "old_return": 0.0,
+    "corrected_return": -0.008171912832929729,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "004407",
+    "date": "2017-12-31",
+    "old_return": 0.0,
+    "corrected_return": -0.0006285355122563896,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "004407",
+    "date": "2018-12-31",
+    "old_return": 0.0,
+    "corrected_return": -0.000488639139995084,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "004407",
+    "date": "2019-06-30",
+    "old_return": 0.0,
+    "corrected_return": -0.0003209242618741337,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-01-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0028169014084507005,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-01-23",
+    "old_return": 0.0,
+    "corrected_return": 0.0037453183520599342,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-01-30",
+    "old_return": 0.0,
+    "corrected_return": -0.001865671641791078,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-02-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0018691588785046953,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-02-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0009328358208953169,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-02-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0018639328984155767,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-03-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0009285051067782213,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-03-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0009276437847864916,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-03-20",
+    "old_return": 0.0,
+    "corrected_return": 0.002780352177942591,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-03-27",
+    "old_return": 0.0,
+    "corrected_return": -0.001848428835489857,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-04-03",
+    "old_return": 0.0,
+    "corrected_return": -0.0037037037037036535,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-04-17",
+    "old_return": 0.0,
+    "corrected_return": 0.004646840148698761,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-04-24",
+    "old_return": 0.0,
+    "corrected_return": 0.007400555041628065,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-04-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0045913682277318735,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-05-08",
+    "old_return": 0.0,
+    "corrected_return": 0.003656307129798808,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-05-15",
+    "old_return": 0.0,
+    "corrected_return": 0.007285974499089187,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-05-22",
+    "old_return": 0.0,
+    "corrected_return": 0.002712477396021651,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-05-29",
+    "old_return": 0.0,
+    "corrected_return": -0.0018034265103696878,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-06-05",
+    "old_return": 0.0,
+    "corrected_return": 0.0036133694670279493,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-06-12",
+    "old_return": 0.0,
+    "corrected_return": -0.0009000900090008201,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-06-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0009009009009008917,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-06-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0018001800180018623,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-07-10",
+    "old_return": 0.0,
+    "corrected_return": 0.007670182166826578,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-07-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0028544243577546258,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-07-24",
+    "old_return": 0.0,
+    "corrected_return": 0.004743833017077703,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-07-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0047214353163362865,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-08-07",
+    "old_return": 0.0,
+    "corrected_return": 0.006578947368421018,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-08-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0037348272642390157,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-08-25",
+    "old_return": 0.0,
+    "corrected_return": 0.0018604651162790198,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-08-28",
+    "old_return": 0.0,
+    "corrected_return": 0.0009276437847864916,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-09-02",
+    "old_return": 0.0,
+    "corrected_return": 0.001853568118628468,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-09-11",
+    "old_return": 0.0,
+    "corrected_return": 0.0027752081406107187,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-09-18",
+    "old_return": 0.0,
+    "corrected_return": 0.0027675276752765487,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-09-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0018399264029438367,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-10-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0018365472910928382,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-10-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0036663611365719273,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-10-23",
+    "old_return": 0.0,
+    "corrected_return": 0.0036529680365295913,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-10-30",
+    "old_return": 0.0,
+    "corrected_return": 0.005459508644221955,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-11-13",
+    "old_return": 0.0,
+    "corrected_return": -0.004524886877827927,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-11-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0018181818181817189,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-12-18",
+    "old_return": 0.0,
+    "corrected_return": 0.0027051397655546428,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-12-25",
+    "old_return": 0.0,
+    "corrected_return": 0.0053956834532373765,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2015-12-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0017889087656528524,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-01-08",
+    "old_return": 0.0,
+    "corrected_return": 0.002678571428571308,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-01-15",
+    "old_return": 0.0,
+    "corrected_return": 0.003561887800534347,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-01-29",
+    "old_return": 0.0,
+    "corrected_return": -0.004436557231588201,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-02-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0035650623885916666,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-02-26",
+    "old_return": 0.0,
+    "corrected_return": 0.000888099467140524,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-03-04",
+    "old_return": 0.0,
+    "corrected_return": 0.0017746228926354135,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-03-11",
+    "old_return": 0.0,
+    "corrected_return": 0.003542958370239102,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-03-18",
+    "old_return": 0.0,
+    "corrected_return": 0.001765225066195919,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-03-25",
+    "old_return": 0.0,
+    "corrected_return": 0.0008810572687223406,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-04-15",
+    "old_return": 0.0,
+    "corrected_return": -0.005281690140845119,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-04-22",
+    "old_return": 0.0,
+    "corrected_return": -0.0035398230088495852,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-04-29",
+    "old_return": 0.0,
+    "corrected_return": -0.0008880994671401909,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-05-06",
+    "old_return": 0.0,
+    "corrected_return": 0.003555555555555534,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-05-13",
+    "old_return": 0.0,
+    "corrected_return": 0.003542958370239102,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-05-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0008826125330978485,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-06-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0008818342151677427,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-06-08",
+    "old_return": 0.0,
+    "corrected_return": 0.0008810572687223406,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-06-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0008802816901409827,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-06-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0017590149516271136,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-06-24",
+    "old_return": 0.0,
+    "corrected_return": 0.0008779631255486642,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-06-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0026315789473685403,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-07-08",
+    "old_return": 0.0,
+    "corrected_return": 0.002622377622377714,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-07-15",
+    "old_return": 0.0,
+    "corrected_return": 0.0017436791630340842,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-07-22",
+    "old_return": 0.0,
+    "corrected_return": 0.003481288076588429,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-07-29",
+    "old_return": 0.0,
+    "corrected_return": 0.0017346053772766545,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-08-05",
+    "old_return": 0.0,
+    "corrected_return": 0.0017316017316018062,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-08-12",
+    "old_return": 0.0,
+    "corrected_return": 0.004321521175453702,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-09-02",
+    "old_return": 0.0,
+    "corrected_return": -0.0008605851979345269,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-09-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0008613264427217437,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-09-14",
+    "old_return": 0.0,
+    "corrected_return": 0.000860585197934638,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-09-23",
+    "old_return": 0.0,
+    "corrected_return": 0.0017196904557179593,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-09-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0008583690987122861,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-10-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0034305317324185847,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-10-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0017094017094017033,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-10-28",
+    "old_return": 0.0,
+    "corrected_return": -0.0017064846416382506,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-11-11",
+    "old_return": 0.0,
+    "corrected_return": -0.0017094017094017033,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-11-18",
+    "old_return": 0.0,
+    "corrected_return": -0.0025684931506848585,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-11-25",
+    "old_return": 0.0,
+    "corrected_return": 0.0008583690987122861,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-12-02",
+    "old_return": 0.0,
+    "corrected_return": -0.004288164665523064,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-12-09",
+    "old_return": 0.0,
+    "corrected_return": -0.0017226528854435985,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-12-23",
+    "old_return": 0.0,
+    "corrected_return": -0.003481288076588318,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2016-12-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0028985507246377384,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-01-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0028901734104047616,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-01-13",
+    "old_return": 0.0,
+    "corrected_return": 0.003842459173871271,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-01-20",
+    "old_return": 0.0,
+    "corrected_return": -0.002870813397129135,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-01-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0019193857965451588,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-02-10",
+    "old_return": 0.0,
+    "corrected_return": -0.003835091083413289,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-03-10",
+    "old_return": 0.0,
+    "corrected_return": -0.0019249278152069227,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-03-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0009643201542912649,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-03-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0019267822736031004,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-04-07",
+    "old_return": 0.0,
+    "corrected_return": 0.0009615384615384581,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-04-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0009606147934679843,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-04-21",
+    "old_return": 0.0,
+    "corrected_return": -0.002879078694817516,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-04-28",
+    "old_return": 0.0,
+    "corrected_return": 0.0009624639076035724,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-05-05",
+    "old_return": 0.0,
+    "corrected_return": -0.0019230769230769162,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-05-12",
+    "old_return": 0.0,
+    "corrected_return": -0.0028901734104045396,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-05-19",
+    "old_return": 0.0,
+    "corrected_return": -0.0009661835748790981,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-05-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0009671179883947723,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-06-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0009661835748793202,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-06-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0028957528957529455,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-06-21",
+    "old_return": 0.0,
+    "corrected_return": 0.002887391722810495,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-06-23",
+    "old_return": 0.0,
+    "corrected_return": 0.0009596928982726904,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-06-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0028763183125599667,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-07-07",
+    "old_return": 0.0,
+    "corrected_return": 0.0019120458891013214,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-07-14",
+    "old_return": 0.0,
+    "corrected_return": 0.001908396946564972,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-07-28",
+    "old_return": 0.0,
+    "corrected_return": 0.0009523809523810378,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-08-04",
+    "old_return": 0.0,
+    "corrected_return": 0.0009514747859182826,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-08-11",
+    "old_return": 0.0,
+    "corrected_return": -0.000950570342205248,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-08-18",
+    "old_return": 0.0,
+    "corrected_return": 0.0009514747859182826,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-09-01",
+    "old_return": 0.0,
+    "corrected_return": -0.000950570342205248,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-09-08",
+    "old_return": 0.0,
+    "corrected_return": 0.0009514747859182826,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-09-15",
+    "old_return": 0.0,
+    "corrected_return": 0.0019011406844107182,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-09-22",
+    "old_return": 0.0,
+    "corrected_return": 0.000948766603415585,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-09-29",
+    "old_return": 0.0,
+    "corrected_return": 0.0009478672985783199,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-10-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0009469696969697239,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-10-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0009460737937561081,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-12-08",
+    "old_return": 0.0,
+    "corrected_return": 0.000945179584121103,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-12-15",
+    "old_return": 0.0,
+    "corrected_return": 0.0009442870632674349,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2017-12-29",
+    "old_return": 0.0,
+    "corrected_return": 0.000990099009900991,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-01-05",
+    "old_return": 0.0,
+    "corrected_return": 0.001978239366963397,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-01-12",
+    "old_return": 0.0,
+    "corrected_return": 0.000987166831194486,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-01-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0009861932938857176,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-01-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0009852216748769127,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-02-02",
+    "old_return": 0.0,
+    "corrected_return": 0.0009842519685041573,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-02-09",
+    "old_return": 0.0,
+    "corrected_return": 0.000983284169125076,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-02-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0009823182711199419,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-02-23",
+    "old_return": 0.0,
+    "corrected_return": 0.0009813542688912325,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-03-02",
+    "old_return": 0.0,
+    "corrected_return": 0.0009803921568629637,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-03-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0009794319294809117,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-03-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0009784735812135015,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-03-23",
+    "old_return": 0.0,
+    "corrected_return": 0.0019550342130987275,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-03-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0019512195121951237,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-04-04",
+    "old_return": 0.0,
+    "corrected_return": 0.0019474196689386325,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-04-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0019436345966958868,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-04-20",
+    "old_return": 0.0,
+    "corrected_return": 0.0029097963142581396,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-04-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0009671179883947723,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-05-04",
+    "old_return": 0.0,
+    "corrected_return": -0.0009661835748790981,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-06-01",
+    "old_return": 0.0,
+    "corrected_return": 0.0009671179883947723,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-06-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0019323671497584183,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-06-29",
+    "old_return": 0.0,
+    "corrected_return": 0.0009643201542912649,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-06-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0009633911368016612,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-07-06",
+    "old_return": 0.0,
+    "corrected_return": 0.002887391722810495,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-07-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0009596928982726904,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-07-20",
+    "old_return": 0.0,
+    "corrected_return": 0.0019175455417066445,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-07-27",
+    "old_return": 0.0,
+    "corrected_return": 0.00382775119617218,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-08-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0038131553860820677,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-08-10",
+    "old_return": 0.0,
+    "corrected_return": 0.0009496676163343043,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-08-17",
+    "old_return": 0.0,
+    "corrected_return": -0.00189753320683117,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-08-24",
+    "old_return": 0.0,
+    "corrected_return": 0.0009505703422054701,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-08-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0009496676163343043,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-09-07",
+    "old_return": 0.0,
+    "corrected_return": 0.000948766603415585,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-09-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0009478672985783199,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-09-28",
+    "old_return": 0.0,
+    "corrected_return": 0.0009469696969697239,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-10-12",
+    "old_return": 0.0,
+    "corrected_return": 0.0018921475875117721,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-10-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0018885741265344258,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-10-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0018850141376061114,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-11-02",
+    "old_return": 0.0,
+    "corrected_return": 0.0009407337723426057,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-11-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0009398496240602405,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-11-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0028169014084507005,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-11-23",
+    "old_return": 0.0,
+    "corrected_return": 0.001872659176029856,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2018-12-07",
+    "old_return": 0.0,
+    "corrected_return": 0.002803738317757043,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-01-11",
+    "old_return": 0.0,
+    "corrected_return": 0.008341056533827773,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-01-18",
+    "old_return": 0.0,
+    "corrected_return": 0.0009191176470588758,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-01-25",
+    "old_return": 0.0,
+    "corrected_return": 0.0045913682277318735,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-02-01",
+    "old_return": 0.0,
+    "corrected_return": 0.000914076782449591,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-02-15",
+    "old_return": 0.0,
+    "corrected_return": 0.0036529680365295913,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-02-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0018198362147405778,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-03-01",
+    "old_return": 0.0,
+    "corrected_return": -0.0009082652134422275,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-03-08",
+    "old_return": 0.0,
+    "corrected_return": -0.0009090909090909705,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-03-15",
+    "old_return": 0.0,
+    "corrected_return": 0.0009099181073703999,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-03-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0009090909090907484,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-03-29",
+    "old_return": 0.0,
+    "corrected_return": 0.0018165304268846771,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-04-12",
+    "old_return": 0.0,
+    "corrected_return": -0.0009057971014493349,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-04-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0009066183136900996,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-05-10",
+    "old_return": 0.0,
+    "corrected_return": 0.0018115942028984477,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-05-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0009041591320071429,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-05-24",
+    "old_return": 0.0,
+    "corrected_return": 0.0009033423667570428,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-06-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0018050541516245744,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-06-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0009009009009008917,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-07-05",
+    "old_return": 0.0,
+    "corrected_return": 0.0009000900090010422,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-07-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0017985611510791255,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-07-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0008976660682225024,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-08-02",
+    "old_return": 0.0,
+    "corrected_return": 0.0017937219730941312,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-08-09",
+    "old_return": 0.0,
+    "corrected_return": 0.001790510295434311,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-08-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0017873100983021306,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-09-06",
+    "old_return": 0.0,
+    "corrected_return": 0.001784121320249854,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-09-20",
+    "old_return": 0.0,
+    "corrected_return": 0.0008904719501336977,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-10-18",
+    "old_return": 0.0,
+    "corrected_return": 0.000888888888888939,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-11-15",
+    "old_return": 0.0,
+    "corrected_return": 0.000888099467140302,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-11-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0009643201542912649,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-12-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0009633911368014392,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-12-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0009624639076035724,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-12-20",
+    "old_return": 0.0,
+    "corrected_return": 0.0009615384615384581,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-12-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0019212295869357465,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2019-12-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0009587727708533222,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-01-23",
+    "old_return": 0.0,
+    "corrected_return": 0.0009560229445506607,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-02-07",
+    "old_return": 0.0,
+    "corrected_return": 0.005730659025787954,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-02-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0009496676163343043,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-02-21",
+    "old_return": 0.0,
+    "corrected_return": 0.000948766603415363,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-02-28",
+    "old_return": 0.0,
+    "corrected_return": 0.0018957345971564177,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-03-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0009460737937561081,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-03-13",
+    "old_return": 0.0,
+    "corrected_return": 0.000945179584120881,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-03-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0018885741265344258,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-04-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0009425070688031667,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-04-10",
+    "old_return": 0.0,
+    "corrected_return": 0.0037664783427495685,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-04-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0009380863039398779,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-04-24",
+    "old_return": 0.0,
+    "corrected_return": 0.0018744142455482393,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-04-30",
+    "old_return": 0.0,
+    "corrected_return": 0.00093545369504211,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-05-08",
+    "old_return": 0.0,
+    "corrected_return": -0.0018691588785046953,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-05-29",
+    "old_return": 0.0,
+    "corrected_return": -0.002808988764045006,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-06-05",
+    "old_return": 0.0,
+    "corrected_return": -0.005633802816901401,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-06-12",
+    "old_return": 0.0,
+    "corrected_return": 0.0009442870632674349,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-07-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0009433962264149276,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-07-10",
+    "old_return": 0.0,
+    "corrected_return": -0.0037700282752121117,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-07-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0009460737937561081,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-07-24",
+    "old_return": 0.0,
+    "corrected_return": 0.0018885741265344258,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-07-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0009425070688031667,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-08-07",
+    "old_return": 0.0,
+    "corrected_return": 0.0009416195856872811,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-08-14",
+    "old_return": 0.0,
+    "corrected_return": 0.002822201317027373,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-08-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0009380863039398779,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-08-28",
+    "old_return": 0.0,
+    "corrected_return": -0.0009372071227740086,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-09-04",
+    "old_return": 0.0,
+    "corrected_return": -0.0009380863039401,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-09-18",
+    "old_return": 0.0,
+    "corrected_return": 0.0009389671361503815,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-09-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0009380863039398779,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-10-23",
+    "old_return": 0.0,
+    "corrected_return": 0.00093545369504211,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-11-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0009345794392521256,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-11-13",
+    "old_return": 0.0,
+    "corrected_return": -0.0028011204481791507,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-11-20",
+    "old_return": 0.0,
+    "corrected_return": -0.004681647940074973,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-11-27",
+    "old_return": 0.0,
+    "corrected_return": -0.0009407337723422726,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-12-04",
+    "old_return": 0.0,
+    "corrected_return": 0.0018832391713747842,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-12-11",
+    "old_return": 0.0,
+    "corrected_return": 0.0009398496240600185,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-12-18",
+    "old_return": 0.0,
+    "corrected_return": 0.0009756097560975618,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-12-25",
+    "old_return": 0.0,
+    "corrected_return": 0.0009746588693955172,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2020-12-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0019474196689386325,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-01-08",
+    "old_return": 0.0,
+    "corrected_return": 0.00291545189504383,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-01-15",
+    "old_return": 0.0,
+    "corrected_return": 0.0019379844961240345,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-01-29",
+    "old_return": 0.0,
+    "corrected_return": -0.0009680542110357404,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-02-10",
+    "old_return": 0.0,
+    "corrected_return": 0.0009689922480620172,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-02-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0009680542110359625,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-02-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0009671179883945502,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-03-05",
+    "old_return": 0.0,
+    "corrected_return": 0.0019323671497584183,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-03-12",
+    "old_return": 0.0,
+    "corrected_return": 0.0009643201542912649,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-03-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0019267822736031004,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-03-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0019230769230769162,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-04-02",
+    "old_return": 0.0,
+    "corrected_return": 0.0009596928982724684,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-04-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0009587727708533222,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-04-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0019157088122605526,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-04-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0009560229445506607,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-04-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0009551098376314737,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-05-07",
+    "old_return": 0.0,
+    "corrected_return": 0.000954198473282375,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-05-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0019065776930409228,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-05-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0019029495718363432,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-05-28",
+    "old_return": 0.0,
+    "corrected_return": 0.0018993352326686086,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-06-25",
+    "old_return": 0.0,
+    "corrected_return": 0.0009478672985783199,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-07-02",
+    "old_return": 0.0,
+    "corrected_return": 0.0009560229445506607,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-07-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0019102196752627254,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-07-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0028598665395616063,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-07-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0019011406844107182,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-08-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0028436018957347375,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-08-13",
+    "old_return": 0.0,
+    "corrected_return": 0.000945179584120881,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-08-20",
+    "old_return": 0.0,
+    "corrected_return": 0.0009442870632674349,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-09-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0009433962264149276,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-09-17",
+    "old_return": 0.0,
+    "corrected_return": -0.0009425070688029447,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-09-24",
+    "old_return": 0.0,
+    "corrected_return": -0.0009433962264151496,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-09-30",
+    "old_return": 0.0,
+    "corrected_return": -0.0009442870632671019,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-10-15",
+    "old_return": 0.0,
+    "corrected_return": -0.0009442870632671019,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-10-29",
+    "old_return": 0.0,
+    "corrected_return": 0.0018885741265344258,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-11-05",
+    "old_return": 0.0,
+    "corrected_return": 0.002827521206409056,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-11-12",
+    "old_return": 0.0,
+    "corrected_return": 0.0009398496240600185,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-11-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0009389671361503815,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-11-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0018761726078799779,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-12-03",
+    "old_return": 0.0,
+    "corrected_return": 0.000936329588014928,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-12-10",
+    "old_return": 0.0,
+    "corrected_return": 0.00093545369504211,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-12-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0018691588785046953,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2021-12-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0009328358208953169,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-01-07",
+    "old_return": 0.0,
+    "corrected_return": 0.0009319664492080104,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-01-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0018621973929235924,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-01-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0027881040892194786,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-02-11",
+    "old_return": 0.0,
+    "corrected_return": 0.0009259259259259967,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-02-18",
+    "old_return": 0.0,
+    "corrected_return": 0.0009250693802034249,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-02-25",
+    "old_return": 0.0,
+    "corrected_return": -0.0009416195856872811,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-03-04",
+    "old_return": 0.0,
+    "corrected_return": -0.0009425070688029447,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-03-11",
+    "old_return": 0.0,
+    "corrected_return": -0.0009433962264150386,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-03-25",
+    "old_return": 0.0,
+    "corrected_return": 0.0018885741265344258,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-04-01",
+    "old_return": 0.0,
+    "corrected_return": 0.0018850141376061114,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-04-08",
+    "old_return": 0.0,
+    "corrected_return": 0.0018814675446847673,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-04-15",
+    "old_return": 0.0,
+    "corrected_return": 0.0028169014084507005,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-04-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0009363295880151501,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-04-28",
+    "old_return": 0.0,
+    "corrected_return": 0.00093545369504211,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-05-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0009345794392523477,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-05-13",
+    "old_return": 0.0,
+    "corrected_return": 0.002801120448179484,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-05-20",
+    "old_return": 0.0,
+    "corrected_return": 0.0027932960893854997,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-05-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0018570102135562205,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-06-02",
+    "old_return": 0.0,
+    "corrected_return": -0.000926784059314123,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-06-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0009460737937561081,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-06-24",
+    "old_return": 0.0,
+    "corrected_return": 0.000945179584120881,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-07-08",
+    "old_return": 0.0,
+    "corrected_return": 0.0009442870632674349,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-07-15",
+    "old_return": 0.0,
+    "corrected_return": 0.0018867924528302993,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-07-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0028248587570620654,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-07-28",
+    "old_return": 0.0,
+    "corrected_return": 0.001877934272300541,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-08-05",
+    "old_return": 0.0,
+    "corrected_return": 0.002808988764044784,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-08-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0018674136321195078,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-08-26",
+    "old_return": 0.0,
+    "corrected_return": -0.0009319664492076773,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-09-02",
+    "old_return": 0.0,
+    "corrected_return": 0.0009328358208953169,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-09-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0009319664492080104,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-09-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0009310986964616852,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-09-30",
+    "old_return": 0.0,
+    "corrected_return": -0.0009302325581393989,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-10-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0009310986964616852,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-10-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0009302325581397319,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-11-04",
+    "old_return": 0.0,
+    "corrected_return": -0.0009285051067779992,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-11-11",
+    "old_return": 0.0,
+    "corrected_return": -0.0018587360594795044,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-11-18",
+    "old_return": 0.0,
+    "corrected_return": -0.009310986964618295,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-11-25",
+    "old_return": 0.0,
+    "corrected_return": 0.0009398496240600185,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-12-02",
+    "old_return": 0.0,
+    "corrected_return": -0.004694835680751019,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-12-09",
+    "old_return": 0.0,
+    "corrected_return": -0.006730769230769318,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-12-16",
+    "old_return": 0.0,
+    "corrected_return": -0.0058083252662148865,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-12-23",
+    "old_return": 0.0,
+    "corrected_return": 0.002921129503408171,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2022-12-30",
+    "old_return": 0.0,
+    "corrected_return": 0.001941747572815622,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-01-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0029041626331076653,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-01-13",
+    "old_return": 0.0,
+    "corrected_return": -0.0009652509652510188,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-02-10",
+    "old_return": 0.0,
+    "corrected_return": 0.0028901734104045396,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-02-17",
+    "old_return": 0.0,
+    "corrected_return": 0.003842459173871271,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-02-24",
+    "old_return": 0.0,
+    "corrected_return": 0.000956937799043267,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-03-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0009560229445506607,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-03-10",
+    "old_return": 0.0,
+    "corrected_return": 0.002865329512894199,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-03-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0019047619047618536,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-03-24",
+    "old_return": 0.0,
+    "corrected_return": 0.002851711026615966,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-03-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0018957345971564177,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-04-07",
+    "old_return": 0.0,
+    "corrected_return": 0.0009460737937561081,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-04-14",
+    "old_return": 0.0,
+    "corrected_return": 0.000945179584120881,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-04-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0018885741265344258,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-04-28",
+    "old_return": 0.0,
+    "corrected_return": 0.0018850141376061114,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-05-12",
+    "old_return": 0.0,
+    "corrected_return": 0.001877934272300541,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-05-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0009372071227742307,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-05-26",
+    "old_return": 0.0,
+    "corrected_return": 0.000936329588014928,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-06-09",
+    "old_return": 0.0,
+    "corrected_return": 0.00093545369504211,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-06-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0018921475875117721,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-06-21",
+    "old_return": 0.0,
+    "corrected_return": -0.0009442870632671019,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-06-30",
+    "old_return": 0.0,
+    "corrected_return": 0.000945179584121103,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-07-07",
+    "old_return": 0.0,
+    "corrected_return": 0.0018885741265344258,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-07-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0009425070688031667,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-07-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0018832391713747842,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-08-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0009398496240602405,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-08-11",
+    "old_return": 0.0,
+    "corrected_return": 0.0028169014084507005,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-08-18",
+    "old_return": 0.0,
+    "corrected_return": 0.002808988764045006,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-08-25",
+    "old_return": 0.0,
+    "corrected_return": 0.0009337068160597539,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-09-08",
+    "old_return": 0.0,
+    "corrected_return": -0.003731343283582045,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-09-15",
+    "old_return": 0.0,
+    "corrected_return": 0.0009363295880151501,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-09-22",
+    "old_return": 0.0,
+    "corrected_return": 0.00093545369504211,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-10-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0009345794392523477,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-10-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0009337068160597539,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-11-03",
+    "old_return": 0.0,
+    "corrected_return": 0.000932835820895539,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-11-10",
+    "old_return": 0.0,
+    "corrected_return": 0.0009310986964619072,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-11-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0018604651162790198,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-12-08",
+    "old_return": 0.0,
+    "corrected_return": -0.0009285051067779992,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-12-15",
+    "old_return": 0.0,
+    "corrected_return": 0.0027881040892194786,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-12-22",
+    "old_return": 0.0,
+    "corrected_return": 0.001853568118628468,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2023-12-29",
+    "old_return": 0.0,
+    "corrected_return": 0.0027752081406107187,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-01-05",
+    "old_return": 0.0,
+    "corrected_return": 0.000922509225092405,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-01-12",
+    "old_return": 0.0,
+    "corrected_return": 0.0018433179723502668,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-01-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0009199632014720294,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-01-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0018382352941177516,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-02-02",
+    "old_return": 0.0,
+    "corrected_return": 0.0018348623853210455,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-02-23",
+    "old_return": 0.0,
+    "corrected_return": 0.001828153564899404,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-03-01",
+    "old_return": 0.0,
+    "corrected_return": 0.0009124087591241281,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-03-08",
+    "old_return": 0.0,
+    "corrected_return": 0.0009115770282590585,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-03-15",
+    "old_return": 0.0,
+    "corrected_return": -0.0009107468123860096,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-03-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0009115770282590585,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-03-29",
+    "old_return": 0.0,
+    "corrected_return": 0.0009107468123863427,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-04-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0018198362147405778,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-04-12",
+    "old_return": 0.0,
+    "corrected_return": 0.0027247956403271267,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-04-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0036231884057971175,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-04-30",
+    "old_return": 0.0,
+    "corrected_return": -0.0009025270758121762,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-05-10",
+    "old_return": 0.0,
+    "corrected_return": 0.0018066847335140857,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-05-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0018034265103696878,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-05-24",
+    "old_return": 0.0,
+    "corrected_return": 0.0009000900090010422,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-05-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0017985611510791255,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-06-07",
+    "old_return": 0.0,
+    "corrected_return": 0.0017953321364452268,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-06-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0008960573476703981,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-06-28",
+    "old_return": 0.0,
+    "corrected_return": 0.0008952551477172666,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-07-12",
+    "old_return": 0.0,
+    "corrected_return": 0.0008936550491511763,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-07-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0008928571428572507,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-07-26",
+    "old_return": 0.0,
+    "corrected_return": 0.00267618198037467,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-08-02",
+    "old_return": 0.0,
+    "corrected_return": 0.001779359430605032,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-08-09",
+    "old_return": 0.0,
+    "corrected_return": -0.0008880994671401909,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-08-16",
+    "old_return": 0.0,
+    "corrected_return": -0.000888888888888828,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-08-23",
+    "old_return": 0.0,
+    "corrected_return": -0.000889679715302405,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-08-30",
+    "old_return": 0.0,
+    "corrected_return": -0.0017809439002671734,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-09-06",
+    "old_return": 0.0,
+    "corrected_return": 0.001784121320249854,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-09-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0008904719501336977,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-09-27",
+    "old_return": 0.0,
+    "corrected_return": -0.001779359430605032,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-10-11",
+    "old_return": 0.0,
+    "corrected_return": -0.0026857654431512445,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-10-18",
+    "old_return": 0.0,
+    "corrected_return": 0.006283662477558405,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-10-25",
+    "old_return": 0.0,
+    "corrected_return": -0.001784121320249743,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-11-08",
+    "old_return": 0.0,
+    "corrected_return": 0.0017873100983021306,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-11-15",
+    "old_return": 0.0,
+    "corrected_return": 0.001784121320249854,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-11-20",
+    "old_return": 0.0,
+    "corrected_return": 0.0008904719501336977,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-11-29",
+    "old_return": 0.0,
+    "corrected_return": 0.001777777777777878,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-12-06",
+    "old_return": 0.0,
+    "corrected_return": 0.003549245785270605,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-12-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0017683465959328348,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2024-12-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0008826125330980705,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-01-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0017636684303350414,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-01-17",
+    "old_return": 0.0,
+    "corrected_return": -0.0008802816901407606,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-01-24",
+    "old_return": 0.0,
+    "corrected_return": -0.0008810572687223406,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-02-07",
+    "old_return": 0.0,
+    "corrected_return": 0.0008810572687225626,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-02-20",
+    "old_return": 0.0,
+    "corrected_return": -0.0017605633802817433,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-03-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0026525198938993633,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-03-28",
+    "old_return": 0.0,
+    "corrected_return": 0.0017636684303350414,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-04-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0017605633802817433,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-04-11",
+    "old_return": 0.0,
+    "corrected_return": 0.0008787346221441616,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-04-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0008779631255488862,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-05-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0017543859649122862,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-05-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0008756567425569628,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-05-23",
+    "old_return": 0.0,
+    "corrected_return": 0.0008748906386701893,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-05-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0008741258741260527,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-06-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0008741258741260527,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-06-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0008733624454149158,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-06-20",
+    "old_return": 0.0,
+    "corrected_return": 0.0017452006980802626,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-06-27",
+    "old_return": 0.0,
+    "corrected_return": -0.0008710801393727596,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-07-04",
+    "old_return": 0.0,
+    "corrected_return": 0.0017421602787457413,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-07-11",
+    "old_return": 0.0,
+    "corrected_return": -0.0008695652173912327,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-07-18",
+    "old_return": 0.0,
+    "corrected_return": 0.0017406440382941035,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-07-25",
+    "old_return": 0.0,
+    "corrected_return": -0.0034752389226759828,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-08-01",
+    "old_return": 0.0,
+    "corrected_return": 0.0017436791630340842,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-08-08",
+    "old_return": 0.0,
+    "corrected_return": 0.0008703220191472738,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-08-15",
+    "old_return": 0.0,
+    "corrected_return": -0.0017391304347825765,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-08-22",
+    "old_return": 0.0,
+    "corrected_return": -0.0017421602787456303,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-08-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0008726003490402423,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-09-05",
+    "old_return": 0.0,
+    "corrected_return": 0.0017436791630340842,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-09-12",
+    "old_return": 0.0,
+    "corrected_return": -0.0017406440382942145,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-09-19",
+    "old_return": 0.0,
+    "corrected_return": 0.0008718395815170421,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-09-26",
+    "old_return": 0.0,
+    "corrected_return": -0.0017421602787456303,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-10-10",
+    "old_return": 0.0,
+    "corrected_return": 0.0008726003490402423,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-10-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0017436791630340842,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-10-24",
+    "old_return": 0.0,
+    "corrected_return": 0.0008703220191472738,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-10-31",
+    "old_return": 0.0,
+    "corrected_return": 0.002608695652174031,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-11-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0008673026886383273,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-11-27",
+    "old_return": 0.0,
+    "corrected_return": -0.0008665511265163461,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-12-05",
+    "old_return": 0.0,
+    "corrected_return": -0.0008673026886382162,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-12-12",
+    "old_return": 0.0,
+    "corrected_return": 0.0008680555555555802,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2025-12-26",
+    "old_return": 0.0,
+    "corrected_return": 0.0008673026886383273,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-01-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0008665511265164572,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-01-16",
+    "old_return": 0.0,
+    "corrected_return": 0.0008658008658009031,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-01-23",
+    "old_return": 0.0,
+    "corrected_return": 0.0008650519031143666,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-01-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0008643042350908736,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-02-06",
+    "old_return": 0.0,
+    "corrected_return": 0.0008635578583766623,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-02-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0008628127696290733,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-02-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0008620689655174374,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-03-20",
+    "old_return": 0.0,
+    "corrected_return": 0.0008598452278589797,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-03-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0017182130584192379,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-04-03",
+    "old_return": 0.0,
+    "corrected_return": 0.0008576329331047017,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-04-10",
+    "old_return": 0.0,
+    "corrected_return": 0.001713796058269157,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-04-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0008554319931566301,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-04-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0008547008547008517,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-05-08",
+    "old_return": 0.0,
+    "corrected_return": 0.000853970964987294,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-05-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0017064846416381396,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-05-29",
+    "old_return": 0.0,
+    "corrected_return": 0.0017035775127769437,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-06-05",
+    "old_return": 0.0,
+    "corrected_return": 0.001700680272108901,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-06-12",
+    "old_return": 0.0,
+    "corrected_return": -0.001697792869269965,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-06-18",
+    "old_return": 0.0,
+    "corrected_return": 0.0008503401360544505,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-06-26",
+    "old_return": 0.0,
+    "corrected_return": 0.000849617672047609,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-07-10",
+    "old_return": 0.0,
+    "corrected_return": 0.0008488964346351491,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-07-24",
+    "old_return": 0.0,
+    "corrected_return": 0.0008481764206955678,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-08-07",
+    "old_return": 0.0,
+    "corrected_return": 0.0008474576271186862,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-08-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0008467400508045397,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-08-21",
+    "old_return": 0.0,
+    "corrected_return": 0.0008460236886633776,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-08-28",
+    "old_return": 0.0,
+    "corrected_return": 0.0008453085376163294,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-09-04",
+    "old_return": 0.0,
+    "corrected_return": 0.0008445945945947386,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-09-11",
+    "old_return": 0.0,
+    "corrected_return": 0.000843170320404818,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-09-18",
+    "old_return": 0.0,
+    "corrected_return": 0.0008424599831509116,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-09-24",
+    "old_return": 0.0,
+    "corrected_return": 0.0008417508417508657,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-09-30",
+    "old_return": 0.0,
+    "corrected_return": 0.000841042893187538,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-10-16",
+    "old_return": 0.0,
+    "corrected_return": 0.001680672268907557,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-10-23",
+    "old_return": 0.0,
+    "corrected_return": 0.000838926174496768,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-10-30",
+    "old_return": 0.0,
+    "corrected_return": -0.0016764459346185756,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "000271",
+    "date": "2026-11-13",
+    "old_return": 0.0,
+    "corrected_return": -0.004198152812762257,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "022415",
+    "date": "2024-12-13",
+    "old_return": 0.0,
+    "corrected_return": -0.00039999999999995595,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "022415",
+    "date": "2024-12-20",
+    "old_return": 0.0,
+    "corrected_return": -0.0007002801120448154,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "022415",
+    "date": "2024-12-27",
+    "old_return": 0.0,
+    "corrected_return": 0.0014015416958654825,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "022415",
+    "date": "2024-12-31",
+    "old_return": 0.0,
+    "corrected_return": 0.00019994001799461536,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "022415",
+    "date": "2025-01-03",
+    "old_return": 0.0,
+    "corrected_return": -0.0031984007996002095,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "022415",
+    "date": "2025-01-10",
+    "old_return": 0.0,
+    "corrected_return": -0.004111099969918763,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "022415",
+    "date": "2025-01-17",
+    "old_return": 0.0,
+    "corrected_return": 0.005839710028191725,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "022415",
+    "date": "2025-01-24",
+    "old_return": 0.0,
+    "corrected_return": -0.0041041041041041115,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "023875",
+    "date": "2026-09-15",
+    "old_return": 0.0,
+    "corrected_return": 0.00018240685849768568,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "519696",
+    "date": "2018-12-31",
+    "old_return": 0.0,
+    "corrected_return": 0.0064177362893815815,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "519696",
+    "date": "2020-01-23",
+    "old_return": 0.0,
+    "corrected_return": -0.007629947544110616,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "519697",
+    "date": "2019-06-30",
+    "old_return": 0.0,
+    "corrected_return": -0.0002893518518518601,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "004237",
+    "date": "2019-06-30",
+    "old_return": 0.0,
+    "corrected_return": -0.00015571473061348762,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002051",
+    "date": "2019-06-30",
+    "old_return": 0.0,
+    "corrected_return": 0.0009881422924900019,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002910",
+    "date": "2017-02-10",
+    "old_return": 0.0,
+    "corrected_return": 0.005102551275637746,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002910",
+    "date": "2017-02-17",
+    "old_return": 0.0,
+    "corrected_return": -0.008361536930121427,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002910",
+    "date": "2017-02-24",
+    "old_return": 0.0,
+    "corrected_return": 0.017265609315398667,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002910",
+    "date": "2017-03-03",
+    "old_return": 0.0,
+    "corrected_return": -0.008190250641405106,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002244",
+    "date": "2016-03-18",
+    "old_return": 0.0,
+    "corrected_return": 0.06099999999999994,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002244",
+    "date": "2016-03-25",
+    "old_return": 0.0,
+    "corrected_return": 0.03675777568331773,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002244",
+    "date": "2016-04-01",
+    "old_return": 0.0,
+    "corrected_return": -0.00545454545454549,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002244",
+    "date": "2016-04-08",
+    "old_return": 0.0,
+    "corrected_return": 0.009140767824497242,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002244",
+    "date": "2016-04-15",
+    "old_return": 0.0,
+    "corrected_return": 0.045289855072463636,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002244",
+    "date": "2016-04-19",
+    "old_return": 0.0,
+    "corrected_return": -0.015398550724637583,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "011370",
+    "date": "2021-04-23",
+    "old_return": 0.0,
+    "corrected_return": 0.009600000000000053,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "011370",
+    "date": "2021-04-30",
+    "old_return": 0.0,
+    "corrected_return": 0.017333597464342265,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "011370",
+    "date": "2021-05-07",
+    "old_return": 0.0,
+    "corrected_return": -0.026482328887157958,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "011370",
+    "date": "2021-05-14",
+    "old_return": 0.0,
+    "corrected_return": 0.010501050105010457,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "011370",
+    "date": "2021-05-21",
+    "old_return": 0.0,
+    "corrected_return": 0.011084718923198844,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "011370",
+    "date": "2021-05-28",
+    "old_return": 0.0,
+    "corrected_return": 0.01791307752545035,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "011370",
+    "date": "2021-06-04",
+    "old_return": 0.0,
+    "corrected_return": 0.010577940186556223,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "011370",
+    "date": "2021-06-09",
+    "old_return": 0.0,
+    "corrected_return": -0.018840993434199316,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-01-28",
+    "old_return": 0.0,
+    "corrected_return": -0.03400000000000003,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-02-11",
+    "old_return": 0.0,
+    "corrected_return": -0.014182194616977117,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-02-18",
+    "old_return": 0.0,
+    "corrected_return": 0.022261892260842187,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-02-25",
+    "old_return": 0.0,
+    "corrected_return": 0.011196712891628158,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-03-04",
+    "old_return": 0.0,
+    "corrected_return": -0.016863063795205302,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-03-11",
+    "old_return": 0.0,
+    "corrected_return": -0.032961355651994206,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-03-18",
+    "old_return": 0.0,
+    "corrected_return": -0.0030986216476117656,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-04-01",
+    "old_return": 0.0,
+    "corrected_return": 0.012970307642834245,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-04-08",
+    "old_return": 0.0,
+    "corrected_return": -0.015132275132275108,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-04-15",
+    "old_return": 0.0,
+    "corrected_return": -0.044482647469646475,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-04-22",
+    "old_return": 0.0,
+    "corrected_return": -0.04936466884066115,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-04-29",
+    "old_return": 0.0,
+    "corrected_return": 0.025313461083510624,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-05-06",
+    "old_return": 0.0,
+    "corrected_return": -0.009575449930779856,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-05-13",
+    "old_return": 0.0,
+    "corrected_return": 0.03541059988351769,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-05-20",
+    "old_return": 0.0,
+    "corrected_return": 0.03577455281808972,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-05-27",
+    "old_return": 0.0,
+    "corrected_return": -0.02215705441511895,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-06-02",
+    "old_return": 0.0,
+    "corrected_return": 0.04809507941797175,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-06-10",
+    "old_return": 0.0,
+    "corrected_return": 0.061042814752013674,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-06-17",
+    "old_return": 0.0,
+    "corrected_return": 0.03326008789452639,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-06-24",
+    "old_return": 0.0,
+    "corrected_return": 0.025906234896085012,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-06-30",
+    "old_return": 0.0,
+    "corrected_return": 0.003109394139263255,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-07-08",
+    "old_return": 0.0,
+    "corrected_return": -0.01044214487300088,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-07-15",
+    "old_return": 0.0,
+    "corrected_return": -0.0023766517729821857,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-07-22",
+    "old_return": 0.0,
+    "corrected_return": -0.013817419477797022,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-07-29",
+    "old_return": 0.0,
+    "corrected_return": 0.007150449318774843,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-08-05",
+    "old_return": 0.0,
+    "corrected_return": -0.023313825194281823,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-08-12",
+    "old_return": 0.0,
+    "corrected_return": 0.017092337917485434,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-08-19",
+    "old_return": 0.0,
+    "corrected_return": 0.019219625265597617,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-08-26",
+    "old_return": 0.0,
+    "corrected_return": -0.02605894058561531,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-09-02",
+    "old_return": 0.0,
+    "corrected_return": -0.061198676785366835,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-09-09",
+    "old_return": 0.0,
+    "corrected_return": 0.04238781220851906,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-09-16",
+    "old_return": 0.0,
+    "corrected_return": -0.07198250149135021,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-09-23",
+    "old_return": 0.0,
+    "corrected_return": 0.00685665309620731,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-09-30",
+    "old_return": 0.0,
+    "corrected_return": -0.04043413492232384,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-10-14",
+    "old_return": 0.0,
+    "corrected_return": 0.0194056331780883,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-10-21",
+    "old_return": 0.0,
+    "corrected_return": -0.011856847601435905,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-10-28",
+    "old_return": 0.0,
+    "corrected_return": -0.029612505504183262,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-11-04",
+    "old_return": 0.0,
+    "corrected_return": 0.03754963131026656,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-11-11",
+    "old_return": 0.0,
+    "corrected_return": -0.025038268095342153,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-11-18",
+    "old_return": 0.0,
+    "corrected_return": -0.030727823258943743,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-11-25",
+    "old_return": 0.0,
+    "corrected_return": -0.009371745921554986,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-12-02",
+    "old_return": 0.0,
+    "corrected_return": -0.008058864751226191,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-12-09",
+    "old_return": 0.0,
+    "corrected_return": 0.0037678087837043073,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-12-16",
+    "old_return": 0.0,
+    "corrected_return": -0.010674486803519012,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-12-23",
+    "old_return": 0.0,
+    "corrected_return": -0.02644059758121886,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2022-12-30",
+    "old_return": 0.0,
+    "corrected_return": 0.008768724881256906,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-01-06",
+    "old_return": 0.0,
+    "corrected_return": 0.026563631972953194,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-01-13",
+    "old_return": 0.0,
+    "corrected_return": 0.03552105386967774,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-01-20",
+    "old_return": 0.0,
+    "corrected_return": 0.019195820081781,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-02-03",
+    "old_return": 0.0,
+    "corrected_return": -0.019502953304357473,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-02-10",
+    "old_return": 0.0,
+    "corrected_return": -0.0007956353716753739,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-02-17",
+    "old_return": 0.0,
+    "corrected_return": -0.031054487544079135,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-02-24",
+    "old_return": 0.0,
+    "corrected_return": 0.002347969006809114,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-03-03",
+    "old_return": 0.0,
+    "corrected_return": -0.006324666198172846,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-03-10",
+    "old_return": 0.0,
+    "corrected_return": -0.03595002357378607,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-03-17",
+    "old_return": 0.0,
+    "corrected_return": -0.006113216774666808,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-03-24",
+    "old_return": 0.0,
+    "corrected_return": -0.0013531799729363803,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-03-31",
+    "old_return": 0.0,
+    "corrected_return": 0.011825572801182682,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-04-07",
+    "old_return": 0.0,
+    "corrected_return": 0.006208911614316914,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-04-14",
+    "old_return": 0.0,
+    "corrected_return": -0.006291591046581946,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-04-21",
+    "old_return": 0.0,
+    "corrected_return": -0.007549007670765828,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-04-28",
+    "old_return": 0.0,
+    "corrected_return": 0.012881854987118135,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-05-05",
+    "old_return": 0.0,
+    "corrected_return": -0.012596899224806113,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-05-12",
+    "old_return": 0.0,
+    "corrected_return": -0.044038272816486757,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-05-19",
+    "old_return": 0.0,
+    "corrected_return": 0.022841011163865055,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-05-26",
+    "old_return": 0.0,
+    "corrected_return": -0.004516371847948841,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-06-02",
+    "old_return": 0.0,
+    "corrected_return": -0.001260239445494693,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-06-09",
+    "old_return": 0.0,
+    "corrected_return": -0.017791798107255508,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-06-16",
+    "old_return": 0.0,
+    "corrected_return": 0.04021068859198351,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-06-21",
+    "old_return": 0.0,
+    "corrected_return": -0.004940101272076114,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-06-30",
+    "old_return": 0.0,
+    "corrected_return": 0.015514459476231979,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-07-07",
+    "old_return": 0.0,
+    "corrected_return": -0.013810804204351101,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-07-14",
+    "old_return": 0.0,
+    "corrected_return": 0.008427314413186338,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-07-21",
+    "old_return": 0.0,
+    "corrected_return": -0.02064642988816512,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-07-28",
+    "old_return": 0.0,
+    "corrected_return": 0.011795708369933378,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-08-04",
+    "old_return": 0.0,
+    "corrected_return": -0.01054198189259592,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-08-11",
+    "old_return": 0.0,
+    "corrected_return": -0.02180997743795432,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-08-18",
+    "old_return": 0.0,
+    "corrected_return": -0.014223475140953346,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-08-25",
+    "old_return": 0.0,
+    "corrected_return": -0.029507344339009367,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-09-01",
+    "old_return": 0.0,
+    "corrected_return": 0.036431824270024116,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-09-08",
+    "old_return": 0.0,
+    "corrected_return": -0.01873869216851909,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-09-15",
+    "old_return": 0.0,
+    "corrected_return": -0.005794811010140899,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-09-22",
+    "old_return": 0.0,
+    "corrected_return": 0.0014571466419392998,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-09-28",
+    "old_return": 0.0,
+    "corrected_return": 0.020767195767195767,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-10-13",
+    "old_return": 0.0,
+    "corrected_return": -0.02410263055591555,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-10-20",
+    "old_return": 0.0,
+    "corrected_return": -0.04514672686230248,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-10-27",
+    "old_return": 0.0,
+    "corrected_return": 0.02058128215825339,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-11-03",
+    "old_return": 0.0,
+    "corrected_return": 0.017577326611254884,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-11-10",
+    "old_return": 0.0,
+    "corrected_return": -0.006427423674343902,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-11-17",
+    "old_return": 0.0,
+    "corrected_return": 0.003099730458220984,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-11-24",
+    "old_return": 0.0,
+    "corrected_return": -0.009404809888485799,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-12-01",
+    "old_return": 0.0,
+    "corrected_return": 0.003119490031195049,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-12-08",
+    "old_return": 0.0,
+    "corrected_return": -0.02852893455922123,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-12-15",
+    "old_return": 0.0,
+    "corrected_return": -0.014196242171189977,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-12-22",
+    "old_return": 0.0,
+    "corrected_return": -0.008047437526471857,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2023-12-29",
+    "old_return": 0.0,
+    "corrected_return": 0.02092228864218626,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2024-01-05",
+    "old_return": 0.0,
+    "corrected_return": -0.0264882197128119,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2024-01-12",
+    "old_return": 0.0,
+    "corrected_return": -0.01303164828870118,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "012817",
+    "date": "2024-01-19",
+    "old_return": 0.0,
+    "corrected_return": -0.037144515380150955,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "001076",
+    "date": "2015-04-30",
+    "old_return": 0.0,
+    "corrected_return": -0.0040000000000000036,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "001076",
+    "date": "2015-05-08",
+    "old_return": 0.0,
+    "corrected_return": 0.006024096385542244,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "001076",
+    "date": "2015-05-15",
+    "old_return": 0.0,
+    "corrected_return": 0.02894211576846306,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "001076",
+    "date": "2018-12-31",
+    "old_return": 0.0,
+    "corrected_return": -0.0013280212483399723,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "001076",
+    "date": "2019-06-30",
+    "old_return": 0.0,
+    "corrected_return": -0.0009057971014493349,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "010390",
+    "date": "2020-11-06",
+    "old_return": 0.0,
+    "corrected_return": 0.001100000000000101,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "010390",
+    "date": "2020-11-13",
+    "old_return": 0.0,
+    "corrected_return": 0.0014983518130056162,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "010390",
+    "date": "2020-11-20",
+    "old_return": 0.0,
+    "corrected_return": 0.00319170157590265,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002943",
+    "date": "2017-01-06",
+    "old_return": 0.0,
+    "corrected_return": -0.00019999999999997797,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002943",
+    "date": "2017-01-13",
+    "old_return": 0.0,
+    "corrected_return": -0.0002000400080015563,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002943",
+    "date": "2017-01-17",
+    "old_return": 0.0,
+    "corrected_return": 0.0014005602240894088,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "002943",
+    "date": "2018-12-31",
+    "old_return": 0.0,
+    "corrected_return": -0.000214385250294713,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "013860",
+    "date": "2022-01-07",
+    "old_return": 0.0,
+    "corrected_return": -0.009200920092009235,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "013860",
+    "date": "2022-01-14",
+    "old_return": 0.0,
+    "corrected_return": -0.007166649843544981,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "013860",
+    "date": "2022-01-21",
+    "old_return": 0.0,
+    "corrected_return": 0.02216348108987387,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  },
+  {
+    "code": "013860",
+    "date": "2022-01-27",
+    "old_return": 0.0,
+    "corrected_return": -0.018102247861547793,
+    "reason": "provider zero conflicts with NAV/dividend endpoint"
+  }
+]
