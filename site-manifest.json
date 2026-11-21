@@ -1,16 +1,25 @@
 {
-  "updated_on": "2026-11-20",
-  "home_sha256": "32f131f0053940b98c24339886a758070b9fb2a3e9c9879c21715d73e9fde0e5",
+  "updated_on": "2026-11-21",
+  "home_sha256": "0a7bc297fb528487766f398889f8b8ac471c801bdd641c033839687ad2a997b0",
   "latest_report": {
-    "date": "2026-11-20",
-    "path": "reports/2026-11-20/",
+    "date": "2026-11-21",
+    "path": "reports/2026-11-21/",
     "title": "目标组合 · 最新判断与条件赔率",
     "type": "target_portfolio_review",
-    "nav_cutoff": "2026-11-19",
+    "nav_cutoff": "2026-11-20",
     "revision": 1,
-    "html_sha256": "acb048772c7cb084841d573e0188af38ecc6156e22e7f2d60841f1d1a1e30c34"
+    "html_sha256": "ee88956df0f547f18f625b02c9d9fa7982b00629260e3c7f320e6503f52ab888"
   },
   "archive": [
+    {
+      "date": "2026-11-21",
+      "path": "reports/2026-11-21/",
+      "title": "目标组合 · 最新判断与条件赔率",
+      "type": "target_portfolio_review",
+      "nav_cutoff": "2026-11-20",
+      "revision": 1,
+      "html_sha256": "ee88956df0f547f18f625b02c9d9fa7982b00629260e3c7f320e6503f52ab888"
+    },
     {
       "date": "2026-11-20",
       "path": "reports/2026-11-20/",
