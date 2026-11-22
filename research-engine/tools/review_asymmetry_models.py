@@ -1,5 +1,5 @@
 """Grounded whole-report semantic review. GitHub Models token is never logged or persisted."""
-import argparse,json,os,re,sys,time,hashlib,urllib.request,urllib.error,gzip,io
+import argparse,json,os,re,sys,time,hashlib,urllib.request,urllib.error,gzip,io,zlib
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -19,14 +19,25 @@ def call_model(messages):
     token=os.environ.get("GITHUB_TOKEN")
     if not token:raise RuntimeError("GitHub Models authentication unavailable")
     model=os.environ.get("ASYMMETRY_REVIEW_MODEL","openai/gpt-4.1")
-    body=json.dumps({"model":model,"messages":messages,"temperature":0.1,"max_tokens":1800,
+    body=json.dumps({"model":model,"messages":messages,"temperature":0.1,"max_tokens":1800,"stream":False,
                      "response_format":{"type":"json_object"}},ensure_ascii=False).encode()
     req=urllib.request.Request("https://models.github.ai/inference/chat/completions",data=body,
           headers={"Authorization":"Bearer "+token,"Content-Type":"application/json",
                    "Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2026-03-10"})
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req,timeout=120) as r:d=json.load(r)
+            with urllib.request.urlopen(req,timeout=120) as r:
+                raw=r.read();encoding=r.headers.get("Content-Encoding","");content_type=r.headers.get("Content-Type","")
+            if raw.startswith(b"\x1f\x8b") or encoding=="gzip":raw=gzip.decompress(raw)
+            elif encoding=="deflate":raw=zlib.decompress(raw)
+            text=raw.decode("utf-8-sig")
+            try:d=json.loads(text)
+            except json.JSONDecodeError:
+                # Diagnostics describe the response without exposing tokens, headers or response bodies.
+                print("Model response shape",json.dumps({"type":content_type,"encoding":encoding,"bytes":len(raw),
+                      "starts_json":text.lstrip().startswith("{"),"starts_html":text.lstrip().startswith("<"),
+                      "starts_sse":text.lstrip().startswith("data:")}),flush=True)
+                raise RuntimeError("Model endpoint returned non-JSON or empty response")
             choice=(d.get("choices") or [None])[0]
             if not choice or choice.get("finish_reason") not in [None,"stop"]:
                 raise ValueError("Model response incomplete or refused")
