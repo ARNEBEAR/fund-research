@@ -84,6 +84,9 @@ def make_items(root,data):
                                          "account_status":data["longtermDecision"]["account_status"],
                                          "plan":p,"limits":data["longtermDecision"]["limits"]},ensure_ascii=False)})
     workbench=data.get("workbench",{})
+    for dated in data.get("marketReviews",[]):
+        items.append({"item_id":"dated_market_review:"+dated["date"],"type":"dated_review_scope_and_conclusion","asof":dated["date"],
+                      "text":json.dumps({"review":dated,"boundary":"Frozen dated research; source/NAV and manager stages require independent recheck before a new dated review. Daily data collection or homepage rebuild does not refresh this archive."},ensure_ascii=False)})
     for code in workbench.get("focus_codes",[]):
         f=workbench.get("funds",{}).get(code)
         if not f:continue

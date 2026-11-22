@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "revision": "V1.5",
+  "revision": "V1.6",
   "type": "independent_doc100_review",
   "status": "research_proposal_not_current_account_or_trades",
   "capital_basis_cny": 2300000,
@@ -8,8 +8,8 @@
   "nav_cutoff_qdii": "2026-11-19",
   "files": {
     "index.html": {
-      "bytes": 2590334,
-      "sha256": "518050e5a1274e5d4e73b117e7486b3f9ac1c1bfcb534c18928c4671b302861c"
+      "bytes": 2591509,
+      "sha256": "e7881e80b32e9c83bf5cbc802ed0a98ecf5dd31fc62250a21215d895865750dc"
     },
     "evidence.zip": {
       "bytes": 24475081,
@@ -28,8 +28,8 @@
       "sha256": "233159ab322eef456bac4087f9d800cc07f8c384e2ea449b88cf3efacc950d97"
     },
     "research-data.json": {
-      "bytes": 5370507,
-      "sha256": "934823ab731260f7c9d4853cf823b649f606a5d430e8026491f47f84e51d98dd"
+      "bytes": 5371238,
+      "sha256": "55b4efaf662e92935f639c75fabb1af2162c32eb7144055b2799d58a44b9a297"
     },
     "doc100/audit.json": {
       "bytes": 124951,
@@ -106,11 +106,55 @@
     "workbench-evidence.zip": {
       "bytes": 1723836,
       "sha256": "05bfc12b5cd76fb181b4b016af782f950b27a5cb94d1e92344dbcd39f8b74a74"
+    },
+    "daily-policy/market-review-20261122.json": {
+      "bytes": 624,
+      "sha256": "8de531afb25db0e413de6bf13562c7c32d96d1055575326681aa770943adf994"
+    },
+    "reviews/2026-11-22/2026-11-22.html": {
+      "bytes": 68145,
+      "sha256": "bef08bbde4beb9fae43e6c09f933bf7ac1af90bd172b1ee0b34411155683ffe8"
+    },
+    "reviews/2026-11-22/evidence.zip": {
+      "bytes": 12041670,
+      "sha256": "66a68706cf7de76dab0d91993c8b6a07bdbe0244a5b57db2d542753cef9ba651"
+    },
+    "reviews/2026-11-22/review-data.json": {
+      "bytes": 2806419,
+      "sha256": "c01aa8cfb734275a83bb96ab626c28fac772f78da8c33bb171cf42a450bb3814"
+    },
+    "reviews/2026-11-22/assets/report-data.js": {
+      "bytes": 2806442,
+      "sha256": "a4deaf006ef1fab491ecbadca10f6891fac7b9c8f62ab3463be05d9995b07009"
+    },
+    "reviews/2026-11-22/assets/charts.js": {
+      "bytes": 11495,
+      "sha256": "6194ace64b5942c4267845a9a94207e6805571ef56f2f89caf45407ea135ffa6"
+    },
+    "reviews/2026-11-22/assets/report.css": {
+      "bytes": 7210,
+      "sha256": "477353fa2baad10c8cd18127d9a1e028574e8a7cc1db6a3f930299c1304a6abf"
+    },
+    "reviews/2026-11-22/primary-reports.zip": {
+      "bytes": 23788338,
+      "sha256": "bd1a0be03677bfda8eb68f95a1f4cc983decf3653bfaacfc57bdb2671ab62e75"
+    },
+    "reviews/2026-11-22/assets/echarts.min.js": {
+      "bytes": 1030855,
+      "sha256": "e84270bd0cd5bdf60fefc26d00c2a391cb2e81f4d26a7a9ee16185a54773a3cf"
+    },
+    "reviews/2026-11-22/assets/DMMono-Regular.ttf": {
+      "bytes": 48852,
+      "sha256": "f98ada968dc3b6b2c08d3f5caaf266977df0bfe0929372b93df5a06cf2ace450"
+    },
+    "reviews/2026-11-22/assets/DMMono-OFL.txt": {
+      "bytes": 4392,
+      "sha256": "bfe7842fcb88323e2981e24710c25202677385a8c75fb6a87217b275a0247ae3"
     }
   },
   "current_review_date": "2026-11-22",
   "daily_automation": "source evidence plus GitHub Models semantic and counter-review; no automatic trading",
-  "current_preference": "L5 long-term candidate; previous D60 only a dated short-term proposal",
+  "current_preference": "L5 long-term candidate; new dated review challenges individual seats; D60 a dated short-term proposal",
   "doc100_private_account": "excluded; unrelated to user",
   "old_score": "not used",
   "longterm_scope": "L5 candidate; equity growth, drawdown and recovery considered together; no verified account or multi-cycle proof"

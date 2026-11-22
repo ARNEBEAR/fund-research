@@ -19455,7 +19455,7 @@
       }
     ]
   },
-  "revision": "V1.5 / 自定义组合曲线、加减影响与适配判断 / 2026-11-22",
+  "revision": "V1.6 / 日期市场扩池评测与候选竞争 / 2026-11-22",
   "currentDecision": {
     "version": "V1.3",
     "date": "2026-11-22",
@@ -243816,6 +243816,31 @@
       "申购、赎回、转换、额度、汇率与持有人摩擦不包含；日常基金费用已在净值内。"
     ]
   },
+  "marketReviews": [
+    {
+      "date": "2026-11-22",
+      "title": "市场扩池评测",
+      "path": "reviews/2026-11-22/2026-11-22.html",
+      "added_products": 40,
+      "assessed_share_classes": 41,
+      "primary_candidates": [
+        "006624",
+        "519702",
+        "007466"
+      ],
+      "satellite_watch": [
+        "007343"
+      ],
+      "overseas_unavailable": [
+        "161125"
+      ],
+      "current_portfolio_change": false,
+      "conclusion": "新增玉衡、交银趋势与红利低波作为席位竞争者；当前五基金不自动改权重。海外工具暂停申购，科技只留卫星观察。",
+      "q3_checks_passed": 41,
+      "latest_nav": "2026-11-19",
+      "holdings_asof": "2026-09-30"
+    }
+  ],
   "independentCandidates": {
     "schema_version": "1.0",
     "research_as_of": "2026-11-22",

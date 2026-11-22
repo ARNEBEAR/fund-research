@@ -26,6 +26,8 @@ def main():
     longterm=json.loads((ROOT/"research/longterm-comparison-20261122.json").read_text())
     data["longtermDecision"]=longterm
     data["workbench"]=json.loads((ROOT/"research/workbench-data-20261122.json").read_text())
+    review_path=ROOT/"research/market-review-20261122.json"
+    data["marketReviews"]=[json.loads(review_path.read_text())] if review_path.exists() else []
     for card in data["managerCards"]:
         if card["code"]=="021902":
             card["tenure"]="2023.11.01加入共管；2024.01.04吴兴武离任后独管；C类2024.07.25新增。旧产品与共管段单列，不认证三年全独管。"
@@ -37,7 +39,7 @@ def main():
     data["independentCandidates"]=passive
     data["extra_watch_codes"]=[{"code":"110020","name":"易方达沪深300ETF联接A","product_kind":"fund"},
                               {"code":"513500","name":"博时标普500ETF","product_kind":"etf"}]
-    data["revision"]="V1.5 / 自定义组合曲线、加减影响与适配判断 / 2026-11-22"
+    data["revision"]="V1.6 / 日期市场扩池评测与候选竞争 / 2026-11-22"
     doc=data["doc100"]
     for k in ["reported_ds_score","score_status"]:doc["document"].pop(k,None)
     doc["document"]["content_score"]=dec["document_content_score"]
@@ -102,9 +104,11 @@ def main():
     head=re.sub(r"<title>.*?</title>","<title>非对称 · 长期理想组合与同窗事实比较</title>",head)
     nav='''<nav class="nav-shell" aria-label="报告目录"><div class="wrap nav-inner"><a class="nav-brand" href="#top">非对称 ∿</a><a href="#current"><span class="num">01</span>长期候选</a><a href="#comparison"><span class="num">02</span>事实比较</a><a href="#possibilities"><span class="num">03</span>条件替代</a><a href="#independent"><span class="num">04</span>委托检验</a><a href="#market">市场</a><a href="#blind">净值</a><a href="#managers">经理</a><a href="#phase">阶段提案</a><a href="#daily">日审</a><a href="#history">历史</a><a href="#sources">来源</a></div><div class="reading-progress"></div></nav>'''
     nav=nav.replace('<a href="#comparison"><span class="num">02</span>事实比较</a>','<a href="#workbench"><span class="num">02</span>组合实验</a><a href="#comparison">旧方案比较</a>')
+    nav=nav.replace('<a href="#workbench">','<a href="reviews/2026-11-22/2026-11-22.html" class="dated-review-tab" style="color:var(--copper)">2026.11.22 评测 ↗</a><a href="#workbench">',1)
     hero='''<div class="wrap" id="top"><header class="masthead"><a class="brand" href="#top"><span class="brand-mark">∿</span>非对称 <span class="eyebrow">ASYMMETRY</span></a><div class="mast-meta"><span>HOLDER RESEARCH / V1.4</span><span>2026.11.22</span></div></header><div class="latest-hero"><div><span class="eyebrow">长期增长 / 回撤与修复一起检验</span><h1>让能力承担长期，<br>让证据约束信任。</h1><p>以权益长期增值为主，比较少数经理的委托价值。先看长期结构，再看同窗事实和条件替代；阶段性高现金不再默认等同长期目标。</p><div class="hero-actions"><a class="primary" href="#current" style="padding:12px 22px">查看长期候选 ↓</a><a class="current-download" href="#comparison">与旧方案事实比较 ↗</a></div></div><div class="hero-summary"><div><strong>L5</strong><p>长期五席候选 · 尚待验证</p></div><div><strong>230<span style="font-size:15px">万</span></strong><p>研究预算 · 非用户已核现仓</p></div><p class="small">约73.6%股权快照；承担权益损失，不承诺平滑或保本。D60保留为旧阶段风险提案。</p></div></div><div class="readmap"><a href="#current">长期结构</a><span>→</span><a href="#comparison">同窗事实</a><span>→</span><a href="#possibilities">条件替代</a><span>→</span><a href="#independent">继续验证</a></div></div>'''
     hero=hero.replace("HOLDER RESEARCH / V1.4","HOLDER RESEARCH / V1.4.1").replace("<strong>L5</strong>","<strong>五基金</strong>").replace("D60保留","60%现金方案保留")
     hero=hero.replace("V1.4.1","V1.5").replace('href="#comparison">与旧方案事实比较','href="#workbench">自定义组合与曲线')
+    hero=hero.replace("V1.5","V1.6").replace('<div class="readmap">','<aside style="padding:20px 24px;border:1px solid var(--line);margin-bottom:25px" aria-label="按日期查看市场评测"><a href="reviews/2026-11-22/2026-11-22.html" style="color:var(--copper)"><strong>2026.11.22｜市场扩池评测 →</strong></a><p class="small" style="margin:8px 0 0">新增40个产品、41个份额的多周期与原文核验。玉衡、交银趋势、红利低波进入竞争池；当前配置不自动改权重。点击查看完整评审、替换实验与最终观点。</p></aside><div class="readmap">')
     footer=str(soup.select_one("footer.footer"))
     oldscript=soup.select("#research-data + script")[0].string
     # Base chart/interactions still render retained archive elements. Do not seed status from old opinion scores.
@@ -134,17 +138,17 @@ def main():
     (SITE/"index.html").write_text(output)
     (SITE/"research-data.json").write_text(json.dumps(data,ensure_ascii=False,indent=2))
     policy=SITE/"daily-policy";policy.mkdir(exist_ok=True)
-    for n in ["decision-20261122-v13.json","macro-cash-20261122.md","independent-passive-20261122.json","longterm-comparison-20261122.json","longterm-research-20261122.md","workbench-data-20261122.json"]:
+    for n in ["decision-20261122-v13.json","macro-cash-20261122.md","independent-passive-20261122.json","longterm-comparison-20261122.json","longterm-research-20261122.md","workbench-data-20261122.json","market-review-20261122.json"]:
         shutil.copyfile(ROOT/"research"/n,policy/n)
     shutil.copyfile(ROOT/"research/asymmetry-daily-policy.json",policy/"policy.json")
     # Replace previous audit exports with the corrected input boundary; leave the uploaded source itself immutable.
     (SITE/"doc100/audit.json").write_text(json.dumps(doc,ensure_ascii=False,indent=2))
     manifest=json.loads((SITE/"manifest.json").read_text())
-    manifest.update(revision="V1.5",current_review_date="2026-11-22",current_preference="L5 long-term candidate; previous D60 only a dated short-term proposal",
+    manifest.update(revision="V1.6",current_review_date="2026-11-22",current_preference="L5 long-term candidate; new dated review challenges individual seats; D60 a dated short-term proposal",
                     doc100_private_account="excluded; unrelated to user",old_score="not used")
     for f in [SITE/"index.html",SITE/"research-data.json",SITE/"doc100/audit.json",*policy.iterdir()]:
         manifest["files"][str(f.relative_to(SITE))]={"bytes":f.stat().st_size,"sha256":sha(f.read_bytes())}
     (SITE/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
-    print("Built V1.5 portfolio workbench with calendar periods, NAV imports, explicit allocation effects and evidence-based screening.")
+    print("Built V1.6 with a frozen dated market-review tab; baseline weights remain explicit.")
 
 if __name__=="__main__":main()
