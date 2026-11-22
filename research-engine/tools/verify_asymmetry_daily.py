@@ -237,7 +237,10 @@ def verify_report(report, data=None, now=None):
         errors.append("Duplicate NAV codes")
     funds = {n["code"] for n in nav if n["product_kind"] == "fund"}
     etfs = {n["code"] for n in nav if n["product_kind"] == "etf"}
-    if len(funds) != 31 or len(etfs) < 6 or coverage["etfs"] != len(etfs):
+    extra_funds={r["code"] for r in (data or {}).get("extra_watch_codes",[]) if r.get("product_kind")=="fund"}
+    expected_funds=set((data or {}).get("names",{}))|extra_funds
+    if (len(funds) != (len(expected_funds) if expected_funds else 31)
+            or len(etfs) < 6 or coverage["etfs"] != len(etfs)):
         errors.append("Incomplete NAV fund/ETF coverage")
     by_id = {c["id"]: c for c in checks}
     for row in nav:
@@ -281,7 +284,7 @@ def verify_report(report, data=None, now=None):
         if row["status"] not in ("needs_research", "historical; related family collected"):
             errors.append("Invalid historic source status")
     if data:
-        if funds != set(data["names"]):
+        if funds != set(data["names"])|extra_funds:
             errors.append("Fund registry codes differ")
         if set(manager_codes) != {c["code"] for c in data["managerCards"]}:
             errors.append("Manager registry codes differ")
