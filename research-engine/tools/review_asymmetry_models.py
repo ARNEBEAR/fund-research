@@ -83,6 +83,16 @@ def make_items(root,data):
                       "text":json.dumps({"definition":data["longtermDecision"]["definition"],
                                          "account_status":data["longtermDecision"]["account_status"],
                                          "plan":p,"limits":data["longtermDecision"]["limits"]},ensure_ascii=False)})
+    workbench=data.get("workbench",{})
+    for code in workbench.get("focus_codes",[]):
+        f=workbench.get("funds",{}).get(code)
+        if not f:continue
+        items.append({"item_id":"workbench_fund:"+code,"type":"portfolio_inclusion_evidence","asof":workbench.get("date"),
+                      "text":json.dumps({k:f.get(k) for k in ["name","equity_pct","holdings_asof","role","risk","tenure","focus_judgment","sources"]},ensure_ascii=False)})
+    if workbench.get("policy"):
+        items.append({"item_id":"workbench_policy","type":"custom_portfolio_screening_rules","asof":workbench.get("date"),
+                      "text":json.dumps({"policy":workbench["policy"],"limits":workbench.get("limitations",[]),
+                                         "scope":"User custom weights and imported NAV live only in user's browser; never claim freshly reviewed"},ensure_ascii=False)})
     return items
 
 def relevant_excerpt(text,max_length=1300):

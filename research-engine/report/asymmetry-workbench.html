@@ -1,0 +1,35 @@
+<section class="chapter" id="workbench">
+ <div class="section-head"><div class="section-index">02</div><div><span class="eyebrow">Portfolio lab / make the allocation explicit</span><h2>自己组一套，看看增长和损失从哪里来。</h2><p>添加基金、修改比例，与长期五基金及旧方案在相同日期比较。万家、环保、科益和万家宏观的换入影响直接计算；适配判断看整个组合，不由经理分数代替。</p></div></div>
+ <div class="section-body">
+  <div class="wb-intro"><span class="tag verified">可编辑 · 日历区间 · 同窗比较</span><p>已内置研究池的原生基金份额；池外基金可导入CSV净值，信息未核时会明确保留缺项。所有曲线为事后研究回放，组合不是已成交账户。</p></div>
+  <div class="wb-layout">
+   <aside class="wb-editor">
+    <div class="wb-editor-head"><h3>我的研究组合</h3><span id="wb-total" aria-live="polite"></span></div>
+    <label class="wb-label">从现有方案开始<select id="wb-preset"></select></label>
+    <div class="wb-editor-row"><label class="wb-label">组合名称<input id="wb-name" maxlength="70" value="我的长期研究组合"></label><button type="button" id="wb-save">保存组合</button></div>
+    <div id="wb-rows"></div>
+    <div class="wb-small-actions"><button type="button" id="wb-normalize">按现有比例合计到100%</button><button type="button" id="wb-cash-rest">余额设为外部现金</button></div>
+    <div class="wb-add"><h4>添加指定基金</h4><label class="wb-label">基金名称或六位代码<input id="wb-fund-input" list="wb-fund-list" placeholder="例如：万家新兴蓝筹 / 022714" autocomplete="off"><datalist id="wb-fund-list"></datalist></label><div class="wb-add-options"><label class="wb-label">分配预算 %<input id="wb-add-weight" type="number" min="0.1" max="99.9" step="0.5" value="10"></label><label class="wb-label">资金从哪里来<select id="wb-funding"><option value="mix">现有组合按比例腾出</option><option value="cash">只使用外部现金</option></select></label></div><button type="button" id="wb-add">添加并比较</button><button type="button" id="wb-solo" style="width:100%;margin-top:8px">只观察这一只基金</button><p class="small">已持有同一基金时，这笔预算会增加其权重；其它项按所选方式缩减。单基金观察会把研究比例设为100%，并取消年轻份额的对照，方便看较长历史；不是建议单只满仓。</p></div>
+    <details class="wb-import"><summary>池外基金 / 导入净值或组合</summary><p class="small">公共净值接口限制第三方网页访问，本站不假装实时拉取成功。可导入自己取得的CSV：date,wealth（复权财富序列），或date,unit_nav,cumulative_nav。只含单位净值不能确认分红回报。新基金可画曲线，经理与持仓未核时适配判断为信息不足。</p><label class="wb-label">导入基金名称<input id="wb-import-name" placeholder="例如：我指定的基金C" maxlength="90"></label><label class="wb-label">导入基金代码<input id="wb-import-code" placeholder="六位基金代码" maxlength="6" inputmode="numeric"></label><label class="wb-label">CSV净值文件<input id="wb-csv" type="file" accept=".csv,text/csv"></label><label class="wb-label">组合JSON（从本站导出）<input id="wb-json-import" type="file" accept=".json,application/json"></label><button type="button" id="wb-template">下载CSV列名模板</button><p class="small">导入不会覆盖内置已核数据；新资料单独标记“用户导入”。不拼接A/C或其它产品；同名不同份额分别添加。</p></details>
+    <p id="wb-message" class="wb-message" role="status" aria-live="polite"></p>
+   </aside>
+   <div class="wb-observation">
+    <div class="wb-periods" role="group" aria-label="观察区间"><button data-wb-period="1M">一个月</button><button class="selected" data-wb-period="3M" aria-pressed="true">三个月</button><button data-wb-period="6M">六个月</button><button data-wb-period="1Y">一年</button><button data-wb-period="2Y">两年</button><button data-wb-period="ALL">全部可得</button></div>
+    <div class="wb-options"><label class="wb-label">持有方式<select id="wb-mode"><option value="fixed">期初配置后自然漂移</option><option value="daily">每天恢复目标比例（研究对照）</option></select></label><label class="wb-label">图形观察<select id="wb-chart-mode"><option value="wealth">累计收益曲线</option><option value="drawdown">距各自前高的回撤</option></select></label><label class="wb-label">现金年收益假设 %<input id="wb-cash-rate" type="number" min="0" max="10" step="0.1" value="0"></label></div>
+    <details class="wb-date-range"><summary>指定起止日期</summary><div class="wb-options"><label class="wb-label">开始日期<input id="wb-start" type="date"></label><label class="wb-label">结束日期<input id="wb-end" type="date"></label><button type="button" id="wb-custom-period">应用日期</button></div></details>
+    <div class="wb-compare-list" id="wb-compare-list"></div>
+    <div class="wb-chart-frame"><div class="wb-chart-toolbar"><span id="wb-chart-caption">同日期、同持有方式</span><button type="button" id="wb-reset-view">还原视图</button></div><div id="wb-chart-area"><svg id="wb-chart" viewBox="0 0 920 390" role="img" aria-label="自定义组合与对照组合历史曲线"></svg><div id="wb-tooltip" hidden></div></div><p class="wb-chart-help">移动鼠标看各曲线同日数据 · 拖动平移 · ⌘/Ctrl＋滚轮缩放 · 双击还原</p></div>
+    <div id="wb-data-warning" class="wb-warning" role="status"></div><button id="wb-partial" type="button" hidden>明确查看较短的可得区间</button>
+    <p id="wb-sample-note" class="small"></p>
+    <div class="table-scroll"><table id="wb-metrics"><thead><tr><th>方案 / 实际配置</th><th>区间收益</th><th>最大回撤</th><th>年化波动</th><th>距前高</th><th>修复状态</th></tr></thead><tbody></tbody></table></div>
+    <div class="wb-exports"><button type="button" id="wb-export-csv">导出所见曲线CSV</button><button type="button" id="wb-export-svg">导出图形SVG</button><button type="button" id="wb-export-json">导出组合与研究结果</button></div>
+   </div>
+  </div>
+  <div class="wb-assessment-head"><div><span class="eyebrow">Fit is about the whole portfolio</span><h3>这个组合，适合你要的哪种目标？</h3></div><label class="wb-label">本次评价目标<select id="wb-goal"><option value="smooth">权益增长，兼顾平滑</option><option value="growth">成长弹性优先</option><option value="defense">低回撤优先</option></select></label></div>
+  <div id="wb-assessment"></div>
+  <div class="wb-effects-header"><div><span class="eyebrow">What changes when this fund joins?</span><h3>万家、环保、科益、万家宏观：换入后有什么影响。</h3><p class="small">以当前编辑组合为基准，分别划出一笔组合预算给以下基金，其余资金按原比例缩减。每行是单独实验，不把四只一起加仓；权重已有时会进一步增加。</p></div><label class="wb-label">每次划出预算 %<input id="wb-effect-weight" type="number" min="1" max="50" step="1" value="10"></label></div>
+  <div class="table-scroll"><table id="wb-effects"><thead><tr><th>换入基金 / 职责与限制</th><th>收益变化 / 百分点</th><th>最大回撤变化 / 百分点</th><th>股权强度变化 / 百分点</th><th>组合适配判断</th><th>观察</th></tr></thead><tbody></tbody></table></div>
+  <p class="small">收益变化、回撤变化只在相同窗口与持有方式下成立；回撤变化为正表示变浅。股权强度来自9月30日披露快照；不是实时持仓或最大损失。经理分数不参与自动适配判断。</p>
+  <details class="wb-method"><summary>计算口径、判断依据与阈值</summary><p>一个月、三个月、一年和两年按日历月回退，起点取此前最近的公共净值日。所有显示曲线使用同一组净值日期交集；缺数据时不填零、不静默截短。主动选择较短可得区间后会标明实际起止。</p><p>基金财富序列已按分红重建，日常运作费在净值内；个人申赎、转换、渠道额度和在途未包含。每天恢复比例只是研究敏感性，不冒充可无成本执行。现金回报由你输入的年收益假设计算。</p><p>适配判断同时使用披露股权强度、基金职责、经理阶段、集中与共同失败方式、所选样本及证据缺口。平滑目标的研究提醒线：单只基金35%、成长进攻类委托35%、股权快照85%；低回撤目标另提醒60%股权；成长优先放宽单只提醒至50%。这些是人工筛查阈值，不是统计最优、收益概率或风险保证。样本涨跌只提供反证，不自动决定基金好坏。</p><p>文档提供财政到终端需求、技术到供应商利润的机制检验，不作为事实权威；私人仓位排除。新组合自动筛查基于2026年11月22日的研究资料，不是当前逐只重新检索后的人工全量结论。用户导入净值改变曲线数据，不自动更新经理与持仓判断。</p></details>
+ </div>
+</section>

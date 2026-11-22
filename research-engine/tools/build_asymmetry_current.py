@@ -25,6 +25,7 @@ def main():
     data["currentDecision"]=dec
     longterm=json.loads((ROOT/"research/longterm-comparison-20261122.json").read_text())
     data["longtermDecision"]=longterm
+    data["workbench"]=json.loads((ROOT/"research/workbench-data-20261122.json").read_text())
     for card in data["managerCards"]:
         if card["code"]=="021902":
             card["tenure"]="2023.11.01加入共管；2024.01.04吴兴武离任后独管；C类2024.07.25新增。旧产品与共管段单列，不认证三年全独管。"
@@ -36,7 +37,7 @@ def main():
     data["independentCandidates"]=passive
     data["extra_watch_codes"]=[{"code":"110020","name":"易方达沪深300ETF联接A","product_kind":"fund"},
                               {"code":"513500","name":"博时标普500ETF","product_kind":"etf"}]
-    data["revision"]="V1.4.1 / 中文方案名称与直接配置说明 / 2026-11-22"
+    data["revision"]="V1.5 / 自定义组合曲线、加减影响与适配判断 / 2026-11-22"
     doc=data["doc100"]
     for k in ["reported_ds_score","score_status"]:doc["document"].pop(k,None)
     doc["document"]["content_score"]=dec["document_content_score"]
@@ -97,11 +98,13 @@ def main():
     daily_section="""<section class="chapter" id="daily"><div class="section-head"><div class="section-index">08</div><div><span class="eyebrow">Daily review / status before certainty</span><h2>每日状态与新增修正。</h2><p>北京时间08:20审视、09:20未成功补偿。证据采集、模型语义覆盖和独立事实确认分别记录，不把获取日期当作数据日期。</p></div></div><div class="section-body"><div class="status-surface" id="daily-review-status"><p>正在读取实际日审状态；未取得时不显示今日全面确认。</p></div><div id="daily-semantic-summary"></div><div class="hero-actions"><a class="current-download" href="daily/latest.json">最新证据状态 ↗</a><a class="current-download" href="daily/semantic-latest.json">最近成功的模型审议 ↗</a><a class="current-download" href="https://github.com/ARNEBEAR/fund-research/actions/workflows/daily-research.yml">执行记录 ↗</a></div><p class="small">模型免费接口尚未成功返回全量语义审议，网站明确展示失败；重要来源缺失不能靠模型补造。独立替代基金加入额外净值观察，工具费率、限额与溢价仍需专项核验。日审不连接账户、不下单。</p></div></section>"""
     daily_section=daily_section.replace('<div id="daily-semantic-summary"></div>','<p class="small">最近成功的模型结论显示于01顶部；本次人工配置基线仍按自己的日期使用，模型失败不推进结论日期。</p>')
     head=str(soup.head)
-    head=head.replace("</style>",(ROOT/"report/asymmetry-current.css").read_text()+(ROOT/"report/asymmetry-decision.css").read_text()+(ROOT/"report/asymmetry-longterm.css").read_text()+"</style>",1)
+    head=head.replace("</style>",(ROOT/"report/asymmetry-current.css").read_text()+(ROOT/"report/asymmetry-decision.css").read_text()+(ROOT/"report/asymmetry-longterm.css").read_text()+(ROOT/"report/asymmetry-workbench.css").read_text()+"</style>",1)
     head=re.sub(r"<title>.*?</title>","<title>非对称 · 长期理想组合与同窗事实比较</title>",head)
     nav='''<nav class="nav-shell" aria-label="报告目录"><div class="wrap nav-inner"><a class="nav-brand" href="#top">非对称 ∿</a><a href="#current"><span class="num">01</span>长期候选</a><a href="#comparison"><span class="num">02</span>事实比较</a><a href="#possibilities"><span class="num">03</span>条件替代</a><a href="#independent"><span class="num">04</span>委托检验</a><a href="#market">市场</a><a href="#blind">净值</a><a href="#managers">经理</a><a href="#phase">阶段提案</a><a href="#daily">日审</a><a href="#history">历史</a><a href="#sources">来源</a></div><div class="reading-progress"></div></nav>'''
+    nav=nav.replace('<a href="#comparison"><span class="num">02</span>事实比较</a>','<a href="#workbench"><span class="num">02</span>组合实验</a><a href="#comparison">旧方案比较</a>')
     hero='''<div class="wrap" id="top"><header class="masthead"><a class="brand" href="#top"><span class="brand-mark">∿</span>非对称 <span class="eyebrow">ASYMMETRY</span></a><div class="mast-meta"><span>HOLDER RESEARCH / V1.4</span><span>2026.11.22</span></div></header><div class="latest-hero"><div><span class="eyebrow">长期增长 / 回撤与修复一起检验</span><h1>让能力承担长期，<br>让证据约束信任。</h1><p>以权益长期增值为主，比较少数经理的委托价值。先看长期结构，再看同窗事实和条件替代；阶段性高现金不再默认等同长期目标。</p><div class="hero-actions"><a class="primary" href="#current" style="padding:12px 22px">查看长期候选 ↓</a><a class="current-download" href="#comparison">与旧方案事实比较 ↗</a></div></div><div class="hero-summary"><div><strong>L5</strong><p>长期五席候选 · 尚待验证</p></div><div><strong>230<span style="font-size:15px">万</span></strong><p>研究预算 · 非用户已核现仓</p></div><p class="small">约73.6%股权快照；承担权益损失，不承诺平滑或保本。D60保留为旧阶段风险提案。</p></div></div><div class="readmap"><a href="#current">长期结构</a><span>→</span><a href="#comparison">同窗事实</a><span>→</span><a href="#possibilities">条件替代</a><span>→</span><a href="#independent">继续验证</a></div></div>'''
     hero=hero.replace("HOLDER RESEARCH / V1.4","HOLDER RESEARCH / V1.4.1").replace("<strong>L5</strong>","<strong>五基金</strong>").replace("D60保留","60%现金方案保留")
+    hero=hero.replace("V1.4.1","V1.5").replace('href="#comparison">与旧方案事实比较','href="#workbench">自定义组合与曲线')
     footer=str(soup.select_one("footer.footer"))
     oldscript=soup.select("#research-data + script")[0].string
     # Base chart/interactions still render retained archive elements. Do not seed status from old opinion scores.
@@ -124,22 +127,24 @@ def main():
             node.replace_with(value)
     stage='<section class="chapter" id="phase"><div class="section-head"><div class="section-index">阶段</div><div><span class="eyebrow">Previous short-term proposals / dated assumptions</span><h2>旧阶段风险提案，保留边界与代价。</h2><p>D60/D70/R40/U60按约1—3个月问题提出，不能称为长期理想结构。市场风险并未因为目标澄清而消失；何时投入仍由买价、宏观、期限与损失能力决定。</p></div></div><div class="section-body"><details class="archive-fold"><summary>展开11月22日原D60/D70/R40及U60完整预算</summary><p class="phase-label">历史阶段提案 · 此处“当前”等文字只按当时假设理解；长期候选和事实比较见01—04。没有确认用户完整账户，也没有自动执行。</p>'+str(stage_soup)+'</details></div></section>'
     for k,v in stage_words.items():stage=stage.replace(k,v)
-    output='<!doctype html><html lang="zh-CN">'+head+'<body>'+hero+nav+'<div class="wrap">'+(ROOT/"report/asymmetry-longterm.html").read_text()+core+stage+doc_score_section+daily_section+'<details id="history" class="archive-fold"><summary>历史研究与原A/B：仅供复盘，不作为今日默认配置</summary><p class="small">2026.11.21基线与旧输入审计，展开后可对照原假设、改变理由和方法代价。所有历史路径和情景均保留自己的日期。</p>'+archive+'</details>'+str(section_map["sources"])+footer+'</div>'+str(soup.select_one("#backtop"))+str(soup.select_one("#drawer-backdrop"))+str(soup.select_one("#source-drawer"))+helpers+'<script id="research-data" type="application/json">'+payload+'</script><script>'+oldscript+'</script><script>'+jsdoc+'</script><script>'+(ROOT/"report/asymmetry-decision.js").read_text()+'</script><script>'+(ROOT/"report/asymmetry-longterm.js").read_text()+'</script></body></html>'
+    long_html=BeautifulSoup((ROOT/"report/asymmetry-longterm.html").read_text(),"html.parser")
+    long_html.find(id="current").insert_after(BeautifulSoup((ROOT/"report/asymmetry-workbench.html").read_text(),"html.parser"))
+    output='<!doctype html><html lang="zh-CN">'+head+'<body>'+hero+nav+'<div class="wrap">'+str(long_html)+core+stage+doc_score_section+daily_section+'<details id="history" class="archive-fold"><summary>历史研究与原A/B：仅供复盘，不作为今日默认配置</summary><p class="small">2026.11.21基线与旧输入审计，展开后可对照原假设、改变理由和方法代价。所有历史路径和情景均保留自己的日期。</p>'+archive+'</details>'+str(section_map["sources"])+footer+'</div>'+str(soup.select_one("#backtop"))+str(soup.select_one("#drawer-backdrop"))+str(soup.select_one("#source-drawer"))+helpers+'<script id="research-data" type="application/json">'+payload+'</script><script>'+oldscript+'</script><script>'+jsdoc+'</script><script>'+(ROOT/"report/asymmetry-decision.js").read_text()+'</script><script>'+(ROOT/"report/asymmetry-longterm.js").read_text()+'</script><script>'+(ROOT/"report/portfolio-engine.js").read_text()+'</script><script>'+(ROOT/"report/asymmetry-workbench.js").read_text()+'</script></body></html>'
     output=output.replace('本次人工配置基线仍按自己的日期使用','长期候选和旧阶段提案分别按自己的日期使用')
     (SITE/"index.html").write_text(output)
     (SITE/"research-data.json").write_text(json.dumps(data,ensure_ascii=False,indent=2))
     policy=SITE/"daily-policy";policy.mkdir(exist_ok=True)
-    for n in ["decision-20261122-v13.json","macro-cash-20261122.md","independent-passive-20261122.json","longterm-comparison-20261122.json","longterm-research-20261122.md"]:
+    for n in ["decision-20261122-v13.json","macro-cash-20261122.md","independent-passive-20261122.json","longterm-comparison-20261122.json","longterm-research-20261122.md","workbench-data-20261122.json"]:
         shutil.copyfile(ROOT/"research"/n,policy/n)
     shutil.copyfile(ROOT/"research/asymmetry-daily-policy.json",policy/"policy.json")
     # Replace previous audit exports with the corrected input boundary; leave the uploaded source itself immutable.
     (SITE/"doc100/audit.json").write_text(json.dumps(doc,ensure_ascii=False,indent=2))
     manifest=json.loads((SITE/"manifest.json").read_text())
-    manifest.update(revision="V1.4.1",current_review_date="2026-11-22",current_preference="L5 long-term candidate; previous D60 only a dated short-term proposal",
+    manifest.update(revision="V1.5",current_review_date="2026-11-22",current_preference="L5 long-term candidate; previous D60 only a dated short-term proposal",
                     doc100_private_account="excluded; unrelated to user",old_score="not used")
     for f in [SITE/"index.html",SITE/"research-data.json",SITE/"doc100/audit.json",*policy.iterdir()]:
         manifest["files"][str(f.relative_to(SITE))]={"bytes":f.stat().st_size,"sha256":sha(f.read_bytes())}
     (SITE/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
-    print("Built V1.4.1 readable Chinese plan names and visible allocations; weights and calculations unchanged.")
+    print("Built V1.5 portfolio workbench with calendar periods, NAV imports, explicit allocation effects and evidence-based screening.")
 
 if __name__=="__main__":main()

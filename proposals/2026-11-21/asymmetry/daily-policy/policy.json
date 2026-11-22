@@ -1,5 +1,5 @@
 {
-  "version": "V1.4-2026-11-22",
+  "version": "V1.5-2026-11-22",
   "schedule_timezone": "Asia/Shanghai",
   "schedule_local": "每日08:20；09:20对证据或模型失败补偿重试",
   "minimum_frequency": "one scheduled daily attempt; GitHub scheduling and provider quotas can delay or fail",
@@ -34,7 +34,10 @@
     "complete item submission is not complete factual certainty",
     "model failure is not a successful review",
     "same model counter-review is not an independent data source",
-    "no automatic trading or account access"
+    "no automatic trading or account access",
+    "manager numeric scores never substitute for portfolio suitability",
+    "calendar month windows and common dates; no silent truncation or A/C stitching",
+    "imported NAV allows curves, not independent fund evidence"
   ],
   "daily_source_priority": [
     "https://gks.mof.gov.cn/tongjishuju/",
@@ -51,5 +54,6 @@
     "fund undisclosed trades",
     "owner liabilities, investment horizon and tolerated losses"
   ],
-  "current_private_doc_scope": "excluded unrelated document owner"
+  "current_private_doc_scope": "excluded unrelated document owner",
+  "workbench_scope": "Four-fund inclusion evidence and disclosed structural screening; user-local custom weights and imports are not cloud-reviewed."
 }

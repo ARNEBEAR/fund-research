@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "revision": "V1.4.1",
+  "revision": "V1.5",
   "type": "independent_doc100_review",
   "status": "research_proposal_not_current_account_or_trades",
   "capital_basis_cny": 2300000,
@@ -8,8 +8,8 @@
   "nav_cutoff_qdii": "2026-11-19",
   "files": {
     "index.html": {
-      "bytes": 995407,
-      "sha256": "9bb49a4943f4e66ceb294cebe75a18bed030e01e73415b0c08757f3f237cbc8e"
+      "bytes": 2589682,
+      "sha256": "4aadb1de94a5033a12a70a4678a97fdbe01501332ec53005847675bdfd5ea6df"
     },
     "evidence.zip": {
       "bytes": 24475081,
@@ -28,8 +28,8 @@
       "sha256": "233159ab322eef456bac4087f9d800cc07f8c384e2ea449b88cf3efacc950d97"
     },
     "research-data.json": {
-      "bytes": 1347913,
-      "sha256": "4a54c3fbf124fedc3e57af0428cfaafd1d03ec71786fa3f2ba67aceb08c32ba7"
+      "bytes": 5370507,
+      "sha256": "934823ab731260f7c9d4853cf823b649f606a5d430e8026491f47f84e51d98dd"
     },
     "doc100/audit.json": {
       "bytes": 124951,
@@ -52,8 +52,8 @@
       "sha256": "a30a15588930faaea24b8b0f6b38e15e406f0aa66046417992394566df74b5fc"
     },
     "daily-policy/policy.json": {
-      "bytes": 2922,
-      "sha256": "ce1d600c4a2206d5c01d97991f77e9f9850145e6b4c1c3664b6def70f80bd4d6"
+      "bytes": 3296,
+      "sha256": "ad7ed9e1d877f4d0330b4584b88653ca77639837adc2a7e88a18fa90d701ae47"
     },
     "daily-policy/decision-20261122.json": {
       "bytes": 2154,
@@ -90,6 +90,22 @@
     "versions/research-data-v1.3.json": {
       "bytes": 690335,
       "sha256": "88842f82b75de8a83dd15b4e38b3abb624842beb93bdc14fa683813c40a09a82"
+    },
+    "daily-policy/four-fund-evidence.md": {
+      "bytes": 11310,
+      "sha256": "69f5e02e768f2c9415c5d33261ba45b66b1ea34f435c6803ecc5110a80f04690"
+    },
+    "daily-policy/workbench-data-20261122.json": {
+      "bytes": 1536654,
+      "sha256": "c5ff66723f9053bb8c17b635a7421b3f7aa8a64a737227bb1e49dadd46b52cde"
+    },
+    "daily-policy/four-fund-evidence.json": {
+      "bytes": 41763,
+      "sha256": "7ca25675aa6108a274b052bd98bff852d3b1817240292e091acedf2b066509c7"
+    },
+    "workbench-evidence.zip": {
+      "bytes": 1723626,
+      "sha256": "ba467c0d68b174f9d055d328544872cb2af8e48816eda00ab88ded29a749a7ea"
     }
   },
   "current_review_date": "2026-11-22",

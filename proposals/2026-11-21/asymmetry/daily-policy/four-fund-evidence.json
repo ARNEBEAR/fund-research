@@ -1,0 +1,691 @@
+{
+  "schema_version": "1.0",
+  "research_as_of": "2026-11-22",
+  "language": "zh-CN",
+  "scope": {
+    "research_only": true,
+    "website_or_user_deliverable_edited": false,
+    "published": false,
+    "browser_used": false,
+    "new_portfolio_metrics_or_curves_computed": false,
+    "manager_scores_or_model_probabilities_used": false,
+    "account_verified": false,
+    "macro_rule": "宏观风险预算独立于用户偏好、基金经理分数及原方案；本文件不证明L5最优，也不规定外部现金比例。",
+    "parent_responsibility": "自定义权重、1月/3月/1年/2年同窗曲线、权益变化的具体数值、共风险统计、交易金额和总风险预算由主线程计算与判断。"
+  },
+  "baseline": {
+    "id": "L5",
+    "source_file": "/Users/bytedance/Documents/Trae-CN/default/asymmetry-report/research-data.json",
+    "source_field": "longtermDecision.plans.L5",
+    "definition": "当前长期五席研究候选，不是用户账户事实或即时全仓指令。",
+    "original_weights_pct_quoted": {
+      "021902": 30,
+      "011066": 25,
+      "022415": 20,
+      "021180": 15,
+      "027170": 10
+    },
+    "original_names": {
+      "021902": "广发主题领先C",
+      "011066": "大成高鑫C",
+      "022415": "前海开源国企精选C",
+      "021180": "易方达产业机遇C",
+      "027170": "交银环球精选C"
+    },
+    "equity_q3_pct_quoted_not_recomputed": 73.624,
+    "ten_percent_test": {
+      "meaning": "四个互斥比较：每次只加入一只基金10%，原五只各按原权重乘0.90；不是每只原基金各减2个百分点，也不是四只各加10%。",
+      "equity_formula": "E_new = 0.90 * E_L5 + 0.10 * E_added，所有权益占比须使用同一净资产分母。",
+      "exposure_formula": "任一可同口径识别的行业或证券敞口：X_new = 0.90 * X_L5 + 0.10 * X_added。",
+      "limitations": [
+        "公式只表示静态穿透，不计算未来收益、最大损失或风险贡献。",
+        "基金持仓为2026-09-30快照，之后可能换仓；权益比例不等于市场beta或波动。",
+        "原五席的质量、价值、跨行业机会和海外预算都被同比例稀释；新增不是无成本分散。",
+        "原G6仅从广发和高鑫各减5个百分点，与本次等比例挪入不是同一方案，不直接复用其曲线。",
+        "新兴蓝筹C尚无完整原生2年记录；含交银环球C的L5共同窗口也受该类份额起始日限制，不静默拼接A类。",
+        "历史回放是事后定义的研究比较，不是前瞻战绩。"
+      ]
+    }
+  },
+  "common_evidence_rules": [
+    "季报5.1股票占总资产比例与5.2占净资产比例不同。组合穿透使用净资产；不得混用。",
+    "三季报持仓截止2026-09-30，公布2026-10-27，重新读取2026-11-22不构成新的持仓消息。",
+    "主题来自合同约束、4.4策略自述和实际持仓三层证据；自述中的盈利、宏观预测不是已独立证实的事实。",
+    "十大持仓只能证明可见部分；不得把十大主题占比写成全基金主题敞口，不把不同产业共风险写成逐股重仓重合。",
+    "份额类别增设日、经理加入共管日、独管日、产品合同变化日分别记录。",
+    "本次不使用原文件中的经理评分、好坏标签、私人金额或旧仓位建议。"
+  ],
+  "funds": [
+    {
+      "code": "022714",
+      "name": "万家新兴蓝筹C",
+      "a_code": "519196",
+      "manager": "莫海波",
+      "judgment": {
+        "role": "高权益、多主题成长卫星；可表达光互联、创新药与消费的主动成长观点。",
+        "why_not_default_L5": "L5已有跨行业产业席及海外权益，新增主要加成长估值、AI资本开支和主动轮动风险，不补现金或真正低风险资产。存在不同盈利来源，不等于已证明压力中独立。",
+        "ten_percent_shift": "静态权益强度上升；光互联、创新药和半导体设备倾斜加大，同时稀释五个原席位。非科技持仓有可能缓冲纯AI冲击，但利率上行或风险偏好收缩仍可共同受压；不能事先认定曲线更好。",
+        "conditional_use": "明确需要成长预算且接受集中与阶段深回撤时，可与科益或原产业机会预算竞争；不因名称蓝筹、成本价或用户更偏好万家而获得默认席位。",
+        "reassessment": "连续披露中非AI盈利来源、买价和仓位纪律形成可解释差异，且同风险压力比较支持净增益时再考虑；不是预设必须退出。"
+      },
+      "snapshot": {
+        "holdings_as_of": "2026-09-30",
+        "published_on": "2026-10-27",
+        "source_id": "Q_022714",
+        "equity_percent_nav": 91.77,
+        "equity_percent_total_assets": 91.43,
+        "bank_deposits_and_settlement_reserve_percent_total_assets": 8.44,
+        "bond_or_stock_index_future_held_at_quarter_end": false,
+        "mainland_mining_percent_nav": 15.28,
+        "visible_holdings": [
+          {"code": "688235", "name": "百济神州", "percent_nav": 8.78},
+          {"code": "300502", "name": "新易盛", "percent_nav": 8.47},
+          {"code": "300308", "name": "中际旭创", "percent_nav": 8.07},
+          {"code": "600276", "name": "恒瑞医药", "percent_nav": 7.31},
+          {"code": "688072", "name": "拓荆科技", "percent_nav": 5.47},
+          {"code": "300394", "name": "天孚通信", "percent_nav": 5.42},
+          {"code": "002602", "name": "世纪华通", "percent_nav": 4.80},
+          {"code": "002714", "name": "牧原股份", "percent_nav": 4.61},
+          {"code": "600519", "name": "贵州茅台", "percent_nav": 4.38},
+          {"code": "688012", "name": "中微公司", "percent_nav": 4.06}
+        ],
+        "visible_aggregates_quoted_from_existing_research": {
+          "three_optical_interconnect_names_percent_nav": 21.96,
+          "baigene_plus_hengrui_percent_nav": 16.09
+        },
+        "theme_boundary": "不能称纯CPO、低风险均衡或传统蓝筹防守；行业表另显示采矿15.28%，十大未覆盖这部分，不从十大缺席推断无资源风险。"
+      },
+      "mandate_and_tenure": {
+        "source_ids": ["Q_022714", "P_022714", "F_022714"],
+        "product_inception": "2016-01-26",
+        "manager_product_start": "2016-01-26",
+        "c_class_added": "2024-11-27",
+        "c_first_confirmed": "2024-11-28",
+        "stock_percent_fund_assets_range": [0, 95],
+        "new_blue_chip_theme_minimum_percent_non_cash_assets": 80,
+        "benchmark_change_effective": "2026-09-21",
+        "benchmark_change": "沪深300股票权重由50%调整至85%，另加10%中证全债和5%活期基准。基准变化不是实时股票增仓证据。",
+        "attribution_boundary": "A类更长历史可单独研究同产品经理，但不能伪作C类2年曲线；长任期不消除当前风格集中。"
+      },
+      "capacity_fees_and_freshness": {
+        "size_yi_cny_quoted": 36.70,
+        "size_date": "2026-09-30",
+        "capacity": "约36.70亿元为产品规模，不是可用交易容量。集中光互联和半导体设备的流动性、申赎冲击仍需核成交额、持股占流通股、换手和后续规模。",
+        "management_percent_pa": 1.20,
+        "custody_percent_pa": 0.20,
+        "c_sales_service_percent_pa": 0.50,
+        "c_subscription_percent": 0,
+        "c_redemption": [
+          {"holding_days": "0-6", "percent": 1.50},
+          {"holding_days": "7-29", "percent": 0.50},
+          {"holding_days": "30及以上", "percent": 0}
+        ],
+        "official_summary_c_operating_cost_estimate_percent_pa": 1.91,
+        "official_summary_date": "2026-09-21",
+        "estimate_boundary": "综合费率按现行费率及最近年报其他费用测算，不是已完成的2026全年TER，也不含持有人申赎费用。",
+        "purchase_status": {
+          "source_id": "DISTRIBUTOR_022714",
+          "observed_on": "2026-11-22",
+          "displayed_nav_date": "2026-11-19",
+          "daily_subscription_limit_cny_observed": 150000,
+          "scope": "天天基金代销页面显示限大额、开放赎回；未沿正式额度公告确认起止日期和A/C是否合并。",
+          "official_manager_next_trade_day_limit_confirmed": false,
+          "implication": "新增10%是否能一次完成必须按实际金额和最新渠道限额核查；官网立即申购按钮不证明无限额度。"
+        },
+        "latest_official_c_nav_observed": {"date": "2026-11-20", "value": 4.0309},
+        "freshness": "季报、基准变化是已公开旧信息，本次只是复核；未据11月净值反推实时主题比例。"
+      },
+      "source_ids": ["Q_022714", "P_022714", "F_022714", "DISTRIBUTOR_022714"]
+    },
+    {
+      "code": "019032",
+      "name": "易方达环保主题C",
+      "a_code": "001856",
+      "manager": "祁禾",
+      "judgment": {
+        "role": "能源转型与制造产业卫星；不是环保ETF，也不是以公用事业为主的避险仓。",
+        "why_not_default_L5": "L5已有高鑫制造与产业机遇的产业机会预算；本基金主题约束及制造周期风险较集中。69.04%季末权益仍不能保证小回撤，历史产业研究不自动证明当前买价与风控占优。",
+        "ten_percent_shift": "静态权益强度略下降，但能源转型、材料和制造周期倾斜加大，海外及价值预算同时被稀释。三环、新易盛、工业富联等使其保留AI硬件共风险；可能减纯科技集中，却不必然减组合波动。",
+        "conditional_use": "明确要增加储能、电新、材料等盈利来源时，可替代部分产业或制造预算进行同风险比较，而非因别人A类持仓截图新增。",
+        "reassessment": "核订单、竞争、产能出清、售价和现金回收及买价纪律；必须与合适制造候选同窗比较，不能用经理自称避免高预期买入作风险保护证据。"
+      },
+      "snapshot": {
+        "holdings_as_of": "2026-09-30",
+        "published_on": "2026-10-27",
+        "source_id": "Q_019032",
+        "equity_percent_nav": 69.04,
+        "equity_percent_total_assets": 68.58,
+        "bank_deposits_and_settlement_reserve_percent_total_assets": 30.69,
+        "bond_or_stock_index_future_held_at_quarter_end": false,
+        "mainland_manufacturing_percent_nav": 61.18,
+        "power_utilities_percent_nav": 0.40,
+        "visible_holdings": [
+          {"code": "300408", "name": "三环集团", "percent_nav": 5.05},
+          {"code": "600673", "name": "东阳光", "percent_nav": 4.82},
+          {"code": "002245", "name": "蔚蓝锂芯", "percent_nav": 4.68},
+          {"code": "601138", "name": "工业富联", "percent_nav": 3.94},
+          {"code": "300037", "name": "新宙邦", "percent_nav": 2.94},
+          {"code": "002518", "name": "科士达", "percent_nav": 2.94},
+          {"code": "600309", "name": "万华化学", "percent_nav": 2.88},
+          {"code": "300502", "name": "新易盛", "percent_nav": 2.73},
+          {"code": "002475", "name": "立讯精密", "percent_nav": 2.64},
+          {"code": "300316", "name": "晶盛机电", "percent_nav": 2.29}
+        ],
+        "official_product_page_top10_percent_nav": 34.91,
+        "official_q3_c_return_percent_quoted": -24.17,
+        "official_q3_benchmark_return_percent_quoted": -14.47,
+        "return_boundary": "仅引用官方季度过程结果，不重算，不据季末69.04%反推整个季度仓位，也不以单季结果判经理永久优劣。"
+      },
+      "mandate_and_tenure": {
+        "source_ids": ["Q_019032", "P_019032", "P_001856"],
+        "product_inception": "2017-06-02",
+        "manager_product_start": "2017-12-27",
+        "sole_management_start_from_official_history": "2018-06-07",
+        "c_class_added": "2023-11-15",
+        "c_first_confirmed": "2023-11-16",
+        "stock_percent_fund_assets_range": [0, 95],
+        "environment_theme_minimum_percent_non_cash_assets": 80,
+        "benchmark_change_effective": "2026-07-27",
+        "benchmark_change": "环保指数股票权重65%提高至85%，其余15%改中债总全价利率债指数；不代表已实时增仓。",
+        "attribution_boundary": "祁禾早期加入共管与独管需区分；C类日期不是其全任期。A/C同底层组合，不是两份独立分散；必须各用本类净值与费用。"
+      },
+      "capacity_fees_and_freshness": {
+        "size_yi_cny_official": 75.49,
+        "size_date": "2026-09-30",
+        "capacity": "官方规模75.49亿元，修正旧managerCards的75.48四舍五入口径；季报显示A/C份额均有净赎回。规模和季末现金不证明容量充足，需核实际流动性和继续申赎。",
+        "management_percent_pa": 1.20,
+        "custody_percent_pa": 0.20,
+        "c_sales_service_percent_pa": 0.50,
+        "a_sales_service_percent_pa": 0,
+        "c_redemption": [
+          {"holding_days": "0-6", "percent": 1.50},
+          {"holding_days": "7-29", "percent": 0.50},
+          {"holding_days": "30及以上", "percent": 0}
+        ],
+        "a_standard_subscription_percent_below_1000000_cny": 1.50,
+        "a_redemption": [
+          {"holding_days": "0-6", "percent": 1.50},
+          {"holding_days": "7-29", "percent": 0.75},
+          {"holding_days": "30-364", "percent": 0.50},
+          {"holding_days": "365-729", "percent": 0.25},
+          {"holding_days": "730及以上", "percent": 0}
+        ],
+        "purchase_status": {
+          "source_id": "STATUS_019032",
+          "status_date": "2026-11-20",
+          "retail_subscription_and_redemption_all_three_channels": true,
+          "limit_field_raw": "",
+          "implication": "官方公开API申赎开放且限额字段空，仅表示该日未报告限制；不保证所有销售机构无限额度，实际交易日再查。",
+          "actual_order_acceptance_tested": false
+        },
+        "latest_official_c_nav_observed": {"date": "2026-11-20", "value": 6.110},
+        "a_page_staleness": "本次A类官方页面停在2026-11-13，仅用于任期和收费，不当作11-20最新净值。",
+        "freshness": "10-19恢复大额申购公告标题已在官网定位，正文未读取；开放状态以11-20官方API为本次证据，不能把恢复标题当无限容量。"
+      },
+      "source_ids": ["Q_019032", "P_019032", "P_001856", "STATUS_019032"]
+    },
+    {
+      "code": "010390",
+      "name": "易方达科益C",
+      "a_code": "010389",
+      "manager": "黄蕴藉",
+      "judgment": {
+        "role": "A/H市场AI细分成长观察卫星，包含散热、网络、材料、平台与运营商；不是透明的纯CPO替代品。",
+        "why_not_default_L5": "高权益AI共同风险、新独管验证期短且规模急增；单个完整独管季度的正收益不足以承担长期稳定核心。L5默认先限制额外成长委托，并非否定研究能力。",
+        "ten_percent_shift": "静态权益强度上升，国内AI资本开支、散热网络和港股平台倾斜加大，同时稀释原五席。子赛道不同可能改变路径，但与海外AI需求和全球流动性仍共振，不能称分散掉AI风险。",
+        "conditional_use": "只有主动选择AI卫星且接受较大波动、独管与容量不确定性时使用；与新兴蓝筹等成长预算竞争，不把两只同时新增当自动分散。",
+        "reassessment": "看独管后跨窗口表现、仓位与换股解释、规模下交易效率及供应商订单/毛利/回款；不以三年历史夏普、单日反弹或工程叙事决定去留。"
+      },
+      "snapshot": {
+        "holdings_as_of": "2026-09-30",
+        "published_on": "2026-10-27",
+        "source_id": "Q_010390",
+        "equity_percent_nav": 94.13,
+        "equity_percent_total_assets": 92.76,
+        "mainland_equity_percent_nav": 78.48,
+        "hong_kong_connect_equity_percent_nav": 15.65,
+        "bank_deposits_and_settlement_reserve_percent_total_assets": 5.58,
+        "bond_or_stock_index_future_held_at_quarter_end": false,
+        "visible_holdings": [
+          {"code": "002837", "name": "英维克", "percent_nav": 9.44},
+          {"code": "002396", "name": "星网锐捷", "percent_nav": 9.41},
+          {"code": "000938", "name": "紫光股份", "percent_nav": 6.85},
+          {"code": "09988", "name": "阿里巴巴-W", "percent_nav": 5.78},
+          {"code": "300408", "name": "三环集团", "percent_nav": 5.10},
+          {"code": "300502", "name": "新易盛", "percent_nav": 5.04},
+          {"code": "688020", "name": "方邦股份", "percent_nav": 4.96},
+          {"code": "000063", "name": "中兴通讯", "percent_nav": 4.46},
+          {"code": "01024", "name": "快手-W", "percent_nav": 4.28},
+          {"code": "600050", "name": "中国联通", "percent_nav": 3.88}
+        ],
+        "official_product_page_top10_percent_nav": 59.20,
+        "visible_aggregates_quoted_from_existing_research": {
+          "first_three_mainland_names_percent_nav": 25.70,
+          "alibaba_plus_kuaishou_percent_nav": 10.06
+        },
+        "official_q3_c_return_percent_quoted": 9.54,
+        "official_q3_benchmark_return_percent_quoted": -8.24,
+        "return_boundary": "官方基准不是精确AI子赛道风险匹配；季度超额不能全部归为独立选股能力，且C季度利润受资金进出时点影响，不能把单位净值收益当所有持有人实际收益。"
+      },
+      "mandate_and_tenure": {
+        "source_ids": ["Q_010390", "CHANGE_010390", "P_010390", "Q2_010390"],
+        "product_inception": "2020-11-02",
+        "manager_joint_start": "2025-09-17",
+        "manager_sole_start": "2026-05-29",
+        "previous_joint_manager": "彭珂",
+        "previous_joint_manager_departure_reason": "工作需要；仍任易方达其他基金经理，不推断离任是能力问题。",
+        "stock_percent_fund_assets_range": [60, 95],
+        "hong_kong_connect_maximum_percent_stock_assets": 50,
+        "attribution_boundary": "截至本次研究独管不足半年；Q3是截至9月末最新已披露的首个完整独管季度。2025-09-17前属前任，之后至2026-05-29为共管；产品1年/2年/3年历史不能全归现任独管。"
+      },
+      "capacity_fees_and_freshness": {
+        "size_yi_cny_official": 34.53,
+        "size_date": "2026-09-30",
+        "prior_q2_size_yi_cny_quoted_from_existing_research": 6.30,
+        "q2_source_id": "Q2_010390",
+        "capacity": "6.30至34.53亿元的变化有Q2/Q3净资产原表支持，且Q3份额变动显示大量申购，不仅是净值涨幅。需监督小市值材料、集中网络持仓的流动性与资金部署；规模增长不自动证明已失效。",
+        "concentrated_investor_boundary": "Q3机构投资者仅在7月1日至6日达到20%，期末4.54%；不得把报告期曾达20%误写成当前持有人占20%以上。",
+        "management_percent_pa": 1.20,
+        "custody_percent_pa": 0.20,
+        "c_sales_service_percent_pa": 0.80,
+        "c_subscription_percent": 0,
+        "c_redemption": [
+          {"holding_days": "0-6", "percent": 1.50},
+          {"holding_days": "7-29", "percent": 0.50},
+          {"holding_days": "30及以上", "percent": 0}
+        ],
+        "purchase_status": {
+          "source_id": "STATUS_010390",
+          "status_date": "2026-11-20",
+          "retail_subscription_and_redemption_all_three_channels": true,
+          "limit_field_raw": "",
+          "implication": "该日官方申赎开放且无报告限额，不证明下一交易日或每个销售渠道都无限量；港股通休市公告及未知净值/到账另核。",
+          "actual_order_acceptance_tested": false
+        },
+        "latest_official_c_nav_observed": {"date": "2026-11-20", "value": 1.3289},
+        "freshness": "经理离任5月29日、Q3申购与仓位10月27日已知；11月重新读取不把这些旧事实再算新利好或新风险。"
+      },
+      "source_ids": ["Q_010390", "CHANGE_010390", "P_010390", "STATUS_010390", "Q2_010390"]
+    },
+    {
+      "code": "017787",
+      "name": "万家宏观择时多策略C",
+      "a_code": "519212",
+      "manager": "黄海",
+      "judgment": {
+        "role": "高权益资源周期与宏观轮动卫星；可表达能源供需、分红和内需复苏观点。",
+        "why_not_default_L5": "L5的广发、前海和产业已有资源/内需暴露；本基金采矿集中且权益很高，增加的是同一需求、商品价格和宏观判断风险，不是新增避险资产。",
+        "ten_percent_shift": "静态权益强度上升，煤炭能源敞口集中加大，也加入传媒游戏。可能在能源独强、科技承压时有相对补充；需求回落、煤价及分红下修或流动性紧缩时可与制造和价值席共跌。",
+        "conditional_use": "明确愿意扩大资源观点时，优先比较替代既有资源预算，而不是全组合等比例稀释后叠加；是否采用取决于独立宏观证据，不随用户更偏好宏观基金而改判。",
+        "reassessment": "核煤炭各品种供需、成本、可持续分红及需求兑现；若合并资源敞口不过度拥挤且表现有同风险净增益可比较，不能靠Q3盈利或防守反击自述认证对冲。"
+      },
+      "snapshot": {
+        "holdings_as_of": "2026-09-30",
+        "published_on": "2026-10-27",
+        "source_id": "Q_017787",
+        "equity_percent_nav": 94.50,
+        "equity_percent_total_assets": 93.01,
+        "mainland_mining_percent_nav": 61.79,
+        "information_software_services_percent_nav": 16.31,
+        "bank_deposits_and_settlement_reserve_percent_total_assets": 6.13,
+        "bond_or_stock_index_future_held_at_quarter_end": false,
+        "visible_holdings": [
+          {"code": "601699", "name": "潞安环能", "percent_nav": 9.27},
+          {"code": "601001", "name": "晋控煤业", "percent_nav": 8.82},
+          {"code": "600256", "name": "广汇能源", "percent_nav": 7.61},
+          {"code": "601898", "name": "中煤能源", "percent_nav": 6.30},
+          {"code": "002602", "name": "世纪华通", "percent_nav": 6.22},
+          {"code": "600985", "name": "淮北矿业", "percent_nav": 6.20},
+          {"code": "601225", "name": "陕西煤业", "percent_nav": 5.65},
+          {"code": "600546", "name": "山煤国际", "percent_nav": 5.24},
+          {"code": "002624", "name": "完美世界", "percent_nav": 4.93},
+          {"code": "000596", "name": "古井贡酒", "percent_nav": 4.67}
+        ],
+        "official_q3_c_return_percent_quoted": 26.49,
+        "return_boundary": "季度资源轮动过程证据，不是未来抗跌、真实赔率或本金安全的证明。"
+      },
+      "mandate_and_tenure": {
+        "source_ids": ["Q_017787", "P_017787", "P_519212", "F_017787"],
+        "product_inception": "2017-03-30",
+        "manager_product_start": "2020-09-23",
+        "exact_sole_start_independently_verified_in_this_task": null,
+        "c_class_added": "2023-01-17",
+        "c_first_confirmed": "2023-01-18",
+        "stock_percent_fund_assets_range": [0, 95],
+        "benchmark_change_effective": "2026-09-21",
+        "benchmark_change": "股票基准50%提高至85%，另加10%中证全债和5%活期基准；不是期末持有债券或对冲的证明。",
+        "attribution_boundary": "A类产品2017年成立早于黄海加入；基金成立以来全收益不可归他。当前C类历史在其管理阶段内，但最初产品共管段仍应从完整历任表另核，不把C页面开始日当完整任期。"
+      },
+      "capacity_fees_and_freshness": {
+        "size_yi_cny_quoted": 10.20,
+        "size_date": "2026-09-30",
+        "capacity": "约10.20亿元为产品规模；较小不证明容量无限，也不抵消七只煤炭能源进入十大带来的集中风险。",
+        "management_percent_pa": 1.20,
+        "custody_percent_pa": 0.20,
+        "c_sales_service_percent_pa": 0.50,
+        "a_sales_service_percent_pa": 0,
+        "c_subscription_percent": 0,
+        "c_redemption": [
+          {"holding_days": "0-6", "percent": 1.50},
+          {"holding_days": "7-29", "percent": 0.50},
+          {"holding_days": "30及以上", "percent": 0}
+        ],
+        "a_standard_subscription_percent_below_1000000_cny": 1.50,
+        "a_redemption": [
+          {"holding_days": "0-6", "percent": 1.50},
+          {"holding_days": "7-29", "percent": 0.75},
+          {"holding_days": "30-179", "percent": 0.50},
+          {"holding_days": "180及以上", "percent": 0}
+        ],
+        "official_summary_c_operating_cost_estimate_percent_pa": 1.92,
+        "official_summary_a_operating_cost_estimate_percent_pa": 1.42,
+        "official_summary_date": "2026-09-21",
+        "estimate_boundary": "综合费率是按最近年报及现行费率测算，不是完整2026实际TER；A类长期少销售服务费不等于任意持有期限都更便宜。",
+        "purchase_status": {
+          "source_id": "P_017787",
+          "observed_on": "2026-11-22",
+          "formal_daily_quota_verified": false,
+          "current_subscription_and_redemption_flags_verified": false,
+          "implication": "官网有申购入口与1元起购，但未取得实时状态/正式限额公告，不据此声称10%可一次全部买入。",
+          "actual_order_acceptance_tested": false
+        },
+        "latest_official_c_nav_observed": {"date": "2026-11-20", "value": 2.7793},
+        "latest_official_a_nav_observed": {"date": "2026-11-20", "value": 2.8323},
+        "freshness": "对中央财政、需求和四季度企稳的描述是10月27日前已公开的经理判断，不是本次独立宏观结论；季报旧信息不重复计入。"
+      },
+      "source_ids": ["Q_017787", "P_017787", "P_519212", "F_017787"]
+    }
+  ],
+  "cross_risks": [
+    {
+      "mechanism": "AI资本开支、利率和成长估值",
+      "evidence": "新兴蓝筹、环保、科益十大均有新易盛；环保与科益均有三环。科益跨A/H子赛道并不摆脱AI需求链，交银海外预算亦可能共享全球科技与利率风险。",
+      "boundary": "前三只的直接重合可由季报确认；与海外的是经济机制共风险，不宣称每只逐股重合。当前暴露未知，不复算相关系数。"
+    },
+    {
+      "mechanism": "煤炭/资源与需求冲击",
+      "evidence": "万家宏观采矿61.79%；L5广发、前海、产业季报境内采矿分别13.85%、13.31%、36.23%。宏观与广发十大共同有潞安、中煤、山煤，与产业十大共同有潞安。",
+      "source_ids": ["Q_017787", "Q_021902", "Q_022415", "Q_021180"],
+      "boundary": "均为9月30日净值比例；境内行业表不代表全部海内外资源敞口。环保制造与宏观能源可以共同受需求和流动性冲击，不能预定负相关。"
+    },
+    {
+      "mechanism": "制造、消费和内需现金流",
+      "evidence": "环保与高鑫虽具体企业不同，仍受订单、资本开支、竞争、出口和利润率影响；新兴蓝筹消费及创新药也不免疫风险偏好下行。",
+      "boundary": "产业差异可能有分散价值，但不能用不同经理或主题名字证明危机低损失。"
+    }
+  ],
+  "fees_execution_and_curve_boundaries": [
+    "管理、托管、销售服务费已计提进各类净值。主线程用原生净值回放时不再重复扣这些年度费率。",
+    "C类免申购费不等于免全部费用。实际赎回、转换、渠道折扣、持有起算及到账资金空档另计。",
+    "环保001856与宏观519212的A类都有不同申购/赎回费用。长期应按实际折扣与期限选择，不能将A类历史贴到C类曲线上。",
+    "科益C销售服务费0.80%/年，其余三只C为0.50%/年。费率不单独决定适配，也不作为经理能力分数。",
+    "1月/3月/1年/2年是观察窗口，不是场外基金换仓频率；不得用盘中脉冲作已知净值成交假设。",
+    "基金内部银行存款和结算备付金不能等同用户可自主调用的外部现金，且所引比例分母为总资产。",
+    "缺失期限应明确返回数据不足；交银环球C起于2026-04-15，含它的L5原生共同窗口不足1年/2年，不制造完整长期可比曲线。"
+  ],
+  "document_contribution_boundary": {
+    "document": "Doc100_20261113-16_四日投资研究全景纪要_历史归档审议稿_V1.0.docx",
+    "archive_cutoff": "2026-11-16 A股收盘后",
+    "prior_audit_as_of": "2026-11-21",
+    "input_field": "research-data.json.doc100.claims",
+    "private_positions": "全部排除；持有人私人仓位、金额、交易与用户无关，文档内部DOC系统也不继承。",
+    "useful_contributions": [
+      "A14-A18：把AI投入、系统外售、技术互连与供应商利润/现金兑现拆开，提出科益及新兴蓝筹供应链监督项。",
+      "A17：OCS/NPO架构变化是待验证工程假说；缺具体BOM、订单、毛利和回款，不足证明当前光模块、交换机、PCB/材料供应商永久失效。",
+      "A19及A04：合并资源/制造/内需共风险，区分商品价差、分红覆盖、久期和外部现金，观察财政至订单至回款的传导。",
+      "A01/A03/A04：信用和内需结构分化可作为研究问题，需保留出口、服务、企业盈利等反证，不外推所有行业同步恶化。"
+    ],
+    "not_established": [
+      "哪只基金必然更好、L5最优、固定现金比例或应立即交易。",
+      "经理的未来Alpha、真实胜率、技术更替后的确定利润输家或未来20日概率。",
+      "当下新增持仓或企业订单事实：文档、10月季报、已有公司披露不能因重新阅读成为新消息。",
+      "本任务未重新核验Doc100所有宏观/企业来源；其既有审计结论只用于贡献边界与待测机制，不升级为11月22日独立实时事实。"
+    ],
+    "reference_sources_archived_not_live_reverified_here": [
+      {
+        "id": "DOC_D113",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "published_on": "2026-10-28",
+        "data_as_of": "2026-09-30",
+        "contribution": "Alphabet Q3原披露；Cloud综合利润不是TPU独立利润。",
+        "live_reverified_in_this_task": false
+      },
+      {
+        "id": "DOC_D114",
+        "url": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Oct/28/2026_Q3_Earnings_Transcript.pdf",
+        "published_on": "2026-10-28",
+        "contribution": "已有审计定位p10-12、18-19；先备货、交付开票再收现，不证明系统外售减少全部现金投入。",
+        "live_reverified_in_this_task": false
+      },
+      {
+        "id": "DOC_D115",
+        "url": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure/",
+        "published_on": null,
+        "deployment_plan_year_quoted": 2027,
+        "contribution": "ICI/OCS与外部网络机制；首发日期在原审计中未核，不补编。",
+        "live_reverified_in_this_task": false
+      }
+    ]
+  },
+  "local_inputs": [
+    {
+      "path": "/Users/bytedance/Documents/Trae-CN/default/asymmetry-report/research-data.json",
+      "fields": ["managerCards", "longtermDecision.plans.L5", "longtermDecision.funds", "doc100.claims", "doc100.sources"],
+      "use": "候选角色、原L5定义、原文导航、归档边界；不采纳评分和旧金额。"
+    },
+    {
+      "path": "/tmp/fund-other-ai-audit/current/proposals/2026-11-20/judgment/analysis.json",
+      "fields": ["cards", "sources"],
+      "use": "季报链接和角色争议线索；不采纳好坏标签、分数、未重核统计或旧配置上限。"
+    },
+    {
+      "path": "/tmp/fund-research-20261121/verified/source-ledger.json",
+      "use": "季报URL、原始取得时间与摘要哈希；对应txt全文逐节复核。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "Q_022714",
+      "title": "万家新兴蓝筹2026年第三季度报告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610271830981439_1.pdf",
+      "published_on": "2026-10-27",
+      "data_as_of": "2026-09-30",
+      "retrieved_at_from_ledger": "2026-11-21T13:46:18.268179+00:00",
+      "local_text": "/tmp/fund-research-20261121/verified/quarter-022714-3.txt",
+      "pages": [3, 5, 8, 9, 10, 12, 13],
+      "reviewed_on": "2026-11-22",
+      "verification": "本次逐节读本地已归档法定原文；官网产品及最新概要另在线核验。"
+    },
+    {
+      "id": "Q_019032",
+      "title": "易方达环保主题2026年第三季度报告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610271830959277_1.pdf",
+      "published_on": "2026-10-27",
+      "data_as_of": "2026-09-30",
+      "retrieved_at_from_ledger": "2026-11-21T13:46:20.331847+00:00",
+      "local_text": "/tmp/fund-research-20261121/verified/quarter-019032-3.txt",
+      "pages": [3, 5, 7, 8, 9, 10, 11, 12],
+      "reviewed_on": "2026-11-22",
+      "verification": "本次读本地原文；官网同步持仓、主题、费率及API另在线核验。"
+    },
+    {
+      "id": "Q_010390",
+      "title": "易方达科益2026年第三季度报告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610271830958903_1.pdf",
+      "published_on": "2026-10-27",
+      "data_as_of": "2026-09-30",
+      "local_text": "/tmp/fund-research-20261121/verified/quarter-010390-3.txt",
+      "pages": [4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "reviewed_on": "2026-11-22",
+      "verification": "沿已知URL重新在线读取全文；与本地季报一致，重点核78.48%境内+15.65%港股、AI策略和份额骤增。"
+    },
+    {
+      "id": "Q_017787",
+      "title": "万家宏观择时多策略2026年第三季度报告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610271830981525_1.pdf",
+      "published_on": "2026-10-27",
+      "data_as_of": "2026-09-30",
+      "local_text": "/tmp/fund-research-20261121/verified/quarter-017787-3.txt",
+      "pages": [3, 5, 7, 8, 9, 10, 11],
+      "reviewed_on": "2026-11-22",
+      "verification": "沿已知URL在线重读关键章节并核本地全文；重点核94.50%权益、61.79%采矿及无期末债券/股指期货。"
+    },
+    {
+      "id": "CHANGE_010390",
+      "title": "易方达科益基金经理变更公告",
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/fund/2026/20260529/cac9d4c290cf10232e4c0af00a6f4cd8.pdf",
+      "published_on": "2026-05-29",
+      "effective_on": "2026-05-29",
+      "reviewed_on": "2026-11-22",
+      "verification": "沿research-data.sources.S04已知原文链接在线读取，核彭珂离任和黄蕴藉继续管理。"
+    },
+    {
+      "id": "Q2_010390",
+      "title": "易方达科益2026年第二季度报告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202607211827164045_1.pdf",
+      "published_on": "2026-07-21",
+      "data_as_of": "2026-06-30",
+      "local_text": "/tmp/fund-research-20261121/verified/quarter-010390-2.txt",
+      "pages": [4, 6, 7],
+      "reviewed_on": "2026-11-22",
+      "verification": "本地原文核Q2资产净值469073742.54元(A)及161135987.80元(C)，经理变更和AI细分策略。"
+    },
+    {
+      "id": "P_019032",
+      "title": "易方达环保主题C官方产品页",
+      "url": "https://www.efunds.com.cn/fund/019032_org.shtml",
+      "published_on": null,
+      "nav_as_of": "2026-11-20",
+      "holdings_as_of": "2026-09-30",
+      "reviewed_on": "2026-11-22",
+      "verification": "在线核主题约束、规模、三季持仓、现行C费用；页面经理C起始日不作完整任期。"
+    },
+    {
+      "id": "P_001856",
+      "title": "易方达环保主题A官方产品页",
+      "url": "https://www.efunds.com.cn/fund/001856_org.shtml",
+      "published_on": null,
+      "nav_as_of_observed": "2026-11-13",
+      "reviewed_on": "2026-11-22",
+      "verification": "在线核祁禾2017-12-27加入、王超2018-06-07离任及A费用；净值过期，不用作最新。"
+    },
+    {
+      "id": "P_010390",
+      "title": "易方达科益C官方产品页",
+      "url": "https://www.efunds.com.cn/fund/010390_org.shtml",
+      "published_on": null,
+      "nav_as_of": "2026-11-20",
+      "holdings_as_of": "2026-09-30",
+      "reviewed_on": "2026-11-22",
+      "verification": "在线核合同股票60%-95%、港股上限、C销售服务0.80%、规模和完整历任表。"
+    },
+    {
+      "id": "STATUS_019032",
+      "title": "易方达环保主题C官方公开交易状态接口",
+      "url": "https://api.efunds.com.cn/xcowch/front/fund/tradestatus/019032?date=2026-11-20",
+      "status_date": "2026-11-20",
+      "reviewed_on": "2026-11-22",
+      "verification": "JSON status=1；个人三渠道subscription/redemption=true，limit空；不测试下单。"
+    },
+    {
+      "id": "STATUS_010390",
+      "title": "易方达科益C官方公开交易状态接口",
+      "url": "https://api.efunds.com.cn/xcowch/front/fund/tradestatus/010390?date=2026-11-20",
+      "status_date": "2026-11-20",
+      "reviewed_on": "2026-11-22",
+      "verification": "JSON status=1；个人三渠道subscription/redemption=true，limit空；不保证下个开放日。"
+    },
+    {
+      "id": "P_022714",
+      "title": "万家新兴蓝筹C官方产品页",
+      "url": "https://www.wjasset.com/products/stock/022714/",
+      "published_on": null,
+      "nav_as_of": "2026-11-20",
+      "reviewed_on": "2026-11-22",
+      "verification": "在线核合同范围、C净值及当前法律文件链接；页面部分重仓表日期/缺项不代替Q3原表。"
+    },
+    {
+      "id": "F_022714",
+      "title": "万家新兴蓝筹产品资料概要更新",
+      "url": "https://www.wjasset.com/upload/pdf/1789721473103-wjxxlclhpzhhxzqtzjjjjcpzlgy(gx).pdf",
+      "compiled_on": "2026-09-15",
+      "published_on": "2026-09-21",
+      "reviewed_on": "2026-11-22",
+      "verification": "官网链接在线读全文；核A/C费用、莫海波产品任期、主题与基准变更。"
+    },
+    {
+      "id": "DISTRIBUTOR_022714",
+      "title": "天天基金万家新兴蓝筹C费用与购买信息",
+      "url": "https://fundf10.eastmoney.com/jjfl_022714.html",
+      "published_on": null,
+      "nav_as_of_observed": "2026-11-19",
+      "reviewed_on": "2026-11-22",
+      "verification": "在线读到日累计购买上限15万元；代销观察值，正式公告日期及下一交易日额度未确认。"
+    },
+    {
+      "id": "P_017787",
+      "title": "万家宏观择时多策略C官方产品页",
+      "url": "https://www.wjasset.com/products/stock/017787/",
+      "published_on": null,
+      "nav_as_of": "2026-11-20",
+      "reviewed_on": "2026-11-22",
+      "verification": "在线核产品身份、股票范围、C净值、法律文件链接；无正式实时额度证据。"
+    },
+    {
+      "id": "P_519212",
+      "title": "万家宏观择时多策略A官方产品页",
+      "url": "https://www.wjasset.com/products/stock/519212/",
+      "published_on": null,
+      "nav_as_of": "2026-11-20",
+      "reviewed_on": "2026-11-22",
+      "verification": "在线核A产品及历任轨迹；提取历任表次序混排，不据此编造精确独管日。"
+    },
+    {
+      "id": "F_017787",
+      "title": "万家宏观择时多策略产品资料概要更新",
+      "url": "https://www.wjasset.com/upload/pdf/1789721464442-wjhgzsdcllhpzhhxzqtzjjjjcpzlgy(gx).pdf",
+      "compiled_on": "2026-09-11",
+      "published_on": "2026-09-21",
+      "reviewed_on": "2026-11-22",
+      "verification": "官网链接在线读全文；核黄海加入日、A/C费用、综合费用测算及不保本条款。"
+    },
+    {
+      "id": "Q_021902",
+      "title": "广发主题领先2026年第三季度报告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610271830977352_1.pdf",
+      "published_on": "2026-10-27",
+      "data_as_of": "2026-09-30",
+      "local_text": "/tmp/fund-research-20261121/verified/quarter-021902-3.txt",
+      "reviewed_on": "2026-11-22",
+      "verification": "本地原文核境内采矿13.85%及潞安、中煤、山煤可见重合。"
+    },
+    {
+      "id": "Q_022415",
+      "title": "前海开源国企精选2026年第三季度报告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610271830981947_1.pdf",
+      "published_on": "2026-10-27",
+      "data_as_of": "2026-09-30",
+      "local_text": "/tmp/fund-research-20261121/verified/quarter-022415-3.txt",
+      "reviewed_on": "2026-11-22",
+      "verification": "本地原文核境内采矿13.31%，不把行业重合冒充逐股重合。"
+    },
+    {
+      "id": "Q_021180",
+      "title": "易方达产业机遇2026年第三季度报告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610271830959094_1.pdf",
+      "published_on": "2026-10-27",
+      "data_as_of": "2026-09-30",
+      "local_text": "/tmp/fund-research-20261121/verified/quarter-021180-3.txt",
+      "reviewed_on": "2026-11-22",
+      "verification": "本地原文核境内采矿36.23%、药明9.83%、潞安2.16%。"
+    }
+  ],
+  "open_items": [
+    "四个等比例挪入10%的原生净值同窗比较由主线程计算；不复用旧G6非等比例曲线。",
+    "万家新兴蓝筹正式限额公告与A/C合并口径、万家宏观下一开放日实时申赎状态仍缺。",
+    "黄海精确独管起点需完整历任或变更公告补核；不影响本次高权益资源集中适配判断。",
+    "基金最新全部持仓、当前规模、证券流动性与容量数据仍缺；季报不能充作实时快照。",
+    "实际A/C折扣、换仓费用、到账和持有期限未按用户账户验证；不授权交易。",
+    "Doc100贡献限监督机制，宏观实时预算由主线程独立研究，不能由私人观点或评分锁定。"
+  ]
+}
