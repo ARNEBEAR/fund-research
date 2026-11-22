@@ -1,0 +1,13 @@
+.comparison-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:20px 0}
+.comparison-controls label{display:grid;gap:8px;color:var(--muted);font-size:13px;min-width:0}
+.comparison-controls select{width:100%;padding:11px 13px;background:#161616;color:var(--ink,#ede9e0);border:1px solid var(--line);font:inherit;border-radius:0;min-width:0}
+.lt-chart-shell{border:1px solid var(--line);background:linear-gradient(150deg,#17130f,#0d0e0e);margin:20px 0;padding:14px;min-width:0}
+#lt-wealth-chart{display:block;width:100%;height:auto;min-height:210px}
+#lt-metrics tbody tr.primary-row{background:#d7a7770b}
+#lt-metrics .lt-name{font-weight:600;color:var(--copper)}
+#lt-metrics td,#lt-recovery td{font-variant-numeric:tabular-nums}
+#lt-tabs{flex-wrap:wrap;row-gap:8px}
+#lt-variant small{display:block}
+.phase-label{padding:13px 18px;border-left:2px solid var(--copper);background:#d7a7770a;color:var(--muted)}
+#phase .archive-fold{margin:22px 0}
+@media(max-width:700px){.comparison-controls{grid-template-columns:1fr;gap:11px}.lt-chart-shell{padding:7px}#lt-wealth-chart{min-height:160px}.decision-grid>*{min-width:0}#lt-tabs button{font-size:12px;padding:10px 12px}}

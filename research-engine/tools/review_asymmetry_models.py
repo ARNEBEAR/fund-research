@@ -71,11 +71,18 @@ def make_items(root,data):
     for c in data["registry"]:
         items.append({"item_id":"fund:"+c["code"],"type":"fund","asof":data["asof"],"text":json.dumps(c,ensure_ascii=False)})
     for ident,p in data.get("currentDecision",{}).get("plans",{}).items():
-        items.append({"item_id":"current_plan:"+ident,"type":"current_plan","asof":data["currentDecision"]["date"],
+        items.append({"item_id":"current_plan:"+ident,"type":"historical_stage_plan","asof":data["currentDecision"]["date"],
                       "text":json.dumps(p,ensure_ascii=False)})
     if data.get("currentDecision",{}).get("unconstrained"):
-        items.append({"item_id":"current_plan:U60","type":"current_plan","asof":data["currentDecision"]["date"],
+        items.append({"item_id":"current_plan:U60","type":"historical_stage_plan","asof":data["currentDecision"]["date"],
                       "text":json.dumps(data["currentDecision"]["unconstrained"],ensure_ascii=False)})
+    for ident,p in data.get("longtermDecision",{}).get("plans",{}).items():
+        if ident not in ["L5","L4","L90","K5","G6","B74"]:continue
+        items.append({"item_id":"longterm_plan:"+ident,"type":"longterm_mandate",
+                      "asof":data["longtermDecision"]["date"],
+                      "text":json.dumps({"definition":data["longtermDecision"]["definition"],
+                                         "account_status":data["longtermDecision"]["account_status"],
+                                         "plan":p,"limits":data["longtermDecision"]["limits"]},ensure_ascii=False)})
     return items
 
 def relevant_excerpt(text,max_length=1300):
