@@ -6,14 +6,14 @@
   "group": "manager",
   "family": "manager_017787",
   "code": "017787",
-  "status": "collected",
-  "checked_at": "2026-11-22T12:53:36.471194+08:00",
-  "publication_date": "2023-01-17",
+  "status": "failed",
+  "checked_at": "2026-11-22T14:26:04.656958+08:00",
+  "publication_date": null,
   "date_candidates": [],
-  "content_sha256": "b1e9cd8c196b7492ab7078658c449083b74df39fcb31ae68e504145eda12acac",
+  "content_sha256": null,
   "excerpt": "",
-  "http_status": 200,
-  "error": null,
+  "http_status": null,
+  "error": "URLError",
   "fact_reverified": false,
   "requires_independent_review": true,
   "last_success": {
@@ -53,37 +53,7 @@
     "date_candidates": [],
     "excerpt": ""
   },
-  "stale": false,
-  "bytes": 44742,
-  "final_url": "https://fundf10.eastmoney.com/jjjl_017787.html",
-  "manager": {
-    "appointments": [
-      {
-        "start_date": "2023-01-17",
-        "end_date": null,
-        "managers": [
-          "黄海"
-        ],
-        "end_marker": "至今"
-      }
-    ],
-    "current_appointments": [
-      {
-        "start_date": "2023-01-17",
-        "end_date": null,
-        "managers": [
-          "黄海"
-        ],
-        "end_marker": "至今"
-      }
-    ],
-    "current_managers": [
-      "黄海"
-    ],
-    "appointment_signature": "b192264453178e69582079ed5268f6d3540feb968334fc6be3b1988b8f0ce941",
-    "excluded_future_count": 0,
-    "fact_reverified": false
-  },
+  "stale": true,
   "attempted": true,
-  "change_status": "unchanged bytes; not reverified"
+  "change_status": "first observation or unavailable"
 }
