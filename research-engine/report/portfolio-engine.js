@@ -66,6 +66,8 @@ function compare(portfolios,funds,options={}){
  if(shortages.length&&!options.allowPartial)return {error:'所选区间数据不足：'+shortages.map(x=>x.name+'始于'+x.first).join('；')+'。不能把较短样本当作完整'+periodName+'区间。',kind:'short',shortages,requestedStart,end};
  const anchors=available.filter(d=>d<=requestedStart);
  const actualStart=anchors.length?anchors.at(-1):available[0];
+ if(anchors.length&&(day(requestedStart)-day(actualStart))/DAY>7)return {error:'所选起点附近缺少公共净值，最近起点为'+actualStart+'，距请求'+requestedStart+'超过7天；不能将这段较长回放标成'+periodName+'成绩。请导入更完整数据或明确指定实际日期。',kind:'dates'};
+ if(!anchors.length&&!shortages.length&&!options.allowPartial&&(day(actualStart)-day(requestedStart))/DAY>7)return {error:'所选起点后超过7天才有共同净值，无法形成完整'+periodName+'区间。请明确指定可得日期。',kind:'dates'};
  const grid=available.filter(d=>d>=actualStart);
  if(grid.length<3)return {error:'区间仅有'+grid.length+'个共同净值点，不能计算有效曲线与波动。',kind:'dates'};
  const cashRate=Number(options.cashRate||0)/100;
