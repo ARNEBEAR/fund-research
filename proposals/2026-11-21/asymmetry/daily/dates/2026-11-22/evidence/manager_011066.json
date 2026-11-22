@@ -6,19 +6,19 @@
   "group": "manager",
   "family": "manager_011066",
   "code": "011066",
-  "status": "failed",
-  "checked_at": "2026-11-22T16:15:47.876162+08:00",
-  "publication_date": null,
+  "status": "collected",
+  "checked_at": "2026-11-22T16:44:09.518523+08:00",
+  "publication_date": "2020-12-25",
   "date_candidates": [],
-  "content_sha256": null,
+  "content_sha256": "6dfebbdc197a76c4b583fbd29ebc1f676709afa51675de5ec68df72e2fefbe01",
   "excerpt": "",
-  "http_status": null,
-  "error": "URLError",
+  "http_status": 200,
+  "error": null,
   "fact_reverified": false,
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_011066",
-    "checked_at": "2026-11-22T16:00:59.906937+08:00",
+    "checked_at": "2026-11-22T16:44:09.518523+08:00",
     "publication_date": "2020-12-25",
     "content_sha256": "6dfebbdc197a76c4b583fbd29ebc1f676709afa51675de5ec68df72e2fefbe01",
     "status": "collected",
@@ -53,7 +53,37 @@
     "date_candidates": [],
     "excerpt": ""
   },
-  "stale": true,
+  "stale": false,
+  "bytes": 49900,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_011066.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2020-12-25",
+        "end_date": null,
+        "managers": [
+          "刘旭"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2020-12-25",
+        "end_date": null,
+        "managers": [
+          "刘旭"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "刘旭"
+    ],
+    "appointment_signature": "d92788258bb20eafc43986d687b0115c40adf80475f6a2791ddac9c60d31d9e2",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
   "attempted": true,
   "change_status": "first observation or unavailable"
 }

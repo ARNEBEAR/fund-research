@@ -7,7 +7,7 @@
   "family": "manager_019032",
   "code": "019032",
   "status": "collected",
-  "checked_at": "2026-11-22T16:16:08.022149+08:00",
+  "checked_at": "2026-11-22T16:44:13.924428+08:00",
   "publication_date": "2026-10-27",
   "date_candidates": [
     {
@@ -29,7 +29,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "announcements_019032",
-    "checked_at": "2026-11-22T16:16:08.022149+08:00",
+    "checked_at": "2026-11-22T16:44:13.924428+08:00",
     "publication_date": "2026-10-27",
     "content_sha256": "d9619a91721fea4f71010f3a6cde86fc8552ceebc055d40395de7e03a037acdd",
     "status": "collected",
