@@ -8,10 +8,10 @@
   "code": "002051",
   "product_kind": "fund",
   "status": "collected",
-  "checked_at": "2026-11-22T20:44:24.102690+08:00",
+  "checked_at": "2026-11-22T20:48:54.354264+08:00",
   "publication_date": "2026-11-20",
   "date_candidates": [],
-  "content_sha256": "826c7a745132bd5be20cb57d2953fb675cf7b3c4caa1fe6545dddae6434209b0",
+  "content_sha256": "714701846d2703eb72a566b31595b513231a724683b273fbf50cee1390049135",
   "excerpt": "002051 unit NAV 2.099 on 2026-11-20",
   "http_status": 200,
   "error": null,
@@ -19,9 +19,9 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nav_002051",
-    "checked_at": "2026-11-22T20:44:24.102690+08:00",
+    "checked_at": "2026-11-22T20:48:54.354264+08:00",
     "publication_date": "2026-11-20",
-    "content_sha256": "826c7a745132bd5be20cb57d2953fb675cf7b3c4caa1fe6545dddae6434209b0",
+    "content_sha256": "714701846d2703eb72a566b31595b513231a724683b273fbf50cee1390049135",
     "status": "collected",
     "nav": {
       "code": "002051",
@@ -58,5 +58,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "unchanged bytes; not reverified"
+  "change_status": "changed"
 }

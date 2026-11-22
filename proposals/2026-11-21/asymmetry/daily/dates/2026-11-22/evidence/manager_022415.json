@@ -7,7 +7,7 @@
   "family": "manager_022415",
   "code": "022415",
   "status": "collected",
-  "checked_at": "2026-11-22T20:44:35.189283+08:00",
+  "checked_at": "2026-11-22T20:49:07.916322+08:00",
   "publication_date": "2024-12-06",
   "date_candidates": [],
   "content_sha256": "a19fd24ca65ae544b11f4dce11fde0d94cedc84f39857f53ba534435e74da645",
@@ -18,7 +18,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_022415",
-    "checked_at": "2026-11-22T20:44:35.189283+08:00",
+    "checked_at": "2026-11-22T20:49:07.916322+08:00",
     "publication_date": "2024-12-06",
     "content_sha256": "a19fd24ca65ae544b11f4dce11fde0d94cedc84f39857f53ba534435e74da645",
     "status": "collected",
