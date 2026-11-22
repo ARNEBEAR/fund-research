@@ -7,10 +7,10 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-22T16:00:45.667442+08:00",
+  "checked_at": "2026-11-22T16:15:33.340474+08:00",
   "publication_date": null,
   "date_candidates": [],
-  "content_sha256": "d97ebebf26e7b39a36e9778815e5068c16d0b338a633d661db37c805d1d89881",
+  "content_sha256": "d72c7b3c2a60933eede91c6284a9ce3cc99b972686ccc78baf9b4bccd2f5e377",
   "excerpt": "NVIDIA Corporation - Home Skip to main content Home Corporate Profile NVIDIA is the pioneer of GPU-accelerated computing. We specialize in products and platforms for the large, growing markets of gaming, professional visualization, data center, and automotive. Our creations are loved by the most demanding computer users in the world – gamers, designers, and scientists. And our work is at the center of the most consequential mega-trends in technology. Learn More Quarterly Results All Results Latest News All News Events All Events Featured Presentation Quick Links Email Alerts RSS Request Printed Materials Download Library Email Alerts To receive notifications via email, enter your email address and select at least one subscription below. After submitting your information, you will receive an email. You must click the link in the email to activate your subscription. You can sign up for additional subscriptions at any time. * Required Email Address * Investor Alert Options Mailing Lists * SEC Filing Presentation Event End of Day Stock Quote Enter the code shown above. * Email Alert Sign Up Confirmation Investor Contact 2788 San Tomas Expressway Santa Clara, CA 95051 Contact Investor R",
   "http_status": 200,
   "error": null,
@@ -18,15 +18,15 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nvidia_ir",
-    "checked_at": "2026-11-22T16:00:45.667442+08:00",
+    "checked_at": "2026-11-22T16:15:33.340474+08:00",
     "publication_date": null,
-    "content_sha256": "d97ebebf26e7b39a36e9778815e5068c16d0b338a633d661db37c805d1d89881",
+    "content_sha256": "d72c7b3c2a60933eede91c6284a9ce3cc99b972686ccc78baf9b4bccd2f5e377",
     "status": "collected",
     "date_candidates": [],
     "excerpt": "NVIDIA Corporation - Home Skip to main content Home Corporate Profile NVIDIA is the pioneer of GPU-accelerated computing. We specialize in products and platforms for the large, growing markets of gaming, professional visualization, data center, and automotive. Our creations are loved by the most demanding computer users in the world – gamers, designers, and scientists. And our work is at the center of the most consequential mega-trends in technology. Learn More Quarterly Results All Results Latest News All News Events All Events Featured Presentation Quick Links Email Alerts RSS Request Printed Materials Download Library Email Alerts To receive notifications via email, enter your email address and select at least one subscription below. After submitting your information, you will receive an email. You must click the link in the email to activate your subscription. You can sign up for additional subscriptions at any time. * Required Email Address * Investor Alert Options Mailing Lists * SEC Filing Presentation Event End of Day Stock Quote Enter the code shown above. * Email Alert Sign Up Confirmation Investor Contact 2788 San Tomas Expressway Santa Clara, CA 95051 Contact Investor R"
   },
   "stale": false,
-  "bytes": 125149,
+  "bytes": 123674,
   "final_url": "https://investor.nvidia.com/home/default.aspx",
   "undated_links": [
     {

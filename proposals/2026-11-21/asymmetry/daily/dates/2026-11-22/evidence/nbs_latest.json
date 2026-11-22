@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-22T16:00:43.365003+08:00",
+  "checked_at": "2026-11-22T16:15:30.261342+08:00",
   "publication_date": "2026-11-16",
   "date_candidates": [
     {
@@ -133,7 +133,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nbs_latest",
-    "checked_at": "2026-11-22T16:00:43.365003+08:00",
+    "checked_at": "2026-11-22T16:15:30.261342+08:00",
     "publication_date": "2026-11-16",
     "content_sha256": "e07e5da09648d807d375991888550f06feac99ed0917557064839d031de3fe8b",
     "status": "collected",

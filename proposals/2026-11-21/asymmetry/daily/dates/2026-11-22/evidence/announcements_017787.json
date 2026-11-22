@@ -7,7 +7,7 @@
   "family": "manager_017787",
   "code": "017787",
   "status": "collected",
-  "checked_at": "2026-11-22T16:01:20.098266+08:00",
+  "checked_at": "2026-11-22T16:16:09.132311+08:00",
   "publication_date": "2026-10-27",
   "date_candidates": [
     {
@@ -49,7 +49,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "announcements_017787",
-    "checked_at": "2026-11-22T16:01:20.098266+08:00",
+    "checked_at": "2026-11-22T16:16:09.132311+08:00",
     "publication_date": "2026-10-27",
     "content_sha256": "59a0c71d6f56358a1021b24fb7e713faffaec8980f78fe91cbb7f99525b52ff1",
     "status": "collected",
