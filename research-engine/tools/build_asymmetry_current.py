@@ -19,6 +19,9 @@ def main():
     dec["scope"]="previous dated 1-3 month stage proposals; not current long-term preference"
     for p in dec["plans"].values():
         p["title"]=p["title"].replace("当前首选","旧阶段提案")
+    stage_names={"D60":"60%现金＋五基金：阶段防守","D70":"70%现金＋五基金：加强防守","R40":"40%现金＋五基金：参与修复"}
+    for ident,p in dec["plans"].items():
+        p["title"]=stage_names.get(ident,p["title"])
     data["currentDecision"]=dec
     longterm=json.loads((ROOT/"research/longterm-comparison-20261122.json").read_text())
     data["longtermDecision"]=longterm
@@ -33,14 +36,14 @@ def main():
     data["independentCandidates"]=passive
     data["extra_watch_codes"]=[{"code":"110020","name":"易方达沪深300ETF联接A","product_kind":"fund"},
                               {"code":"513500","name":"博时标普500ETF","product_kind":"etf"}]
-    data["revision"]="V1.4 / 长期委托与同窗事实比较 / 2026-11-22"
+    data["revision"]="V1.4.1 / 中文方案名称与直接配置说明 / 2026-11-22"
     doc=data["doc100"]
     for k in ["reported_ds_score","score_status"]:doc["document"].pop(k,None)
     doc["document"]["content_score"]=dec["document_content_score"]
     doc["document"]["private_position_scope"]="文档所有人私人账户，不属于本用户；不纳入账户、目标、评分、证据或配置判断。"
     doc["fulltext"]=[b for b in doc["fulltext"] if not (241<=b["block"]<=273)]
     doc.get("calculations",{}).pop("account_arithmetic",None)
-    doc["judgment"]={"current":"长期候选L5，L4/L90/K5/G6为有条件替代；D60/D70/R40为旧阶段风险提案，原A/B只作历史研究。",
+    doc["judgment"]={"current":"长期五基金为候选，国内四基金、留10%现金、开阳替代高鑫和增加科益为条件替代；60%/70%/40%现金方案为旧阶段提案，原八/七基金只作历史研究。",
                      "input_scope":"对话和文档只作参考输入；事实须由原始来源和日期独立核验。",
                      "private_scope":"私人账户全部排除，不属于用户。",
                      "content_score":76}
@@ -98,6 +101,7 @@ def main():
     head=re.sub(r"<title>.*?</title>","<title>非对称 · 长期理想组合与同窗事实比较</title>",head)
     nav='''<nav class="nav-shell" aria-label="报告目录"><div class="wrap nav-inner"><a class="nav-brand" href="#top">非对称 ∿</a><a href="#current"><span class="num">01</span>长期候选</a><a href="#comparison"><span class="num">02</span>事实比较</a><a href="#possibilities"><span class="num">03</span>条件替代</a><a href="#independent"><span class="num">04</span>委托检验</a><a href="#market">市场</a><a href="#blind">净值</a><a href="#managers">经理</a><a href="#phase">阶段提案</a><a href="#daily">日审</a><a href="#history">历史</a><a href="#sources">来源</a></div><div class="reading-progress"></div></nav>'''
     hero='''<div class="wrap" id="top"><header class="masthead"><a class="brand" href="#top"><span class="brand-mark">∿</span>非对称 <span class="eyebrow">ASYMMETRY</span></a><div class="mast-meta"><span>HOLDER RESEARCH / V1.4</span><span>2026.11.22</span></div></header><div class="latest-hero"><div><span class="eyebrow">长期增长 / 回撤与修复一起检验</span><h1>让能力承担长期，<br>让证据约束信任。</h1><p>以权益长期增值为主，比较少数经理的委托价值。先看长期结构，再看同窗事实和条件替代；阶段性高现金不再默认等同长期目标。</p><div class="hero-actions"><a class="primary" href="#current" style="padding:12px 22px">查看长期候选 ↓</a><a class="current-download" href="#comparison">与旧方案事实比较 ↗</a></div></div><div class="hero-summary"><div><strong>L5</strong><p>长期五席候选 · 尚待验证</p></div><div><strong>230<span style="font-size:15px">万</span></strong><p>研究预算 · 非用户已核现仓</p></div><p class="small">约73.6%股权快照；承担权益损失，不承诺平滑或保本。D60保留为旧阶段风险提案。</p></div></div><div class="readmap"><a href="#current">长期结构</a><span>→</span><a href="#comparison">同窗事实</a><span>→</span><a href="#possibilities">条件替代</a><span>→</span><a href="#independent">继续验证</a></div></div>'''
+    hero=hero.replace("HOLDER RESEARCH / V1.4","HOLDER RESEARCH / V1.4.1").replace("<strong>L5</strong>","<strong>五基金</strong>").replace("D60保留","60%现金方案保留")
     footer=str(soup.select_one("footer.footer"))
     oldscript=soup.select("#research-data + script")[0].string
     # Base chart/interactions still render retained archive elements. Do not seed status from old opinion scores.
@@ -112,7 +116,14 @@ def main():
     for node in stage_soup.find_all(string=True):
         if "当前首选" in node or "本期首选" in node or "本次独立研究首选" in node:
             node.replace_with(str(node).replace("本次独立研究首选","旧阶段研究提案").replace("当前首选","旧阶段提案").replace("本期首选","旧阶段提案"))
+    stage_words={"D60":"60%现金方案","D70":"70%现金方案","R40":"40%现金方案","U60":"60%现金宽基方案"}
+    for node in stage_soup.find_all(string=True):
+        if any(k in node for k in stage_words):
+            value=str(node)
+            for k,v in stage_words.items():value=value.replace(k,v)
+            node.replace_with(value)
     stage='<section class="chapter" id="phase"><div class="section-head"><div class="section-index">阶段</div><div><span class="eyebrow">Previous short-term proposals / dated assumptions</span><h2>旧阶段风险提案，保留边界与代价。</h2><p>D60/D70/R40/U60按约1—3个月问题提出，不能称为长期理想结构。市场风险并未因为目标澄清而消失；何时投入仍由买价、宏观、期限与损失能力决定。</p></div></div><div class="section-body"><details class="archive-fold"><summary>展开11月22日原D60/D70/R40及U60完整预算</summary><p class="phase-label">历史阶段提案 · 此处“当前”等文字只按当时假设理解；长期候选和事实比较见01—04。没有确认用户完整账户，也没有自动执行。</p>'+str(stage_soup)+'</details></div></section>'
+    for k,v in stage_words.items():stage=stage.replace(k,v)
     output='<!doctype html><html lang="zh-CN">'+head+'<body>'+hero+nav+'<div class="wrap">'+(ROOT/"report/asymmetry-longterm.html").read_text()+core+stage+doc_score_section+daily_section+'<details id="history" class="archive-fold"><summary>历史研究与原A/B：仅供复盘，不作为今日默认配置</summary><p class="small">2026.11.21基线与旧输入审计，展开后可对照原假设、改变理由和方法代价。所有历史路径和情景均保留自己的日期。</p>'+archive+'</details>'+str(section_map["sources"])+footer+'</div>'+str(soup.select_one("#backtop"))+str(soup.select_one("#drawer-backdrop"))+str(soup.select_one("#source-drawer"))+helpers+'<script id="research-data" type="application/json">'+payload+'</script><script>'+oldscript+'</script><script>'+jsdoc+'</script><script>'+(ROOT/"report/asymmetry-decision.js").read_text()+'</script><script>'+(ROOT/"report/asymmetry-longterm.js").read_text()+'</script></body></html>'
     output=output.replace('本次人工配置基线仍按自己的日期使用','长期候选和旧阶段提案分别按自己的日期使用')
     (SITE/"index.html").write_text(output)
@@ -124,11 +135,11 @@ def main():
     # Replace previous audit exports with the corrected input boundary; leave the uploaded source itself immutable.
     (SITE/"doc100/audit.json").write_text(json.dumps(doc,ensure_ascii=False,indent=2))
     manifest=json.loads((SITE/"manifest.json").read_text())
-    manifest.update(revision="V1.4",current_review_date="2026-11-22",current_preference="L5 long-term candidate; previous D60 only a dated short-term proposal",
+    manifest.update(revision="V1.4.1",current_review_date="2026-11-22",current_preference="L5 long-term candidate; previous D60 only a dated short-term proposal",
                     doc100_private_account="excluded; unrelated to user",old_score="not used")
     for f in [SITE/"index.html",SITE/"research-data.json",SITE/"doc100/audit.json",*policy.iterdir()]:
         manifest["files"][str(f.relative_to(SITE))]={"bytes":f.stat().st_size,"sha256":sha(f.read_bytes())}
     (SITE/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
-    print("Built V1.4 long-term mandates and factual comparisons; stage proposals remain dated.")
+    print("Built V1.4.1 readable Chinese plan names and visible allocations; weights and calculations unchanged.")
 
 if __name__=="__main__":main()
