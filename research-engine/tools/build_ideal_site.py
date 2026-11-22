@@ -183,6 +183,10 @@ else location.replace("{latest_path}"+h);
 
 入口：https://arnebear.github.io/fund-research/
 
+新增独立审议 V1.1：https://arnebear.github.io/fund-research/proposals/2026-11-21/asymmetry/#doc100
+
+该专题按230万元预算编制，完整审议DOC100并区分已核事实、待验证假说与配置。A金额保留，B加严启用条件；R及15%/60%现金仅作条件与机会成本对照。专题附本次授权发布的DOC100原件、公开原文证据、复算脚本与版本快照，不替换每日目标口径。
+
 最新报告：https://arnebear.github.io/fund-research/reports/{date}/
 
 本期按用户截图中的246.80万元/10项目标配置研究，不当作已成交或当前市值。境内与黄金正式净值至{event["end"]}，QDII至{latest["006075"]["date"]}，完整周截止{analysis["weekly"]["cutoff"]}。
@@ -191,7 +195,7 @@ else location.replace("{latest_path}"+h);
 
 日期目录包含HTML、Markdown、计算JSON、方法、核验、来源、CSV/脚本包及SHA-256。原有报告和搜索专题保持原链接；旧口径回放不能解释账户实际年度收益。每日08:20北京时间自动规则研究，09:20同日失败补偿；GitHub调度可能延迟，同日首次成功后冻结。没有账户连接或自动交易。默认最新报告，顶部手动切换日期。
 
-经用户授权公开发布研究；不包含原始对话、账户凭据或原始报告PDF。noindex不是访问控制。
+经用户授权公开发布研究；不包含原始对话或账户凭据。11月21日独立审议专题含用户上传的历史纪要原件和公开披露PDF，其余每日档案保持原有材料范围。noindex不是访问控制。
 """)
     print(json.dumps({"report":str(target),"sha256":manifest["html_sha256"],"revision":manifest["revision"]}))
 
