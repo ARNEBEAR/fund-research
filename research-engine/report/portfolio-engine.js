@@ -115,7 +115,7 @@ function assess(weights,funds,goal='smooth',metrics=null){
  if((weights['021902']||0)>0)reasons.push('广发提供估值克制与可变权益强度，收费和踏空代价要一起评价；不等同外部现金。');
  reasons.push('股权快照截至2026.09.30；最新净值和旧披露不是同一时点。需求、信用、财政与实际利率仍决定总风险和买价。');
  if(metrics)reasons.push('所选共同窗口收益'+(metrics.return*100).toFixed(2)+'%、最大回撤'+(metrics.mdd*100).toFixed(2)+'%；'+(metrics.mdd>=-1e-12?'样本没有回撤':metrics.recovery?'最大回撤已在样本中修复':'最大回撤截至终点未修复')+'。这只检验样本，不当作未来适配胜率。');
- return {verdict:unknown.length?'信息不足，暂不作完整评级':bad?(goal==='growth'?'集中风险偏高，不宜作为唯一成长组合':'不适合以'+(goal==='defense'?'低回撤':'平滑')+'为首要目标的默认组合'):'有条件适配'+(goal==='growth'?'成长参与':'长期权益委托')+'，仍需持续验证',
+ return {verdict:unknown.length?'信息不足，暂不作完整评级':bad?(goal==='growth'?'集中风险偏高，不宜作为唯一成长组合':'不适合以'+(goal==='defense'?'低回撤':'平滑')+'为首要目标的默认组合'):'有条件适配'+(goal==='growth'?'成长参与':goal==='defense'?'低风险预算':'长期权益委托')+'，仍需持续验证',
    status:unknown.length?'insufficient':bad?'poor':'conditional',equity:unknown.length?null:eq,knownEquity:eq,growth,resource,max,issues,reasons,
    boundary:'此为有日期的研究规则判断，未实时人工审议新组合，不是经理评分、市场胜率或回撤承诺。'};
 }
