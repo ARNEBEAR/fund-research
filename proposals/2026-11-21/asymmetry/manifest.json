@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-21",
+  "revision": "V1.1",
+  "type": "independent_doc100_review",
+  "status": "research_proposal_not_current_account_or_trades",
+  "capital_basis_cny": 2300000,
+  "nav_cutoff_domestic": "2026-11-20",
+  "nav_cutoff_qdii": "2026-11-19",
+  "files": {
+    "index.html": {
+      "bytes": 600439,
+      "sha256": "aceeb7d45a547a95b2462f125d50924190227f35426848008bda316f8520ee24"
+    },
+    "evidence.zip": {
+      "bytes": 24475081,
+      "sha256": "b9a396da7f0c93880406de2ba83f6d8750158ed2b3d5b7c40df1318d58f2b729"
+    },
+    "说明.txt": {
+      "bytes": 581,
+      "sha256": "c43883a0cb0918e30d0ef7c01bbe83cc9894a0b8b12ec4c3f0ea198d985e9d6c"
+    },
+    "更新说明-V1.1.txt": {
+      "bytes": 900,
+      "sha256": "1b307db8192539a6c76c140cf7bd53bf2d69297e67ea0d0839dad718eb072c4f"
+    },
+    "doc100-audit-evidence.zip": {
+      "bytes": 6199893,
+      "sha256": "233159ab322eef456bac4087f9d800cc07f8c384e2ea449b88cf3efacc950d97"
+    },
+    "research-data.json": {
+      "bytes": 662329,
+      "sha256": "9df4094ebabd7c88edf39e0c7dbc7a655f92752dbb6d0e58c45b24aa6d8cb2c3"
+    },
+    "doc100/audit.json": {
+      "bytes": 129135,
+      "sha256": "c279f7f7e1f4bab81e977ffa81a0f4e710174f45485b08fd53fc1f3a6866e101"
+    },
+    "doc100/original.docx": {
+      "bytes": 38598,
+      "sha256": "86d5eb9beb5a3b86467534680d52d5ddfa4205a495a505c6ff6bbee68a8ea96f"
+    },
+    "doc100/calculations.json": {
+      "bytes": 31168,
+      "sha256": "f115303e5b6caf9c2ed45d4d5b5ffd9ffa48aa0bf6ec0c30938b1994255d58c6"
+    },
+    "versions/research-data.json": {
+      "bytes": 516455,
+      "sha256": "ad20b8dc086c694c52db538c36cf483d039c143e76417e9e010a2d13cebc0ed2"
+    },
+    "versions/v1.0.html": {
+      "bytes": 457867,
+      "sha256": "cc580716d60d4340ec5710c4567594b245c51f150bf28d0847861f39e3392b46"
+    }
+  }
+}
