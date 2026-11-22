@@ -6,18 +6,118 @@
   "group": "manager",
   "family": "manager_519697",
   "code": "519697",
-  "status": "failed",
-  "checked_at": "2026-11-22T12:47:56.448453+08:00",
-  "publication_date": null,
+  "status": "collected",
+  "checked_at": "2026-11-22T12:53:33.929534+08:00",
+  "publication_date": "2015-07-11",
   "date_candidates": [],
-  "content_sha256": null,
+  "content_sha256": "f062d6af8aece30ea416fed50f5e99eeefe87f38a0626e2c28547dc2cfca7a8d",
   "excerpt": "",
-  "http_status": null,
-  "error": "URLError",
+  "http_status": 200,
+  "error": null,
   "fact_reverified": false,
   "requires_independent_review": true,
-  "last_success": null,
-  "stale": true,
+  "last_success": {
+    "id": "manager_519697",
+    "checked_at": "2026-11-22T12:53:33.929534+08:00",
+    "publication_date": "2015-07-11",
+    "content_sha256": "f062d6af8aece30ea416fed50f5e99eeefe87f38a0626e2c28547dc2cfca7a8d",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2015-07-11",
+          "end_date": null,
+          "managers": [
+            "何帅"
+          ],
+          "end_marker": "至今"
+        },
+        {
+          "start_date": "2015-07-09",
+          "end_date": "2015-07-10",
+          "managers": [
+            "何帅",
+            "张迎军"
+          ],
+          "end_marker": "2015-07-10"
+        },
+        {
+          "start_date": "2009-01-21",
+          "end_date": "2015-07-08",
+          "managers": [
+            "张迎军"
+          ],
+          "end_marker": "2015-07-08"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2015-07-11",
+          "end_date": null,
+          "managers": [
+            "何帅"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "何帅"
+      ],
+      "appointment_signature": "db2ac5f9c17fcb2b21326313fb27444af85c32f97789bf280882f5ec337ba6ff",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 44240,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_519697.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2015-07-11",
+        "end_date": null,
+        "managers": [
+          "何帅"
+        ],
+        "end_marker": "至今"
+      },
+      {
+        "start_date": "2015-07-09",
+        "end_date": "2015-07-10",
+        "managers": [
+          "何帅",
+          "张迎军"
+        ],
+        "end_marker": "2015-07-10"
+      },
+      {
+        "start_date": "2009-01-21",
+        "end_date": "2015-07-08",
+        "managers": [
+          "张迎军"
+        ],
+        "end_marker": "2015-07-08"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2015-07-11",
+        "end_date": null,
+        "managers": [
+          "何帅"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "何帅"
+    ],
+    "appointment_signature": "db2ac5f9c17fcb2b21326313fb27444af85c32f97789bf280882f5ec337ba6ff",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
   "attempted": true,
   "change_status": "first observation or unavailable"
 }
