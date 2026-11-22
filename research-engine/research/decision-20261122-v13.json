@@ -1,0 +1,54 @@
+{
+  "version":"V1.3",
+  "date":"2026-11-22",
+  "capital_cny":2300000,
+  "horizon":"approximately 1-3 months; research assumption, not confirmed personal horizon",
+  "current_preference":"D60",
+  "cash_is_not_fixed_prior":true,
+  "account_not_verified":true,
+  "doc100_private_portfolio_scope":"Document owner's portfolio, unrelated to this user; excluded from evidence, scoring and proposed allocations.",
+  "ds_scope":"Conversation and memo are research inputs. Statements become facts only after separate source/date verification.",
+  "document_content_score":{
+    "score":76,"out_of":100,"type":"manual content judgment, not a probability or a calibrated prediction",
+    "scope":"Market/credit/AI/company mechanisms and their investment implications only; all private positions and previous external scores excluded.",
+    "dimensions":[
+      {"name":"可核与复现","score":18,"out_of":25,"reason":"多项宏观、公司和制度数字有原文支持；原稿没有逐项可点击来源，部分资金/利差/BOM仍待补证。"},
+      {"name":"因果与反证","score":22,"out_of":25,"reason":"能区分融资与回报、技术与利润、局部与系统，且保留明确纠错；部分链条仍缺逐环证据。"},
+      {"name":"机制洞察","score":21,"out_of":25,"reason":"财政付款、系统定义权、供应链利润分配有研究增量；尚无企业级产品利润与相对估值计算。"},
+      {"name":"前瞻决策支持","score":15,"out_of":25,"reason":"验证顺序有价值；现金比例、买价与相对赔率缺少统一、事前、可复算的比较，不能从宏观弱直接推出最优配置。"}
+    ]
+  },
+  "funds":{
+    "CASH":{"name":"外部现金（工具与账户另核）","equity_pct":0,"role":"购买力、流动性与风险预算","failure":"机会成本、实际购买力与具体工具/币种风险"},
+    "021902":{"name":"广发主题领先灵活配置混合C","equity_pct":45.93,"role":"较低权益强度与估值纪律","failure":"经理抬仓、价值资产现金流受损；不是现金"},
+    "011066":{"name":"大成高鑫混合C","equity_pct":80.50,"role":"制造企业质量与需求差异","failure":"制造/出口利润与买价失配；质量非保险"},
+    "022415":{"name":"前海开源国企精选混合C","equity_pct":89.92,"role":"高权益价值参与","failure":"资源/银行风险与拥挤回吐，不能承诺保本"},
+    "010390":{"name":"易方达科益混合C","equity_pct":94.13,"role":"限额科技细分与平台选择","failure":"独立任期短、容量与共同成长估值压力"},
+    "027170":{"name":"交银环球精选混合QDII C","equity_pct":87.82,"role":"海外经济敞口","failure":"全球利率/科技共振、汇率与新独立任期"}
+  },
+  "plans":{
+    "D60":{"title":"D60 · 当前首选","weights_pct":{"CASH":60,"021902":10,"011066":10,"022415":8,"010390":5,"027170":7},
+      "thesis":"弱需求与成长承接不足，但财政边际与高等级信用不支持全面危机确认；保留40%基金预算参与分化。",
+      "trigger":"当前缺乏明确趋势与足够前瞻风险补偿，又仍有盈利/财政反证，适合作待机与参与的折中研究预算。",
+      "cost":"风险修复中会少赚；共同冲击仍可能明显亏损。60%没有统计最优证明。",
+      "invalidation":"实际信用/利润压力广泛扩散转更低风险；价格与经营承接改善且买价有补偿，逐步增加参与。"},
+    "D70":{"title":"D70 · 防守备选","weights_pct":{"CASH":70,"021902":10,"011066":8,"022415":6,"010390":2,"027170":4},
+      "thesis":"减少科技与海外高弹性预算，更看重短期流动性与避免被动卖出。",
+      "trigger":"个人损失约束更紧，或与实际持仓有关的融资/现金流压力获得新的正式证据。",
+      "cost":"现金及低弹性资金占比更高，可能错过政策、信用和价格领先修复。",
+      "invalidation":"风险没有继续扩散、财政和经营边际改善并获市场吸收，继续过度防守的理由减弱。"},
+    "R40":{"title":"R40 · 修复参与","weights_pct":{"CASH":40,"021902":10,"011066":15,"022415":10,"010390":10,"027170":15},
+      "thesis":"更高参与企业质量、科技与海外风险重估，不以单日反弹启用。",
+      "trigger":"市场广度和回踩承接改善，信用未继续恶化、盈利下修边界清楚且价格有补偿；允许先小步参与，不等全部滞后数据转好。",
+      "cost":"若修复失败，成长/海外共同压力与现金更少使损失放大。",
+      "invalidation":"承接改善消失、融资与利润反证扩大，停止扩张并降低风险。"}
+  },
+  "unconstrained":{
+    "id":"U60","weights_pct":{"CASH":60,"110020":15,"513500":15,"011066":10},
+    "status":"Research alternative conditional on instrument identity, fees, execution and premium checks; no new registry ranking assumed.",
+    "reason":"Use domestic and US broad market beta plus one active-quality fund; reduce reliance on choosing many managers. Not a broad-market return forecast.",
+    "hold_if_unavailable":"Unfilled foreign sleeve stays in external cash; never silently replace with a technology QDII."
+  },
+  "new_probability_policy":"No calibrated probabilities or forecast returns supplied. Future mechanisms, conditional suitability, opportunity cost and falsifiers compared instead.",
+  "portfolio_limits":"Amounts are review budgets, not complete user account facts, executable trade quantities, global optimization or guaranteed loss limits."
+}
