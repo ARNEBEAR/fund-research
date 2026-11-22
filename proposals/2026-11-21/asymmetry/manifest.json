@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "revision": "V1.4",
+  "revision": "V1.4.1",
   "type": "independent_doc100_review",
   "status": "research_proposal_not_current_account_or_trades",
   "capital_basis_cny": 2300000,
@@ -8,8 +8,8 @@
   "nav_cutoff_qdii": "2026-11-19",
   "files": {
     "index.html": {
-      "bytes": 989487,
-      "sha256": "f6784a3cf58192894c52b03693dd17b83eb0355d1370db44924eaa3ca79ffcea"
+      "bytes": 995407,
+      "sha256": "9bb49a4943f4e66ceb294cebe75a18bed030e01e73415b0c08757f3f237cbc8e"
     },
     "evidence.zip": {
       "bytes": 24475081,
@@ -28,12 +28,12 @@
       "sha256": "233159ab322eef456bac4087f9d800cc07f8c384e2ea449b88cf3efacc950d97"
     },
     "research-data.json": {
-      "bytes": 1347780,
-      "sha256": "9659bb5cade9c4d053c037110769cffa268484af403b51fd5c86a21a5f7f733a"
+      "bytes": 1347913,
+      "sha256": "4a54c3fbf124fedc3e57af0428cfaafd1d03ec71786fa3f2ba67aceb08c32ba7"
     },
     "doc100/audit.json": {
-      "bytes": 124874,
-      "sha256": "1adba5f8b9fe2a0a7ec21e19fa2d7e8632eb1834cd2e241a01f6a96a7a72396a"
+      "bytes": 124951,
+      "sha256": "6fcead69b96ab33b06394d0a65ff8b9782d12a0574d6ea93ed2a1e5fee49a609"
     },
     "doc100/original.docx": {
       "bytes": 38598,
