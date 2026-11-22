@@ -7,7 +7,7 @@
   "family": "manager_011370",
   "code": "011370",
   "status": "collected",
-  "checked_at": "2026-11-22T16:44:17.004182+08:00",
+  "checked_at": "2026-11-22T20:44:45.994062+08:00",
   "publication_date": "2025-03-04",
   "date_candidates": [],
   "content_sha256": "a49748244e176a666cb1a5bb3d0332b4809a1c7e80dedf2eda27918209bc7416",
@@ -18,7 +18,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_011370",
-    "checked_at": "2026-11-22T16:44:17.004182+08:00",
+    "checked_at": "2026-11-22T20:44:45.994062+08:00",
     "publication_date": "2025-03-04",
     "content_sha256": "a49748244e176a666cb1a5bb3d0332b4809a1c7e80dedf2eda27918209bc7416",
     "status": "collected",

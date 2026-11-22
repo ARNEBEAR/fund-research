@@ -8,7 +8,7 @@
   "code": "519697",
   "product_kind": "fund",
   "status": "collected",
-  "checked_at": "2026-11-22T16:44:05.112291+08:00",
+  "checked_at": "2026-11-22T20:44:33.084335+08:00",
   "publication_date": "2026-11-20",
   "date_candidates": [],
   "content_sha256": "d12335f37f635278993e287f3e91ea7e1d05b613263163e1c36656e7747b4819",
@@ -19,7 +19,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nav_519697",
-    "checked_at": "2026-11-22T16:44:05.112291+08:00",
+    "checked_at": "2026-11-22T20:44:33.084335+08:00",
     "publication_date": "2026-11-20",
     "content_sha256": "d12335f37f635278993e287f3e91ea7e1d05b613263163e1c36656e7747b4819",
     "status": "collected",

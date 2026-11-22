@@ -8,7 +8,7 @@
   "code": "012817",
   "product_kind": "fund",
   "status": "collected",
-  "checked_at": "2026-11-22T16:43:59.754868+08:00",
+  "checked_at": "2026-11-22T20:44:27.209070+08:00",
   "publication_date": "2026-11-20",
   "date_candidates": [],
   "content_sha256": "c2e4f182e16680d63c82c64f39bbc3f168be392dc6caa72ef13d7ef7262d8c70",
@@ -19,7 +19,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nav_012817",
-    "checked_at": "2026-11-22T16:43:59.754868+08:00",
+    "checked_at": "2026-11-22T20:44:27.209070+08:00",
     "publication_date": "2026-11-20",
     "content_sha256": "c2e4f182e16680d63c82c64f39bbc3f168be392dc6caa72ef13d7ef7262d8c70",
     "status": "collected",
