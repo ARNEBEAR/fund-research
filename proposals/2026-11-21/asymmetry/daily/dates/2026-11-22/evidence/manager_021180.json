@@ -1,0 +1,23 @@
+{
+  "id": "manager_021180",
+  "name": "杨宗昌 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_021180.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_021180",
+  "code": "021180",
+  "status": "failed",
+  "checked_at": "2026-11-22T12:47:53.506805+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": null,
+  "excerpt": "",
+  "http_status": null,
+  "error": "URLError",
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": null,
+  "stale": true,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

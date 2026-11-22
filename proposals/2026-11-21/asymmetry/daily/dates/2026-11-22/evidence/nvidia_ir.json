@@ -1,0 +1,112 @@
+{
+  "id": "nvidia_ir",
+  "name": "NVIDIA official IR root discovery",
+  "url": "https://investor.nvidia.com/",
+  "kind": "html",
+  "family": "nvidia",
+  "group": "macro_market",
+  "scope": "current index or series; linked release bodies are not collected",
+  "status": "collected",
+  "checked_at": "2026-11-22T12:47:38.843026+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": "c65b32b72a70ae00372ca4c763deaad3582993ff9a3d296cd01a9f5e737c8d7f",
+  "excerpt": "NVIDIA Corporation - Home Skip to main content Home Corporate Profile NVIDIA is the pioneer of GPU-accelerated computing. We specialize in products and platforms for the large, growing markets of gaming, professional visualization, data center, and automotive. Our creations are loved by the most demanding computer users in the world – gamers, designers, and scientists. And our work is at the center of the most consequential mega-trends in technology. Learn More Quarterly Results All Results Latest News All News Events All Events Featured Presentation Quick Links Email Alerts RSS Request Printed Materials Download Library Email Alerts To receive notifications via email, enter your email address and select at least one subscription below. After submitting your information, you will receive an email. You must click the link in the email to activate your subscription. You can sign up for additional subscriptions at any time. * Required Email Address * Investor Alert Options Mailing Lists * SEC Filing Presentation Event End of Day Stock Quote Enter the code shown above. * Email Alert Sign Up Confirmation Investor Contact 2788 San Tomas Expressway Santa Clara, CA 95051 Contact Investor R",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "nvidia_ir",
+    "checked_at": "2026-11-22T12:47:38.843026+08:00",
+    "publication_date": null,
+    "content_sha256": "c65b32b72a70ae00372ca4c763deaad3582993ff9a3d296cd01a9f5e737c8d7f",
+    "status": "collected",
+    "date_candidates": [],
+    "excerpt": "NVIDIA Corporation - Home Skip to main content Home Corporate Profile NVIDIA is the pioneer of GPU-accelerated computing. We specialize in products and platforms for the large, growing markets of gaming, professional visualization, data center, and automotive. Our creations are loved by the most demanding computer users in the world – gamers, designers, and scientists. And our work is at the center of the most consequential mega-trends in technology. Learn More Quarterly Results All Results Latest News All News Events All Events Featured Presentation Quick Links Email Alerts RSS Request Printed Materials Download Library Email Alerts To receive notifications via email, enter your email address and select at least one subscription below. After submitting your information, you will receive an email. You must click the link in the email to activate your subscription. You can sign up for additional subscriptions at any time. * Required Email Address * Investor Alert Options Mailing Lists * SEC Filing Presentation Event End of Day Stock Quote Enter the code shown above. * Email Alert Sign Up Confirmation Investor Contact 2788 San Tomas Expressway Santa Clara, CA 95051 Contact Investor R"
+  },
+  "stale": false,
+  "bytes": 125149,
+  "final_url": "https://investor.nvidia.com/home/default.aspx",
+  "undated_links": [
+    {
+      "title": "Learn More",
+      "url": "https://www.nvidia.com/en-us/about-nvidia/ai-computing/",
+      "publication_date": null
+    },
+    {
+      "title": "All Results",
+      "url": "https://investor.nvidia.com/financial-info/financial-reports",
+      "publication_date": null
+    },
+    {
+      "title": "All News",
+      "url": "https://nvidianews.nvidia.com/",
+      "publication_date": null
+    },
+    {
+      "title": "All Events",
+      "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "Email Alerts",
+      "url": "https://investor.nvidia.com/investor-resources/email-alerts/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "RSS",
+      "url": "https://investor.nvidia.com/investor-resources/rss/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "Request Printed Materials",
+      "url": "https://investor.nvidia.com/investor-resources/request-information/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "Download Library",
+      "url": "https://investor.nvidia.com/investor-resources/download-library/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "Contact Investor Relations",
+      "url": "https://investor.nvidia.com/investor-resources/contact-investor-relations/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "FAQs",
+      "url": "https://investor.nvidia.com/investor-resources/faqs/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "Stock Quote & Chart",
+      "url": "https://investor.nvidia.com/stock-info/stock-quote-and-chart/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "Historical Price Lookup",
+      "url": "https://investor.nvidia.com/stock-info/historical-price-lookup/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "Investment Calculator",
+      "url": "https://investor.nvidia.com/stock-info/investment-calculator/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "Fundamentals",
+      "url": "https://investor.nvidia.com/stock-info/fundamentals/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "Analyst Coverage",
+      "url": "https://investor.nvidia.com/stock-info/analyst-coverage/default.aspx",
+      "publication_date": null
+    }
+  ],
+  "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
+  "excluded_future_count": 0,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

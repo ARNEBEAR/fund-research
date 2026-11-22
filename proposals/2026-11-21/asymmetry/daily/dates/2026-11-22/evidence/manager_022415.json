@@ -1,0 +1,23 @@
+{
+  "id": "manager_022415",
+  "name": "田维 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_022415.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_022415",
+  "code": "022415",
+  "status": "failed",
+  "checked_at": "2026-11-22T12:47:51.695958+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": null,
+  "excerpt": "",
+  "http_status": null,
+  "error": "URLError",
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": null,
+  "stale": true,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

@@ -1,0 +1,294 @@
+{
+  "id": "sse_latest",
+  "name": "SSE latest market conference index",
+  "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/",
+  "kind": "html",
+  "family": "sse",
+  "group": "macro_market",
+  "scope": "current index or series; linked release bodies are not collected",
+  "status": "collected",
+  "checked_at": "2026-11-22T12:47:36.321165+08:00",
+  "publication_date": "2026-11-20",
+  "date_candidates": [
+    {
+      "title": "第五百二十六期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10838542/files/42313bdc5e6d4878ae94d0c4c01877a1.pdf",
+      "publication_date": "2026-11-20",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百二十五期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10837710/files/2c5cd52d68364e30883040a7b378ef9a.pdf",
+      "publication_date": "2026-11-13",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百二十四期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10837029/files/6173403a067e4165b85131e235667847.pdf",
+      "publication_date": "2026-11-06",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百二十三期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10836332/files/3ad09c64b2264377bb6e3e692cc0b21b.pdf",
+      "publication_date": "2026-10-30",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百二十二期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10835645/files/bcea7d2be8ce427d8dfe166f83c713ba.pdf",
+      "publication_date": "2026-10-23",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百二十一期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10834915/files/01511fdec3cb401586e0b5f4d9882423.pdf",
+      "publication_date": "2026-10-16",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百二十期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10833854/files/17dbc3d62e684e35b8e9ee04260be8fc.pdf",
+      "publication_date": "2026-09-30",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百一十九期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10832738/files/b033024c8e474debadbba67eda58b78d.pdf",
+      "publication_date": "2026-09-18",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百一十八期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10831940/files/47c7ecd77ccd478abcfcf6be77ef4575.pdf",
+      "publication_date": "2026-09-11",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百一十七期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10831351/files/8e0163be3a694a1bbee479ad67f69113.pdf",
+      "publication_date": "2026-09-04",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百一十六期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10830252/files/dea8a555fa294b76bd438c9044e64f1e.pdf",
+      "publication_date": "2026-08-28",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百一十五期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10829647/files/d396640e199242efbef565362b24bd64.pdf",
+      "publication_date": "2026-08-21",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百一十四期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10828976/files/feaaeec72cb749c294b76dff72043383.pdf",
+      "publication_date": "2026-08-14",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百一十三期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10828308/files/2c803b09152c48bdbad6b3db41f71746.pdf",
+      "publication_date": "2026-08-07",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "第五百一十二期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10827492/files/ce02bd6f239042729ffeab6202253a65.pdf",
+      "publication_date": "2026-07-31",
+      "date_basis": "bounded link row text"
+    }
+  ],
+  "content_sha256": "9362dea13034760870f44db606001abba1614b4539faa0b2cf7958cd2cd8507c",
+  "excerpt": "新闻发布会  | 上海证券交易所 上海证券交易所服务热线： 400-8888-400 APP下载 微博微信 English 繁 一网通办 “三开门”专栏 简中 EN 一网通办 “三开门”专栏 用户入口 投资者 会员机构 拟上市公司 债券机构 上市公司 基金公司 高效办成一件事 股票投资一件事 债券发行上市一件事 期权投资一件事 REITs发行上市一件事 企业上市一件事 服务预约一件事 信息披露一件事 一网通办移动端 上交所APP\"通办\"栏目 - 欢迎扫码安装 - 展开导航菜单 上交所发布 上交所移动App 2026-11-20 第五百二十六期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-11-13 第五百二十五期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-11-06 第五百二十四期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-10-30 第五百二十三期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-10-23 第五百二十二期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-10-16 第五百二十一期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-09-30 第五百二十期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-09-18 第五百一十九期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-09-11 第五百一十八期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-09-04 第五百一十七期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-08-28 第五百一十六期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-08-21 第五百一十五期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-08-14 第五百一十四期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-08-07 第五百一十三期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-07-31 第五百一十二期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 上一页 下一页",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "sse_latest",
+    "checked_at": "2026-11-22T12:47:36.321165+08:00",
+    "publication_date": "2026-11-20",
+    "content_sha256": "9362dea13034760870f44db606001abba1614b4539faa0b2cf7958cd2cd8507c",
+    "status": "collected",
+    "date_candidates": [
+      {
+        "title": "第五百二十六期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10838542/files/42313bdc5e6d4878ae94d0c4c01877a1.pdf",
+        "publication_date": "2026-11-20",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百二十五期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10837710/files/2c5cd52d68364e30883040a7b378ef9a.pdf",
+        "publication_date": "2026-11-13",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百二十四期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10837029/files/6173403a067e4165b85131e235667847.pdf",
+        "publication_date": "2026-11-06",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百二十三期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10836332/files/3ad09c64b2264377bb6e3e692cc0b21b.pdf",
+        "publication_date": "2026-10-30",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百二十二期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10835645/files/bcea7d2be8ce427d8dfe166f83c713ba.pdf",
+        "publication_date": "2026-10-23",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百二十一期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10834915/files/01511fdec3cb401586e0b5f4d9882423.pdf",
+        "publication_date": "2026-10-16",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百二十期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10833854/files/17dbc3d62e684e35b8e9ee04260be8fc.pdf",
+        "publication_date": "2026-09-30",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百一十九期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10832738/files/b033024c8e474debadbba67eda58b78d.pdf",
+        "publication_date": "2026-09-18",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百一十八期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10831940/files/47c7ecd77ccd478abcfcf6be77ef4575.pdf",
+        "publication_date": "2026-09-11",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百一十七期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10831351/files/8e0163be3a694a1bbee479ad67f69113.pdf",
+        "publication_date": "2026-09-04",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百一十六期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10830252/files/dea8a555fa294b76bd438c9044e64f1e.pdf",
+        "publication_date": "2026-08-28",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百一十五期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10829647/files/d396640e199242efbef565362b24bd64.pdf",
+        "publication_date": "2026-08-21",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百一十四期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10828976/files/feaaeec72cb749c294b76dff72043383.pdf",
+        "publication_date": "2026-08-14",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百一十三期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10828308/files/2c803b09152c48bdbad6b3db41f71746.pdf",
+        "publication_date": "2026-08-07",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "第五百一十二期新闻发布会",
+        "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10827492/files/ce02bd6f239042729ffeab6202253a65.pdf",
+        "publication_date": "2026-07-31",
+        "date_basis": "bounded link row text"
+      }
+    ],
+    "excerpt": "新闻发布会  | 上海证券交易所 上海证券交易所服务热线： 400-8888-400 APP下载 微博微信 English 繁 一网通办 “三开门”专栏 简中 EN 一网通办 “三开门”专栏 用户入口 投资者 会员机构 拟上市公司 债券机构 上市公司 基金公司 高效办成一件事 股票投资一件事 债券发行上市一件事 期权投资一件事 REITs发行上市一件事 企业上市一件事 服务预约一件事 信息披露一件事 一网通办移动端 上交所APP\"通办\"栏目 - 欢迎扫码安装 - 展开导航菜单 上交所发布 上交所移动App 2026-11-20 第五百二十六期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-11-13 第五百二十五期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-11-06 第五百二十四期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-10-30 第五百二十三期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-10-23 第五百二十二期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-10-16 第五百二十一期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-09-30 第五百二十期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-09-18 第五百一十九期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-09-11 第五百一十八期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-09-04 第五百一十七期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-08-28 第五百一十六期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-08-21 第五百一十五期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-08-14 第五百一十四期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-08-07 第五百一十三期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-07-31 第五百一十二期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 上一页 下一页"
+  },
+  "stale": false,
+  "bytes": 34008,
+  "final_url": "https://www.sse.com.cn/aboutus/mediacenter/conference/",
+  "undated_links": [
+    {
+      "title": "APP下载",
+      "url": "https://www.sse.com.cn/home/app/update2026/",
+      "publication_date": null
+    },
+    {
+      "title": "微博微信",
+      "url": "https://www.sse.com.cn/home/weixin/",
+      "publication_date": null
+    },
+    {
+      "title": "English",
+      "url": "http://english.sse.com.cn/",
+      "publication_date": null
+    },
+    {
+      "title": "繁",
+      "url": "http://big5.sse.com.cn/site/cht/www.sse.com.cn/",
+      "publication_date": null
+    },
+    {
+      "title": "一网通办",
+      "url": "https://one.sse.com.cn/",
+      "publication_date": null
+    },
+    {
+      "title": "“三开门”专栏",
+      "url": "https://www.sse.com.cn/transparency/home/",
+      "publication_date": null
+    },
+    {
+      "title": "简中 EN",
+      "url": "https://english.sse.com.cn/",
+      "publication_date": null
+    },
+    {
+      "title": "投资者",
+      "url": "https://one.sse.com.cn/investor/",
+      "publication_date": null
+    },
+    {
+      "title": "会员机构",
+      "url": "https://one.sse.com.cn/member/",
+      "publication_date": null
+    },
+    {
+      "title": "拟上市公司",
+      "url": "https://one.sse.com.cn/to-be-listed/",
+      "publication_date": null
+    },
+    {
+      "title": "债券机构",
+      "url": "https://one.sse.com.cn/bond/",
+      "publication_date": null
+    },
+    {
+      "title": "上市公司",
+      "url": "https://one.sse.com.cn/list/",
+      "publication_date": null
+    },
+    {
+      "title": "基金公司",
+      "url": "https://one.sse.com.cn/fund/",
+      "publication_date": null
+    },
+    {
+      "title": "股票投资一件事",
+      "url": "https://one.sse.com.cn/onething/gptz/",
+      "publication_date": null
+    },
+    {
+      "title": "债券发行上市一件事",
+      "url": "https://one.sse.com.cn/onething/zqfx/",
+      "publication_date": null
+    }
+  ],
+  "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
+  "excluded_future_count": 0,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "manager_008270",
+  "name": "徐彦 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_008270.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_008270",
+  "code": "008270",
+  "status": "collected",
+  "checked_at": "2026-11-22T12:47:58.741339+08:00",
+  "publication_date": "2019-12-30",
+  "date_candidates": [],
+  "content_sha256": "0dc17fdfa9d850fa15246cb89e7090536d2d8523b7089f38b25e9882beab93c0",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_008270",
+    "checked_at": "2026-11-22T12:47:58.741339+08:00",
+    "publication_date": "2019-12-30",
+    "content_sha256": "0dc17fdfa9d850fa15246cb89e7090536d2d8523b7089f38b25e9882beab93c0",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2019-12-30",
+          "end_date": null,
+          "managers": [
+            "徐彦"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2019-12-30",
+          "end_date": null,
+          "managers": [
+            "徐彦"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "徐彦"
+      ],
+      "appointment_signature": "e72f4acececf183875336430dc8d49ec929456e0c76aae10e7232bad1533966c",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 50994,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_008270.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2019-12-30",
+        "end_date": null,
+        "managers": [
+          "徐彦"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2019-12-30",
+        "end_date": null,
+        "managers": [
+          "徐彦"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "徐彦"
+    ],
+    "appointment_signature": "e72f4acececf183875336430dc8d49ec929456e0c76aae10e7232bad1533966c",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

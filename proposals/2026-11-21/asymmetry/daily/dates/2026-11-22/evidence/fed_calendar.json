@@ -1,0 +1,474 @@
+{
+  "id": "fed_calendar",
+  "name": "FOMC official calendar",
+  "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "kind": "html",
+  "family": "fed",
+  "group": "macro_market",
+  "scope": "current index or series; linked release bodies are not collected",
+  "status": "collected",
+  "checked_at": "2026-11-22T12:47:38.175737+08:00",
+  "publication_date": "2026-10-28",
+  "date_candidates": [
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf",
+      "publication_date": "2026-10-28",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "publication_date": "2026-10-28",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "Implementation Note",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a1.htm",
+      "publication_date": "2026-10-28",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "Press Conference",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
+      "publication_date": "2026-10-28",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20261028.pdf",
+      "publication_date": "2026-10-28",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+      "publication_date": "2026-10-28",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260916a1.pdf",
+      "publication_date": "2026-09-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "publication_date": "2026-09-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "Implementation Note",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm",
+      "publication_date": "2026-09-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "Press Conference",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260916.htm",
+      "publication_date": "2026-09-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260916.pdf",
+      "publication_date": "2026-09-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+      "publication_date": "2026-09-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf",
+      "publication_date": "2026-09-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
+      "publication_date": "2026-09-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260729a1.pdf",
+      "publication_date": "2026-07-29",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "publication_date": "2026-07-29",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "Implementation Note",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a1.htm",
+      "publication_date": "2026-07-29",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "Press Conference",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260729.htm",
+      "publication_date": "2026-07-29",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260729.pdf",
+      "publication_date": "2026-07-29",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+      "publication_date": "2026-07-29",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260617a1.pdf",
+      "publication_date": "2026-06-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "publication_date": "2026-06-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "Implementation Note",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm",
+      "publication_date": "2026-06-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "Press Conference",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260617.htm",
+      "publication_date": "2026-06-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf",
+      "publication_date": "2026-06-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+      "publication_date": "2026-06-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260617.pdf",
+      "publication_date": "2026-06-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm",
+      "publication_date": "2026-06-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260429a1.pdf",
+      "publication_date": "2026-04-29",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "HTML",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+      "publication_date": "2026-04-29",
+      "date_basis": "link title or URL"
+    }
+  ],
+  "content_sha256": "3c498d14e9bf993c4547a3cfe3015ce06ff2da0310ab4add1a2d1344d1bee416",
+  "excerpt": "﻿ The Fed - Meeting calendars and information Skip to main content An official website of the United States Government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Back to Home Board of Governors of the Federal Reserve System Stay Connected Federal Reserve Facebook Page Federal Reserve Instagram Page Federal Reserve YouTube Page Federal Reserve Flickr Page Federal Reserve LinkedIn Page Federal Reserve Threads Page Federal Reserve X Page Federal Reserve Bluesky Page Subscribe to RSS Subscribe to Email Recent Postings Calendar Publications Site Map A-Z index Careers FAQs Videos Contact Search Submit Search Button Advanced Toggle Dropdown Menu Main Menu Toggle Button Sections Search Toggle Button Search Search Submit Button Submit Home Monetary Policy Federal Open Market Committee Federal Open Market Committee About the FOMC Meeting calendars and information Transcripts and other historical materials FAQs Meeti",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "fed_calendar",
+    "checked_at": "2026-11-22T12:47:38.175737+08:00",
+    "publication_date": "2026-10-28",
+    "content_sha256": "3c498d14e9bf993c4547a3cfe3015ce06ff2da0310ab4add1a2d1344d1bee416",
+    "status": "collected",
+    "date_candidates": [
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf",
+        "publication_date": "2026-10-28",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+        "publication_date": "2026-10-28",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "Implementation Note",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a1.htm",
+        "publication_date": "2026-10-28",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "Press Conference",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
+        "publication_date": "2026-10-28",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20261028.pdf",
+        "publication_date": "2026-10-28",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+        "publication_date": "2026-10-28",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260916a1.pdf",
+        "publication_date": "2026-09-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+        "publication_date": "2026-09-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "Implementation Note",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm",
+        "publication_date": "2026-09-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "Press Conference",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260916.htm",
+        "publication_date": "2026-09-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260916.pdf",
+        "publication_date": "2026-09-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+        "publication_date": "2026-09-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf",
+        "publication_date": "2026-09-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
+        "publication_date": "2026-09-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260729a1.pdf",
+        "publication_date": "2026-07-29",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+        "publication_date": "2026-07-29",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "Implementation Note",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a1.htm",
+        "publication_date": "2026-07-29",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "Press Conference",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260729.htm",
+        "publication_date": "2026-07-29",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260729.pdf",
+        "publication_date": "2026-07-29",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+        "publication_date": "2026-07-29",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260617a1.pdf",
+        "publication_date": "2026-06-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+        "publication_date": "2026-06-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "Implementation Note",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm",
+        "publication_date": "2026-06-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "Press Conference",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260617.htm",
+        "publication_date": "2026-06-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf",
+        "publication_date": "2026-06-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+        "publication_date": "2026-06-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260617.pdf",
+        "publication_date": "2026-06-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm",
+        "publication_date": "2026-06-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "PDF",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260429a1.pdf",
+        "publication_date": "2026-04-29",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+        "publication_date": "2026-04-29",
+        "date_basis": "link title or URL"
+      }
+    ],
+    "excerpt": "﻿ The Fed - Meeting calendars and information Skip to main content An official website of the United States Government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Back to Home Board of Governors of the Federal Reserve System Stay Connected Federal Reserve Facebook Page Federal Reserve Instagram Page Federal Reserve YouTube Page Federal Reserve Flickr Page Federal Reserve LinkedIn Page Federal Reserve Threads Page Federal Reserve X Page Federal Reserve Bluesky Page Subscribe to RSS Subscribe to Email Recent Postings Calendar Publications Site Map A-Z index Careers FAQs Videos Contact Search Submit Search Button Advanced Toggle Dropdown Menu Main Menu Toggle Button Sections Search Toggle Button Search Search Submit Button Submit Home Monetary Policy Federal Open Market Committee Federal Open Market Committee About the FOMC Meeting calendars and information Transcripts and other historical materials FAQs Meeti"
+  },
+  "stale": false,
+  "bytes": 166359,
+  "final_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "undated_links": [
+    {
+      "title": "Back to Home",
+      "url": "https://www.federalreserve.gov/default.htm",
+      "publication_date": null
+    },
+    {
+      "title": "Federal Reserve Facebook Page",
+      "url": "https://www.facebook.com/federalreserve",
+      "publication_date": null
+    },
+    {
+      "title": "Federal Reserve Instagram Page",
+      "url": "https://www.instagram.com/federalreserveboard/",
+      "publication_date": null
+    },
+    {
+      "title": "Federal Reserve YouTube Page",
+      "url": "https://www.youtube.com/federalreserve",
+      "publication_date": null
+    },
+    {
+      "title": "Federal Reserve Flickr Page",
+      "url": "https://www.flickr.com/photos/federalreserve/",
+      "publication_date": null
+    },
+    {
+      "title": "Federal Reserve LinkedIn Page",
+      "url": "https://www.linkedin.com/company/federal-reserve-board",
+      "publication_date": null
+    },
+    {
+      "title": "Federal Reserve Threads Page",
+      "url": "https://www.threads.net/@federalreserveboard",
+      "publication_date": null
+    },
+    {
+      "title": "Federal Reserve X Page",
+      "url": "https://x.com/federalreserve",
+      "publication_date": null
+    },
+    {
+      "title": "Federal Reserve Bluesky Page",
+      "url": "https://bsky.app/profile/federalreserve.gov",
+      "publication_date": null
+    },
+    {
+      "title": "Subscribe to RSS",
+      "url": "https://www.federalreserve.gov/feeds/feeds.htm",
+      "publication_date": null
+    },
+    {
+      "title": "Subscribe to Email",
+      "url": "https://www.federalreserve.gov/subscribe.htm",
+      "publication_date": null
+    },
+    {
+      "title": "Recent Postings",
+      "url": "https://www.federalreserve.gov/recentpostings.htm",
+      "publication_date": null
+    },
+    {
+      "title": "Calendar",
+      "url": "https://www.federalreserve.gov/newsevents/calendar.htm",
+      "publication_date": null
+    },
+    {
+      "title": "Publications",
+      "url": "https://www.federalreserve.gov/publications.htm",
+      "publication_date": null
+    },
+    {
+      "title": "Site Map",
+      "url": "https://www.federalreserve.gov/sitemap.htm",
+      "publication_date": null
+    }
+  ],
+  "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
+  "excluded_future_count": 0,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

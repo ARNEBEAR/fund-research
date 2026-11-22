@@ -1,0 +1,107 @@
+{
+  "id": "manager_027170",
+  "name": "蔡铮 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_027170.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_027170",
+  "code": "027170",
+  "status": "collected",
+  "checked_at": "2026-11-22T12:47:57.503061+08:00",
+  "publication_date": "2026-10-29",
+  "date_candidates": [],
+  "content_sha256": "a84e4b89c5c889c1c3b0bff11b8277eb2c8730fc40ec775336119a8ab828a9d8",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_027170",
+    "checked_at": "2026-11-22T12:47:57.503061+08:00",
+    "publication_date": "2026-10-29",
+    "content_sha256": "a84e4b89c5c889c1c3b0bff11b8277eb2c8730fc40ec775336119a8ab828a9d8",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2026-10-29",
+          "end_date": null,
+          "managers": [
+            "蔡铮"
+          ],
+          "end_marker": "至今"
+        },
+        {
+          "start_date": "2026-04-15",
+          "end_date": "2026-10-28",
+          "managers": [
+            "蔡铮",
+            "陈舒薇"
+          ],
+          "end_marker": "2026-10-28"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2026-10-29",
+          "end_date": null,
+          "managers": [
+            "蔡铮"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "蔡铮"
+      ],
+      "appointment_signature": "66b01211705e373d6db4ae3e660c9ffef7f0a0e5f93b6e2394daa7c7660d0bd6",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 59040,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_027170.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2026-10-29",
+        "end_date": null,
+        "managers": [
+          "蔡铮"
+        ],
+        "end_marker": "至今"
+      },
+      {
+        "start_date": "2026-04-15",
+        "end_date": "2026-10-28",
+        "managers": [
+          "蔡铮",
+          "陈舒薇"
+        ],
+        "end_marker": "2026-10-28"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2026-10-29",
+        "end_date": null,
+        "managers": [
+          "蔡铮"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "蔡铮"
+    ],
+    "appointment_signature": "66b01211705e373d6db4ae3e660c9ffef7f0a0e5f93b6e2394daa7c7660d0bd6",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

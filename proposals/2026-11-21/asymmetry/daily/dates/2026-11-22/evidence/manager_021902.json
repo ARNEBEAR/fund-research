@@ -1,0 +1,89 @@
+{
+  "id": "manager_021902",
+  "name": "冯汉杰 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_021902.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_021902",
+  "code": "021902",
+  "status": "collected",
+  "checked_at": "2026-11-22T12:47:52.326690+08:00",
+  "publication_date": "2024-07-25",
+  "date_candidates": [],
+  "content_sha256": "d610cdd6318389cc7f3f55e449ac211a01e76287324a55518c140828e3e3658d",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_021902",
+    "checked_at": "2026-11-22T12:47:52.326690+08:00",
+    "publication_date": "2024-07-25",
+    "content_sha256": "d610cdd6318389cc7f3f55e449ac211a01e76287324a55518c140828e3e3658d",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2024-07-25",
+          "end_date": null,
+          "managers": [
+            "冯汉杰"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2024-07-25",
+          "end_date": null,
+          "managers": [
+            "冯汉杰"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "冯汉杰"
+      ],
+      "appointment_signature": "141141e6135f7ab287a811dd89e49d2f24be8c12e37fa527a9cd3724d1ff21dd",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 53709,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_021902.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2024-07-25",
+        "end_date": null,
+        "managers": [
+          "冯汉杰"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2024-07-25",
+        "end_date": null,
+        "managers": [
+          "冯汉杰"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "冯汉杰"
+    ],
+    "appointment_signature": "141141e6135f7ab287a811dd89e49d2f24be8c12e37fa527a9cd3724d1ff21dd",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}
