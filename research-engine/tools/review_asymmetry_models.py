@@ -70,6 +70,12 @@ def make_items(root,data):
                       "asof":"2026-11-16","text":json.dumps(c,ensure_ascii=False)})
     for c in data["registry"]:
         items.append({"item_id":"fund:"+c["code"],"type":"fund","asof":data["asof"],"text":json.dumps(c,ensure_ascii=False)})
+    for ident,p in data.get("currentDecision",{}).get("plans",{}).items():
+        items.append({"item_id":"current_plan:"+ident,"type":"current_plan","asof":data["currentDecision"]["date"],
+                      "text":json.dumps(p,ensure_ascii=False)})
+    if data.get("currentDecision",{}).get("unconstrained"):
+        items.append({"item_id":"current_plan:U60","type":"current_plan","asof":data["currentDecision"]["date"],
+                      "text":json.dumps(data["currentDecision"]["unconstrained"],ensure_ascii=False)})
     return items
 
 def relevant_excerpt(text,max_length=1300):
@@ -222,19 +228,19 @@ def main():
             (folder/f"semantic-batch-{i+1}.json").write_text(json.dumps({"items":reviews[-len(batch):],"request":meta},ensure_ascii=False,indent=2))
             print("Semantic coverage",i+1,"/",len(batches),flush=True)
         issues=[r for r in reviews if r["status"] in ["needs_update","unverified","insufficient_current_evidence"]]
-        prompt={"task":"整合今日宏观与市场优先结论，比较0/30/50/70/85%外部现金；不能认证一个比例最优，除非损失效用与价格赔率足够。历史A/B必须可被新证据推翻。数据不足仍应给有边界研究倾向，而非逢跌清仓或确认后永不入场。",
+        prompt={"task":"整合今日宏观与市场优先结论，比较0/30/50/60/70/85%外部现金及当前D60/D70/R40/U60。不能继承某人的七成意见；对话和文档只为输入，私人账户无关排除。不能认证一个比例最优，除非损失效用与价格赔率足够。历史A/B必须可被新证据推翻。数据不足仍应给有边界研究倾向，而非逢跌清仓或确认后永不入场。",
                 "evidence":select_packet(evidence),"review_issues":issues[:20],
                 "output_schema":{"headline":"简明主结论","market_regime":"宏观+市场机制","cash70_case":"强支持论证",
                   "cash70_countercase":"强反证与反弹机会成本","stance":"当前研究倾向及条件；非交易指令",
                   "invalidations":["可观测证伪，不只固定日期"],"changes":[{"target":"网站section或item_id","reason":"具体修改",
                   "replacement":"有日期/边界的新表述","sources":["证据id"]}],"unverified":["未知"],
                   "cash_comparison":[{"cash_pct":0,"purpose":"职责","cost":"代价"},{"cash_pct":30,"purpose":"职责","cost":"代价"},
-                   {"cash_pct":50,"purpose":"职责","cost":"代价"},{"cash_pct":70,"purpose":"职责","cost":"代价"},{"cash_pct":85,"purpose":"职责","cost":"代价"}],
+                   {"cash_pct":50,"purpose":"职责","cost":"代价"},{"cash_pct":60,"purpose":"职责","cost":"代价"},{"cash_pct":70,"purpose":"职责","cost":"代价"},{"cash_pct":85,"purpose":"职责","cost":"代价"}],
                   "sources":["证据id"]}}
         synthesis,meta=call_model([{"role":"system","content":SYSTEM},{"role":"user","content":json.dumps(prompt,ensure_ascii=False)}]);requests.append(meta)
         for k in ["headline","market_regime","cash70_case","cash70_countercase","stance","invalidations","changes","unverified","cash_comparison"]:
             if k not in synthesis:raise ValueError("Incomplete synthesis "+k)
-        if {r.get("cash_pct") for r in synthesis["cash_comparison"]}!={0,30,50,70,85}:raise ValueError("Missing cash alternatives")
+        if {r.get("cash_pct") for r in synthesis["cash_comparison"]}!={0,30,50,60,70,85}:raise ValueError("Missing cash alternatives")
         for row in synthesis.get("changes",[])+[synthesis]:
             if any(x not in allowed for x in row.get("sources",[])):raise ValueError("Ungrounded synthesis citation")
         counter,meta=call_model([{"role":"system","content":SYSTEM+"\n你现在只做反方审计，主动寻找上一稿的错误和不足，不能默认同一模型一致就是独立证据。"},

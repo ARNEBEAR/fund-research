@@ -553,15 +553,17 @@ def build_jobs(data, intel, asof, priority=None):
     jobs = official[:15]
     funds = sorted(data["names"])
     etfs = sorted({c for c in data["benchmark_codes"] if c not in funds})
+    extras={r["code"]:r for r in data.get("extra_watch_codes",[]) if re.fullmatch(r"\d{6}",str(r.get("code","")))}
+    etfs=sorted(set(etfs)|{c for c in extras if c not in funds})
     if len(etfs) < 6:
         raise ValueError("Six observed benchmark ETF codes required")
     for code in funds + etfs:
         jobs.append({
-            "id": "nav_" + code, "name": data["names"].get(code, "ETF " + code),
+            "id": "nav_" + code, "name": data["names"].get(code, extras.get(code,{}).get("name","ETF " + code)),
             "url": "https://api.fund.eastmoney.com/f10/lsjz?" + urlencode({
                 "fundCode": code, "pageIndex": 1, "pageSize": 5, "endDate": asof,
             }), "kind": "nav", "group": "nav", "family": "eastmoney_nav",
-            "code": code, "product_kind": "fund" if code in funds else "etf",
+            "code": code, "product_kind": "fund" if code in funds else extras.get(code,{}).get("product_kind","etf"),
         })
     for card in data["managerCards"]:
         code = card["code"]
@@ -930,7 +932,7 @@ def load_inputs(public_root, asof):
     return data, site_raw.decode("utf-8"), intel, fingerprints, candidates[0].parent.name
 
 
-def run(public_root, report_root, asof, workers=6, timeout=18, max_requests=80, force=False):
+def run(public_root, report_root, asof, workers=6, timeout=18, max_requests=96, force=False):
     from verify_asymmetry_daily import verify_report
 
     data, site, intel, fingerprints, intel_date = load_inputs(public_root, asof)
@@ -1023,7 +1025,7 @@ def main(argv=None):
     parser.add_argument("--date", default=today())
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--timeout", type=float, default=18)
-    parser.add_argument("--max-requests", type=int, default=80)
+    parser.add_argument("--max-requests", type=int, default=96)
     parser.add_argument("--force", action="store_true", help="Bypass successful same-day cache")
     parser.add_argument("--plan", action="store_true", help="Print jobs without querying or writing")
     args = parser.parse_args(argv)
@@ -1031,8 +1033,8 @@ def main(argv=None):
         asof = strict_date(args.date)
         if asof > today():
             raise ValueError("Future audit dates are forbidden")
-        if not 1 <= args.workers <= 6 or not 1 <= args.timeout <= 60 or not 1 <= args.max_requests <= 80:
-            raise ValueError("workers 1..6, timeout 1..60, max-requests 1..80 required")
+        if not 1 <= args.workers <= 6 or not 1 <= args.timeout <= 60 or not 1 <= args.max_requests <= 96:
+            raise ValueError("workers 1..6, timeout 1..60, max-requests 1..96 required")
         public_root = args.public_root.resolve()
         report_root = args.report_root.resolve() if args.report_root else public_root / SITE_PATH
         if args.plan:

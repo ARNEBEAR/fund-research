@@ -183,9 +183,9 @@ else location.replace("{latest_path}"+h);
 
 入口：https://arnebear.github.io/fund-research/
 
-宏观市场优先与每日审视 V1.2：https://arnebear.github.io/fund-research/proposals/2026-11-21/asymmetry/#current
+当前持仓、未来分支与独立组合 V1.3：https://arnebear.github.io/fund-research/proposals/2026-11-21/asymmetry/#current
 
-该专题按230万元研究预算编制。当前高现金优先比较，70%是短期待机参考而非唯一最优；A保留为风险资产内部历史结构。每日08:20采集新证据，09:20失败补偿；GitHub Models逐项语义与反方复核覆盖全部章节、14位经理、31基金和26组Doc100主张。旧档案原日期保留，来源/配额失败明确标记，不自动交易或启用付费配额。
+该专题按230万元研究预算编制。当前独立首选D60：60%外部现金、40%五只基金；D70更防守、R40更参与，U60是宽基加质量经理的条件替代。文档与对话只作参考输入；文档持有人的私人仓位与本用户无关，排除；材料按内容独立评价。每日新结论居于顶部，历史A/B和回放折叠保留原日期；82路证据计划覆盖新增工具，失败与模型未完成状态明示，不自动交易。
 
 最新报告：https://arnebear.github.io/fund-research/reports/{date}/
 

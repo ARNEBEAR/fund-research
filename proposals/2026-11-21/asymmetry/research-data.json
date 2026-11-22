@@ -14549,7 +14549,7 @@
       "url": "doc100/original.docx",
       "date": "历史范围11.13—16；本次审议11.21",
       "type": "用户历史档案",
-      "note": "219个正文块、9张表、无嵌入图片/超链接。SHA256 86d5eb9beb5a3b86467534680d52d5ddfa4205a495a505c6ff6bbee68a8ea96f；92分仅用户转述，不作为客观性概率。"
+      "note": "本次上传的市场、信用、AI和公司研究材料；引用须独立核验，私人账户排除。原件SHA256 86d5eb9beb5a3b86467534680d52d5ddfa4205a495a505c6ff6bbee68a8ea96f"
     },
     {
       "id": "D101",
@@ -16344,11 +16344,42 @@
       "tables": 9,
       "images": 0,
       "hyperlinks": 0,
-      "reported_ds_score": 92,
-      "score_status": "用户转述的DS评价；未取得评分表、维度权重、引文核验及独立校准，不采纳92作为客观性概率",
       "archive_cutoff": "2026-11-16 A股收盘后",
       "review_asof": "2026-11-21",
-      "status": "历史档案／本次审计后作为输入"
+      "status": "历史档案／本次审计后作为输入",
+      "content_score": {
+        "score": 76,
+        "out_of": 100,
+        "type": "manual content judgment, not a probability or a calibrated prediction",
+        "scope": "Market/credit/AI/company mechanisms and their investment implications only; all private positions and previous external scores excluded.",
+        "dimensions": [
+          {
+            "name": "可核与复现",
+            "score": 18,
+            "out_of": 25,
+            "reason": "多项宏观、公司和制度数字有原文支持；原稿没有逐项可点击来源，部分资金/利差/BOM仍待补证。"
+          },
+          {
+            "name": "因果与反证",
+            "score": 22,
+            "out_of": 25,
+            "reason": "能区分融资与回报、技术与利润、局部与系统，且保留明确纠错；部分链条仍缺逐环证据。"
+          },
+          {
+            "name": "机制洞察",
+            "score": 21,
+            "out_of": 25,
+            "reason": "财政付款、系统定义权、供应链利润分配有研究增量；尚无企业级产品利润与相对估值计算。"
+          },
+          {
+            "name": "前瞻决策支持",
+            "score": 15,
+            "out_of": 25,
+            "reason": "验证顺序有价值；现金比例、买价与相对赔率缺少统一、事前、可复算的比较，不能从宏观弱直接推出最优配置。"
+          }
+        ]
+      },
+      "private_position_scope": "文档所有人私人账户，不属于本用户；不纳入账户、目标、评分、证据或配置判断。"
     },
     "claims": [
       {
@@ -16757,7 +16788,7 @@
       },
       {
         "id": "A25",
-        "topic": "账户",
+        "topic": "排除项",
         "blocks": [
           245,
           249,
@@ -16769,10 +16800,10 @@
           267,
           268
         ],
-        "status": "算术核验／原件缺失",
-        "title": "43.56万账户、DOC25和40/60草案",
-        "conclusion": "188592/435555.68＝43.299%；非证券差额246963.68元不能定为可用现金。原券商图、成交及DOC00/20/25未提供；关系已正确区分，无法进一步认证。",
-        "impact": "未核该账户是否包含在230万内，不能相加成273.56万，也不能用小账户替换基金全账。",
+        "status": "excluded_unrelated_owner_account",
+        "title": "私人仓位已排除",
+        "conclusion": "文档持有人私人账户与本用户无关，不使用其中金额、仓位、交易或DOC确认状态。",
+        "impact": "不作为本用户账户事实、文档评分或组合配置依据。",
         "source_ids": []
       },
       {
@@ -16790,8 +16821,8 @@
         ],
         "status": "适用性核验",
         "title": "模型UNRANKED与归档边界",
-        "conclusion": "文档正确承认3/5/10日胜率不可估，未给实验模型预测战绩。无引文关系、点时数据、版本注册表，难以独立复现所有过去纠错。",
-        "impact": "作为假说与纠错档案采纳；本次授权接入研究输入，未修改任何未提供的DOC系统。",
+        "conclusion": "文档自身承认实验模型未校准；没有完整点时数据或预测战绩，不能用作市场胜率。关于私人职责文件与账户路由不纳入本用户研究。",
+        "impact": "采纳可证伪与归档方法；个人仓位和内部DOC系统不继承。",
         "source_ids": []
       }
     ],
@@ -17838,106 +17869,6 @@
         "text": "候选 | 历史研究状态与主要否决点\n陕西煤业 | 曾进入逆周期前三，煤价与需求周期无法提供足够当期赔率确认\n海油工程 | 海外能源工程需求相对独立，但短期定价与利润催化不足\n牧原股份 | 曾参与跨行业比较，未在最终组合形成明显优势\n思源电气 | 收入增长较快，利润增速及估值不足以全面优于平高\n百胜中国 | 消费承压时交易量、运营和回购韧性较好，但近期股价已先行上涨\n中广核电力 | 相对稳定需求，但电价、资本开支与估值限制高弹性\n30年国债ETF | 宏观反向利率逻辑明确，买点与税收/赎回扰动未确认\n黄金及黄金股 | 受美元、实际利率及企业自身成本影响，不能当成中国风险必涨工具\n银行、红利ETF | 避险资金流入与高股息吸引力存在，但估值拥挤和信用质量是反证\n双创50、AI硬件ETF | 高反弹弹性与高共同风险并存，缺持续市场广度确认"
       },
       {
-        "block": 241,
-        "type": "paragraph",
-        "text": "十一、四日组合研究演变与账户事实区分"
-      },
-      {
-        "block": 242,
-        "type": "paragraph",
-        "text": "首先区分三个对象：研究中的条件性目标组合、用户明确确认并保存的DOC25基线、券商截图所证明的当时实际持仓。三者不可以彼此替换。"
-      },
-      {
-        "block": 244,
-        "type": "paragraph",
-        "text": "11.1 11月10日正式保存基线（DOC25）"
-      },
-      {
-        "block": 245,
-        "type": "paragraph",
-        "text": "证券75%、现金及现金管理25%；沪深300增强25%、红利低波10%、沪电股份10%、亿联网络10%、平高电气10%、药明康德10%。这是截至11月16日最近一次明确确认并要求跨对话保存的DOC25方案，其执行有效性为FALSE，不表示仍然应当按原权重交易。"
-      },
-      {
-        "block": 248,
-        "type": "paragraph",
-        "text": "11.2 11月13日：宽基、银行与快递的过渡方案"
-      },
-      {
-        "block": 249,
-        "type": "paragraph",
-        "text": "讨论曾形成约60%证券/40%现金的结构：沪深300增强约25%，平高10%，药明10%，杭州银行10%，申通5%；随后随着信用、市场广度和估值风险继续复核，逐渐降低对宽基与银行强势的依赖，提高现金价值评价。"
-      },
-      {
-        "block": 252,
-        "type": "paragraph",
-        "text": "11.3 11月14日：极端防御草案"
-      },
-      {
-        "block": 253,
-        "type": "paragraph",
-        "text": "讨论中过75%甚至85%现金的条件性情景，有时只保留平高、药明及少量亿联。它们用于测试宏观/信用尾部风险下是否值得保留机动性，不是全部已经确认的组合版本。"
-      },
-      {
-        "block": 256,
-        "type": "paragraph",
-        "text": "11.4 11月15日：精选个股加条件性反弹仓"
-      },
-      {
-        "block": 257,
-        "type": "paragraph",
-        "text": "研究转向约55%现金、45%证券的条件目标，曾包含药明15%、平高10%、圆通10%、杭州银行10%，同时将中概互联研究为5%起步的战术候选。这个阶段越来越强调独立利润与现金流，而非押注整个中国宽基反弹。"
-      },
-      {
-        "block": 260,
-        "type": "paragraph",
-        "text": "11.5 11月16日实际账户快照（DOC20唯一当时账户依据）"
-      },
-      {
-        "block": 261,
-        "type": "table",
-        "text": "字段 | 截图读数\n资产合计 | 435,555.68元\n证券市值 | 188,592.00元\n证券仓位 | 43.3%\n券商当日参考盈亏 | +2,694.66元 / +0.62%\n平高电气 | 10.1%\n药明康德 | 9.9%\n亿联网络 | 9.0%\n圆通速递 | 8.3%\n中概互联 | 4.5%\n300增ETF | 1.1%"
-      },
-      {
-        "block": 262,
-        "type": "paragraph",
-        "text": "截图底部另有被截断的佐力转债持仓，市值无法独立完整确认；「非证券资产差额」不能被擅自定义为完全可用现金。"
-      },
-      {
-        "block": 263,
-        "type": "paragraph",
-        "text": "重要账户冲突：用户口述已清仓沪深300增强，但截图仍显示5,000份持有、可用0份。必须核对委托和成交回报，不能据「可用0」判断已经完全卖出。"
-      },
-      {
-        "block": 266,
-        "type": "paragraph",
-        "text": "11.6 11月16日收盘后最新研究目标（尚未成为DOC25）"
-      },
-      {
-        "block": 267,
-        "type": "table",
-        "text": "资产 | 研究目标 | 角色\n药明康德 | 10% | 盈利兑现与监管事件仓\n圆通速递 | 10% | 低估值、现金流与份额效率仓\n平高电气 | 10% | 国家电网订单和设备投资仓\n亿联网络 | 5% | 全球客户、库存兑现观察仓\n中概互联网ETF | 5% | 互联网平台财报及现金流重估战术仓\n其他证券 | 0% | 暂无足够赔率的新增品种\n现金及现金管理 | 60% | 流动性、尾部风险保护和再配置选择权"
-      },
-      {
-        "block": 268,
-        "type": "paragraph",
-        "text": "关键增量是亿联降权，300增强尾仓需核实；圆通目标10%不等于立即追买；平高不追急涨；药明受美国监管尾部事件约束；中概互联等待财报和价格确认。该方案未获得用户明确授权覆盖DOC25。"
-      },
-      {
-        "block": 271,
-        "type": "paragraph",
-        "text": "11.7 DOC13量化模型的作用与边界"
-      },
-      {
-        "block": 272,
-        "type": "paragraph",
-        "text": "DOC13包含A相对强弱与趋势、B量价与筹码交换、C增量资金与杠杆、D股东集中及持有人结构、E波动与尾部流动性。当前模型处于实验阶段，缺乏完整点时数据和充分样本外校准；相关股票完整评分为UNRANKED，3/5/10日胜率不可估计。"
-      },
-      {
-        "block": 273,
-        "type": "paragraph",
-        "text": "截至11月16日，研究只观察到平高相对强、亿联短线相对抗跌，圆通与药明基本面较强但短线价格较弱；不能据这些有限数据将模型结论宣布为确定的交易Alpha。"
-      },
-      {
         "block": 277,
         "type": "paragraph",
         "text": "十二、四天形成的关键投资因果图"
@@ -18229,10 +18160,10 @@
       }
     ],
     "judgment": {
-      "current": "A保留原金额；B增加信用/盈利/广度与互连利润验证门槛，当前不启动。",
-      "contingency": "R是已核风险进一步恶化后启用的同额防御替代，不取代当前A。",
-      "cash": "保留C15/C60机会成本对照，但60%现金没有被文档独立证明；它不是默认交易指令。",
-      "why_not_92": "归档规范和因果问题值得采纳，决定现金权重所需的点时价格、真实胜率、替代成本、尾部效用和来源完整性仍不足。"
+      "current": "当前首选D60，D70为更低风险预算备选，R40为修复参与；原A/B只作历史研究。",
+      "input_scope": "对话和文档只作参考输入；事实须由原始来源和日期独立核验。",
+      "private_scope": "私人账户全部排除，不属于用户。",
+      "content_score": 76
     },
     "calculations": {
       "asof": "2026-11-21",
@@ -19364,13 +19295,7 @@
       },
       "source_scope": "基金Q3前十大及境内采矿业；未披露部分不填成已知0；Q3未知当前交易",
       "basis_sha256": "86d5eb9beb5a3b86467534680d52d5ddfa4205a495a505c6ff6bbee68a8ea96f",
-      "cash_method": "未指定产品、现金收益设0，仅是假设；净值缺失未填0；每日恢复目标权重",
-      "account_arithmetic": {
-        "securities_fraction": 0.4329917130227759,
-        "unclassified_assets": 246963.68,
-        "visible_weights_sum": 0.42900000000000005,
-        "pbc_unlisted_department_residual_wan_yuan": 7295
-      }
+      "cash_method": "未指定产品、现金收益设0，仅是假设；净值缺失未填0；每日恢复目标权重"
     },
     "archive_sources": [
       {
@@ -19530,5 +19455,690 @@
       }
     ]
   },
-  "revision": "V1.1 / DOC100独立审议 / 2026-11-21数据截点"
+  "revision": "V1.3 / 决策优先与独立组合 / 2026-11-22",
+  "currentDecision": {
+    "version": "V1.3",
+    "date": "2026-11-22",
+    "capital_cny": 2300000,
+    "horizon": "approximately 1-3 months; research assumption, not confirmed personal horizon",
+    "current_preference": "D60",
+    "cash_is_not_fixed_prior": true,
+    "account_not_verified": true,
+    "doc100_private_portfolio_scope": "Document owner's portfolio, unrelated to this user; excluded from evidence, scoring and proposed allocations.",
+    "ds_scope": "Conversation and memo are research inputs. Statements become facts only after separate source/date verification.",
+    "document_content_score": {
+      "score": 76,
+      "out_of": 100,
+      "type": "manual content judgment, not a probability or a calibrated prediction",
+      "scope": "Market/credit/AI/company mechanisms and their investment implications only; all private positions and previous external scores excluded.",
+      "dimensions": [
+        {
+          "name": "可核与复现",
+          "score": 18,
+          "out_of": 25,
+          "reason": "多项宏观、公司和制度数字有原文支持；原稿没有逐项可点击来源，部分资金/利差/BOM仍待补证。"
+        },
+        {
+          "name": "因果与反证",
+          "score": 22,
+          "out_of": 25,
+          "reason": "能区分融资与回报、技术与利润、局部与系统，且保留明确纠错；部分链条仍缺逐环证据。"
+        },
+        {
+          "name": "机制洞察",
+          "score": 21,
+          "out_of": 25,
+          "reason": "财政付款、系统定义权、供应链利润分配有研究增量；尚无企业级产品利润与相对估值计算。"
+        },
+        {
+          "name": "前瞻决策支持",
+          "score": 15,
+          "out_of": 25,
+          "reason": "验证顺序有价值；现金比例、买价与相对赔率缺少统一、事前、可复算的比较，不能从宏观弱直接推出最优配置。"
+        }
+      ]
+    },
+    "funds": {
+      "CASH": {
+        "name": "外部现金（工具与账户另核）",
+        "equity_pct": 0,
+        "role": "购买力、流动性与风险预算",
+        "failure": "机会成本、实际购买力与具体工具/币种风险"
+      },
+      "021902": {
+        "name": "广发主题领先灵活配置混合C",
+        "equity_pct": 45.93,
+        "role": "较低权益强度与估值纪律",
+        "failure": "经理抬仓、价值资产现金流受损；不是现金"
+      },
+      "011066": {
+        "name": "大成高鑫混合C",
+        "equity_pct": 80.5,
+        "role": "制造企业质量与需求差异",
+        "failure": "制造/出口利润与买价失配；质量非保险"
+      },
+      "022415": {
+        "name": "前海开源国企精选混合C",
+        "equity_pct": 89.92,
+        "role": "高权益价值参与",
+        "failure": "资源/银行风险与拥挤回吐，不能承诺保本"
+      },
+      "010390": {
+        "name": "易方达科益混合C",
+        "equity_pct": 94.13,
+        "role": "限额科技细分与平台选择",
+        "failure": "独立任期短、容量与共同成长估值压力"
+      },
+      "027170": {
+        "name": "交银环球精选混合QDII C",
+        "equity_pct": 87.82,
+        "role": "海外经济敞口",
+        "failure": "全球利率/科技共振、汇率与新独立任期"
+      }
+    },
+    "plans": {
+      "D60": {
+        "title": "D60 · 当前首选",
+        "weights_pct": {
+          "CASH": 60,
+          "021902": 10,
+          "011066": 10,
+          "022415": 8,
+          "010390": 5,
+          "027170": 7
+        },
+        "thesis": "弱需求与成长承接不足，但财政边际与高等级信用不支持全面危机确认；保留40%基金预算参与分化。",
+        "trigger": "当前缺乏明确趋势与足够前瞻风险补偿，又仍有盈利/财政反证，适合作待机与参与的折中研究预算。",
+        "cost": "风险修复中会少赚；共同冲击仍可能明显亏损。60%没有统计最优证明。",
+        "invalidation": "实际信用/利润压力广泛扩散转更低风险；价格与经营承接改善且买价有补偿，逐步增加参与。"
+      },
+      "D70": {
+        "title": "D70 · 防守备选",
+        "weights_pct": {
+          "CASH": 70,
+          "021902": 10,
+          "011066": 8,
+          "022415": 6,
+          "010390": 2,
+          "027170": 4
+        },
+        "thesis": "减少科技与海外高弹性预算，更看重短期流动性与避免被动卖出。",
+        "trigger": "个人损失约束更紧，或与实际持仓有关的融资/现金流压力获得新的正式证据。",
+        "cost": "现金及低弹性资金占比更高，可能错过政策、信用和价格领先修复。",
+        "invalidation": "风险没有继续扩散、财政和经营边际改善并获市场吸收，继续过度防守的理由减弱。"
+      },
+      "R40": {
+        "title": "R40 · 修复参与",
+        "weights_pct": {
+          "CASH": 40,
+          "021902": 10,
+          "011066": 15,
+          "022415": 10,
+          "010390": 10,
+          "027170": 15
+        },
+        "thesis": "更高参与企业质量、科技与海外风险重估，不以单日反弹启用。",
+        "trigger": "市场广度和回踩承接改善，信用未继续恶化、盈利下修边界清楚且价格有补偿；允许先小步参与，不等全部滞后数据转好。",
+        "cost": "若修复失败，成长/海外共同压力与现金更少使损失放大。",
+        "invalidation": "承接改善消失、融资与利润反证扩大，停止扩张并降低风险。"
+      }
+    },
+    "unconstrained": {
+      "id": "U60",
+      "weights_pct": {
+        "CASH": 60,
+        "110020": 15,
+        "513500": 15,
+        "011066": 10
+      },
+      "status": "Research alternative conditional on instrument identity, fees, execution and premium checks; no new registry ranking assumed.",
+      "reason": "Use domestic and US broad market beta plus one active-quality fund; reduce reliance on choosing many managers. Not a broad-market return forecast.",
+      "hold_if_unavailable": "Unfilled foreign sleeve stays in external cash; never silently replace with a technology QDII."
+    },
+    "new_probability_policy": "No calibrated probabilities or forecast returns supplied. Future mechanisms, conditional suitability, opportunity cost and falsifiers compared instead.",
+    "portfolio_limits": "Amounts are review budgets, not complete user account facts, executable trade quantities, global optimization or guaranteed loss limits.",
+    "passiveSources": [
+      {
+        "title": "易方达110020官方产品与费率",
+        "url": "https://www.efunds.com.cn/fund/110020_org.shtml"
+      },
+      {
+        "title": "博时513500官方产品",
+        "url": "https://www.bosera.com/fund/513500.html"
+      },
+      {
+        "title": "513500一级申赎清单",
+        "url": "https://www.bosera.com/fund/etfList.do?fundCode=513500"
+      }
+    ],
+    "passiveLimit": "110020截至11.20零售申赎开放；标准交易费对短期不利。513500正式净值截至11.19，11.20清单一级申购关闭/赎回开放，二级市场溢价、成交与券商费用未核。U60为条件替代。"
+  },
+  "independentCandidates": {
+    "schema_version": "1.0",
+    "research_as_of": "2026-11-22",
+    "requested_latest_nav_date": "2026-11-20",
+    "purpose": "Clean-sheet passive and fixed-income alternatives for an independent macro-first portfolio assessment.",
+    "scope": {
+      "research_only": true,
+      "site_or_github_writes": false,
+      "old_registry_updated": false,
+      "prior_exclusions_or_ds_anchors_used": false,
+      "global_optimum_claimed": false,
+      "allocation_weights_or_cash_target_prescribed": false,
+      "parent_responsibility": "Independently set the current macro risk budget and compare core active managers; these are candidate instruments, not an approved portfolio.",
+      "method": "Official manager product pages, a public manager status feed, official legal documents and an official ETF creation/redemption basket. Browser skill was read, but browser/delegation tools were unavailable. No login, order submission or account verification.",
+      "web_search_calls": 7,
+      "source_query_count_note": "Seven discovery searches; additional direct official-page/document/API reads and read-only HTTP inspections were used. Not all source requests are counted as searches."
+    },
+    "old_pool_check": {
+      "read_only_source": "/Users/bytedance/Documents/Trae-CN/default/asymmetry-report/research-data.json",
+      "field": "registry",
+      "registry_count": 31,
+      "checked_codes_absent": [
+        "110020",
+        "511010",
+        "513500",
+        "050025",
+        "161125",
+        "511360"
+      ],
+      "use_of_registry": "Membership check only; no old rankings, exclusions, portfolio weights or manager judgments were adopted."
+    },
+    "fee_convention": {
+      "unit": "Percent per year unless explicitly a transaction charge.",
+      "annual_management_plus_custody_is_not_all_in_ter": true,
+      "notes": [
+        "NAV already reflects accrued fund expenses; do not deduct the quoted annual fee a second time from reported NAV returns.",
+        "Management/custody sums exclude transaction costs, taxes, other fund expenses, broker commissions and bid-ask spreads.",
+        "A feeder's displayed management/custody rates are not proof of its effective whole-NAV fee base. Target-ETF fee-base exemptions and look-through expenses were not separately verified; do not blindly add feeder and ETF headline rates.",
+        "No discounted subscription fee, brokerage rate or premium is assumed."
+      ]
+    },
+    "candidates": [
+      {
+        "code": "110020",
+        "official_short_name": "易方达沪深300ETF联接A",
+        "official_full_name": "易方达沪深300交易型开放式指数发起式证券投资基金联接基金",
+        "manager": "易方达基金管理有限公司",
+        "share_class": "A",
+        "currency": "CNY",
+        "instrument": "Off-exchange ETF feeder",
+        "outside_old31_pool": true,
+        "source_ids": [
+          "E300",
+          "E300_STATUS"
+        ],
+        "exposure": {
+          "index": "沪深300指数",
+          "breadth": "300 representative large, liquid mainland Chinese securities across industries; not the entire China market or a global equity portfolio.",
+          "target_etf_code": "510310",
+          "minimum_target_etf_percent_nav": 90,
+          "benchmark": "95% CSI 300 return + 5% after-tax demand-deposit rate",
+          "automatic_downside_protection": false
+        },
+        "latest_official_nav_observed": {
+          "date": "2026-11-20",
+          "unit_nav_cny": 1.6408,
+          "daily_change_percent": -0.73,
+          "requested_date_verified": true
+        },
+        "fees": {
+          "management_percent_pa": 0.15,
+          "custody_percent_pa": 0.05,
+          "sales_service_percent_pa": 0.0,
+          "headline_management_plus_custody_percent_pa": 0.2,
+          "all_in_ter_percent_pa": null,
+          "standard_subscription": [
+            {
+              "amount_cny_lt": 1000000,
+              "percent": 1.2
+            },
+            {
+              "amount_cny_gte": 1000000,
+              "amount_cny_lt": 5000000,
+              "percent": 0.8
+            },
+            {
+              "amount_cny_gte": 5000000,
+              "amount_cny_lt": 10000000,
+              "percent": 0.2
+            },
+            {
+              "amount_cny_gte": 10000000,
+              "fixed_cny_per_order": 1000
+            }
+          ],
+          "redemption": [
+            {
+              "holding_days_from": 0,
+              "holding_days_to": 6,
+              "percent": 1.5
+            },
+            {
+              "holding_days_from": 7,
+              "holding_days_to": 364,
+              "percent": 0.5
+            },
+            {
+              "holding_days_from": 365,
+              "holding_days_to": 729,
+              "percent": 0.25
+            },
+            {
+              "holding_days_from": 730,
+              "percent": 0.0
+            }
+          ],
+          "channel_discount_verified": false,
+          "cost_label": "Low headline recurring fees, but standard entry/early-exit charges make short holding periods unattractive."
+        },
+        "purchase_status": {
+          "status_date": "2026-11-20",
+          "retail_subscription_open": true,
+          "retail_redemption_open": true,
+          "retail_online_and_distributor_sip_open": true,
+          "direct_sales_center_sip_open": false,
+          "large_order_limit_reported": false,
+          "limit_field_raw": "",
+          "interpretation": "All three retail channels report subscription/redemption true and blank limit fields. This means no manager limit is reported, not a guarantee of unlimited acceptance by every distributor.",
+          "minimum_purchase_cny": null,
+          "next_order_day_recheck_required": true,
+          "actual_order_acceptance_tested": false
+        },
+        "risk": {
+          "official_manager_rating": "中风险(R3)",
+          "recommended_economic_label": "HIGH EQUITY RISK / CHINA LARGE-CAP BETA",
+          "cash_equivalent": false,
+          "principal_guaranteed": false,
+          "warnings": [
+            "Large equity drawdowns remain possible.",
+            "Domestic macro and large-cap concentration remain.",
+            "Existing active holdings may overlap."
+          ]
+        },
+        "fit": "Preferred simple domestic passive core candidate once the parent independently authorizes China-equity exposure. Diversifies individual security and manager-selection risk, not overall equity-market risk.",
+        "selection_state": "Research-qualified domestic equity candidate; no allocation or trade authorization."
+      },
+      {
+        "code": "511010",
+        "official_short_name": "国泰上证5年期国债ETF",
+        "official_page_label": "国债ETF国泰",
+        "official_full_name": "上证5年期国债交易型开放式指数证券投资基金",
+        "manager": "国泰基金管理有限公司",
+        "share_class": "Listed RMB ETF; no A/C class label in the verified product document",
+        "currency": "CNY",
+        "instrument": "Shanghai-listed government-bond index ETF",
+        "outside_old31_pool": true,
+        "source_ids": [
+          "GT_GOVT",
+          "GT_GOVT_SUMMARY"
+        ],
+        "exposure": {
+          "index": "上证5年期国债指数",
+          "minimum_index_constituent_and_candidate_government_bonds_percent_nav": 90,
+          "breadth": "A basket of Chinese government bonds in the index's maturity segment. Diversifies equity exposure and individual bonds, but not sovereign issuer, currency or global bond markets.",
+          "government_vs_credit": "Government-dominant mandate; other permitted bonds mean the mandate is not exclusively 100% government bonds.",
+          "modified_duration_years": null,
+          "yield_to_maturity_percent": null,
+          "important_distinction": "The index's 5-year label is not a verified portfolio modified-duration estimate."
+        },
+        "latest_official_nav_observed": {
+          "date": "2026-11-20",
+          "unit_nav_cny": 141.383,
+          "requested_date_verified": true,
+          "nav_is_not_exchange_trade_price": true
+        },
+        "fees": {
+          "management_percent_pa": 0.15,
+          "custody_percent_pa": 0.05,
+          "headline_management_plus_custody_percent_pa": 0.2,
+          "sales_service_percent_pa": null,
+          "sales_service_note": "Not separately listed in the verified ETF fee table.",
+          "all_in_ter_percent_pa": null,
+          "historical_summary_operating_cost_estimate_percent_pa": 0.21,
+          "historical_estimate_document_date": "2025-11-19",
+          "historical_estimate_is_current_2026_ter": false,
+          "primary_creation_redemption_agent_commission_ceiling_percent": 0.4,
+          "secondary_market_broker_commission_percent": null,
+          "secondary_market_bid_ask_spread_percent": null,
+          "cost_label": "Low headline recurring fees; exchange transaction costs must be added."
+        },
+        "purchase_status": {
+          "verified_listing_exchange": "Shanghai Stock Exchange",
+          "verified_listing_date": "2013-03-25",
+          "retail_route": "Conditional secondary-market purchase through an eligible securities account.",
+          "off_exchange_nav_purchase_assumed": false,
+          "current_primary_creation_redemption_status": null,
+          "current_secondary_trading_or_halt_status": null,
+          "latest_pcf_verified": false,
+          "current_primary_creation_unit_shares": null,
+          "secondary_minimum_lot_shares": null,
+          "market_price_cny": null,
+          "premium_discount_percent": null,
+          "actual_order_acceptance_tested": false,
+          "execution_checks": [
+            "Broker eligibility and fees",
+            "Latest trading/halt status",
+            "Current quotes, spread and premium/discount",
+            "Latest PCF if using primary creation/redemption"
+          ]
+        },
+        "risk": {
+          "official_manager_rating": "中低(R2)",
+          "recommended_economic_label": "LOWER-RISK GOVERNMENT DURATION / NOT CASH",
+          "cash_equivalent": false,
+          "principal_guaranteed": false,
+          "warnings": [
+            "Rising yields can cause capital losses.",
+            "No guaranteed negative correlation with equities.",
+            "ETF liquidity and price/NAV divergence remain."
+          ]
+        },
+        "fit": "Conditional fixed-income diversifier when the independent macro budget accepts interest-rate duration. Not a settlement-cash reserve or an automatic safe place for all unused equity capital.",
+        "selection_state": "Research-qualified low-fee fixed-income candidate; exchange execution remains conditional."
+      },
+      {
+        "code": "513500",
+        "official_short_name": "博时标普500ETF",
+        "official_full_name": "博时标普500交易型开放式指数证券投资基金",
+        "manager": "博时基金管理有限公司",
+        "share_class": "Listed RMB ETF; not the 050025 A-share feeder",
+        "currency": "CNY",
+        "instrument": "QDII equity ETF",
+        "outside_old31_pool": true,
+        "source_ids": [
+          "B500_ETF",
+          "B500_PCF"
+        ],
+        "exposure": {
+          "index": "S&P 500 Index (NTR, Net Total Return), translated into CNY",
+          "minimum_index_constituent_and_candidate_stocks_percent_nav": 90,
+          "breadth": "Broad US large-cap, multi-sector equity exposure; not a whole-world or US total-market fund.",
+          "currency_risk": "RMB share quotation does not remove underlying foreign-exchange risk.",
+          "automatic_downside_protection": false
+        },
+        "latest_official_nav_observed": {
+          "date": "2026-11-19",
+          "unit_nav_cny": 2.2782,
+          "daily_change_percent": -1.99,
+          "requested_date_verified": false,
+          "note": "November 20 NAV was not displayed. Do not substitute the PCF's November 18 NAV or a market quote.",
+          "nav_is_not_exchange_trade_price": true
+        },
+        "fees": {
+          "management_percent_pa": 0.6,
+          "custody_percent_pa": 0.2,
+          "headline_management_plus_custody_percent_pa": 0.8,
+          "sales_service_percent_pa": null,
+          "sales_service_note": "Not separately listed in the verified ETF fee table.",
+          "all_in_ter_percent_pa": null,
+          "primary_creation_redemption_agent_commission_ceiling_percent": 0.5,
+          "secondary_market_broker_commission_percent": null,
+          "secondary_market_bid_ask_spread_percent": null,
+          "cost_label": "Higher-fee passive comparator, not an ultra-low-cost or globally cheapest S&P 500 vehicle."
+        },
+        "purchase_status": {
+          "pcf_date": "2026-11-20",
+          "primary_creation_allowed": false,
+          "primary_redemption_allowed": true,
+          "minimum_creation_redemption_unit_shares": 1000000,
+          "pcf_prior_nav_date": "2026-11-18",
+          "pcf_prior_unit_nav_cny": 2.3245,
+          "pcf_account_cumulative_creation_limit_shares": 1000000,
+          "pcf_fund_cumulative_creation_limit_shares": 1000000,
+          "pcf_limit_interpretation": "Numeric creation limit fields do not override the explicit 'creation allowed: no' flag.",
+          "conditional_route": "Secondary-market only, subject to trading access/status, fresh quotes and acceptable premium.",
+          "current_secondary_trading_or_halt_status": null,
+          "secondary_minimum_lot_shares": null,
+          "market_price_cny": null,
+          "premium_discount_percent": null,
+          "actual_order_acceptance_tested": false,
+          "warning": "Closed primary creation can impair arbitrage and allow large premiums. It does not itself prove either a secondary-market halt or an executable low-premium purchase."
+        },
+        "risk": {
+          "official_manager_rating": "中高",
+          "recommended_economic_label": "HIGH EQUITY + FX + QDII ACCESS/PREMIUM RISK",
+          "cash_equivalent": false,
+          "principal_guaranteed": false,
+          "warnings": [
+            "US mega-cap and sector concentration remains despite broad index coverage.",
+            "China and US equities can fall together.",
+            "Stale NAVs must not be used to manufacture a current premium estimate."
+          ]
+        },
+        "fit": "Conditional US-equity diversification comparator, not a ready-to-fund replacement for a closed feeder. The parent may omit this sleeve rather than force a premium-bearing purchase.",
+        "selection_state": "Conditional third comparator; primary creation closed, secondary-market execution not verified."
+      }
+    ],
+    "unavailable_off_exchange_checks": [
+      {
+        "code": "050025",
+        "official_short_name": "博时标普500ETF联接A（人民币）",
+        "official_full_name": "博时标普500交易型开放式指数证券投资基金联接基金",
+        "manager": "博时基金管理有限公司",
+        "share_class": "A, RMB",
+        "source_ids": [
+          "B500_FEEDER"
+        ],
+        "headline_management_plus_custody_percent_pa": 0.8,
+        "management_percent_pa": 0.6,
+        "custody_percent_pa": 0.2,
+        "sales_service_percent_pa": 0.0,
+        "standard_subscription_percent_below_cny_500000": 1.2,
+        "redemption_percent_under_7_days": 1.5,
+        "redemption_percent_7_days_to_under_2_years": 0.5,
+        "redemption_percent_2_to_under_3_years": 0.25,
+        "redemption_percent_3_years_or_more": 0.0,
+        "latest_official_nav_observed": {
+          "date": "2026-11-19",
+          "unit_nav_cny": 5.2047
+        },
+        "november_20_nav_verified": false,
+        "official_status_as_observed": "暂停申购",
+        "new_lump_sum_subscription_capacity": "Unavailable on the observed official page.",
+        "sip_status_separately_verified": false,
+        "channel_exceptions_verified": false,
+        "estimated_redemption_working_days_on_page": 6,
+        "recommendation": "Do not include as an immediately fundable new off-exchange position; monitor reopening, not an assumed tiny quota."
+      },
+      {
+        "code": "161125",
+        "official_short_name": "易方达标普500指数（QDII-LOF）A(人民币份额)",
+        "official_full_name": "易方达标普500指数证券投资基金（LOF）",
+        "manager": "易方达基金管理有限公司",
+        "share_class": "A, RMB",
+        "source_ids": [
+          "E500_LOF"
+        ],
+        "instrument_correction": "This is a QDII index LOF, not an ETF feeder.",
+        "management_percent_pa": 0.8,
+        "custody_percent_pa": 0.2,
+        "sales_service_percent_pa": 0.0,
+        "headline_management_plus_custody_percent_pa": 1.0,
+        "standard_subscription_percent_below_cny_1000000": 1.2,
+        "off_exchange_redemption_percent_under_7_days": 1.5,
+        "off_exchange_redemption_percent_7_to_364_days": 0.5,
+        "off_exchange_redemption_percent_365_to_729_days": 0.25,
+        "off_exchange_redemption_percent_730_days_or_more": 0.0,
+        "latest_official_nav_observed": {
+          "date": "2026-11-19",
+          "unit_nav_cny": 2.9296
+        },
+        "november_20_nav_verified": false,
+        "official_status_as_observed": "为了基金的平稳运作，本基金暂停申购、定投等业务",
+        "new_lump_sum_and_sip_capacity": "Unavailable on the observed official institutional product page.",
+        "secondary_market_lof_price_or_premium_verified": false,
+        "recommendation": "Closed off-exchange and higher headline annual fee than 050025/513500; do not infer a purchasable C class or a valid small daily quota."
+      }
+    ],
+    "identifier_correction_not_currently_qualified": {
+      "original_target": "嘉实中证短融ETF511360",
+      "code": "511360",
+      "verified_official_short_name": "海富通中证短融ETF",
+      "verified_official_full_name": "海富通中证短融交易型开放式指数证券投资基金",
+      "verified_manager": "海富通基金管理有限公司",
+      "source_ids": [
+        "HFT_SHORT_HISTORICAL"
+      ],
+      "source_document_date": "2022-07-13",
+      "exposure": "Short-financing/ultra-short-financing and other permitted bonds, with credit risk. Not a government-only bond fund or guaranteed cash.",
+      "historical_fee_only": {
+        "management_percent_pa": 0.15,
+        "custody_percent_pa": 0.05,
+        "index_license_percent_pa": 0.02,
+        "index_license_minimum_cny_per_quarter": 25000
+      },
+      "current_2026_fee_nav_restrictions_verified": false,
+      "selection_state": "Identifier and credit/cash distinction corrected only; not presented as a fully verified current alternative."
+    },
+    "parent_handoff": {
+      "recommended_shortlist": "110020 for domestic equity beta; 511010 for a separately budgeted government-duration sleeve; 513500 only as a conditional overseas comparator.",
+      "two_genuinely_low_headline_fee_candidates": [
+        "110020",
+        "511010"
+      ],
+      "one_fund_case": "110020 can implement the authorized China-equity sleeve alone, but is not by itself a risk-balanced household portfolio.",
+      "multi_fund_case": "A domestic-equity plus government-duration construction is a candidate structure, not a fixed allocation. Add US equity only after its independent risk budget and execution gates pass.",
+      "cash_treatment": "Cash needed for spending, settlement or optionality must remain separately identified. Neither 511010 nor 511360 is automatically cash; no 75% cash rule.",
+      "not_established": [
+        "Current macro valuation, expected returns or optimal China/US/bond weights",
+        "User's investable amount, horizon, drawdown tolerance and liquidity needs",
+        "Broker and distributor access, actual commissions/discounts and accepted order size",
+        "Current ETF quote, trading/halt status and premium/discount",
+        "Current bond yield, modified duration, curve exposure and correlations with active holdings",
+        "Whole-world cheapest available fund universe or global optimum"
+      ],
+      "execution_rule": "Recheck official notices/status and quotes on the actual order day. Missing execution evidence stays null; no trades are authorized by this research."
+    },
+    "sources": [
+      {
+        "id": "E300",
+        "url": "https://www.efunds.com.cn/fund/110020_org.shtml",
+        "primary": true,
+        "verified_fields": [
+          "Code, name, A share, manager",
+          "Target ETF 510310 and mandate",
+          "Headline and standard transaction fees",
+          "2026-11-20 NAV"
+        ]
+      },
+      {
+        "id": "E300_STATUS",
+        "url": "https://api.efunds.com.cn/xcowch/front/fund/tradestatus/110020?date=2026-11-20",
+        "primary": true,
+        "discovery": "Public endpoint explicitly referenced by the official product page.",
+        "verified_fields": [
+          "Retail subscription/redemption flags by channel",
+          "SIP flags",
+          "Blank large-order limit fields"
+        ],
+        "status_date": "2026-11-20"
+      },
+      {
+        "id": "GT_GOVT",
+        "url": "https://e.gtfund.com/Etrade/Jijin/view/id/511010",
+        "primary": true,
+        "verified_fields": [
+          "Current name/code/manager",
+          "Government-bond mandate and R2 rating",
+          "0.15% management and 0.05% custody",
+          "2026-11-20 NAV 141.383"
+        ]
+      },
+      {
+        "id": "GT_GOVT_SUMMARY",
+        "url": "https://st.gtfund.com/pis/www/CN_50010000_511010_FA010080_20250004_511010_20251119_090000_01.pdf",
+        "primary": true,
+        "document_date": "2025-11-19",
+        "verified_fields": [
+          "Shanghai ETF listing, RMB and legal mandate",
+          "Primary creation/redemption commission ceiling",
+          "Historical 0.21% operating-cost estimate"
+        ],
+        "freshness_note": "Not used to prove current trading availability; recurring rates also confirmed on the current official product page."
+      },
+      {
+        "id": "B500_ETF",
+        "url": "https://www.bosera.com/fund/513500.html",
+        "primary": true,
+        "verified_fields": [
+          "Code/name/manager and QDII ETF identity",
+          "S&P 500 NTR benchmark and FX risk",
+          "0.60% management and 0.20% custody",
+          "Latest displayed 2026-11-19 NAV"
+        ]
+      },
+      {
+        "id": "B500_PCF",
+        "url": "https://www.bosera.com/fund/etfList.do?fundCode=513500",
+        "primary": true,
+        "status_date": "2026-11-20",
+        "verified_fields": [
+          "Primary creation no, redemption yes",
+          "1,000,000-share creation/redemption unit",
+          "November 18 reference NAV",
+          "Creation limit fields do not override closed flag"
+        ]
+      },
+      {
+        "id": "B500_FEEDER",
+        "url": "https://www.bosera.com/fund/050025.html#fundFeeStructure",
+        "primary": true,
+        "verified_fields": [
+          "RMB A-share identity",
+          "暂停申购",
+          "Headline and transaction fees",
+          "Latest displayed 2026-11-19 NAV"
+        ]
+      },
+      {
+        "id": "E500_LOF",
+        "url": "https://www.efunds.com.cn/fund/161125_org.shtml",
+        "primary": true,
+        "verified_fields": [
+          "RMB A-share QDII-LOF identity",
+          "Subscription and SIP suspension message",
+          "0.80% management and 0.20% custody",
+          "Latest displayed 2026-11-19 NAV"
+        ]
+      },
+      {
+        "id": "HFT_SHORT_HISTORICAL",
+        "url": "https://www.hftfund.com/upload/fck/userfiles/file/1657676382539-511360_%E6%B5%B7%E5%AF%8C%E9%80%9A%E4%B8%AD%E8%AF%81%E7%9F%AD%E8%9E%8D%E4%BA%A4%E6%98%93%E5%9E%8B%E5%BC%80%E6%94%BE%E5%BC%8F%E6%8C%87%E6%95%B0%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E5%9F%BA%E9%87%91%E4%BA%A7%E5%93%81%E8%B5%84%E6%96%99%E6%A6%82%E8%A6%81%E6%9B%B4%E6%96%B0.pdf",
+        "primary": true,
+        "document_date": "2022-07-13",
+        "historical_only": true,
+        "verified_fields": [
+          "511360 is Haifutong, not Harvest",
+          "Short-financing mandate and credit risk",
+          "Historical fees including index-license charge"
+        ],
+        "freshness_note": "No current 2026 fee, NAV or purchase-status claim is made."
+      }
+    ],
+    "discarded_stale_page_values": [
+      {
+        "url": "https://www.efunds.com.cn/Mobile/fund/110020_org.shtml",
+        "displayed_nav_date": "2026-10-16",
+        "reason": "Replaced by official desktop page's verified November 20 NAV."
+      },
+      {
+        "url": "https://www.efunds.com.cn/fund/161125.shtml",
+        "displayed_nav_date": "2026-11-06",
+        "reason": "Replaced by official institutional page's November 19 NAV and explicit subscription/SIP suspension message."
+      }
+    ]
+  },
+  "extra_watch_codes": [
+    {
+      "code": "110020",
+      "name": "易方达沪深300ETF联接A",
+      "product_kind": "fund"
+    },
+    {
+      "code": "513500",
+      "name": "博时标普500ETF",
+      "product_kind": "etf"
+    }
+  ]
 }
