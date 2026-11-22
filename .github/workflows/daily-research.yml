@@ -20,6 +20,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  models: read
 concurrency:
   group: daily-research-publish
   cancel-in-progress: false
@@ -108,10 +109,39 @@ jobs:
           p.write_text(json.dumps(state,ensure_ascii=False,indent=2))
           PY
       - name: Commit generated publication
+        # The static independent review is audited even when the standard report is
+        # already frozen or its separate collection failed.
+        id: publication
         run: |
           git add index.html archive.html build.json site-manifest.json README.md reports automation-status.json
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: refresh daily fund research'
+            git push origin main
+          fi
+      - name: Build current independent review layer
+        run: python research-engine/tools/build_asymmetry_current.py
+      - name: Audit all independent-review evidence
+        id: asymmetry_evidence
+        continue-on-error: true
+        run: python research-engine/tools/audit_asymmetry_daily.py --public-root .
+      - name: Verify independent-review evidence
+        id: asymmetry_verify
+        if: always()
+        continue-on-error: true
+        run: python research-engine/tools/verify_asymmetry_daily.py --public-root .
+      - name: Review full website with evidence and counterarguments
+        id: asymmetry_models
+        if: always() && steps.asymmetry_verify.outcome == 'success'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ASYMMETRY_REVIEW_MODEL: openai/gpt-4.1
+        run: python research-engine/tools/review_asymmetry_models.py --public-root .
+      - name: Commit independent-review daily ledger and status
+        run: |
+          git add proposals/2026-11-21/asymmetry
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: audit independent investment review and publish dated results'
             git push origin main
           fi
       - name: Assemble public site
@@ -132,7 +162,9 @@ jobs:
           path: |
             research-engine/report/daily-check/
             automation-status.json
+            proposals/2026-11-21/asymmetry/daily/semantic-status.json
+            proposals/2026-11-21/asymmetry/daily/status.json
           retention-days: 14
       - name: Report failed research
-        if: steps.analysis.outcome == 'failure' || steps.verification.outcome == 'failure'
+        if: steps.analysis.outcome == 'failure' || steps.verification.outcome == 'failure' || steps.asymmetry_verify.outcome == 'failure' || steps.asymmetry_models.outcome == 'failure'
         run: exit 1

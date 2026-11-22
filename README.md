@@ -2,9 +2,9 @@
 
 入口：https://arnebear.github.io/fund-research/
 
-新增独立审议 V1.1：https://arnebear.github.io/fund-research/proposals/2026-11-21/asymmetry/#doc100
+宏观市场优先与每日审视 V1.2：https://arnebear.github.io/fund-research/proposals/2026-11-21/asymmetry/#current
 
-该专题按230万元预算编制，完整审议DOC100并区分已核事实、待验证假说与配置。A金额保留，B加严启用条件；R及15%/60%现金仅作条件与机会成本对照。专题附本次授权发布的DOC100原件、公开原文证据、复算脚本与版本快照，不替换每日目标口径。
+该专题按230万元研究预算编制。当前高现金优先比较，70%是短期待机参考而非唯一最优；A保留为风险资产内部历史结构。每日08:20采集新证据，09:20失败补偿；GitHub Models逐项语义与反方复核覆盖全部章节、14位经理、31基金和26组Doc100主张。旧档案原日期保留，来源/配额失败明确标记，不自动交易或启用付费配额。
 
 最新报告：https://arnebear.github.io/fund-research/reports/2026-11-22/
 

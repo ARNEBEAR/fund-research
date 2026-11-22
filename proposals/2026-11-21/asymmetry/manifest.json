@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "revision": "V1.1",
+  "revision": "V1.2",
   "type": "independent_doc100_review",
   "status": "research_proposal_not_current_account_or_trades",
   "capital_basis_cny": 2300000,
@@ -8,8 +8,8 @@
   "nav_cutoff_qdii": "2026-11-19",
   "files": {
     "index.html": {
-      "bytes": 600439,
-      "sha256": "aceeb7d45a547a95b2462f125d50924190227f35426848008bda316f8520ee24"
+      "bytes": 616916,
+      "sha256": "dbfcb93cf94ee9a4f3ee9d2a7dc8f4d110483c9acb8e0f99af77fb30a72008f6"
     },
     "evidence.zip": {
       "bytes": 24475081,
@@ -50,6 +50,20 @@
     "versions/v1.0.html": {
       "bytes": 457870,
       "sha256": "a30a15588930faaea24b8b0f6b38e15e406f0aa66046417992394566df74b5fc"
+    },
+    "daily-policy/policy.json": {
+      "bytes": 2259,
+      "sha256": "5a783d79049d776526055471592738bbfd19f1356601bf3c8ce36c2afee3b684"
+    },
+    "daily-policy/decision-20261122.json": {
+      "bytes": 2154,
+      "sha256": "c2a13c75b4ad4bd2eec8b784998f9163eca5a20bb344d87d9ce71604caacff03"
+    },
+    "daily-policy/macro-cash-20261122.md": {
+      "bytes": 12638,
+      "sha256": "451ea80e32647b809e3c3703813a1227f912bc67cf5d3befbe011fcf28e3ea74"
     }
-  }
+  },
+  "current_review_date": "2026-11-22",
+  "daily_automation": "source evidence plus GitHub Models semantic and counter-review; no automatic trading"
 }

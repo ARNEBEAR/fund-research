@@ -1,0 +1,35 @@
+{
+  "review_date": "2026-11-22",
+  "market_cutoff": "2026-11-20",
+  "type": "independent_manual_judgment_not_trades",
+  "budget_cny": 2300000,
+  "change": "Macro and market first. Old A is now an equity-risk-sleeve reference, not the current default for all capital.",
+  "current_preference": "Compare 50%-70% external cash, with 70% as a temporary conservative standby and loss-budget reference, not a proven optimal point.",
+  "cash70_reference": {"cash_cny": 1610000, "risk_sleeve_cny": 690000},
+  "owner_statement_status": "User reports document owner's belief >=70% cash optimal; an opinion, not independently verified objective evidence.",
+  "cash_comparison": [0,30,50,70,85],
+  "basis": [
+    "Weak domestic final demand and divided earnings/cash transmission.",
+    "Weak broad growth-asset absorption and an unproven forward risk premium.",
+    "Cash reduces forced-selling and provides deployable liquidity.",
+    "No complete valuation/forecast/loss-utility evidence proves a unique cash percentage."
+  ],
+  "strong_counterevidence": [
+    "Calculated October government-fund spending improved year-on-year despite weaker cumulative data.",
+    "Observed same-tenor three-year AAA curve spread narrowed from November13 to November20.",
+    "Markets may reprice before lagging economic data, and selected exporters/technology retain growth.",
+    "High cash can miss a rapid recovery; all backward-looking series need not improve before taking risk."
+  ],
+  "invalidation": [
+    "Pricing and market absorption improve alongside credible credit or operating transmission.",
+    "Asset valuations provide risk compensation under multiple earnings outcomes, not just a historical decline.",
+    "Verified stress broadens in actual exposures, potentially requiring a larger liquid reserve.",
+    "Owner horizon, liabilities and accepted losses materially differ from a short-term preservation goal."
+  ],
+  "not_claimed": [
+    "Cash70 has the highest expected return.",
+    "Cumulative weakness will linearly continue.",
+    "AAA conditions represent all weak-credit borrowers.",
+    "A report or model can guarantee investment outcomes."
+  ]
+}

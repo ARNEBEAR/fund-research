@@ -1,0 +1,41 @@
+{
+  "version": "V1.2-2026-11-22",
+  "schedule_timezone": "Asia/Shanghai",
+  "schedule_local": "每日08:20；09:20对证据或模型失败补偿重试",
+  "minimum_frequency": "one scheduled daily attempt; GitHub scheduling and provider quotas can delay or fail",
+  "review_model": "openai/gpt-4.1",
+  "billing": "No paid usage enabled by this change; provider account limits apply",
+  "current_manual_stance": "宏观与市场优先；高现金优先比较，70%仅作为短期待机与损失预算参考，不认证唯一最优。A保留为风险资产内部历史研究结构，不是当前全资产默认推荐。",
+  "cash_comparison": [0, 30, 50, 70, 85],
+  "cash_not_a_user_fixed_prior": true,
+  "asset_budget_cny": 2300000,
+  "account_status": "current complete holdings and available cash not verified",
+  "current_manual_review_date": "2026-11-22",
+  "principles": [
+    "macro and market first, manager quality and correlation second",
+    "new information dates differ from retrieval dates",
+    "no linear forecasts or calibrated probabilities from historical returns",
+    "no forced retention of old A/B or cash ratio",
+    "alternative positive and negative transmission paths must be evaluated",
+    "historical content immutable; current corrections published prominently",
+    "complete item submission is not complete factual certainty",
+    "model failure is not a successful review",
+    "same model counter-review is not an independent data source",
+    "no automatic trading or account access"
+  ],
+  "daily_source_priority": [
+    "https://gks.mof.gov.cn/tongjishuju/",
+    "https://www.stats.gov.cn/sj/zxfb/",
+    "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html",
+    "https://www.sse.com.cn/aboutus/mediacenter/conference/",
+    "https://www.federalreserve.gov/feeds/press_all.xml",
+    "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/showHistory?locale=cn_ZH"
+  ],
+  "unmeasured_major_inputs": [
+    "same-borrower low-grade and bank capital-bond spread series",
+    "long-run forward earnings revisions and valuation coverage",
+    "real-time comprehensive market breadth and private capital-flow identities",
+    "fund undisclosed trades",
+    "owner liabilities, investment horizon and tolerated losses"
+  ]
+}
