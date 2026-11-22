@@ -1,13 +1,15 @@
 {
-  "version": "V1.3-2026-11-22",
+  "version": "V1.4-2026-11-22",
   "schedule_timezone": "Asia/Shanghai",
   "schedule_local": "每日08:20；09:20对证据或模型失败补偿重试",
   "minimum_frequency": "one scheduled daily attempt; GitHub scheduling and provider quotas can delay or fail",
   "review_model": "openai/gpt-4.1",
   "billing": "No paid usage enabled by this change; provider account limits apply",
-  "current_manual_stance": "当前首选D60：60%外部现金/40%五只主动基金。D70为更严格损失预算备选，R40为修复参与，U60为宽基+质量经理条件替代。对话/文档只为输入；私人仓位与本用户无关、全部排除。",
+  "current_manual_stance": "长期候选L5：广发30/高鑫25/前海20/产业15/交银环球10；L4国内四席、L90留10%资金、K5开阳挑战、G6成长卫星。D60/D70/R40/U60只是旧1—3个月阶段风险提案，不是用户长期目标。现金与当前投入节奏仍由宏观、买价、真实期限和损失能力决定；私人仓位排除。",
   "cash_comparison": [
     0,
+    10,
+    20,
     30,
     50,
     60,
@@ -20,6 +22,10 @@
   "current_manual_review_date": "2026-11-22",
   "principles": [
     "macro and market first, manager quality and correlation second",
+    "long-term mandates, current risk deployment and executable trades are separate",
+    "user prefers long-term equity growth with verified managers; no fixed high-cash or full-investment assumption",
+    "compare old research proposals under identical dates, weights and holding rules; never call them verified current account",
+    "evaluate return, drawdown, recovery and net-of-cost comparable-risk value together",
     "new information dates differ from retrieval dates",
     "no linear forecasts or calibrated probabilities from historical returns",
     "no forced retention of old A/B or cash ratio",
