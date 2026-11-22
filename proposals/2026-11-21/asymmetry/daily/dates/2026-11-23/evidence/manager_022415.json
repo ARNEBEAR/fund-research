@@ -1,0 +1,89 @@
+{
+  "id": "manager_022415",
+  "name": "田维 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_022415.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_022415",
+  "code": "022415",
+  "status": "collected",
+  "checked_at": "2026-11-23T03:25:41.181670+08:00",
+  "publication_date": "2024-12-06",
+  "date_candidates": [],
+  "content_sha256": "260189277b0c062efac1e00228ffed3da62c9473208eb861846a4a2518fc2b34",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_022415",
+    "checked_at": "2026-11-23T03:25:41.181670+08:00",
+    "publication_date": "2024-12-06",
+    "content_sha256": "260189277b0c062efac1e00228ffed3da62c9473208eb861846a4a2518fc2b34",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2024-12-06",
+          "end_date": null,
+          "managers": [
+            "田维"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2024-12-06",
+          "end_date": null,
+          "managers": [
+            "田维"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "田维"
+      ],
+      "appointment_signature": "402e35284587169fcea7abf407439b5570b331aed2f9cc64fb7ecb027a6d25ab",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 49262,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_022415.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2024-12-06",
+        "end_date": null,
+        "managers": [
+          "田维"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2024-12-06",
+        "end_date": null,
+        "managers": [
+          "田维"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "田维"
+    ],
+    "appointment_signature": "402e35284587169fcea7abf407439b5570b331aed2f9cc64fb7ecb027a6d25ab",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "changed"
+}

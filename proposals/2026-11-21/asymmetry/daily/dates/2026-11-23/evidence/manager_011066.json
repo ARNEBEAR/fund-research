@@ -1,0 +1,89 @@
+{
+  "id": "manager_011066",
+  "name": "刘旭 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_011066.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_011066",
+  "code": "011066",
+  "status": "collected",
+  "checked_at": "2026-11-23T03:25:41.667543+08:00",
+  "publication_date": "2020-12-25",
+  "date_candidates": [],
+  "content_sha256": "d44bbc347272f129c2b5cc0d6b0b013f51dc04a21a06715620f18146ee015224",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_011066",
+    "checked_at": "2026-11-23T03:25:41.667543+08:00",
+    "publication_date": "2020-12-25",
+    "content_sha256": "d44bbc347272f129c2b5cc0d6b0b013f51dc04a21a06715620f18146ee015224",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2020-12-25",
+          "end_date": null,
+          "managers": [
+            "刘旭"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2020-12-25",
+          "end_date": null,
+          "managers": [
+            "刘旭"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "刘旭"
+      ],
+      "appointment_signature": "d92788258bb20eafc43986d687b0115c40adf80475f6a2791ddac9c60d31d9e2",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 49900,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_011066.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2020-12-25",
+        "end_date": null,
+        "managers": [
+          "刘旭"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2020-12-25",
+        "end_date": null,
+        "managers": [
+          "刘旭"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "刘旭"
+    ],
+    "appointment_signature": "d92788258bb20eafc43986d687b0115c40adf80475f6a2791ddac9c60d31d9e2",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "changed"
+}

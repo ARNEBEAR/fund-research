@@ -1,0 +1,828 @@
+{
+  "asof": "2026-11-23",
+  "mode": "scheduled evidence collection and rule checks; no fresh AI or human review",
+  "sources": [
+    {
+      "source_id": "body_mof_latest_1",
+      "title": "2026年1-10月财政收支情况",
+      "url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "date_basis": "publisher page metadata",
+      "checked_at": "2026-11-23T03:26:04.569111+08:00",
+      "status": "collected",
+      "excerpt": " .车船税、船舶吨税、烟叶税等其他各项税收收入合计 1148 亿元， 同比下降 0.8 %。 （二）一般公共预算支出情况 。 1-10月 ， 全国一般公共预算支出 228042 亿元， 同比增长 1 %。 分中央和地方看， 中央一般公共预算本级支出 36608 亿元， 同比增长 5.4 %；地方一般公共预算支出 191434 亿元， 同比 增长0.2 %。 主要支出科目情况如下： 1.教育支出 34590 亿元， 同比增长 1.4 %。 2.科学技术支出 7889 亿元， 同比增长 0.5 %。 3.文化旅游体育与传媒支出 2708 亿元， 同比下降 5.9% 。 4.社会保障和就业支出 39544 亿元， 同比 增长 4.8 %。 5.卫生健康支出 18191 亿元， 同比增长 7.8 %。 6.节能环保支出 3735 亿元， 同比下降 11.8 %。 7.城乡社区支出 15018 亿元， 同比下降 1.5 %。 8.农林水支出 16901 亿元 … 元，同比下降20.4%， 其中 ，国有土地使用权出让收入18526亿元，同比下降25.8%。 （二）政府性基金预算支出情况 。 1-10月 ， 全国政府性基金预算支出69746亿元，同比下降13.8%。 分中央和地方看，中央政府性基金预算本级支出 4229亿元，同比下降50.6%； 地方政府性基金预算支出 65517 亿元 ，同比下降 9.4 %，其中 ， 国有土地使用权出让收入 相关 支出 27919亿元，同比 下降 17.3 % 。",
+      "content_sha256": "c436fe9bd6a7e38fe042caef85de95497d1d30b528f4d7f9d20f2f53e0e62790"
+    },
+    {
+      "source_id": "body_nbs_latest_2",
+      "title": "10月份国民经济运行总体平稳、向新向优",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html",
+      "publication_date": "2026/11/16",
+      "date_basis": "publisher page metadata",
+      "checked_at": "2026-11-23T03:26:05.815457+08:00",
+      "status": "collected",
+      "excerpt": "国规模以上工业增加值同比增长 5.3% 。 10 月份，制造业采购经理指数为 49.3% ，企业生产经营活动预期指数为 53.4% 。 1 — 9 月份，全国规模以上工业企业实现利润总额 60337 亿元，同比增长 15.5% 。 二、服务业平稳增长，现代服务业增势良好 10 月份，全国服务业生产指数同比增长 4.6% 。分行业看，租赁和商务服务业，信息传输、软件和信息技术服务业，交通运输、仓储和邮政业生产指数同比分别增长 9.3% 、 9.2% 、 5.1% 。 1 — 10 月份，全国服务业生产指数同比增长 4.7% 。 10 月份，服务业商务活动指数为 50.0% ，服务业业务活动预期指数为 55.2% 。其中，铁路运输、水上运输、邮政、互联网软件及信息技术服务等行业商务活动指数位于 55.0% 以上较高景气区间。 1 — 9 月份，规模以上服务业企业营业收入同比增长 5.4% 。 三、市场销售规模扩大，服务零售增长较快 1 — 10 月份，",
+      "content_sha256": "8dad76a8e13a1956e6b68402197067578d37cc1e78da9370bc7e74156a1f2a5f"
+    },
+    {
+      "source_id": "body_nbs_latest_3",
+      "title": "2026年10月份规模以上工业增加值增长4.8%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html",
+      "publication_date": "2026/11/16",
+      "date_basis": "publisher page metadata",
+      "checked_at": "2026-11-23T03:26:08.091742+08:00",
+      "status": "collected",
+      "excerpt": "10 月份，规模以上工业增加值同比实际增长 4.8% （增加值增速均为扣除价格因素的实际增长率）。从环比看， 10 月份，规模以上工业增加值比上月增长 0.21% 。 1 — 10 月份，规模以上工业增加值同比增长 5.3% 。 分三大门类看， 10 月份，采矿业增加值同比增长 0.7% ，制造业增长 5.4% ，电力、热力、燃气及水生产和供应业增长 4.4% 。 分经济类型看， 10 月份，国有控股企业增加值同比增长 2.1% ；股份制企业增长 5.2% ，外商及港澳台投资企业增长 3.0% ；私营企业增长 3.2% 。 分行业看， 10 月份， 41 个大类行业中有 28 个行业增加值保持同比增长。其中，煤炭开采和洗选业下降 2.9% ，石油和天然气开采业增长 9.4% ，农副食品加工业增长 4.0% ，酒、饮料和精制茶制造业增长 4.9% ，纺织业增长 2.0% ，化学原料和化学制品制造业增长 1.3% ，非金属矿物制品业下降 2.3% ，黑色金属冶炼和压延加工业下降 1.7% ，有色金属冶炼和压延加工业下降 4.4% ，通用设备制造业增长 8.5% ，专用设备制造业增长 11.5% ，汽车制造业增长 0.9% ，铁路、船舶、航空航天和其他运输设备制造业增长 9.2% ，电气机械和器材制造业增长 8.1% ，计算机、通信和其他电子设备制造业增长 19.4% ，电力、热力生产和供应业增长 4.2% 。 分产品看， 10 月份，规模以上工业 626 种产品中有 254 种产品产量同比增长。其中，钢材 11161 万吨，同比下降 5.1% ；水泥 14375 万吨，下降 1.3% ；十种有色金属 685 万吨，下降 1.2% ；乙烯 356 万吨，增长 1.1% ；汽车 304.5 万辆，下降 7.7% ，其中新能源汽车 202.7 万辆，增长 17.1% ；发电量 7940 亿千瓦时，下降 2.1% ；原油加工量 5830 万吨，下降 8.1% 。 10 月份，规模以上工业企业产品销售率为 96.5% ，同比下降 0.4 个百分点；规模以上工业企业实现出口交货值 15580 亿元，同比名义增长 18.6% 。 2026 年 10 月份规模以上工业生产主要数据 指标 10 月 1 — 10 月 绝对量 同比增长 （ % ） 绝对量 同比增长 （ % ） 规模以上工业增加值 … 4.8 … 5.3 分三大门类 采矿业 … 0.7 … 1.9 制造业 … 5.4 … 5.7 其中：高技术制造业 … 17.6 … 14.6 电力、热力、燃气及水生产和供应业 … 4.4 … 5.3 分经济类型 其中：国有控股企业 … 2.1 … 3.6 其中：股份制企业 … 5.2 … 5.7 外商及港澳台投资企业 … 3.0 … 3.2 其中：私营企业 … 3.2 … 4.2 主要行业增加值 煤炭开采和洗选业 … -2.9 … -0.1 石油和天然气开采业 … 9.4 … 6.1 农副食品加工业 … 4.0 … 4.5 食品制造业 … 8.6 … 8.4 酒、饮料和精制茶制造",
+      "content_sha256": "6aaa245efc7d4a99510cae5845693eec79baa35fae5de47e25237f8a94ce4cac"
+    },
+    {
+      "source_id": "body_pboc_latest_4",
+      "title": "2026年10月金融市场运行情况",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112015225760018/index.html",
+      "publication_date": "2026-11-20",
+      "date_basis": "publisher page metadata",
+      "checked_at": "2026-11-23T03:26:10.921955+08:00",
+      "status": "collected",
+      "excerpt": "地图 无障碍浏览 English Version 信息公开 新闻发布 法律法规 货币政策 宏观审慎 信贷政策 金融市场 金融稳定 调查统计 银行会计 支付体系 金融科技 人民币 经理国库 国际交往 人员招录 学术交流 征信管理 反洗钱 党建工作 服务互动 政务公开 政策解读 公告信息 图文直播 央行研究 音频视频 市场动态 网上展厅 报告下载 报刊年鉴 网送文告 办事大厅 在线申报 下载中心 网上调查 意见征集 金融知识 关于我们 | 我的位置: 沟通交流 > 沟通交流 > 新闻 2026年10月金融市场运行情况 字号 大 中 小 文章来源： 2026-11-20 18:00:05 打印本页 关闭窗口 一、货币市场运行情况 2026年10月，同业拆借日均成交3365.1亿元，同比减少10.8%；银行间市场债券回购日均成交7.4万亿元，同比增加2.0%。2026年10月末，同业拆借未到期余额1.0万亿元，银行间市场债券回购未到期余额11.0万亿元。 ",
+      "content_sha256": "ce0fbc594803f0fb22730bdb2b4b2913ca45e20ab9df33797b293358ecadda78"
+    },
+    {
+      "source_id": "body_pboc_latest_5",
+      "title": "2026年10月金融统计数据报告",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111315073060062/index.html",
+      "publication_date": "2026-11-13",
+      "date_basis": "publisher page metadata",
+      "checked_at": "2026-11-23T03:26:11.552138+08:00",
+      "status": "collected",
+      "excerpt": "地图 无障碍浏览 English Version 信息公开 新闻发布 法律法规 货币政策 宏观审慎 信贷政策 金融市场 金融稳定 调查统计 银行会计 支付体系 金融科技 人民币 经理国库 国际交往 人员招录 学术交流 征信管理 反洗钱 党建工作 服务互动 政务公开 政策解读 公告信息 图文直播 央行研究 音频视频 市场动态 网上展厅 报告下载 报刊年鉴 网送文告 办事大厅 在线申报 下载中心 网上调查 意见征集 金融知识 关于我们 | 我的位置: 沟通交流 > 沟通交流 > 新闻 2026年10月金融统计数据报告 字号 大 中 小 文章来源： 2026-11-13 17:00:00 打印本页 关闭窗口 一、社会融资规模存量同比增长7.2% 初步统计，2026年10月末社会融资规模存量为469.16万亿元，同比增长7.2%。其中，对实体经济发放的人民币贷款余额279.31万亿元，同比增长4.6%；对实体经济发放的外币贷款折合人民币余额1.26万亿元，",
+      "content_sha256": "48461c69ab2b86e9cc69ae6f691263b472bdc5ee95c9f81f99df2cf88a604341"
+    },
+    {
+      "source_id": "body_sse_latest_6",
+      "title": "第五百二十六期新闻发布会",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10838542/files/42313bdc5e6d4878ae94d0c4c01877a1.pdf",
+      "publication_date": "2026-11-20",
+      "date_basis": "observed index date; exact first disclosure not independently proven",
+      "checked_at": "2026-11-23T03:26:12.215015+08:00",
+      "status": "collected",
+      "excerpt": "沪市市场运行情况例行发布 （2026 年11 月16 日至2026 年11 月20 日） 1、市场概况  指数 收盘 涨跌幅（%） 市盈率（倍） 上证综指 3534 -2.77 15.6 科创综指 1349 -11.03 86.8 科创 50 1231 -3.80 85.2 上证180 8984 -0.54 12.5 上证380 5583 -5.70 20.6 注：市盈率以上年年报利润数据为基准，剔除亏损公司。  成交 成交额（亿元） 主板股票 22474 大宗交易 14 科创板股票 11425 盘后固定价格交易 5.0 大宗交易 2.2 债券 146582.2 现货 14675.5 回购 131838.0 借贷 68.7 基金 19455 ETF(含交易型货币基金) 19390  规模 数值 主板 股票 市价总值（万亿元） 49.7 上市公司",
+      "content_sha256": "6a95afcdc837fdc3924b7dc3e38ffe35574eec0c228726e88e8be8e9e3f3025b"
+    },
+    {
+      "source_id": "body_fed_press_7",
+      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+      "publication_date": "2026-11-20",
+      "date_basis": "observed index date; exact first disclosure not independently proven",
+      "checked_at": "2026-11-23T03:26:13.677244+08:00",
+      "status": "collected",
+      "excerpt": "eets and deposit balances their activity in money markets, and their views on other matters, such as operations on weekends and holidays. The survey was conducted in collaboration with the Federal Reserve Bank of New York between September 18, 2026, and September 28, 2026, and includes responses from banks that held around three-fourths of total banking system reserve balances at the time of the survey. For media inquiries, pl",
+      "content_sha256": "deb47b7725a534d160b55a8dedbeb1dd06019ccd72080a2c03bc88cb6fae1656"
+    },
+    {
+      "source_id": "mof_latest",
+      "title": "MOF latest treasury statistics",
+      "status": "collected",
+      "url": "https://gks.mof.gov.cn/tongjishuju/",
+      "checked_at": "2026-11-23T03:25:32.356349+08:00",
+      "publication_date": "2026-11-19",
+      "excerpt": "统计数据 财政部微信 财政部视频号 财政部 官方抖音号 移动客户端 Android下载 移动客户端 iphone下载 国库司 （政府采购管理办公室） 2017年11月21日 星期二 国库司 国库司 搜索 返回主站 关于我们 工作动态 规章制度 统计数据 当前位置： 首页 > 统计数据 统计数据 2026年1-10月财政收支情况 2026-11-20 2026年9月中央政府收支及融资数据和二季度债务余额情况（Central_Government_Operations_... 2026-10-26 2026年前三季度财政收支情况 2026-10-23 2025年全国政府采购简要情况 2026-09-28 2026年1-8月财政收支情况 2026-09-18 2026年1-7月财政收支情况 2026-08-21 2026年上半年财政收支情况 2026-07-22 2026年1-5月财政收支情况 2026-06-22 2026年1-4月财政收支情况 2026-05-20 2026年一季度财政收支情况 2026-04-24 网站地图 联系我们 主办单位：中华人民共和国财政部 网站标识码：bm14",
+      "latest_links": [
+        {
+          "title": "2026年1-10月财政收支情况",
+          "url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+          "publication_date": "2026-11-19",
+          "date_basis": "link title or URL"
+        },
+        {
+          "title": "2026年9月中央政府收支及融资数据和二季度债务余额情况（Central_Government_Operations_...",
+          "url": "https://gks.mof.gov.cn/tongjishuju/202610/P020261026531673083870.pdf",
+          "publication_date": "2026-10-26",
+          "date_basis": "bounded link row text"
+        }
+      ]
+    },
+    {
+      "source_id": "nbs_latest",
+      "title": "NBS latest releases",
+      "status": "collected",
+      "url": "https://www.stats.gov.cn/sj/zxfb/",
+      "checked_at": "2026-11-23T03:25:32.357032+08:00",
+      "publication_date": "2026-11-16",
+      "excerpt": "数据发布 - 国家统计局 EN 搜索 首页 机构 新闻 时政要闻 统计新闻 数据 公开 服务 互动 知识 专题 当前位置： 首页 > 数据 > 数据发布 数据发布 10月份国民经济运行总体平稳、向新向优 10月份国民经济运行总体平稳、向新向优 10月份国民经济运行总体平稳、向新向优 2026-11-16 2026年10月份规模以上工业增加值增长4.8% 2026年10月份规模以上工业增加值增长4.8% 2026年10月份规模以上工业增加值增长4.8% 2026-11-16 2026年1—10月份全国固定资产投资基本情况 2026年1—10月份全国固定资产投资基本情况 2026年1—10月份全国固定资产投资基本情况 2026-11-16 2026年1—10月份全国房地产市场基本情况 2026年1—10月份全国房地产市场基本情况 2026年1—10月份全国房地产市场基本情况 2026-11-16 2026年1—10月份社会消费品零售总额增长1.0% 2026年1—10月份社会消费品零售总额增长1.0% 2026年1—10月份社会消费品零售总额增长... 2026-11-16 2026年10",
+      "latest_links": [
+        {
+          "title": "10月份国民经济运行总体平稳、向新向优",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html",
+          "publication_date": "2026-11-16",
+          "date_basis": "link title or URL"
+        },
+        {
+          "title": "2026年10月份规模以上工业增加值增长4.8%",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html",
+          "publication_date": "2026-11-16",
+          "date_basis": "link title or URL"
+        }
+      ]
+    },
+    {
+      "source_id": "pboc_latest",
+      "title": "PBOC latest news and statistics",
+      "status": "collected",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html",
+      "checked_at": "2026-11-23T03:25:32.357189+08:00",
+      "publication_date": "2026-11-21",
+      "excerpt": "地图 无障碍浏览 English Version 信息公开 新闻发布 法律法规 货币政策 宏观审慎 信贷政策 金融市场 金融稳定 调查统计 银行会计 支付体系 金融科技 人民币 经理国库 国际交往 人员招录 学术交流 征信管理 反洗钱 党建工作 服务互动 政务公开 政策解读 公告信息 图文直播 央行研究 音频视频 市场动态 网上展厅 报告下载 报刊年鉴 网送文告 办事大厅 在线申报 下载中心 网上调查 意见征集 金融知识 关于我们 | 我的位置： 沟通交流 > 沟通交流 > 新闻 高级搜索 中国人民银行召开党的二十届五中全会精神宣讲报告会 2026-11-21 中国人民银行行长潘功胜会见万事达卡首席执行官孟轲 2026-11-20 2026年10月金融市场运行情况 2026-11-20 中国人民银行公告﹝2026﹞第29号 2026-11-20 中国人民银行与加拿大财政部、加拿大央行共同签署《中加金融工作组工作规范... 2026-11-18 20",
+      "latest_links": [
+        {
+          "title": "中国人民银行召开党的二十届五中全会精神宣讲报告会",
+          "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112109473354413/index.html",
+          "publication_date": "2026-11-21",
+          "date_basis": "bounded link row text"
+        },
+        {
+          "title": "中国人民银行行长潘功胜会见万事达卡首席执行官孟轲",
+          "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112018344539698/index.html",
+          "publication_date": "2026-11-20",
+          "date_basis": "bounded link row text"
+        }
+      ]
+    },
+    {
+      "source_id": "sse_latest",
+      "title": "SSE latest market conference index",
+      "status": "collected",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/",
+      "checked_at": "2026-11-23T03:25:32.357422+08:00",
+      "publication_date": "2026-11-20",
+      "excerpt": "上交所发布 上交所移动App 2026-11-20 第五百二十六期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-11-13 第五百二十五期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-11-06 第五百二十四期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-10-30 第五百二十三期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-10-23 第五百二十二期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-10-16 第五百二十一期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-09-30 第五百二十期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] 2026-09-18 第五百一十九期新闻发布会 本次新闻发布会内容包括沪市市场运行情况... [详情] ",
+      "latest_links": [
+        {
+          "title": "第五百二十六期新闻发布会",
+          "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10838542/files/42313bdc5e6d4878ae94d0c4c01877a1.pdf",
+          "publication_date": "2026-11-20",
+          "date_basis": "bounded link row text"
+        },
+        {
+          "title": "第五百二十五期新闻发布会",
+          "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/c/10837710/files/2c5cd52d68364e30883040a7b378ef9a.pdf",
+          "publication_date": "2026-11-13",
+          "date_basis": "bounded link row text"
+        }
+      ]
+    },
+    {
+      "source_id": "fed_press",
+      "title": "美联储公告",
+      "status": "collected",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "checked_at": "2026-11-23T03:25:32.357673+08:00",
+      "publication_date": "2026-11-20",
+      "excerpt": "st Security Bancorp | Minutes of the Federal Open Market Committee, October 27-28, 2026 | Agencies extend comment period for proposed third-party risk management guidance | Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "latest_links": [
+        {
+          "title": "Federal Reserve announces College Fed Challenge winners",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
+          "publication_date": "2026-11-20",
+          "date_basis": "RSS pubDate"
+        },
+        {
+          "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+          "publication_date": "2026-11-20",
+          "date_basis": "RSS pubDate"
+        }
+      ]
+    },
+    {
+      "source_id": "nbs_interpretation",
+      "title": "NBS latest interpretations",
+      "status": "collected",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/",
+      "checked_at": "2026-11-23T03:25:33.838451+08:00",
+      "publication_date": "2026-11-16",
+      "excerpt": "最新发布和解读聚合 - 国家统计局 EN 搜索 首页 机构 新闻 时政要闻 统计新闻 数据 公开 服务 互动 知识 专题 数据发布 数据解读 最新发布和解读聚合 新闻发布会 统计制度 统计标准 指标解释 统计公报 普查数据 中国统计年鉴 发布日程 当前位置： 首页 > 数据 > 最新发布和解读聚合 最新发布和解读聚合 国家统计局新闻发言人就2026年10月份国民经济运行情况答记者问 国家统计局新闻发言人就2026年10月份国民经济运行情况答记者问 国家统计局新闻发言人就2026年10月份国... 2026-11-16 国家统计局工业司首席统计师孙晓解读2026年10月份工业生产数据 国家统计局工业司首席统计师孙晓解读2026年10月份工业生产数据 国家统计局工业司首席统计师孙晓解读202... 2026-11-16 国家统计局投资司张刚解读2026年1—10月份投资数据 国家统计局投资司张刚解读2026年1—10月份投资数据 国家统计局投资司张刚解读2026年1—10月... 2026-11-16 国家统计局贸经司首席统计师袁彦解读1—10月份消费市场数据 国家统计局贸经司首席统计师袁",
+      "latest_links": [
+        {
+          "title": "国家统计局新闻发言人就2026年10月份国民经济运行情况答记者问",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965869.html",
+          "publication_date": "2026-11-16",
+          "date_basis": "link title or URL"
+        },
+        {
+          "title": "国家统计局工业司首席统计师孙晓解读2026年10月份工业生产数据",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965852.html",
+          "publication_date": "2026-11-16",
+          "date_basis": "link title or URL"
+        }
+      ]
+    },
+    {
+      "source_id": "fed_calendar",
+      "title": "FOMC official calendar",
+      "status": "collected",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "checked_at": "2026-11-23T03:25:34.000819+08:00",
+      "publication_date": "2026-10-28",
+      "excerpt": "t Button Submit Home Monetary Policy Federal Open Market Committee Federal Open Market Committee About the FOMC Meeting calendars and information Transcripts and other historical materials FAQs Meeti",
+      "latest_links": [
+        {
+          "title": "PDF",
+          "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf",
+          "publication_date": "2026-10-28",
+          "date_basis": "link title or URL"
+        },
+        {
+          "title": "HTML",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "publication_date": "2026-10-28",
+          "date_basis": "link title or URL"
+        }
+      ]
+    },
+    {
+      "source_id": "msft_ir",
+      "title": "微软投资者关系",
+      "status": "collected",
+      "url": "https://www.microsoft.com/en-us/investor/default",
+      "checked_at": "2026-11-23T03:25:34.119220+08:00",
+      "publication_date": "2026-10-21",
+      "excerpt": "icrosoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso",
+      "latest_links": [
+        {
+          "title": "Volkswagen",
+          "url": "https://news.microsoft.com/source/2026/10/21/microsoft-empowers-more-than-330000-volkswagen-group-employees-with-copilot/",
+          "publication_date": "2026-10-21",
+          "date_basis": "link title or URL"
+        },
+        {
+          "title": "Manulife",
+          "url": "https://news.microsoft.com/source/canada/2026/07/22/manulife-expands-partnership-with-microsoft-to-accelerate-enterprise-ai-governance-and-innovation/",
+          "publication_date": "2026-07-22",
+          "date_basis": "link title or URL"
+        }
+      ]
+    },
+    {
+      "source_id": "announcements_022415",
+      "title": "前海开源国企精选C disclosures",
+      "status": "collected",
+      "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=022415&pageIndex=1&pageSize=20&type=0",
+      "checked_at": "2026-11-23T03:25:41.213103+08:00",
+      "publication_date": "2026-10-27",
+      "excerpt": "",
+      "latest_links": [
+        {
+          "title": "前海开源基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+          "url": "https://fund.eastmoney.com/gonggao/022415,AN202610301831251690.html",
+          "publication_date": "2026-10-27"
+        },
+        {
+          "title": "前海开源国企精选混合型发起式证券投资基金2026年第3季度报告",
+          "url": "https://fund.eastmoney.com/gonggao/022415,AN202610271830981947.html",
+          "publication_date": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "source_id": "announcements_021902",
+      "title": "广发主题领先C disclosures",
+      "status": "collected",
+      "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=021902&pageIndex=1&pageSize=20&type=0",
+      "checked_at": "2026-11-23T03:25:41.643591+08:00",
+      "publication_date": "2026-10-27",
+      "excerpt": "",
+      "latest_links": [
+        {
+          "title": "广发主题领先灵活配置混合型证券投资基金2026年第3季度报告",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202610271830977352.html",
+          "publication_date": "2026-10-27"
+        },
+        {
+          "title": "广发基金管理有限公司关于旗下基金2026年第3季度报告提示性公告",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202610261830940160.html",
+          "publication_date": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "source_id": "announcements_011066",
+      "title": "大成高鑫C disclosures",
+      "status": "collected",
+      "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=011066&pageIndex=1&pageSize=20&type=0",
+      "checked_at": "2026-11-23T03:25:41.838644+08:00",
+      "publication_date": "2026-10-27",
+      "excerpt": "",
+      "latest_links": [
+        {
+          "title": "大成基金管理有限公司旗下228只公募基金2026年第3季度报告提示性公告",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202610271831024849.html",
+          "publication_date": "2026-10-27"
+        },
+        {
+          "title": "大成高鑫股票型证券投资基金2026年第3季度报告",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202610271830979356.html",
+          "publication_date": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "source_id": "announcements_021180",
+      "title": "易方达产业机遇C disclosures",
+      "status": "collected",
+      "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=021180&pageIndex=1&pageSize=20&type=0",
+      "checked_at": "2026-11-23T03:25:42.505286+08:00",
+      "publication_date": "2026-10-27",
+      "excerpt": "",
+      "latest_links": [
+        {
+          "title": "易方达产业机遇混合型证券投资基金2026年第3季度报告",
+          "url": "https://fund.eastmoney.com/gonggao/021180,AN202610271830959094.html",
+          "publication_date": "2026-10-27"
+        },
+        {
+          "title": "易方达产业机遇混合型证券投资基金2026年中期报告",
+          "url": "https://fund.eastmoney.com/gonggao/021180,AN202608311828748490.html",
+          "publication_date": "2026-08-31"
+        }
+      ]
+    }
+  ],
+  "manager_inputs": [
+    {
+      "source_id": "manager_022415",
+      "code": "022415",
+      "current": [
+        "田维"
+      ],
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_022415",
+      "code": "022415",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_021902",
+      "code": "021902",
+      "current": [
+        "冯汉杰"
+      ],
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_021902",
+      "code": "021902",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_011066",
+      "code": "011066",
+      "current": [
+        "刘旭"
+      ],
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_011066",
+      "code": "011066",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_021180",
+      "code": "021180",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_021180",
+      "code": "021180",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_010390",
+      "code": "010390",
+      "current": [
+        "黄蕴藉"
+      ],
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_010390",
+      "code": "010390",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_022714",
+      "code": "022714",
+      "current": [
+        "莫海波"
+      ],
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_022714",
+      "code": "022714",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_519697",
+      "code": "519697",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_519697",
+      "code": "519697",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_027170",
+      "code": "027170",
+      "current": [
+        "蔡铮"
+      ],
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_027170",
+      "code": "027170",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_008270",
+      "code": "008270",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_008270",
+      "code": "008270",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_019032",
+      "code": "019032",
+      "current": [
+        "祁禾"
+      ],
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_019032",
+      "code": "019032",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_017787",
+      "code": "017787",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_017787",
+      "code": "017787",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_020254",
+      "code": "020254",
+      "current": [
+        "伍旋"
+      ],
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_020254",
+      "code": "020254",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_012817",
+      "code": "012817",
+      "current": [
+        "郑有为"
+      ],
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_012817",
+      "code": "012817",
+      "current": null,
+      "new_disclosures": []
+    },
+    {
+      "source_id": "manager_011370",
+      "code": "011370",
+      "current": [
+        "张明昕"
+      ],
+      "new_disclosures": []
+    },
+    {
+      "source_id": "announcements_011370",
+      "code": "011370",
+      "current": null,
+      "new_disclosures": []
+    }
+  ],
+  "nav": [
+    {
+      "code": "001076",
+      "date": "2026-11-20",
+      "nav": 3.103,
+      "status": "collected"
+    },
+    {
+      "code": "002051",
+      "date": "2026-11-20",
+      "nav": 2.099,
+      "status": "collected"
+    },
+    {
+      "code": "002244",
+      "date": "2026-11-20",
+      "nav": 2.174,
+      "status": "collected"
+    },
+    {
+      "code": "002943",
+      "date": "2026-11-20",
+      "nav": 3.7231,
+      "status": "collected"
+    },
+    {
+      "code": "004237",
+      "date": "2026-11-20",
+      "nav": 2.4058,
+      "status": "collected"
+    },
+    {
+      "code": "004407",
+      "date": "2026-11-20",
+      "nav": 1.7763,
+      "status": "collected"
+    },
+    {
+      "code": "006038",
+      "date": "2026-11-20",
+      "nav": 2.9297,
+      "status": "collected"
+    },
+    {
+      "code": "008270",
+      "date": "2026-11-20",
+      "nav": 1.6555,
+      "status": "collected"
+    },
+    {
+      "code": "010390",
+      "date": "2026-11-20",
+      "nav": 1.3289,
+      "status": "collected"
+    },
+    {
+      "code": "011066",
+      "date": "2026-11-20",
+      "nav": 4.7173,
+      "status": "collected"
+    },
+    {
+      "code": "011370",
+      "date": "2026-11-20",
+      "nav": 1.7251,
+      "status": "collected"
+    },
+    {
+      "code": "011437",
+      "date": "2026-11-20",
+      "nav": 2.2307,
+      "status": "collected"
+    },
+    {
+      "code": "012449",
+      "date": "2026-11-20",
+      "nav": 1.9555,
+      "status": "collected"
+    },
+    {
+      "code": "012817",
+      "date": "2026-11-20",
+      "nav": 1.1988,
+      "status": "collected"
+    },
+    {
+      "code": "012940",
+      "date": "2026-11-20",
+      "nav": 2.8839,
+      "status": "collected"
+    },
+    {
+      "code": "013620",
+      "date": "2026-11-20",
+      "nav": 3.343,
+      "status": "collected"
+    },
+    {
+      "code": "013860",
+      "date": "2026-11-20",
+      "nav": 1.0203,
+      "status": "collected"
+    },
+    {
+      "code": "017787",
+      "date": "2026-11-20",
+      "nav": 2.7793,
+      "status": "collected"
+    },
+    {
+      "code": "019032",
+      "date": "2026-11-20",
+      "nav": 6.11,
+      "status": "collected"
+    },
+    {
+      "code": "019484",
+      "date": "2026-11-20",
+      "nav": 4.622,
+      "status": "collected"
+    },
+    {
+      "code": "020254",
+      "date": "2026-11-20",
+      "nav": 1.44,
+      "status": "collected"
+    },
+    {
+      "code": "021180",
+      "date": "2026-11-20",
+      "nav": 2.5286,
+      "status": "collected"
+    },
+    {
+      "code": "021277",
+      "date": "2026-11-19",
+      "nav": 4.9806,
+      "status": "collected"
+    },
+    {
+      "code": "021662",
+      "date": "2026-11-19",
+      "nav": 2.0778,
+      "status": "collected"
+    },
+    {
+      "code": "021902",
+      "date": "2026-11-20",
+      "nav": 2.2378,
+      "status": "collected"
+    },
+    {
+      "code": "022184",
+      "date": "2026-11-19",
+      "nav": 3.6896,
+      "status": "collected"
+    },
+    {
+      "code": "022415",
+      "date": "2026-11-20",
+      "nav": 1.5322,
+      "status": "collected"
+    },
+    {
+      "code": "022714",
+      "date": "2026-11-20",
+      "nav": 4.0309,
+      "status": "collected"
+    },
+    {
+      "code": "023875",
+      "date": "2026-11-20",
+      "nav": 1.8412,
+      "status": "collected"
+    },
+    {
+      "code": "027170",
+      "date": "2026-11-19",
+      "nav": 2.7928,
+      "status": "collected"
+    },
+    {
+      "code": "519697",
+      "date": "2026-11-20",
+      "nav": 5.505,
+      "status": "collected"
+    },
+    {
+      "code": "110020",
+      "date": "2026-11-20",
+      "nav": 1.6408,
+      "status": "collected"
+    },
+    {
+      "code": "510300",
+      "date": "2026-11-20",
+      "nav": 4.0286,
+      "status": "collected"
+    },
+    {
+      "code": "510880",
+      "date": "2026-11-20",
+      "nav": 3.4339,
+      "status": "collected"
+    },
+    {
+      "code": "512010",
+      "date": "2026-11-20",
+      "nav": 0.374,
+      "status": "collected"
+    },
+    {
+      "code": "512400",
+      "date": "2026-11-20",
+      "nav": 1.2442,
+      "status": "collected"
+    },
+    {
+      "code": "512480",
+      "date": "2026-11-20",
+      "nav": 0.7451,
+      "status": "collected"
+    },
+    {
+      "code": "513500",
+      "date": "2026-11-19",
+      "nav": 2.2782,
+      "status": "collected"
+    },
+    {
+      "code": "515880",
+      "date": "2026-11-20",
+      "nav": 0.3631,
+      "status": "collected"
+    }
+  ],
+  "coverage": {
+    "attempted": 82,
+    "success": 75,
+    "failed": 7,
+    "groups": {
+      "macro_market": {
+        "attempted": 15,
+        "success": 12,
+        "failed": 3,
+        "planned": 15,
+        "not_attempted": 0
+      },
+      "nav": {
+        "attempted": 39,
+        "success": 39,
+        "failed": 0,
+        "planned": 39,
+        "not_attempted": 0
+      },
+      "manager": {
+        "attempted": 14,
+        "success": 10,
+        "failed": 4,
+        "planned": 14,
+        "not_attempted": 0
+      },
+      "announcements": {
+        "attempted": 14,
+        "success": 14,
+        "failed": 0,
+        "planned": 14,
+        "not_attempted": 0
+      }
+    },
+    "sections": 22,
+    "claims": 26,
+    "managers": 14,
+    "funds": 31,
+    "etfs": 7,
+    "registered_sources": 65,
+    "semantic_reviews_today": 0,
+    "planned": 82,
+    "not_attempted": 0
+  },
+  "unmeasured": [
+    "实时全市场广度连续序列",
+    "弱城投/同银行资本债利差",
+    "基金盲盒实时交易",
+    "同日所有估值和盈利一致预期",
+    "持有人可用现金与损失效用"
+  ]
+}

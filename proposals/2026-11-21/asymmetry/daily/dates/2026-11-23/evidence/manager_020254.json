@@ -1,0 +1,89 @@
+{
+  "id": "manager_020254",
+  "name": "伍旋 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_020254.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_020254",
+  "code": "020254",
+  "status": "collected",
+  "checked_at": "2026-11-23T03:25:46.546893+08:00",
+  "publication_date": "2023-12-13",
+  "date_candidates": [],
+  "content_sha256": "7c7429c58413741af95cb024c4eb7c84f6de88be04e46f6a88e61a796e60f594",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_020254",
+    "checked_at": "2026-11-23T03:25:46.546893+08:00",
+    "publication_date": "2023-12-13",
+    "content_sha256": "7c7429c58413741af95cb024c4eb7c84f6de88be04e46f6a88e61a796e60f594",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2023-12-13",
+          "end_date": null,
+          "managers": [
+            "伍旋"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2023-12-13",
+          "end_date": null,
+          "managers": [
+            "伍旋"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "伍旋"
+      ],
+      "appointment_signature": "cfd293e6b5b0dd290a6001cf83a8a2092aa2174748ec215f2c12d2a6926ca680",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 47419,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_020254.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2023-12-13",
+        "end_date": null,
+        "managers": [
+          "伍旋"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2023-12-13",
+        "end_date": null,
+        "managers": [
+          "伍旋"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "伍旋"
+    ],
+    "appointment_signature": "cfd293e6b5b0dd290a6001cf83a8a2092aa2174748ec215f2c12d2a6926ca680",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "changed"
+}
