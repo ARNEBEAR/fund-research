@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-22T14:25:39.551603+08:00",
+  "checked_at": "2026-11-22T15:07:07.837886+08:00",
   "publication_date": "2026-11-20",
   "date_candidates": [
     {
@@ -109,7 +109,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "sse_latest",
-    "checked_at": "2026-11-22T14:25:39.551603+08:00",
+    "checked_at": "2026-11-22T15:07:07.837886+08:00",
     "publication_date": "2026-11-20",
     "content_sha256": "9362dea13034760870f44db606001abba1614b4539faa0b2cf7958cd2cd8507c",
     "status": "collected",

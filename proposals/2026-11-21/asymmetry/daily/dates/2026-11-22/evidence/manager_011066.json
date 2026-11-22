@@ -7,7 +7,7 @@
   "family": "manager_011066",
   "code": "011066",
   "status": "collected",
-  "checked_at": "2026-11-22T14:25:55.993454+08:00",
+  "checked_at": "2026-11-22T15:07:21.687134+08:00",
   "publication_date": "2020-12-25",
   "date_candidates": [],
   "content_sha256": "6dfebbdc197a76c4b583fbd29ebc1f676709afa51675de5ec68df72e2fefbe01",
@@ -18,7 +18,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_011066",
-    "checked_at": "2026-11-22T14:25:55.993454+08:00",
+    "checked_at": "2026-11-22T15:07:21.687134+08:00",
     "publication_date": "2020-12-25",
     "content_sha256": "6dfebbdc197a76c4b583fbd29ebc1f676709afa51675de5ec68df72e2fefbe01",
     "status": "collected",

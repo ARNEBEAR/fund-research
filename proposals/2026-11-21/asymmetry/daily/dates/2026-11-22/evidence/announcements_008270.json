@@ -7,7 +7,7 @@
   "family": "manager_008270",
   "code": "008270",
   "status": "collected",
-  "checked_at": "2026-11-22T14:26:03.815587+08:00",
+  "checked_at": "2026-11-22T15:07:26.421368+08:00",
   "publication_date": "2026-10-27",
   "date_candidates": [
     {
@@ -64,7 +64,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "announcements_008270",
-    "checked_at": "2026-11-22T14:26:03.815587+08:00",
+    "checked_at": "2026-11-22T15:07:26.421368+08:00",
     "publication_date": "2026-10-27",
     "content_sha256": "19259bd9a6d3ffd1d3adcf509517f991eb7fb5523e993d516f1750e56942b251",
     "status": "collected",

@@ -6,19 +6,19 @@
   "group": "manager",
   "family": "manager_012817",
   "code": "012817",
-  "status": "failed",
-  "checked_at": "2026-11-22T14:26:06.401895+08:00",
-  "publication_date": null,
+  "status": "collected",
+  "checked_at": "2026-11-22T15:07:30.209467+08:00",
+  "publication_date": "2022-01-21",
   "date_candidates": [],
-  "content_sha256": null,
+  "content_sha256": "5586b641a60122eb2d2f699a314375e5867252d0a9cee1bc6f75bd9390496275",
   "excerpt": "",
-  "http_status": null,
-  "error": "URLError",
+  "http_status": 200,
+  "error": null,
   "fact_reverified": false,
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_012817",
-    "checked_at": "2026-11-22T12:48:03.484853+08:00",
+    "checked_at": "2026-11-22T15:07:30.209467+08:00",
     "publication_date": "2022-01-21",
     "content_sha256": "5586b641a60122eb2d2f699a314375e5867252d0a9cee1bc6f75bd9390496275",
     "status": "collected",
@@ -53,7 +53,37 @@
     "date_candidates": [],
     "excerpt": ""
   },
-  "stale": true,
+  "stale": false,
+  "bytes": 44575,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_012817.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2022-01-21",
+        "end_date": null,
+        "managers": [
+          "郑有为"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2022-01-21",
+        "end_date": null,
+        "managers": [
+          "郑有为"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "郑有为"
+    ],
+    "appointment_signature": "a8b6fae25b7d6ff8596b79f185a0eaf54e7067cb1de9483ec5e6a47364fcfad0",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
   "attempted": true,
   "change_status": "first observation or unavailable"
 }

@@ -8,7 +8,7 @@
   "code": "004407",
   "product_kind": "fund",
   "status": "collected",
-  "checked_at": "2026-11-22T14:25:43.953609+08:00",
+  "checked_at": "2026-11-22T15:07:12.635551+08:00",
   "publication_date": "2026-11-20",
   "date_candidates": [],
   "content_sha256": "9fc962101f3ca2667e4f95d0e45314886cced0e7f1ad186aa3e1a02786b571c5",
@@ -19,7 +19,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nav_004407",
-    "checked_at": "2026-11-22T14:25:43.953609+08:00",
+    "checked_at": "2026-11-22T15:07:12.635551+08:00",
     "publication_date": "2026-11-20",
     "content_sha256": "9fc962101f3ca2667e4f95d0e45314886cced0e7f1ad186aa3e1a02786b571c5",
     "status": "collected",

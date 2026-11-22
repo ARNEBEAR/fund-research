@@ -8,10 +8,10 @@
   "code": "017787",
   "product_kind": "fund",
   "status": "collected",
-  "checked_at": "2026-11-22T14:25:47.177528+08:00",
+  "checked_at": "2026-11-22T15:07:15.417928+08:00",
   "publication_date": "2026-11-20",
   "date_candidates": [],
-  "content_sha256": "2b06ef3eb83de18e83b6ff1b924f60bea180061259402b183e5418cadbbd9bc5",
+  "content_sha256": "2610f6a678b9c0e95e1969c0d18b5dc32e59bfb485e7b6b7a35ea1b2db8e4cf9",
   "excerpt": "017787 unit NAV 2.7793 on 2026-11-20",
   "http_status": 200,
   "error": null,
@@ -19,9 +19,9 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nav_017787",
-    "checked_at": "2026-11-22T14:25:47.177528+08:00",
+    "checked_at": "2026-11-22T15:07:15.417928+08:00",
     "publication_date": "2026-11-20",
-    "content_sha256": "2b06ef3eb83de18e83b6ff1b924f60bea180061259402b183e5418cadbbd9bc5",
+    "content_sha256": "2610f6a678b9c0e95e1969c0d18b5dc32e59bfb485e7b6b7a35ea1b2db8e4cf9",
     "status": "collected",
     "nav": {
       "code": "017787",
@@ -58,5 +58,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "unchanged bytes; not reverified"
+  "change_status": "changed"
 }
