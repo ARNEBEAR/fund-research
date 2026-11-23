@@ -7,10 +7,10 @@
   "family": "manager_021902",
   "code": "021902",
   "status": "collected",
-  "checked_at": "2026-11-23T03:25:41.635896+08:00",
+  "checked_at": "2026-11-23T15:54:19.534277+08:00",
   "publication_date": "2024-07-25",
   "date_candidates": [],
-  "content_sha256": "ea4d8f5d55a98bdae132e8a02895f1923a9844fb1ca9e2e16e2df4d4642ddfe7",
+  "content_sha256": "e1e70459db8f20796ddcf0f4f451cda14293b2a2025514f7c084f70b3a9438c6",
   "excerpt": "",
   "http_status": 200,
   "error": null,
@@ -18,9 +18,9 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_021902",
-    "checked_at": "2026-11-23T03:25:41.635896+08:00",
+    "checked_at": "2026-11-23T15:54:19.534277+08:00",
     "publication_date": "2024-07-25",
-    "content_sha256": "ea4d8f5d55a98bdae132e8a02895f1923a9844fb1ca9e2e16e2df4d4642ddfe7",
+    "content_sha256": "e1e70459db8f20796ddcf0f4f451cda14293b2a2025514f7c084f70b3a9438c6",
     "status": "collected",
     "manager": {
       "appointments": [

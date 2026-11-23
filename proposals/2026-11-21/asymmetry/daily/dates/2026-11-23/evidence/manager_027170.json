@@ -7,10 +7,10 @@
   "family": "manager_027170",
   "code": "027170",
   "status": "collected",
-  "checked_at": "2026-11-23T03:25:43.673616+08:00",
+  "checked_at": "2026-11-23T15:54:23.552723+08:00",
   "publication_date": "2026-10-29",
   "date_candidates": [],
-  "content_sha256": "cad15cabe96d86edffb361bd3e9ed98a632566f474c5debf718b08ef7299fa0e",
+  "content_sha256": "bc7610b6b94c7c5571bba3bac67f46be634905bd3032a2c15e82e71fe4e146b9",
   "excerpt": "",
   "http_status": 200,
   "error": null,
@@ -18,9 +18,9 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_027170",
-    "checked_at": "2026-11-23T03:25:43.673616+08:00",
+    "checked_at": "2026-11-23T15:54:23.552723+08:00",
     "publication_date": "2026-10-29",
-    "content_sha256": "cad15cabe96d86edffb361bd3e9ed98a632566f474c5debf718b08ef7299fa0e",
+    "content_sha256": "bc7610b6b94c7c5571bba3bac67f46be634905bd3032a2c15e82e71fe4e146b9",
     "status": "collected",
     "manager": {
       "appointments": [

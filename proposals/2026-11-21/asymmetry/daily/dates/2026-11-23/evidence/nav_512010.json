@@ -8,10 +8,10 @@
   "code": "512010",
   "product_kind": "etf",
   "status": "collected",
-  "checked_at": "2026-11-23T03:25:40.474068+08:00",
+  "checked_at": "2026-11-23T15:54:18.392764+08:00",
   "publication_date": "2026-11-20",
   "date_candidates": [],
-  "content_sha256": "25f7ce1b0f1a8f437c1c51005a9acc075348725e686227f1b323e4faa62b3e11",
+  "content_sha256": "e63c4076729e4958231bae6d660532942be017c08f5b8af2510c974351ab640e",
   "excerpt": "512010 unit NAV 0.374 on 2026-11-20",
   "http_status": 200,
   "error": null,
@@ -19,9 +19,9 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nav_512010",
-    "checked_at": "2026-11-23T03:25:40.474068+08:00",
+    "checked_at": "2026-11-23T15:54:18.392764+08:00",
     "publication_date": "2026-11-20",
-    "content_sha256": "25f7ce1b0f1a8f437c1c51005a9acc075348725e686227f1b323e4faa62b3e11",
+    "content_sha256": "e63c4076729e4958231bae6d660532942be017c08f5b8af2510c974351ab640e",
     "status": "collected",
     "nav": {
       "code": "512010",
@@ -58,5 +58,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "unchanged bytes; not reverified"
+  "change_status": "changed"
 }

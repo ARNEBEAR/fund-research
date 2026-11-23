@@ -8,10 +8,10 @@
   "code": "512400",
   "product_kind": "etf",
   "status": "collected",
-  "checked_at": "2026-11-23T03:25:40.581707+08:00",
+  "checked_at": "2026-11-23T15:54:18.476909+08:00",
   "publication_date": "2026-11-20",
   "date_candidates": [],
-  "content_sha256": "ef9787a925f72f7d3b8a13f8d49ca9cd9faec1d72c11ad22dd00b927d1a38754",
+  "content_sha256": "3050fa974b6e8cde408de87014b826a5664629b1df2a28ae0340a36e0f964eff",
   "excerpt": "512400 unit NAV 1.2442 on 2026-11-20",
   "http_status": 200,
   "error": null,
@@ -19,9 +19,9 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nav_512400",
-    "checked_at": "2026-11-23T03:25:40.581707+08:00",
+    "checked_at": "2026-11-23T15:54:18.476909+08:00",
     "publication_date": "2026-11-20",
-    "content_sha256": "ef9787a925f72f7d3b8a13f8d49ca9cd9faec1d72c11ad22dd00b927d1a38754",
+    "content_sha256": "3050fa974b6e8cde408de87014b826a5664629b1df2a28ae0340a36e0f964eff",
     "status": "collected",
     "nav": {
       "code": "512400",
@@ -58,5 +58,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "unchanged bytes; not reverified"
+  "change_status": "changed"
 }
