@@ -7,10 +7,10 @@
   "family": "manager_519697",
   "code": "519697",
   "status": "collected",
-  "checked_at": "2026-11-23T15:54:22.526166+08:00",
+  "checked_at": "2026-11-23T17:09:28.725993+08:00",
   "publication_date": "2015-07-11",
   "date_candidates": [],
-  "content_sha256": "9e27d63ce409a86cb3eb253923f91fd4f98218ad0ed156733e086b8ce54d14ee",
+  "content_sha256": "e171d5fe517ddc7480a2b5c2008ce98404b51187b1a0009f5e18f303d8830dca",
   "excerpt": "",
   "http_status": 200,
   "error": null,
@@ -18,9 +18,9 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_519697",
-    "checked_at": "2026-11-23T15:54:22.526166+08:00",
+    "checked_at": "2026-11-23T17:09:28.725993+08:00",
     "publication_date": "2015-07-11",
-    "content_sha256": "9e27d63ce409a86cb3eb253923f91fd4f98218ad0ed156733e086b8ce54d14ee",
+    "content_sha256": "e171d5fe517ddc7480a2b5c2008ce98404b51187b1a0009f5e18f303d8830dca",
     "status": "collected",
     "manager": {
       "appointments": [
@@ -71,7 +71,7 @@
     "excerpt": ""
   },
   "stale": false,
-  "bytes": 44240,
+  "bytes": 44348,
   "final_url": "https://fundf10.eastmoney.com/jjjl_519697.html",
   "manager": {
     "appointments": [
@@ -119,5 +119,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "first observation or unavailable"
+  "change_status": "changed"
 }

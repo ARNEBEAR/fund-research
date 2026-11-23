@@ -7,7 +7,7 @@
   "family": "manager_027170",
   "code": "027170",
   "status": "collected",
-  "checked_at": "2026-11-23T15:54:23.765089+08:00",
+  "checked_at": "2026-11-23T17:09:29.304378+08:00",
   "publication_date": "2026-10-29",
   "date_candidates": [
     {
@@ -54,7 +54,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "announcements_027170",
-    "checked_at": "2026-11-23T15:54:23.765089+08:00",
+    "checked_at": "2026-11-23T17:09:29.304378+08:00",
     "publication_date": "2026-10-29",
     "content_sha256": "549e0419675fff95c4a02d0cc3a7e8b4969525f4f7fb385916e6759612fbacf5",
     "status": "collected",
