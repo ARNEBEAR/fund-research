@@ -7,7 +7,7 @@
   "family": "manager_020254",
   "code": "020254",
   "status": "collected",
-  "checked_at": "2026-11-24T18:09:29.904521+08:00",
+  "checked_at": "2026-11-24T18:58:13.981979+08:00",
   "publication_date": "2026-10-26",
   "date_candidates": [
     {
@@ -44,7 +44,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "announcements_020254",
-    "checked_at": "2026-11-24T18:09:29.904521+08:00",
+    "checked_at": "2026-11-24T18:58:13.981979+08:00",
     "publication_date": "2026-10-26",
     "content_sha256": "14d6635daf33efb9626e3e2ac7e9686a1a773df4f80235a343601c5fe3daae2f",
     "status": "collected",

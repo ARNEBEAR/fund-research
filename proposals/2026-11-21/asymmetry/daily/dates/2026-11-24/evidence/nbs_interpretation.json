@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-24T18:08:49.534228+08:00",
+  "checked_at": "2026-11-24T18:57:55.246256+08:00",
   "publication_date": "2026-11-23",
   "date_candidates": [
     {
@@ -133,7 +133,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nbs_interpretation",
-    "checked_at": "2026-11-24T18:08:49.534228+08:00",
+    "checked_at": "2026-11-24T18:57:55.246256+08:00",
     "publication_date": "2026-11-23",
     "content_sha256": "c1087bfdb5d3b7fba447a24bfcabe18231532fc71b0b61269449f4304b550634",
     "status": "collected",
@@ -338,5 +338,5 @@
   "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
   "excluded_future_count": 0,
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }

@@ -6,21 +6,21 @@
   "group": "manager",
   "family": "manager_008270",
   "code": "008270",
-  "status": "failed",
-  "checked_at": "2026-11-24T18:09:19.093300+08:00",
-  "publication_date": null,
+  "status": "collected",
+  "checked_at": "2026-11-24T18:58:11.024173+08:00",
+  "publication_date": "2019-12-30",
   "date_candidates": [],
-  "content_sha256": null,
+  "content_sha256": "654913144c4c6b5735d457f5bc74d0365547ad789f9dafb465e7f9fccc3ed74f",
   "excerpt": "",
-  "http_status": null,
-  "error": "URLError",
+  "http_status": 200,
+  "error": null,
   "fact_reverified": false,
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_008270",
-    "checked_at": "2026-11-23T17:09:29.486514+08:00",
+    "checked_at": "2026-11-24T18:58:11.024173+08:00",
     "publication_date": "2019-12-30",
-    "content_sha256": "4300be031961b35b3ddd15c5bb4982358e0248bba2d84d466126a4a7d3bd7ef5",
+    "content_sha256": "654913144c4c6b5735d457f5bc74d0365547ad789f9dafb465e7f9fccc3ed74f",
     "status": "collected",
     "manager": {
       "appointments": [
@@ -53,7 +53,37 @@
     "date_candidates": [],
     "excerpt": ""
   },
-  "stale": true,
+  "stale": false,
+  "bytes": 51146,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_008270.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2019-12-30",
+        "end_date": null,
+        "managers": [
+          "徐彦"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2019-12-30",
+        "end_date": null,
+        "managers": [
+          "徐彦"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "徐彦"
+    ],
+    "appointment_signature": "e72f4acececf183875336430dc8d49ec929456e0c76aae10e7232bad1533966c",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
   "attempted": true,
   "change_status": "first observation or unavailable"
 }

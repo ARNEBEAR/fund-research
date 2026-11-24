@@ -1,15 +1,21 @@
 {
   "schema_version": "asymmetry-daily-evidence/1",
   "asof": "2026-11-24",
-  "checked_at": "2026-11-24T18:09:48.036084+08:00",
+  "checked_at": "2026-11-24T18:58:17.003768+08:00",
   "verified_on": "2026-11-24",
   "source_dates": [
     "2015-07-11",
+    "2019-12-30",
     "2020-12-25",
     "2022-01-21",
     "2023-01-17",
     "2023-02-19",
+    "2023-11-15",
+    "2023-12-13",
+    "2024-07-25",
+    "2024-08-28",
     "2024-11-27",
+    "2024-12-06",
     "2025-03-04",
     "2026-05-29",
     "2026-10-21",
@@ -19,7 +25,8 @@
     "2026-10-29",
     "2026-11-19",
     "2026-11-20",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
   ],
   "status": "partial",
   "stale": true,
@@ -52,13 +59,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:52.291898+08:00",
+      "checked_at": "2026-11-24T18:57:57.210887+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=001076&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_001076",
       "last_success": {
         "id": "nav_001076",
-        "checked_at": "2026-11-24T18:08:52.291898+08:00",
+        "checked_at": "2026-11-24T18:57:57.210887+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "df96e3ad1a8c3c9bc1112d77cfdfddb87180efd235efc1e7b73782ec345f8d13",
         "status": "collected",
@@ -93,13 +100,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:52.325244+08:00",
+      "checked_at": "2026-11-24T18:57:57.234233+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=002051&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_002051",
       "last_success": {
         "id": "nav_002051",
-        "checked_at": "2026-11-24T18:08:52.325244+08:00",
+        "checked_at": "2026-11-24T18:57:57.234233+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "6210dd3e051119336ec472731544ac2fa8cc5ef0a4fac23c0c1df397a4a01bf2",
         "status": "collected",
@@ -134,15 +141,15 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:53.274150+08:00",
+      "checked_at": "2026-11-24T18:57:57.837977+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=002244&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_002244",
       "last_success": {
         "id": "nav_002244",
-        "checked_at": "2026-11-24T18:08:53.274150+08:00",
+        "checked_at": "2026-11-24T18:57:57.837977+08:00",
         "publication_date": "2026-11-23",
-        "content_sha256": "6d07f848d801f72f052596f9fc93c89e168e7f7ad3abb31c82182d0172e4c350",
+        "content_sha256": "677f7a7a50d4d8423d764b18f3f01db9fbbb406a58a29498194de9fd0352e031",
         "status": "collected",
         "nav": {
           "code": "002244",
@@ -175,13 +182,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:53.329454+08:00",
+      "checked_at": "2026-11-24T18:57:58.176717+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=002943&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_002943",
       "last_success": {
         "id": "nav_002943",
-        "checked_at": "2026-11-24T18:08:53.329454+08:00",
+        "checked_at": "2026-11-24T18:57:58.176717+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "d439ac931068983305db0739fe24ab47b5dc1475ac60663817efca4ef4f0f250",
         "status": "collected",
@@ -216,13 +223,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:53.733556+08:00",
+      "checked_at": "2026-11-24T18:57:58.499536+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=004237&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_004237",
       "last_success": {
         "id": "nav_004237",
-        "checked_at": "2026-11-24T18:08:53.733556+08:00",
+        "checked_at": "2026-11-24T18:57:58.499536+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "16bfc6efb6bd979ec3b3abe149f6e051b84622565d184790257ea93f9af81f3d",
         "status": "collected",
@@ -257,13 +264,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:54.324029+08:00",
+      "checked_at": "2026-11-24T18:57:58.500633+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=004407&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_004407",
       "last_success": {
         "id": "nav_004407",
-        "checked_at": "2026-11-24T18:08:54.324029+08:00",
+        "checked_at": "2026-11-24T18:57:58.500633+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "6dcf4284752ca01b0f2e7cee528c10a87335a6baaf77f7461bb44adfdd1f5260",
         "status": "collected",
@@ -298,13 +305,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:54.486303+08:00",
+      "checked_at": "2026-11-24T18:57:58.779999+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=006038&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_006038",
       "last_success": {
         "id": "nav_006038",
-        "checked_at": "2026-11-24T18:08:54.486303+08:00",
+        "checked_at": "2026-11-24T18:57:58.779999+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "041e9dc120ed1426c756c0f0b5e7dbb87f1affc8aebea95d6b8cb84b46309640",
         "status": "collected",
@@ -339,13 +346,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:54.803711+08:00",
+      "checked_at": "2026-11-24T18:57:59.044347+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=008270&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_008270",
       "last_success": {
         "id": "nav_008270",
-        "checked_at": "2026-11-24T18:08:54.803711+08:00",
+        "checked_at": "2026-11-24T18:57:59.044347+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "3d32b58ab788208597bb83c4708cf40f5e13b0f385ae5263bc359b189556141a",
         "status": "collected",
@@ -380,13 +387,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:54.991144+08:00",
+      "checked_at": "2026-11-24T18:57:59.362187+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=010390&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_010390",
       "last_success": {
         "id": "nav_010390",
-        "checked_at": "2026-11-24T18:08:54.991144+08:00",
+        "checked_at": "2026-11-24T18:57:59.362187+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "abfecfa07aa705b6da4c24175b81eb0366a5a209be2c5d4b0c87500f1c0a500b",
         "status": "collected",
@@ -421,13 +428,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:55.070641+08:00",
+      "checked_at": "2026-11-24T18:57:59.393168+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=011066&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_011066",
       "last_success": {
         "id": "nav_011066",
-        "checked_at": "2026-11-24T18:08:55.070641+08:00",
+        "checked_at": "2026-11-24T18:57:59.393168+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "65d1812519c1249b1cba3514976242092932b838071f19649ce72695e711308d",
         "status": "collected",
@@ -462,13 +469,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:55.305185+08:00",
+      "checked_at": "2026-11-24T18:57:59.450532+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=011370&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_011370",
       "last_success": {
         "id": "nav_011370",
-        "checked_at": "2026-11-24T18:08:55.305185+08:00",
+        "checked_at": "2026-11-24T18:57:59.450532+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "7f250a2270dab190e4bb8c9ec685d896297ebe02215da70bad24ddb65d36b0d7",
         "status": "collected",
@@ -503,13 +510,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:55.452609+08:00",
+      "checked_at": "2026-11-24T18:57:59.752510+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=011437&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_011437",
       "last_success": {
         "id": "nav_011437",
-        "checked_at": "2026-11-24T18:08:55.452609+08:00",
+        "checked_at": "2026-11-24T18:57:59.752510+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "e33546aaf65f2b2b28043df67aca1f52e66bb9be040799266cc8c9a80444c4c5",
         "status": "collected",
@@ -544,13 +551,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:55.821142+08:00",
+      "checked_at": "2026-11-24T18:58:00.058143+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=012449&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_012449",
       "last_success": {
         "id": "nav_012449",
-        "checked_at": "2026-11-24T18:08:55.821142+08:00",
+        "checked_at": "2026-11-24T18:58:00.058143+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "39825ede4c9bc87fff65e5f1b9562208768724a8b63abcbc4eb29a47af096a3e",
         "status": "collected",
@@ -585,13 +592,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:56.384214+08:00",
+      "checked_at": "2026-11-24T18:58:00.270818+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=012817&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_012817",
       "last_success": {
         "id": "nav_012817",
-        "checked_at": "2026-11-24T18:08:56.384214+08:00",
+        "checked_at": "2026-11-24T18:58:00.270818+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "f9c3ba7e4faa944dbe68d256a4858f680a325001575ac2c7fd0c415d7c8bea7d",
         "status": "collected",
@@ -626,13 +633,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:56.879192+08:00",
+      "checked_at": "2026-11-24T18:58:00.415763+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=012940&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_012940",
       "last_success": {
         "id": "nav_012940",
-        "checked_at": "2026-11-24T18:08:56.879192+08:00",
+        "checked_at": "2026-11-24T18:58:00.415763+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "52374352f10362eb9b1a6c0a89f867d29ae96c3e4de47dc62fc31ed6caa90514",
         "status": "collected",
@@ -667,13 +674,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:56.977649+08:00",
+      "checked_at": "2026-11-24T18:58:00.917174+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=013620&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_013620",
       "last_success": {
         "id": "nav_013620",
-        "checked_at": "2026-11-24T18:08:56.977649+08:00",
+        "checked_at": "2026-11-24T18:58:00.917174+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "2496414dff7ac33675202569b04decb04efb1384ce41e47148d7de31a7654cd8",
         "status": "collected",
@@ -708,13 +715,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:57.934138+08:00",
+      "checked_at": "2026-11-24T18:58:00.924338+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=013860&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_013860",
       "last_success": {
         "id": "nav_013860",
-        "checked_at": "2026-11-24T18:08:57.934138+08:00",
+        "checked_at": "2026-11-24T18:58:00.924338+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "f51afad4b47d9a98040f50000ea7ce1bf1f144aa88db3463ef335dba601092dc",
         "status": "collected",
@@ -749,13 +756,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:59.759423+08:00",
+      "checked_at": "2026-11-24T18:58:01.787693+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=017787&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_017787",
       "last_success": {
         "id": "nav_017787",
-        "checked_at": "2026-11-24T18:08:59.759423+08:00",
+        "checked_at": "2026-11-24T18:58:01.787693+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "a8716759ca5f07d3d1b873ef1f7cf7c20ddc275c9ef4fbb6771b6211c85aa75b",
         "status": "collected",
@@ -784,38 +791,38 @@
       "name": "易方达环保主题C",
       "product_kind": "fund",
       "status": "collected",
-      "date": "2026-11-23",
-      "unit_nav": 6.13,
-      "cumulative_nav": 6.13,
-      "age_calendar_days": 1,
+      "date": "2026-11-24",
+      "unit_nav": 6.141,
+      "cumulative_nav": 6.141,
+      "age_calendar_days": 0,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:08:59.781128+08:00",
+      "checked_at": "2026-11-24T18:58:01.963682+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=019032&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_019032",
       "last_success": {
         "id": "nav_019032",
-        "checked_at": "2026-11-24T18:08:59.781128+08:00",
-        "publication_date": "2026-11-23",
-        "content_sha256": "1d4ca0a935c118609df0a35e73da36b0fa20d3fc99359a46df8cf03c1259514a",
+        "checked_at": "2026-11-24T18:58:01.963682+08:00",
+        "publication_date": "2026-11-24",
+        "content_sha256": "70ab2ba3c02ce87a8b5d60bb256f024f6d0c8314cbc5a66fd592f1ea5062c526",
         "status": "collected",
         "nav": {
           "code": "019032",
-          "date": "2026-11-23",
-          "unit_nav": 6.13,
-          "cumulative_nav": 6.13,
+          "date": "2026-11-24",
+          "unit_nav": 6.141,
+          "cumulative_nav": 6.141,
           "subscription_status": "开放申购",
           "redemption_status": "开放赎回",
           "distribution_note": null,
           "observations": 5,
-          "api_total_count": 733,
+          "api_total_count": 734,
           "return_method": "none; unit NAV observation only, no dividend fill or forecast",
           "identity_basis": "exact fundCode request; response schema has no code field",
           "fact_reverified": false
         },
         "date_candidates": [],
-        "excerpt": "019032 unit NAV 6.13 on 2026-11-23"
+        "excerpt": "019032 unit NAV 6.141 on 2026-11-24"
       },
       "fact_reverified": false,
       "return_method": "none; latest unit NAV only"
@@ -831,13 +838,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:00.130061+08:00",
+      "checked_at": "2026-11-24T18:58:02.632584+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=019484&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_019484",
       "last_success": {
         "id": "nav_019484",
-        "checked_at": "2026-11-24T18:09:00.130061+08:00",
+        "checked_at": "2026-11-24T18:58:02.632584+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "1165868a91ae6efe5f7ac1fb05c0806f256db4bfeec4847aa18c9af2c578c3e6",
         "status": "collected",
@@ -872,13 +879,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:00.727613+08:00",
+      "checked_at": "2026-11-24T18:58:02.869902+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=020254&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_020254",
       "last_success": {
         "id": "nav_020254",
-        "checked_at": "2026-11-24T18:09:00.727613+08:00",
+        "checked_at": "2026-11-24T18:58:02.869902+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "bb29c743afe0cf36832a538615fe95c27849eec63ea37b2b01e3189ce04d8a01",
         "status": "collected",
@@ -913,13 +920,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:00.776084+08:00",
+      "checked_at": "2026-11-24T18:58:02.962816+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021180&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_021180",
       "last_success": {
         "id": "nav_021180",
-        "checked_at": "2026-11-24T18:09:00.776084+08:00",
+        "checked_at": "2026-11-24T18:58:02.962816+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "ad5472f04bd035db3255ac599e25ee9342c8874600a3eb8329740ed8e1bc04d6",
         "status": "collected",
@@ -954,13 +961,13 @@
       "age_calendar_days": 4,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:00.921082+08:00",
+      "checked_at": "2026-11-24T18:58:03.178630+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021277&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_021277",
       "last_success": {
         "id": "nav_021277",
-        "checked_at": "2026-11-24T18:09:00.921082+08:00",
+        "checked_at": "2026-11-24T18:58:03.178630+08:00",
         "publication_date": "2026-11-20",
         "content_sha256": "355d61430e331f44cc435780cad320cdc014e349da147b8326bb369fb16c9e16",
         "status": "collected",
@@ -995,13 +1002,13 @@
       "age_calendar_days": 4,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:01.839207+08:00",
+      "checked_at": "2026-11-24T18:58:03.425467+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021662&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_021662",
       "last_success": {
         "id": "nav_021662",
-        "checked_at": "2026-11-24T18:09:01.839207+08:00",
+        "checked_at": "2026-11-24T18:58:03.425467+08:00",
         "publication_date": "2026-11-20",
         "content_sha256": "94b82af6c0e5cb0f3b7a3b17a22e65673e66986177521e9b0d7108a7af2d5a31",
         "status": "collected",
@@ -1036,13 +1043,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:02.658360+08:00",
+      "checked_at": "2026-11-24T18:58:03.605237+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021902&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_021902",
       "last_success": {
         "id": "nav_021902",
-        "checked_at": "2026-11-24T18:09:02.658360+08:00",
+        "checked_at": "2026-11-24T18:58:03.605237+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "65d2c1b92b2dbed584e3761664979f4bfffecdbb44abd4502f08c4b23e80edda",
         "status": "collected",
@@ -1071,38 +1078,38 @@
       "name": "富国全球科技互联网C",
       "product_kind": "fund",
       "status": "collected",
-      "date": "2026-11-20",
-      "unit_nav": 3.4661,
-      "cumulative_nav": 3.4661,
-      "age_calendar_days": 4,
+      "date": "2026-11-23",
+      "unit_nav": 3.5728,
+      "cumulative_nav": 3.5728,
+      "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:02.774284+08:00",
+      "checked_at": "2026-11-24T18:58:04.281860+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=022184&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_022184",
       "last_success": {
         "id": "nav_022184",
-        "checked_at": "2026-11-24T18:09:02.774284+08:00",
-        "publication_date": "2026-11-20",
-        "content_sha256": "1c7245682019adc05359b49b24561524a4f9ec9834aa7eec97ac5ceac6d73d43",
+        "checked_at": "2026-11-24T18:58:04.281860+08:00",
+        "publication_date": "2026-11-23",
+        "content_sha256": "3e27d74279c3181a33d5c0dca442990f0f98842ad944e7c50f75e77592e95355",
         "status": "collected",
         "nav": {
           "code": "022184",
-          "date": "2026-11-20",
-          "unit_nav": 3.4661,
-          "cumulative_nav": 3.4661,
+          "date": "2026-11-23",
+          "unit_nav": 3.5728,
+          "cumulative_nav": 3.5728,
           "subscription_status": "限制大额申购",
           "redemption_status": "开放赎回",
           "distribution_note": null,
           "observations": 5,
-          "api_total_count": 526,
+          "api_total_count": 527,
           "return_method": "none; unit NAV observation only, no dividend fill or forecast",
           "identity_basis": "exact fundCode request; response schema has no code field",
           "fact_reverified": false
         },
         "date_candidates": [],
-        "excerpt": "022184 unit NAV 3.4661 on 2026-11-20"
+        "excerpt": "022184 unit NAV 3.5728 on 2026-11-23"
       },
       "fact_reverified": false,
       "return_method": "none; latest unit NAV only"
@@ -1118,13 +1125,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:02.812175+08:00",
+      "checked_at": "2026-11-24T18:58:04.514153+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=022415&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_022415",
       "last_success": {
         "id": "nav_022415",
-        "checked_at": "2026-11-24T18:09:02.812175+08:00",
+        "checked_at": "2026-11-24T18:58:04.514153+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "8012d32be920b57107cd3a918356db600aff8cf381149f80d6056744557b1188",
         "status": "collected",
@@ -1159,13 +1166,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:02.952722+08:00",
+      "checked_at": "2026-11-24T18:58:04.637311+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=022714&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_022714",
       "last_success": {
         "id": "nav_022714",
-        "checked_at": "2026-11-24T18:09:02.952722+08:00",
+        "checked_at": "2026-11-24T18:58:04.637311+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "5970d9b68a3ba4bfeac1911d50da9b25d41f7405d1943fc316ddbc3ac20b04fa",
         "status": "collected",
@@ -1200,13 +1207,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:03.446182+08:00",
+      "checked_at": "2026-11-24T18:58:04.786402+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=023875&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_023875",
       "last_success": {
         "id": "nav_023875",
-        "checked_at": "2026-11-24T18:09:03.446182+08:00",
+        "checked_at": "2026-11-24T18:58:04.786402+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "bc88e460ef12c0336d8e18e7ededd50b7882d631bb298f27eaa5f0debab3785e",
         "status": "collected",
@@ -1241,13 +1248,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:03.849999+08:00",
+      "checked_at": "2026-11-24T18:58:05.164790+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=027170&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_027170",
       "last_success": {
         "id": "nav_027170",
-        "checked_at": "2026-11-24T18:09:03.849999+08:00",
+        "checked_at": "2026-11-24T18:58:05.164790+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "8da37e8c7381c2be6daaaa19fd9c93c72c858719228a75e1caf55e7bbcee0c02",
         "status": "collected",
@@ -1282,13 +1289,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:04.010506+08:00",
+      "checked_at": "2026-11-24T18:58:05.437936+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=519697&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_519697",
       "last_success": {
         "id": "nav_519697",
-        "checked_at": "2026-11-24T18:09:04.010506+08:00",
+        "checked_at": "2026-11-24T18:58:05.437936+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "2d136b1ca39033623cd2bfc51b30d78ec4ea60c852ae294018751f033feebee7",
         "status": "collected",
@@ -1323,13 +1330,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:04.407722+08:00",
+      "checked_at": "2026-11-24T18:58:05.439402+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=110020&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_110020",
       "last_success": {
         "id": "nav_110020",
-        "checked_at": "2026-11-24T18:09:04.407722+08:00",
+        "checked_at": "2026-11-24T18:58:05.439402+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "16e1de1cf67bce834d916ae6e0a003c7c32107760866a1805a375333dc724019",
         "status": "collected",
@@ -1364,13 +1371,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:04.851544+08:00",
+      "checked_at": "2026-11-24T18:58:05.649798+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=510300&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_510300",
       "last_success": {
         "id": "nav_510300",
-        "checked_at": "2026-11-24T18:09:04.851544+08:00",
+        "checked_at": "2026-11-24T18:58:05.649798+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "049737f807275e5ad5d114a48fef67f49c4858b1c6276d260ad4274ea0e4a205",
         "status": "collected",
@@ -1405,13 +1412,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:05.272280+08:00",
+      "checked_at": "2026-11-24T18:58:06.058414+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=510880&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_510880",
       "last_success": {
         "id": "nav_510880",
-        "checked_at": "2026-11-24T18:09:05.272280+08:00",
+        "checked_at": "2026-11-24T18:58:06.058414+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "ef1abd83600d4d7927a892fee690c21480bfccbea10fcf20c9e01f3d95281b84",
         "status": "collected",
@@ -1446,13 +1453,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:05.856166+08:00",
+      "checked_at": "2026-11-24T18:58:06.157247+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=512010&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_512010",
       "last_success": {
         "id": "nav_512010",
-        "checked_at": "2026-11-24T18:09:05.856166+08:00",
+        "checked_at": "2026-11-24T18:58:06.157247+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "9edf4d3357b5c18a89168ede4e1bede224b368b9b960f8c891f3be75b45669ee",
         "status": "collected",
@@ -1487,13 +1494,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:06.014043+08:00",
+      "checked_at": "2026-11-24T18:58:06.311862+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=512400&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_512400",
       "last_success": {
         "id": "nav_512400",
-        "checked_at": "2026-11-24T18:09:06.014043+08:00",
+        "checked_at": "2026-11-24T18:58:06.311862+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "4dbcf9eb7e61585f1fff0d69236195a1f444cb148b92d3dd69aa15a3a9d01ad5",
         "status": "collected",
@@ -1528,13 +1535,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:06.903054+08:00",
+      "checked_at": "2026-11-24T18:58:06.398887+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=512480&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_512480",
       "last_success": {
         "id": "nav_512480",
-        "checked_at": "2026-11-24T18:09:06.903054+08:00",
+        "checked_at": "2026-11-24T18:58:06.398887+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "b7402540db54e84c8bb40bc266289f7fd70b45769a43637af01dab8bcb9b60a7",
         "status": "collected",
@@ -1569,13 +1576,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:07.750844+08:00",
+      "checked_at": "2026-11-24T18:58:06.592035+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=513500&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_513500",
       "last_success": {
         "id": "nav_513500",
-        "checked_at": "2026-11-24T18:09:07.750844+08:00",
+        "checked_at": "2026-11-24T18:58:06.592035+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "79f478bfc93bd8d3c3273e5581db4362fb308e054fabab8ee62d9fe249ca03e1",
         "status": "collected",
@@ -1610,13 +1617,13 @@
       "age_calendar_days": 1,
       "stale": false,
       "error": null,
-      "checked_at": "2026-11-24T18:09:08.500728+08:00",
+      "checked_at": "2026-11-24T18:58:07.032009+08:00",
       "verified_on": "2026-11-24",
       "source_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=515880&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "source_check_id": "nav_515880",
       "last_success": {
         "id": "nav_515880",
-        "checked_at": "2026-11-24T18:09:08.500728+08:00",
+        "checked_at": "2026-11-24T18:58:07.032009+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "56b948d741ddd6cf214fac242121403781e0b68ffe985ac4e6d144e986f5e083",
         "status": "collected",
@@ -1651,7 +1658,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:47.619635+08:00",
+      "checked_at": "2026-11-24T18:57:53.332337+08:00",
       "publication_date": "2026-11-19",
       "date_candidates": [
         {
@@ -1723,7 +1730,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "mof_latest",
-        "checked_at": "2026-11-24T18:08:47.619635+08:00",
+        "checked_at": "2026-11-24T18:57:53.332337+08:00",
         "publication_date": "2026-11-19",
         "content_sha256": "bc79d29e96b37ab5fea14e0a092c907ef33e413aa7b80baa6e8779590333fad8",
         "status": "collected",
@@ -1849,7 +1856,7 @@
       "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
       "excluded_future_count": 0,
       "attempted": true,
-      "change_status": "first observation or unavailable"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nbs_latest",
@@ -1860,7 +1867,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:47.620650+08:00",
+      "checked_at": "2026-11-24T18:57:53.333147+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [
         {
@@ -1986,7 +1993,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nbs_latest",
-        "checked_at": "2026-11-24T18:08:47.620650+08:00",
+        "checked_at": "2026-11-24T18:57:53.333147+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "620847b4d38bc69729fb11e1849a6c45209f8065f1d01ecf3a27df0ca2d3936b",
         "status": "collected",
@@ -2191,7 +2198,7 @@
       "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
       "excluded_future_count": 0,
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "pboc_latest",
@@ -2202,7 +2209,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:47.620906+08:00",
+      "checked_at": "2026-11-24T18:57:53.333345+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [
         {
@@ -2304,7 +2311,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "pboc_latest",
-        "checked_at": "2026-11-24T18:08:47.620906+08:00",
+        "checked_at": "2026-11-24T18:57:53.333345+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "1e6a59daab75b9c5b66b276d14e83d21d8af418a29984443bb0628baebcfa230",
         "status": "collected",
@@ -2485,7 +2492,7 @@
       "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
       "excluded_future_count": 0,
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "sse_latest",
@@ -2496,7 +2503,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:47.621242+08:00",
+      "checked_at": "2026-11-24T18:57:53.333541+08:00",
       "publication_date": "2026-11-20",
       "date_candidates": [
         {
@@ -2598,7 +2605,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "sse_latest",
-        "checked_at": "2026-11-24T18:08:47.621242+08:00",
+        "checked_at": "2026-11-24T18:57:53.333541+08:00",
         "publication_date": "2026-11-20",
         "content_sha256": "9362dea13034760870f44db606001abba1614b4539faa0b2cf7958cd2cd8507c",
         "status": "collected",
@@ -2790,7 +2797,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:47.621549+08:00",
+      "checked_at": "2026-11-24T18:57:53.333785+08:00",
       "publication_date": "2026-11-20",
       "date_candidates": [
         {
@@ -2922,7 +2929,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "fed_press",
-        "checked_at": "2026-11-24T18:08:47.621549+08:00",
+        "checked_at": "2026-11-24T18:57:53.333785+08:00",
         "publication_date": "2026-11-20",
         "content_sha256": "72529d13594fbe7456a5701eb087c253b2cff213510b8d76e442bd97d570aa4e",
         "status": "collected",
@@ -3067,7 +3074,7 @@
       "group": "macro_market",
       "scope": "configured current public source",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:47.621769+08:00",
+      "checked_at": "2026-11-24T18:57:53.333988+08:00",
       "publication_date": null,
       "date_candidates": [],
       "content_sha256": "d4a897dcb637da8a0ae33f38ddd919b0b42dc2db5f530d4afad8257d79ca8f64",
@@ -3078,7 +3085,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "priority_6108d826c324",
-        "checked_at": "2026-11-24T18:08:47.621769+08:00",
+        "checked_at": "2026-11-24T18:57:53.333988+08:00",
         "publication_date": null,
         "content_sha256": "d4a897dcb637da8a0ae33f38ddd919b0b42dc2db5f530d4afad8257d79ca8f64",
         "status": "collected",
@@ -3092,7 +3099,7 @@
       "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
       "excluded_future_count": 0,
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "mof_current",
@@ -3103,7 +3110,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:47.671231+08:00",
+      "checked_at": "2026-11-24T18:57:53.443134+08:00",
       "publication_date": "2026-11-20",
       "date_candidates": [],
       "content_sha256": "c436fe9bd6a7e38fe042caef85de95497d1d30b528f4d7f9d20f2f53e0e62790",
@@ -3114,7 +3121,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "mof_current",
-        "checked_at": "2026-11-24T18:08:47.671231+08:00",
+        "checked_at": "2026-11-24T18:57:53.443134+08:00",
         "publication_date": "2026-11-20",
         "content_sha256": "c436fe9bd6a7e38fe042caef85de95497d1d30b528f4d7f9d20f2f53e0e62790",
         "status": "collected",
@@ -3175,7 +3182,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:49.534228+08:00",
+      "checked_at": "2026-11-24T18:57:55.246256+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [
         {
@@ -3301,7 +3308,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nbs_interpretation",
-        "checked_at": "2026-11-24T18:08:49.534228+08:00",
+        "checked_at": "2026-11-24T18:57:55.246256+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "c1087bfdb5d3b7fba447a24bfcabe18231532fc71b0b61269449f4304b550634",
         "status": "collected",
@@ -3506,7 +3513,7 @@
       "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
       "excluded_future_count": 0,
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nbs_calendar",
@@ -3517,7 +3524,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:49.572640+08:00",
+      "checked_at": "2026-11-24T18:57:55.307291+08:00",
       "publication_date": "2023-02-19",
       "date_candidates": [
         {
@@ -3553,7 +3560,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nbs_calendar",
-        "checked_at": "2026-11-24T18:08:49.572640+08:00",
+        "checked_at": "2026-11-24T18:57:55.307291+08:00",
         "publication_date": "2023-02-19",
         "content_sha256": "dc4e07081e16d3c81cf7ee4e68dc42043faf14b57109b4b731fd393a4a2e5646",
         "status": "collected",
@@ -3679,7 +3686,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:49.954009+08:00",
+      "checked_at": "2026-11-24T18:57:55.338296+08:00",
       "publication_date": "2026-10-28",
       "date_candidates": [
         {
@@ -3863,7 +3870,7 @@
           "date_basis": "link title or URL"
         }
       ],
-      "content_sha256": "27718a25df161960a893e8f9bddd9f7416ad9948dd122c2133e70cfa0a08544e",
+      "content_sha256": "c7127970de60a9f04317e0a60769d77698f4e267f038d2c88d3adf325de80536",
       "excerpt": "﻿ The Fed - Meeting calendars and information Skip to main content An official website of the United States Government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Back to Home Board of Governors of the Federal Reserve System Stay Connected Federal Reserve Facebook Page Federal Reserve Instagram Page Federal Reserve YouTube Page Federal Reserve Flickr Page Federal Reserve LinkedIn Page Federal Reserve Threads Page Federal Reserve X Page Federal Reserve Bluesky Page Subscribe to RSS Subscribe to Email Recent Postings Calendar Publications Site Map A-Z index Careers FAQs Videos Contact Search Submit Search Button Advanced Toggle Dropdown Menu Main Menu Toggle Button Sections Search Toggle Button Search Search Submit Button Submit Home Monetary Policy Federal Open Market Committee Federal Open Market Committee About the FOMC Meeting calendars and information Transcripts and other historical materials FAQs Meeti",
       "http_status": 200,
       "error": null,
@@ -3871,9 +3878,9 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "fed_calendar",
-        "checked_at": "2026-11-24T18:08:49.954009+08:00",
+        "checked_at": "2026-11-24T18:57:55.338296+08:00",
         "publication_date": "2026-10-28",
-        "content_sha256": "27718a25df161960a893e8f9bddd9f7416ad9948dd122c2133e70cfa0a08544e",
+        "content_sha256": "c7127970de60a9f04317e0a60769d77698f4e267f038d2c88d3adf325de80536",
         "status": "collected",
         "date_candidates": [
           {
@@ -4153,7 +4160,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:50.096517+08:00",
+      "checked_at": "2026-11-24T18:57:55.488268+08:00",
       "publication_date": "2026-10-21",
       "date_candidates": [
         {
@@ -4175,17 +4182,17 @@
           "date_basis": "link title or URL"
         }
       ],
-      "content_sha256": "af3fd4cf8466b8a31e836c9a445af587a34b5572649805ba40ab5c6348469ed3",
-      "excerpt": "Home page This is the Trace Id: a491cd4f288cf9042e36f5e716a6b958 Skip to main content Investor Relations Press Release & Webcast Metrics Overview Overview Board of Directors Board Committees Policies and Guidelines Environment Overview Responsible AI Privacy & Cybersecurity Workplace & Culture Diversity & Inclusion Human Rights Responsible Sourcing ESG Reports Hub Awards & Recognition Annual Reports SEC Filings Information for Investors Annual Meeting Dividends & Stock History Investment History Acquisition History FAQ All Events Past Events Upcoming Events Contacts Microsoft 365 Azure Copilot Windows Surface XBOX Deals Small Business Support Windows Apps Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams Computers Shop XBOX Accessories VR & mixed reality Certified Refurbished Trade-in for cash XBOX Game Pass Ultimate PC Game Pass XBOX games PC games Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Small Business Digital Sovereignty Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso",
+      "content_sha256": "b7f6fd78386459ef4b7aaf3595a20203a63e22bd1aba571a92d78425f64f836e",
+      "excerpt": "Home page This is the Trace Id: 059d5c27cca078ff80c5661683e3cc86 Skip to main content Investor Relations Press Release & Webcast Metrics Overview Overview Board of Directors Board Committees Policies and Guidelines Environment Overview Responsible AI Privacy & Cybersecurity Workplace & Culture Diversity & Inclusion Human Rights Responsible Sourcing ESG Reports Hub Awards & Recognition Annual Reports SEC Filings Information for Investors Annual Meeting Dividends & Stock History Investment History Acquisition History FAQ All Events Past Events Upcoming Events Contacts Microsoft 365 Azure Copilot Windows Surface XBOX Deals Small Business Support Windows Apps Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams Computers Shop XBOX Accessories VR & mixed reality Certified Refurbished Trade-in for cash XBOX Game Pass Ultimate PC Game Pass XBOX games PC games Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Small Business Digital Sovereignty Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso",
       "http_status": 200,
       "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "msft_ir",
-        "checked_at": "2026-11-24T18:08:50.096517+08:00",
+        "checked_at": "2026-11-24T18:57:55.488268+08:00",
         "publication_date": "2026-10-21",
-        "content_sha256": "af3fd4cf8466b8a31e836c9a445af587a34b5572649805ba40ab5c6348469ed3",
+        "content_sha256": "b7f6fd78386459ef4b7aaf3595a20203a63e22bd1aba571a92d78425f64f836e",
         "status": "collected",
         "date_candidates": [
           {
@@ -4207,10 +4214,10 @@
             "date_basis": "link title or URL"
           }
         ],
-        "excerpt": "Home page This is the Trace Id: a491cd4f288cf9042e36f5e716a6b958 Skip to main content Investor Relations Press Release & Webcast Metrics Overview Overview Board of Directors Board Committees Policies and Guidelines Environment Overview Responsible AI Privacy & Cybersecurity Workplace & Culture Diversity & Inclusion Human Rights Responsible Sourcing ESG Reports Hub Awards & Recognition Annual Reports SEC Filings Information for Investors Annual Meeting Dividends & Stock History Investment History Acquisition History FAQ All Events Past Events Upcoming Events Contacts Microsoft 365 Azure Copilot Windows Surface XBOX Deals Small Business Support Windows Apps Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams Computers Shop XBOX Accessories VR & mixed reality Certified Refurbished Trade-in for cash XBOX Game Pass Ultimate PC Game Pass XBOX games PC games Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Small Business Digital Sovereignty Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso"
+        "excerpt": "Home page This is the Trace Id: 059d5c27cca078ff80c5661683e3cc86 Skip to main content Investor Relations Press Release & Webcast Metrics Overview Overview Board of Directors Board Committees Policies and Guidelines Environment Overview Responsible AI Privacy & Cybersecurity Workplace & Culture Diversity & Inclusion Human Rights Responsible Sourcing ESG Reports Hub Awards & Recognition Annual Reports SEC Filings Information for Investors Annual Meeting Dividends & Stock History Investment History Acquisition History FAQ All Events Past Events Upcoming Events Contacts Microsoft 365 Azure Copilot Windows Surface XBOX Deals Small Business Support Windows Apps Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams Computers Shop XBOX Accessories VR & mixed reality Certified Refurbished Trade-in for cash XBOX Game Pass Ultimate PC Game Pass XBOX games PC games Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Small Business Digital Sovereignty Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso"
       },
       "stale": false,
-      "bytes": 312716,
+      "bytes": 312714,
       "final_url": "https://www.microsoft.com/en-us/investor/default",
       "undated_links": [
         {
@@ -4303,7 +4310,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "failed",
-      "checked_at": "2026-11-24T18:08:50.463778+08:00",
+      "checked_at": "2026-11-24T18:57:55.584038+08:00",
       "publication_date": null,
       "date_candidates": [],
       "content_sha256": null,
@@ -4326,7 +4333,7 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "failed",
-      "checked_at": "2026-11-24T18:08:51.799791+08:00",
+      "checked_at": "2026-11-24T18:57:56.414429+08:00",
       "publication_date": null,
       "date_candidates": [],
       "content_sha256": null,
@@ -4349,10 +4356,10 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:52.024484+08:00",
+      "checked_at": "2026-11-24T18:57:56.854497+08:00",
       "publication_date": null,
       "date_candidates": [],
-      "content_sha256": "d96d8ab2a08f9744484f9584cfdbbe2c21aca36ec865efbef3d5a53b07cfc5b0",
+      "content_sha256": "4a135ad047bda54cc64e777c27d25d39dc9887b26b875cf015405aa523bad6af",
       "excerpt": "NVIDIA Corporation - Home Skip to main content Home Corporate Profile NVIDIA is the pioneer of GPU-accelerated computing. We specialize in products and platforms for the large, growing markets of gaming, professional visualization, data center, and automotive. Our creations are loved by the most demanding computer users in the world – gamers, designers, and scientists. And our work is at the center of the most consequential mega-trends in technology. Learn More Quarterly Results All Results Latest News All News Events All Events Featured Presentation Quick Links Email Alerts RSS Request Printed Materials Download Library Email Alerts To receive notifications via email, enter your email address and select at least one subscription below. After submitting your information, you will receive an email. You must click the link in the email to activate your subscription. You can sign up for additional subscriptions at any time. * Required Email Address * Investor Alert Options Mailing Lists * SEC Filing Presentation Event End of Day Stock Quote Enter the code shown above. Email Alert Sign Up Confirmation Investor Contact 2788 San Tomas Expressway Santa Clara, CA 95051 Contact Investor Rel",
       "http_status": 200,
       "error": null,
@@ -4360,9 +4367,9 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nvidia_ir",
-        "checked_at": "2026-11-24T18:08:52.024484+08:00",
+        "checked_at": "2026-11-24T18:57:56.854497+08:00",
         "publication_date": null,
-        "content_sha256": "d96d8ab2a08f9744484f9584cfdbbe2c21aca36ec865efbef3d5a53b07cfc5b0",
+        "content_sha256": "4a135ad047bda54cc64e777c27d25d39dc9887b26b875cf015405aa523bad6af",
         "status": "collected",
         "date_candidates": [],
         "excerpt": "NVIDIA Corporation - Home Skip to main content Home Corporate Profile NVIDIA is the pioneer of GPU-accelerated computing. We specialize in products and platforms for the large, growing markets of gaming, professional visualization, data center, and automotive. Our creations are loved by the most demanding computer users in the world – gamers, designers, and scientists. And our work is at the center of the most consequential mega-trends in technology. Learn More Quarterly Results All Results Latest News All News Events All Events Featured Presentation Quick Links Email Alerts RSS Request Printed Materials Download Library Email Alerts To receive notifications via email, enter your email address and select at least one subscription below. After submitting your information, you will receive an email. You must click the link in the email to activate your subscription. You can sign up for additional subscriptions at any time. * Required Email Address * Investor Alert Options Mailing Lists * SEC Filing Presentation Event End of Day Stock Quote Enter the code shown above. Email Alert Sign Up Confirmation Investor Contact 2788 San Tomas Expressway Santa Clara, CA 95051 Contact Investor Rel"
@@ -4461,10 +4468,10 @@
       "group": "macro_market",
       "scope": "current index or series; linked release bodies are not collected",
       "status": "failed",
-      "checked_at": "2026-11-24T18:08:52.145621+08:00",
+      "checked_at": "2026-11-24T18:57:56.999183+08:00",
       "publication_date": null,
       "date_candidates": [],
-      "content_sha256": "c13c8e9c48354b1c23b6a640f880459bfbdac97934ab7c080df33ecd5cab1d5e",
+      "content_sha256": "a1c6a0e71fd68d738fdc5680825fd8e34e6d7d49ccf84f79fd783bc3f2798216",
       "excerpt": "",
       "http_status": 200,
       "error": "Short, empty, or access-challenge index",
@@ -4487,7 +4494,7 @@
       "code": "001076",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:52.291898+08:00",
+      "checked_at": "2026-11-24T18:57:57.210887+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "df96e3ad1a8c3c9bc1112d77cfdfddb87180efd235efc1e7b73782ec345f8d13",
@@ -4498,7 +4505,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_001076",
-        "checked_at": "2026-11-24T18:08:52.291898+08:00",
+        "checked_at": "2026-11-24T18:57:57.210887+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "df96e3ad1a8c3c9bc1112d77cfdfddb87180efd235efc1e7b73782ec345f8d13",
         "status": "collected",
@@ -4537,7 +4544,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_002051",
@@ -4549,7 +4556,7 @@
       "code": "002051",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:52.325244+08:00",
+      "checked_at": "2026-11-24T18:57:57.234233+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "6210dd3e051119336ec472731544ac2fa8cc5ef0a4fac23c0c1df397a4a01bf2",
@@ -4560,7 +4567,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_002051",
-        "checked_at": "2026-11-24T18:08:52.325244+08:00",
+        "checked_at": "2026-11-24T18:57:57.234233+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "6210dd3e051119336ec472731544ac2fa8cc5ef0a4fac23c0c1df397a4a01bf2",
         "status": "collected",
@@ -4599,7 +4606,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_002244",
@@ -4611,10 +4618,10 @@
       "code": "002244",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:53.274150+08:00",
+      "checked_at": "2026-11-24T18:57:57.837977+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
-      "content_sha256": "6d07f848d801f72f052596f9fc93c89e168e7f7ad3abb31c82182d0172e4c350",
+      "content_sha256": "677f7a7a50d4d8423d764b18f3f01db9fbbb406a58a29498194de9fd0352e031",
       "excerpt": "002244 unit NAV 2.209 on 2026-11-23",
       "http_status": 200,
       "error": null,
@@ -4622,9 +4629,9 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_002244",
-        "checked_at": "2026-11-24T18:08:53.274150+08:00",
+        "checked_at": "2026-11-24T18:57:57.837977+08:00",
         "publication_date": "2026-11-23",
-        "content_sha256": "6d07f848d801f72f052596f9fc93c89e168e7f7ad3abb31c82182d0172e4c350",
+        "content_sha256": "677f7a7a50d4d8423d764b18f3f01db9fbbb406a58a29498194de9fd0352e031",
         "status": "collected",
         "nav": {
           "code": "002244",
@@ -4673,7 +4680,7 @@
       "code": "002943",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:53.329454+08:00",
+      "checked_at": "2026-11-24T18:57:58.176717+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "d439ac931068983305db0739fe24ab47b5dc1475ac60663817efca4ef4f0f250",
@@ -4684,7 +4691,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_002943",
-        "checked_at": "2026-11-24T18:08:53.329454+08:00",
+        "checked_at": "2026-11-24T18:57:58.176717+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "d439ac931068983305db0739fe24ab47b5dc1475ac60663817efca4ef4f0f250",
         "status": "collected",
@@ -4723,7 +4730,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_004237",
@@ -4735,7 +4742,7 @@
       "code": "004237",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:53.733556+08:00",
+      "checked_at": "2026-11-24T18:57:58.499536+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "16bfc6efb6bd979ec3b3abe149f6e051b84622565d184790257ea93f9af81f3d",
@@ -4746,7 +4753,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_004237",
-        "checked_at": "2026-11-24T18:08:53.733556+08:00",
+        "checked_at": "2026-11-24T18:57:58.499536+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "16bfc6efb6bd979ec3b3abe149f6e051b84622565d184790257ea93f9af81f3d",
         "status": "collected",
@@ -4785,7 +4792,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_004407",
@@ -4797,7 +4804,7 @@
       "code": "004407",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:54.324029+08:00",
+      "checked_at": "2026-11-24T18:57:58.500633+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "6dcf4284752ca01b0f2e7cee528c10a87335a6baaf77f7461bb44adfdd1f5260",
@@ -4808,7 +4815,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_004407",
-        "checked_at": "2026-11-24T18:08:54.324029+08:00",
+        "checked_at": "2026-11-24T18:57:58.500633+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "6dcf4284752ca01b0f2e7cee528c10a87335a6baaf77f7461bb44adfdd1f5260",
         "status": "collected",
@@ -4847,7 +4854,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_006038",
@@ -4859,7 +4866,7 @@
       "code": "006038",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:54.486303+08:00",
+      "checked_at": "2026-11-24T18:57:58.779999+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "041e9dc120ed1426c756c0f0b5e7dbb87f1affc8aebea95d6b8cb84b46309640",
@@ -4870,7 +4877,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_006038",
-        "checked_at": "2026-11-24T18:08:54.486303+08:00",
+        "checked_at": "2026-11-24T18:57:58.779999+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "041e9dc120ed1426c756c0f0b5e7dbb87f1affc8aebea95d6b8cb84b46309640",
         "status": "collected",
@@ -4909,7 +4916,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_008270",
@@ -4921,7 +4928,7 @@
       "code": "008270",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:54.803711+08:00",
+      "checked_at": "2026-11-24T18:57:59.044347+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "3d32b58ab788208597bb83c4708cf40f5e13b0f385ae5263bc359b189556141a",
@@ -4932,7 +4939,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_008270",
-        "checked_at": "2026-11-24T18:08:54.803711+08:00",
+        "checked_at": "2026-11-24T18:57:59.044347+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "3d32b58ab788208597bb83c4708cf40f5e13b0f385ae5263bc359b189556141a",
         "status": "collected",
@@ -4971,7 +4978,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_010390",
@@ -4983,7 +4990,7 @@
       "code": "010390",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:54.991144+08:00",
+      "checked_at": "2026-11-24T18:57:59.362187+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "abfecfa07aa705b6da4c24175b81eb0366a5a209be2c5d4b0c87500f1c0a500b",
@@ -4994,7 +5001,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_010390",
-        "checked_at": "2026-11-24T18:08:54.991144+08:00",
+        "checked_at": "2026-11-24T18:57:59.362187+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "abfecfa07aa705b6da4c24175b81eb0366a5a209be2c5d4b0c87500f1c0a500b",
         "status": "collected",
@@ -5033,7 +5040,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_011066",
@@ -5045,7 +5052,7 @@
       "code": "011066",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:55.070641+08:00",
+      "checked_at": "2026-11-24T18:57:59.393168+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "65d1812519c1249b1cba3514976242092932b838071f19649ce72695e711308d",
@@ -5056,7 +5063,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_011066",
-        "checked_at": "2026-11-24T18:08:55.070641+08:00",
+        "checked_at": "2026-11-24T18:57:59.393168+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "65d1812519c1249b1cba3514976242092932b838071f19649ce72695e711308d",
         "status": "collected",
@@ -5095,7 +5102,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_011370",
@@ -5107,7 +5114,7 @@
       "code": "011370",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:55.305185+08:00",
+      "checked_at": "2026-11-24T18:57:59.450532+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "7f250a2270dab190e4bb8c9ec685d896297ebe02215da70bad24ddb65d36b0d7",
@@ -5118,7 +5125,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_011370",
-        "checked_at": "2026-11-24T18:08:55.305185+08:00",
+        "checked_at": "2026-11-24T18:57:59.450532+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "7f250a2270dab190e4bb8c9ec685d896297ebe02215da70bad24ddb65d36b0d7",
         "status": "collected",
@@ -5157,7 +5164,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_011437",
@@ -5169,7 +5176,7 @@
       "code": "011437",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:55.452609+08:00",
+      "checked_at": "2026-11-24T18:57:59.752510+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "e33546aaf65f2b2b28043df67aca1f52e66bb9be040799266cc8c9a80444c4c5",
@@ -5180,7 +5187,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_011437",
-        "checked_at": "2026-11-24T18:08:55.452609+08:00",
+        "checked_at": "2026-11-24T18:57:59.752510+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "e33546aaf65f2b2b28043df67aca1f52e66bb9be040799266cc8c9a80444c4c5",
         "status": "collected",
@@ -5219,7 +5226,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_012449",
@@ -5231,7 +5238,7 @@
       "code": "012449",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:55.821142+08:00",
+      "checked_at": "2026-11-24T18:58:00.058143+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "39825ede4c9bc87fff65e5f1b9562208768724a8b63abcbc4eb29a47af096a3e",
@@ -5242,7 +5249,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_012449",
-        "checked_at": "2026-11-24T18:08:55.821142+08:00",
+        "checked_at": "2026-11-24T18:58:00.058143+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "39825ede4c9bc87fff65e5f1b9562208768724a8b63abcbc4eb29a47af096a3e",
         "status": "collected",
@@ -5281,7 +5288,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_012817",
@@ -5293,7 +5300,7 @@
       "code": "012817",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:56.384214+08:00",
+      "checked_at": "2026-11-24T18:58:00.270818+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "f9c3ba7e4faa944dbe68d256a4858f680a325001575ac2c7fd0c415d7c8bea7d",
@@ -5304,7 +5311,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_012817",
-        "checked_at": "2026-11-24T18:08:56.384214+08:00",
+        "checked_at": "2026-11-24T18:58:00.270818+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "f9c3ba7e4faa944dbe68d256a4858f680a325001575ac2c7fd0c415d7c8bea7d",
         "status": "collected",
@@ -5343,7 +5350,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_012940",
@@ -5355,7 +5362,7 @@
       "code": "012940",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:56.879192+08:00",
+      "checked_at": "2026-11-24T18:58:00.415763+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "52374352f10362eb9b1a6c0a89f867d29ae96c3e4de47dc62fc31ed6caa90514",
@@ -5366,7 +5373,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_012940",
-        "checked_at": "2026-11-24T18:08:56.879192+08:00",
+        "checked_at": "2026-11-24T18:58:00.415763+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "52374352f10362eb9b1a6c0a89f867d29ae96c3e4de47dc62fc31ed6caa90514",
         "status": "collected",
@@ -5405,7 +5412,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_013620",
@@ -5417,7 +5424,7 @@
       "code": "013620",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:56.977649+08:00",
+      "checked_at": "2026-11-24T18:58:00.917174+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "2496414dff7ac33675202569b04decb04efb1384ce41e47148d7de31a7654cd8",
@@ -5428,7 +5435,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_013620",
-        "checked_at": "2026-11-24T18:08:56.977649+08:00",
+        "checked_at": "2026-11-24T18:58:00.917174+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "2496414dff7ac33675202569b04decb04efb1384ce41e47148d7de31a7654cd8",
         "status": "collected",
@@ -5467,7 +5474,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_013860",
@@ -5479,7 +5486,7 @@
       "code": "013860",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:57.934138+08:00",
+      "checked_at": "2026-11-24T18:58:00.924338+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "f51afad4b47d9a98040f50000ea7ce1bf1f144aa88db3463ef335dba601092dc",
@@ -5490,7 +5497,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_013860",
-        "checked_at": "2026-11-24T18:08:57.934138+08:00",
+        "checked_at": "2026-11-24T18:58:00.924338+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "f51afad4b47d9a98040f50000ea7ce1bf1f144aa88db3463ef335dba601092dc",
         "status": "collected",
@@ -5529,7 +5536,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_017787",
@@ -5541,7 +5548,7 @@
       "code": "017787",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:59.759423+08:00",
+      "checked_at": "2026-11-24T18:58:01.787693+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "a8716759ca5f07d3d1b873ef1f7cf7c20ddc275c9ef4fbb6771b6211c85aa75b",
@@ -5552,7 +5559,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_017787",
-        "checked_at": "2026-11-24T18:08:59.759423+08:00",
+        "checked_at": "2026-11-24T18:58:01.787693+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "a8716759ca5f07d3d1b873ef1f7cf7c20ddc275c9ef4fbb6771b6211c85aa75b",
         "status": "collected",
@@ -5591,7 +5598,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_019032",
@@ -5603,51 +5610,51 @@
       "code": "019032",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:08:59.781128+08:00",
-      "publication_date": "2026-11-23",
+      "checked_at": "2026-11-24T18:58:01.963682+08:00",
+      "publication_date": "2026-11-24",
       "date_candidates": [],
-      "content_sha256": "1d4ca0a935c118609df0a35e73da36b0fa20d3fc99359a46df8cf03c1259514a",
-      "excerpt": "019032 unit NAV 6.13 on 2026-11-23",
+      "content_sha256": "70ab2ba3c02ce87a8b5d60bb256f024f6d0c8314cbc5a66fd592f1ea5062c526",
+      "excerpt": "019032 unit NAV 6.141 on 2026-11-24",
       "http_status": 200,
       "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_019032",
-        "checked_at": "2026-11-24T18:08:59.781128+08:00",
-        "publication_date": "2026-11-23",
-        "content_sha256": "1d4ca0a935c118609df0a35e73da36b0fa20d3fc99359a46df8cf03c1259514a",
+        "checked_at": "2026-11-24T18:58:01.963682+08:00",
+        "publication_date": "2026-11-24",
+        "content_sha256": "70ab2ba3c02ce87a8b5d60bb256f024f6d0c8314cbc5a66fd592f1ea5062c526",
         "status": "collected",
         "nav": {
           "code": "019032",
-          "date": "2026-11-23",
-          "unit_nav": 6.13,
-          "cumulative_nav": 6.13,
+          "date": "2026-11-24",
+          "unit_nav": 6.141,
+          "cumulative_nav": 6.141,
           "subscription_status": "开放申购",
           "redemption_status": "开放赎回",
           "distribution_note": null,
           "observations": 5,
-          "api_total_count": 733,
+          "api_total_count": 734,
           "return_method": "none; unit NAV observation only, no dividend fill or forecast",
           "identity_basis": "exact fundCode request; response schema has no code field",
           "fact_reverified": false
         },
         "date_candidates": [],
-        "excerpt": "019032 unit NAV 6.13 on 2026-11-23"
+        "excerpt": "019032 unit NAV 6.141 on 2026-11-24"
       },
       "stale": false,
-      "bytes": 1248,
+      "bytes": 1247,
       "final_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=019032&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "nav": {
         "code": "019032",
-        "date": "2026-11-23",
-        "unit_nav": 6.13,
-        "cumulative_nav": 6.13,
+        "date": "2026-11-24",
+        "unit_nav": 6.141,
+        "cumulative_nav": 6.141,
         "subscription_status": "开放申购",
         "redemption_status": "开放赎回",
         "distribution_note": null,
         "observations": 5,
-        "api_total_count": 733,
+        "api_total_count": 734,
         "return_method": "none; unit NAV observation only, no dividend fill or forecast",
         "identity_basis": "exact fundCode request; response schema has no code field",
         "fact_reverified": false
@@ -5665,7 +5672,7 @@
       "code": "019484",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:00.130061+08:00",
+      "checked_at": "2026-11-24T18:58:02.632584+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "1165868a91ae6efe5f7ac1fb05c0806f256db4bfeec4847aa18c9af2c578c3e6",
@@ -5676,7 +5683,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_019484",
-        "checked_at": "2026-11-24T18:09:00.130061+08:00",
+        "checked_at": "2026-11-24T18:58:02.632584+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "1165868a91ae6efe5f7ac1fb05c0806f256db4bfeec4847aa18c9af2c578c3e6",
         "status": "collected",
@@ -5715,7 +5722,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_020254",
@@ -5727,7 +5734,7 @@
       "code": "020254",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:00.727613+08:00",
+      "checked_at": "2026-11-24T18:58:02.869902+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "bb29c743afe0cf36832a538615fe95c27849eec63ea37b2b01e3189ce04d8a01",
@@ -5738,7 +5745,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_020254",
-        "checked_at": "2026-11-24T18:09:00.727613+08:00",
+        "checked_at": "2026-11-24T18:58:02.869902+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "bb29c743afe0cf36832a538615fe95c27849eec63ea37b2b01e3189ce04d8a01",
         "status": "collected",
@@ -5777,7 +5784,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_021180",
@@ -5789,7 +5796,7 @@
       "code": "021180",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:00.776084+08:00",
+      "checked_at": "2026-11-24T18:58:02.962816+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "ad5472f04bd035db3255ac599e25ee9342c8874600a3eb8329740ed8e1bc04d6",
@@ -5800,7 +5807,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_021180",
-        "checked_at": "2026-11-24T18:09:00.776084+08:00",
+        "checked_at": "2026-11-24T18:58:02.962816+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "ad5472f04bd035db3255ac599e25ee9342c8874600a3eb8329740ed8e1bc04d6",
         "status": "collected",
@@ -5839,7 +5846,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_021277",
@@ -5851,7 +5858,7 @@
       "code": "021277",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:00.921082+08:00",
+      "checked_at": "2026-11-24T18:58:03.178630+08:00",
       "publication_date": "2026-11-20",
       "date_candidates": [],
       "content_sha256": "355d61430e331f44cc435780cad320cdc014e349da147b8326bb369fb16c9e16",
@@ -5862,7 +5869,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_021277",
-        "checked_at": "2026-11-24T18:09:00.921082+08:00",
+        "checked_at": "2026-11-24T18:58:03.178630+08:00",
         "publication_date": "2026-11-20",
         "content_sha256": "355d61430e331f44cc435780cad320cdc014e349da147b8326bb369fb16c9e16",
         "status": "collected",
@@ -5901,7 +5908,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_021662",
@@ -5913,7 +5920,7 @@
       "code": "021662",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:01.839207+08:00",
+      "checked_at": "2026-11-24T18:58:03.425467+08:00",
       "publication_date": "2026-11-20",
       "date_candidates": [],
       "content_sha256": "94b82af6c0e5cb0f3b7a3b17a22e65673e66986177521e9b0d7108a7af2d5a31",
@@ -5924,7 +5931,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_021662",
-        "checked_at": "2026-11-24T18:09:01.839207+08:00",
+        "checked_at": "2026-11-24T18:58:03.425467+08:00",
         "publication_date": "2026-11-20",
         "content_sha256": "94b82af6c0e5cb0f3b7a3b17a22e65673e66986177521e9b0d7108a7af2d5a31",
         "status": "collected",
@@ -5963,7 +5970,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_021902",
@@ -5975,7 +5982,7 @@
       "code": "021902",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:02.658360+08:00",
+      "checked_at": "2026-11-24T18:58:03.605237+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "65d2c1b92b2dbed584e3761664979f4bfffecdbb44abd4502f08c4b23e80edda",
@@ -5986,7 +5993,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_021902",
-        "checked_at": "2026-11-24T18:09:02.658360+08:00",
+        "checked_at": "2026-11-24T18:58:03.605237+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "65d2c1b92b2dbed584e3761664979f4bfffecdbb44abd4502f08c4b23e80edda",
         "status": "collected",
@@ -6025,7 +6032,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_022184",
@@ -6037,51 +6044,51 @@
       "code": "022184",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:02.774284+08:00",
-      "publication_date": "2026-11-20",
+      "checked_at": "2026-11-24T18:58:04.281860+08:00",
+      "publication_date": "2026-11-23",
       "date_candidates": [],
-      "content_sha256": "1c7245682019adc05359b49b24561524a4f9ec9834aa7eec97ac5ceac6d73d43",
-      "excerpt": "022184 unit NAV 3.4661 on 2026-11-20",
+      "content_sha256": "3e27d74279c3181a33d5c0dca442990f0f98842ad944e7c50f75e77592e95355",
+      "excerpt": "022184 unit NAV 3.5728 on 2026-11-23",
       "http_status": 200,
       "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_022184",
-        "checked_at": "2026-11-24T18:09:02.774284+08:00",
-        "publication_date": "2026-11-20",
-        "content_sha256": "1c7245682019adc05359b49b24561524a4f9ec9834aa7eec97ac5ceac6d73d43",
+        "checked_at": "2026-11-24T18:58:04.281860+08:00",
+        "publication_date": "2026-11-23",
+        "content_sha256": "3e27d74279c3181a33d5c0dca442990f0f98842ad944e7c50f75e77592e95355",
         "status": "collected",
         "nav": {
           "code": "022184",
-          "date": "2026-11-20",
-          "unit_nav": 3.4661,
-          "cumulative_nav": 3.4661,
+          "date": "2026-11-23",
+          "unit_nav": 3.5728,
+          "cumulative_nav": 3.5728,
           "subscription_status": "限制大额申购",
           "redemption_status": "开放赎回",
           "distribution_note": null,
           "observations": 5,
-          "api_total_count": 526,
+          "api_total_count": 527,
           "return_method": "none; unit NAV observation only, no dividend fill or forecast",
           "identity_basis": "exact fundCode request; response schema has no code field",
           "fact_reverified": false
         },
         "date_candidates": [],
-        "excerpt": "022184 unit NAV 3.4661 on 2026-11-20"
+        "excerpt": "022184 unit NAV 3.5728 on 2026-11-23"
       },
       "stale": false,
-      "bytes": 1279,
+      "bytes": 1278,
       "final_url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=022184&pageIndex=1&pageSize=5&endDate=2026-11-24",
       "nav": {
         "code": "022184",
-        "date": "2026-11-20",
-        "unit_nav": 3.4661,
-        "cumulative_nav": 3.4661,
+        "date": "2026-11-23",
+        "unit_nav": 3.5728,
+        "cumulative_nav": 3.5728,
         "subscription_status": "限制大额申购",
         "redemption_status": "开放赎回",
         "distribution_note": null,
         "observations": 5,
-        "api_total_count": 526,
+        "api_total_count": 527,
         "return_method": "none; unit NAV observation only, no dividend fill or forecast",
         "identity_basis": "exact fundCode request; response schema has no code field",
         "fact_reverified": false
@@ -6099,7 +6106,7 @@
       "code": "022415",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:02.812175+08:00",
+      "checked_at": "2026-11-24T18:58:04.514153+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "8012d32be920b57107cd3a918356db600aff8cf381149f80d6056744557b1188",
@@ -6110,7 +6117,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_022415",
-        "checked_at": "2026-11-24T18:09:02.812175+08:00",
+        "checked_at": "2026-11-24T18:58:04.514153+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "8012d32be920b57107cd3a918356db600aff8cf381149f80d6056744557b1188",
         "status": "collected",
@@ -6149,7 +6156,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_022714",
@@ -6161,7 +6168,7 @@
       "code": "022714",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:02.952722+08:00",
+      "checked_at": "2026-11-24T18:58:04.637311+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "5970d9b68a3ba4bfeac1911d50da9b25d41f7405d1943fc316ddbc3ac20b04fa",
@@ -6172,7 +6179,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_022714",
-        "checked_at": "2026-11-24T18:09:02.952722+08:00",
+        "checked_at": "2026-11-24T18:58:04.637311+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "5970d9b68a3ba4bfeac1911d50da9b25d41f7405d1943fc316ddbc3ac20b04fa",
         "status": "collected",
@@ -6211,7 +6218,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_023875",
@@ -6223,7 +6230,7 @@
       "code": "023875",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:03.446182+08:00",
+      "checked_at": "2026-11-24T18:58:04.786402+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "bc88e460ef12c0336d8e18e7ededd50b7882d631bb298f27eaa5f0debab3785e",
@@ -6234,7 +6241,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_023875",
-        "checked_at": "2026-11-24T18:09:03.446182+08:00",
+        "checked_at": "2026-11-24T18:58:04.786402+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "bc88e460ef12c0336d8e18e7ededd50b7882d631bb298f27eaa5f0debab3785e",
         "status": "collected",
@@ -6273,7 +6280,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_027170",
@@ -6285,7 +6292,7 @@
       "code": "027170",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:03.849999+08:00",
+      "checked_at": "2026-11-24T18:58:05.164790+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "8da37e8c7381c2be6daaaa19fd9c93c72c858719228a75e1caf55e7bbcee0c02",
@@ -6296,7 +6303,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_027170",
-        "checked_at": "2026-11-24T18:09:03.849999+08:00",
+        "checked_at": "2026-11-24T18:58:05.164790+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "8da37e8c7381c2be6daaaa19fd9c93c72c858719228a75e1caf55e7bbcee0c02",
         "status": "collected",
@@ -6335,7 +6342,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_519697",
@@ -6347,7 +6354,7 @@
       "code": "519697",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:04.010506+08:00",
+      "checked_at": "2026-11-24T18:58:05.437936+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "2d136b1ca39033623cd2bfc51b30d78ec4ea60c852ae294018751f033feebee7",
@@ -6358,7 +6365,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_519697",
-        "checked_at": "2026-11-24T18:09:04.010506+08:00",
+        "checked_at": "2026-11-24T18:58:05.437936+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "2d136b1ca39033623cd2bfc51b30d78ec4ea60c852ae294018751f033feebee7",
         "status": "collected",
@@ -6397,7 +6404,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_110020",
@@ -6409,7 +6416,7 @@
       "code": "110020",
       "product_kind": "fund",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:04.407722+08:00",
+      "checked_at": "2026-11-24T18:58:05.439402+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "16e1de1cf67bce834d916ae6e0a003c7c32107760866a1805a375333dc724019",
@@ -6420,7 +6427,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_110020",
-        "checked_at": "2026-11-24T18:09:04.407722+08:00",
+        "checked_at": "2026-11-24T18:58:05.439402+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "16e1de1cf67bce834d916ae6e0a003c7c32107760866a1805a375333dc724019",
         "status": "collected",
@@ -6459,7 +6466,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_510300",
@@ -6471,7 +6478,7 @@
       "code": "510300",
       "product_kind": "etf",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:04.851544+08:00",
+      "checked_at": "2026-11-24T18:58:05.649798+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "049737f807275e5ad5d114a48fef67f49c4858b1c6276d260ad4274ea0e4a205",
@@ -6482,7 +6489,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_510300",
-        "checked_at": "2026-11-24T18:09:04.851544+08:00",
+        "checked_at": "2026-11-24T18:58:05.649798+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "049737f807275e5ad5d114a48fef67f49c4858b1c6276d260ad4274ea0e4a205",
         "status": "collected",
@@ -6521,7 +6528,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_510880",
@@ -6533,7 +6540,7 @@
       "code": "510880",
       "product_kind": "etf",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:05.272280+08:00",
+      "checked_at": "2026-11-24T18:58:06.058414+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "ef1abd83600d4d7927a892fee690c21480bfccbea10fcf20c9e01f3d95281b84",
@@ -6544,7 +6551,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_510880",
-        "checked_at": "2026-11-24T18:09:05.272280+08:00",
+        "checked_at": "2026-11-24T18:58:06.058414+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "ef1abd83600d4d7927a892fee690c21480bfccbea10fcf20c9e01f3d95281b84",
         "status": "collected",
@@ -6583,7 +6590,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_512010",
@@ -6595,7 +6602,7 @@
       "code": "512010",
       "product_kind": "etf",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:05.856166+08:00",
+      "checked_at": "2026-11-24T18:58:06.157247+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "9edf4d3357b5c18a89168ede4e1bede224b368b9b960f8c891f3be75b45669ee",
@@ -6606,7 +6613,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_512010",
-        "checked_at": "2026-11-24T18:09:05.856166+08:00",
+        "checked_at": "2026-11-24T18:58:06.157247+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "9edf4d3357b5c18a89168ede4e1bede224b368b9b960f8c891f3be75b45669ee",
         "status": "collected",
@@ -6645,7 +6652,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_512400",
@@ -6657,7 +6664,7 @@
       "code": "512400",
       "product_kind": "etf",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:06.014043+08:00",
+      "checked_at": "2026-11-24T18:58:06.311862+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "4dbcf9eb7e61585f1fff0d69236195a1f444cb148b92d3dd69aa15a3a9d01ad5",
@@ -6668,7 +6675,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_512400",
-        "checked_at": "2026-11-24T18:09:06.014043+08:00",
+        "checked_at": "2026-11-24T18:58:06.311862+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "4dbcf9eb7e61585f1fff0d69236195a1f444cb148b92d3dd69aa15a3a9d01ad5",
         "status": "collected",
@@ -6707,7 +6714,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_512480",
@@ -6719,7 +6726,7 @@
       "code": "512480",
       "product_kind": "etf",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:06.903054+08:00",
+      "checked_at": "2026-11-24T18:58:06.398887+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "b7402540db54e84c8bb40bc266289f7fd70b45769a43637af01dab8bcb9b60a7",
@@ -6730,7 +6737,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_512480",
-        "checked_at": "2026-11-24T18:09:06.903054+08:00",
+        "checked_at": "2026-11-24T18:58:06.398887+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "b7402540db54e84c8bb40bc266289f7fd70b45769a43637af01dab8bcb9b60a7",
         "status": "collected",
@@ -6769,7 +6776,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_513500",
@@ -6781,7 +6788,7 @@
       "code": "513500",
       "product_kind": "etf",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:07.750844+08:00",
+      "checked_at": "2026-11-24T18:58:06.592035+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "79f478bfc93bd8d3c3273e5581db4362fb308e054fabab8ee62d9fe249ca03e1",
@@ -6792,7 +6799,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_513500",
-        "checked_at": "2026-11-24T18:09:07.750844+08:00",
+        "checked_at": "2026-11-24T18:58:06.592035+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "79f478bfc93bd8d3c3273e5581db4362fb308e054fabab8ee62d9fe249ca03e1",
         "status": "collected",
@@ -6831,7 +6838,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "nav_515880",
@@ -6843,7 +6850,7 @@
       "code": "515880",
       "product_kind": "etf",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:08.500728+08:00",
+      "checked_at": "2026-11-24T18:58:07.032009+08:00",
       "publication_date": "2026-11-23",
       "date_candidates": [],
       "content_sha256": "56b948d741ddd6cf214fac242121403781e0b68ffe985ac4e6d144e986f5e083",
@@ -6854,7 +6861,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "nav_515880",
-        "checked_at": "2026-11-24T18:09:08.500728+08:00",
+        "checked_at": "2026-11-24T18:58:07.032009+08:00",
         "publication_date": "2026-11-23",
         "content_sha256": "56b948d741ddd6cf214fac242121403781e0b68ffe985ac4e6d144e986f5e083",
         "status": "collected",
@@ -6893,7 +6900,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "manager_022415",
@@ -6903,21 +6910,21 @@
       "group": "manager",
       "family": "manager_022415",
       "code": "022415",
-      "status": "failed",
-      "checked_at": "2026-11-24T18:09:08.981731+08:00",
-      "publication_date": null,
+      "status": "collected",
+      "checked_at": "2026-11-24T18:58:07.209662+08:00",
+      "publication_date": "2024-12-06",
       "date_candidates": [],
-      "content_sha256": null,
+      "content_sha256": "7e4e6089d6c927cd878f864b4e49480aedcf272ff924ceacbc7b4386f850046f",
       "excerpt": "",
-      "http_status": null,
-      "error": "URLError",
+      "http_status": 200,
+      "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_022415",
-        "checked_at": "2026-11-23T17:09:25.294441+08:00",
+        "checked_at": "2026-11-24T18:58:07.209662+08:00",
         "publication_date": "2024-12-06",
-        "content_sha256": "8e7833987c018f7742b9e7111fc0fdc2cb26f3c6550ec3b699862fbb029d8d81",
+        "content_sha256": "7e4e6089d6c927cd878f864b4e49480aedcf272ff924ceacbc7b4386f850046f",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -6950,7 +6957,37 @@
         "date_candidates": [],
         "excerpt": ""
       },
-      "stale": true,
+      "stale": false,
+      "bytes": 49406,
+      "final_url": "https://fundf10.eastmoney.com/jjjl_022415.html",
+      "manager": {
+        "appointments": [
+          {
+            "start_date": "2024-12-06",
+            "end_date": null,
+            "managers": [
+              "田维"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_appointments": [
+          {
+            "start_date": "2024-12-06",
+            "end_date": null,
+            "managers": [
+              "田维"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_managers": [
+          "田维"
+        ],
+        "appointment_signature": "402e35284587169fcea7abf407439b5570b331aed2f9cc64fb7ecb027a6d25ab",
+        "excluded_future_count": 0,
+        "fact_reverified": false
+      },
       "attempted": true,
       "change_status": "first observation or unavailable"
     },
@@ -6963,7 +7000,7 @@
       "family": "manager_022415",
       "code": "022415",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:09.465595+08:00",
+      "checked_at": "2026-11-24T18:58:07.279612+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -7005,7 +7042,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_022415",
-        "checked_at": "2026-11-24T18:09:09.465595+08:00",
+        "checked_at": "2026-11-24T18:58:07.279612+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "513432e526ed8573ff969ce66e5d997ebd74f7ed73313b39547464740f0433f6",
         "status": "collected",
@@ -7195,21 +7232,21 @@
       "group": "manager",
       "family": "manager_021902",
       "code": "021902",
-      "status": "failed",
-      "checked_at": "2026-11-24T18:09:09.553570+08:00",
-      "publication_date": null,
+      "status": "collected",
+      "checked_at": "2026-11-24T18:58:07.565844+08:00",
+      "publication_date": "2024-07-25",
       "date_candidates": [],
-      "content_sha256": null,
+      "content_sha256": "e9ab7f699aefcbc2e19ba86934d9770dc8e5836291e77e6c01f17ec9da3bf493",
       "excerpt": "",
-      "http_status": null,
-      "error": "URLError",
+      "http_status": 200,
+      "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_021902",
-        "checked_at": "2026-11-23T17:09:25.660943+08:00",
+        "checked_at": "2026-11-24T18:58:07.565844+08:00",
         "publication_date": "2024-07-25",
-        "content_sha256": "c4cad08ddf57b0ff85651159bad9b422f1d9c74bf30420d34fd91dd8611c0e4a",
+        "content_sha256": "e9ab7f699aefcbc2e19ba86934d9770dc8e5836291e77e6c01f17ec9da3bf493",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -7242,7 +7279,37 @@
         "date_candidates": [],
         "excerpt": ""
       },
-      "stale": true,
+      "stale": false,
+      "bytes": 53793,
+      "final_url": "https://fundf10.eastmoney.com/jjjl_021902.html",
+      "manager": {
+        "appointments": [
+          {
+            "start_date": "2024-07-25",
+            "end_date": null,
+            "managers": [
+              "冯汉杰"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_appointments": [
+          {
+            "start_date": "2024-07-25",
+            "end_date": null,
+            "managers": [
+              "冯汉杰"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_managers": [
+          "冯汉杰"
+        ],
+        "appointment_signature": "141141e6135f7ab287a811dd89e49d2f24be8c12e37fa527a9cd3724d1ff21dd",
+        "excluded_future_count": 0,
+        "fact_reverified": false
+      },
       "attempted": true,
       "change_status": "first observation or unavailable"
     },
@@ -7254,19 +7321,50 @@
       "group": "announcements",
       "family": "manager_021902",
       "code": "021902",
-      "status": "failed",
-      "checked_at": "2026-11-24T18:09:09.965910+08:00",
-      "publication_date": null,
-      "date_candidates": [],
-      "content_sha256": null,
+      "status": "collected",
+      "checked_at": "2026-11-24T18:58:07.910660+08:00",
+      "publication_date": "2026-10-27",
+      "date_candidates": [
+        {
+          "title": "广发主题领先灵活配置混合型证券投资基金2026年第3季度报告",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202610271830977352.html",
+          "publication_date": "2026-10-27"
+        },
+        {
+          "title": "广发基金管理有限公司关于旗下基金2026年第3季度报告提示性公告",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202610261830940160.html",
+          "publication_date": "2026-10-27"
+        },
+        {
+          "title": "广发主题领先灵活配置混合型证券投资基金2026年中期报告",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202608311828770345.html",
+          "publication_date": "2026-08-31"
+        },
+        {
+          "title": "广发基金管理有限公司关于旗下基金2026年中期报告提示性公告",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202608301828742398.html",
+          "publication_date": "2026-08-31"
+        },
+        {
+          "title": "广发主题领先灵活配置混合型证券投资基金2026年第2季度报告",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202607201827126462.html",
+          "publication_date": "2026-07-20"
+        },
+        {
+          "title": "广发基金管理有限公司关于旗下基金2026年第2季度报告提示性公告",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202607191827112896.html",
+          "publication_date": "2026-07-20"
+        }
+      ],
+      "content_sha256": "974c4d51589f0fe7f2101089c89a2843531d6a2ec0f9858ab6a77cdfe7dbb7c7",
       "excerpt": "",
-      "http_status": null,
-      "error": "URLError",
+      "http_status": 200,
+      "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_021902",
-        "checked_at": "2026-11-23T17:09:26.069352+08:00",
+        "checked_at": "2026-11-24T18:58:07.910660+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "974c4d51589f0fe7f2101089c89a2843531d6a2ec0f9858ab6a77cdfe7dbb7c7",
         "status": "collected",
@@ -7373,7 +7471,78 @@
         ],
         "excerpt": ""
       },
-      "stale": true,
+      "stale": false,
+      "bytes": 5965,
+      "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=021902&pageIndex=1&pageSize=20&type=0",
+      "announcements": {
+        "items": [
+          {
+            "id": "AN202610271830977352",
+            "title": "广发主题领先灵活配置混合型证券投资基金2026年第3季度报告",
+            "publication_date": "2026-10-27",
+            "kind": "periodic_report",
+            "url": "https://fund.eastmoney.com/gonggao/021902,AN202610271830977352.html",
+            "body_reviewed": false,
+            "requires_independent_review": true,
+            "new_since_independent_review": false
+          },
+          {
+            "id": "AN202610261830940160",
+            "title": "广发基金管理有限公司关于旗下基金2026年第3季度报告提示性公告",
+            "publication_date": "2026-10-27",
+            "kind": "periodic_report",
+            "url": "https://fund.eastmoney.com/gonggao/021902,AN202610261830940160.html",
+            "body_reviewed": false,
+            "requires_independent_review": true,
+            "new_since_independent_review": false
+          },
+          {
+            "id": "AN202608311828770345",
+            "title": "广发主题领先灵活配置混合型证券投资基金2026年中期报告",
+            "publication_date": "2026-08-31",
+            "kind": "periodic_report",
+            "url": "https://fund.eastmoney.com/gonggao/021902,AN202608311828770345.html",
+            "body_reviewed": false,
+            "requires_independent_review": true,
+            "new_since_independent_review": false
+          },
+          {
+            "id": "AN202608301828742398",
+            "title": "广发基金管理有限公司关于旗下基金2026年中期报告提示性公告",
+            "publication_date": "2026-08-31",
+            "kind": "periodic_report",
+            "url": "https://fund.eastmoney.com/gonggao/021902,AN202608301828742398.html",
+            "body_reviewed": false,
+            "requires_independent_review": true,
+            "new_since_independent_review": false
+          },
+          {
+            "id": "AN202607201827126462",
+            "title": "广发主题领先灵活配置混合型证券投资基金2026年第2季度报告",
+            "publication_date": "2026-07-20",
+            "kind": "periodic_report",
+            "url": "https://fund.eastmoney.com/gonggao/021902,AN202607201827126462.html",
+            "body_reviewed": false,
+            "requires_independent_review": true,
+            "new_since_independent_review": false
+          },
+          {
+            "id": "AN202607191827112896",
+            "title": "广发基金管理有限公司关于旗下基金2026年第2季度报告提示性公告",
+            "publication_date": "2026-07-20",
+            "kind": "periodic_report",
+            "url": "https://fund.eastmoney.com/gonggao/021902,AN202607191827112896.html",
+            "body_reviewed": false,
+            "requires_independent_review": true,
+            "new_since_independent_review": false
+          }
+        ],
+        "records_returned": 20,
+        "api_total_count": 108,
+        "window": "first 20 announcements only; older or omitted pages are not reviewed",
+        "excluded_future_count": 0,
+        "fact_reverified": false
+      },
       "attempted": true,
       "change_status": "first observation or unavailable"
     },
@@ -7386,10 +7555,10 @@
       "family": "manager_011066",
       "code": "011066",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:10.329767+08:00",
+      "checked_at": "2026-11-24T18:58:08.225584+08:00",
       "publication_date": "2020-12-25",
       "date_candidates": [],
-      "content_sha256": "c2f202ae0ecd48b6db66b2e8783814ec941bb9c144ca1c039dae6439bfbd6e58",
+      "content_sha256": "65a149c633d35d6b04b2ec9cb47280c92cd7f1c637f0449f28249afcc993cee6",
       "excerpt": "",
       "http_status": 200,
       "error": null,
@@ -7397,9 +7566,9 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_011066",
-        "checked_at": "2026-11-24T18:09:10.329767+08:00",
+        "checked_at": "2026-11-24T18:58:08.225584+08:00",
         "publication_date": "2020-12-25",
-        "content_sha256": "c2f202ae0ecd48b6db66b2e8783814ec941bb9c144ca1c039dae6439bfbd6e58",
+        "content_sha256": "65a149c633d35d6b04b2ec9cb47280c92cd7f1c637f0449f28249afcc993cee6",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -7433,7 +7602,7 @@
         "excerpt": ""
       },
       "stale": false,
-      "bytes": 50034,
+      "bytes": 50048,
       "final_url": "https://fundf10.eastmoney.com/jjjl_011066.html",
       "manager": {
         "appointments": [
@@ -7475,7 +7644,7 @@
       "family": "manager_011066",
       "code": "011066",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:10.442958+08:00",
+      "checked_at": "2026-11-24T18:58:08.725169+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -7532,7 +7701,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_011066",
-        "checked_at": "2026-11-24T18:09:10.442958+08:00",
+        "checked_at": "2026-11-24T18:58:08.725169+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "1d97ed52a9ec4decbf28cbae89c3ecbccd5c4be03d7a6500d5bee818fdf446c5",
         "status": "collected",
@@ -7797,21 +7966,21 @@
       "group": "manager",
       "family": "manager_021180",
       "code": "021180",
-      "status": "failed",
-      "checked_at": "2026-11-24T18:09:11.432971+08:00",
-      "publication_date": null,
+      "status": "collected",
+      "checked_at": "2026-11-24T18:58:08.803130+08:00",
+      "publication_date": "2024-08-28",
       "date_candidates": [],
-      "content_sha256": null,
+      "content_sha256": "b2ba3ad6193961e382092eb1ebd44392d3288e8cb94d3794b644b4ac447aead1",
       "excerpt": "",
-      "http_status": null,
-      "error": "URLError",
+      "http_status": 200,
+      "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_021180",
-        "checked_at": "2026-11-23T17:09:27.357097+08:00",
+        "checked_at": "2026-11-24T18:58:08.803130+08:00",
         "publication_date": "2024-08-28",
-        "content_sha256": "90fbe04564d974c6fb19f7090d54656b25ee180067fbde6f1d63400218aa944f",
+        "content_sha256": "b2ba3ad6193961e382092eb1ebd44392d3288e8cb94d3794b644b4ac447aead1",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -7844,7 +8013,37 @@
         "date_candidates": [],
         "excerpt": ""
       },
-      "stale": true,
+      "stale": false,
+      "bytes": 43420,
+      "final_url": "https://fundf10.eastmoney.com/jjjl_021180.html",
+      "manager": {
+        "appointments": [
+          {
+            "start_date": "2024-08-28",
+            "end_date": null,
+            "managers": [
+              "杨宗昌"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_appointments": [
+          {
+            "start_date": "2024-08-28",
+            "end_date": null,
+            "managers": [
+              "杨宗昌"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_managers": [
+          "杨宗昌"
+        ],
+        "appointment_signature": "3432f7213d091db74993036a31104c2df91acc5f84798b17f2be0bf678c67a50",
+        "excluded_future_count": 0,
+        "fact_reverified": false
+      },
       "attempted": true,
       "change_status": "first observation or unavailable"
     },
@@ -7857,7 +8056,7 @@
       "family": "manager_021180",
       "code": "021180",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:11.558839+08:00",
+      "checked_at": "2026-11-24T18:58:08.916945+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -7879,7 +8078,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_021180",
-        "checked_at": "2026-11-24T18:09:11.558839+08:00",
+        "checked_at": "2026-11-24T18:58:08.916945+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "7d9f03b6039452e74d88068e0da6c38dbfb0b5f7b0bc31458acbc00ed3261d54",
         "status": "collected",
@@ -7959,7 +8158,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "manager_010390",
@@ -7970,10 +8169,10 @@
       "family": "manager_010390",
       "code": "010390",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:11.587456+08:00",
+      "checked_at": "2026-11-24T18:58:09.350835+08:00",
       "publication_date": "2026-05-29",
       "date_candidates": [],
-      "content_sha256": "cd6ebe11b30670db0d4af4f72f61fd6e2567d1c7b684d91cdcd511b156b8b9dd",
+      "content_sha256": "63bed9b6927e637cea125ac7bb779aab075acb8faed0ede8ad8a4efca31e305a",
       "excerpt": "",
       "http_status": 200,
       "error": null,
@@ -7981,9 +8180,9 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_010390",
-        "checked_at": "2026-11-24T18:09:11.587456+08:00",
+        "checked_at": "2026-11-24T18:58:09.350835+08:00",
         "publication_date": "2026-05-29",
-        "content_sha256": "cd6ebe11b30670db0d4af4f72f61fd6e2567d1c7b684d91cdcd511b156b8b9dd",
+        "content_sha256": "63bed9b6927e637cea125ac7bb779aab075acb8faed0ede8ad8a4efca31e305a",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -8051,7 +8250,7 @@
         "excerpt": ""
       },
       "stale": false,
-      "bytes": 42982,
+      "bytes": 42876,
       "final_url": "https://fundf10.eastmoney.com/jjjl_010390.html",
       "manager": {
         "appointments": [
@@ -8127,7 +8326,7 @@
       "family": "manager_010390",
       "code": "010390",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:12.556884+08:00",
+      "checked_at": "2026-11-24T18:58:09.687424+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -8149,7 +8348,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_010390",
-        "checked_at": "2026-11-24T18:09:12.556884+08:00",
+        "checked_at": "2026-11-24T18:58:09.687424+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "6ddbd293504af0d3c0508c9808ec38657f15a37a188e4d27db3f08589735a962",
         "status": "collected",
@@ -8229,7 +8428,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "manager_022714",
@@ -8240,10 +8439,10 @@
       "family": "manager_022714",
       "code": "022714",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:12.927907+08:00",
+      "checked_at": "2026-11-24T18:58:09.838632+08:00",
       "publication_date": "2024-11-27",
       "date_candidates": [],
-      "content_sha256": "dc41938012bf4ccb431ed473d89037bd13fa33da48b9d12a7efcedf02927d7b9",
+      "content_sha256": "4786d1cebb8dd8c1af8c69f14884ee13f8f0206569887305690e0ab52b863c75",
       "excerpt": "",
       "http_status": 200,
       "error": null,
@@ -8251,9 +8450,9 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_022714",
-        "checked_at": "2026-11-24T18:09:12.927907+08:00",
+        "checked_at": "2026-11-24T18:58:09.838632+08:00",
         "publication_date": "2024-11-27",
-        "content_sha256": "dc41938012bf4ccb431ed473d89037bd13fa33da48b9d12a7efcedf02927d7b9",
+        "content_sha256": "4786d1cebb8dd8c1af8c69f14884ee13f8f0206569887305690e0ab52b863c75",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -8287,7 +8486,7 @@
         "excerpt": ""
       },
       "stale": false,
-      "bytes": 49524,
+      "bytes": 49592,
       "final_url": "https://fundf10.eastmoney.com/jjjl_022714.html",
       "manager": {
         "appointments": [
@@ -8329,7 +8528,7 @@
       "family": "manager_022714",
       "code": "022714",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:13.638689+08:00",
+      "checked_at": "2026-11-24T18:58:09.880202+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -8371,7 +8570,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_022714",
-        "checked_at": "2026-11-24T18:09:13.638689+08:00",
+        "checked_at": "2026-11-24T18:58:09.880202+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "2a5ab5ecf147b1b39e90acc9e807e76f51334c441d541c727b5b91b8462c8095",
         "status": "collected",
@@ -8562,10 +8761,10 @@
       "family": "manager_519697",
       "code": "519697",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:14.057875+08:00",
+      "checked_at": "2026-11-24T18:58:09.927927+08:00",
       "publication_date": "2015-07-11",
       "date_candidates": [],
-      "content_sha256": "9df74579006c90fa7468b36b90f64d4944237b345f502635adec4c5651223f7a",
+      "content_sha256": "309803f20921f4f1beb4379361b5b7f754ce8300440459c36fef91bc56f8c3fd",
       "excerpt": "",
       "http_status": 200,
       "error": null,
@@ -8573,9 +8772,9 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_519697",
-        "checked_at": "2026-11-24T18:09:14.057875+08:00",
+        "checked_at": "2026-11-24T18:58:09.927927+08:00",
         "publication_date": "2015-07-11",
-        "content_sha256": "9df74579006c90fa7468b36b90f64d4944237b345f502635adec4c5651223f7a",
+        "content_sha256": "309803f20921f4f1beb4379361b5b7f754ce8300440459c36fef91bc56f8c3fd",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -8626,7 +8825,7 @@
         "excerpt": ""
       },
       "stale": false,
-      "bytes": 44447,
+      "bytes": 44375,
       "final_url": "https://fundf10.eastmoney.com/jjjl_519697.html",
       "manager": {
         "appointments": [
@@ -8685,7 +8884,7 @@
       "family": "manager_519697",
       "code": "519697",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:15.278912+08:00",
+      "checked_at": "2026-11-24T18:58:10.412062+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -8742,7 +8941,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_519697",
-        "checked_at": "2026-11-24T18:09:15.278912+08:00",
+        "checked_at": "2026-11-24T18:58:10.412062+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "e48c3af5bd1d6f1f4cf98a353e1c626070b57129050a9c5e03673f69920ca72c",
         "status": "collected",
@@ -9007,21 +9206,21 @@
       "group": "manager",
       "family": "manager_027170",
       "code": "027170",
-      "status": "failed",
-      "checked_at": "2026-11-24T18:09:16.261045+08:00",
-      "publication_date": null,
+      "status": "collected",
+      "checked_at": "2026-11-24T18:58:10.740331+08:00",
+      "publication_date": "2026-10-29",
       "date_candidates": [],
-      "content_sha256": null,
+      "content_sha256": "79bcc2cdd7bfd4f88e3e462ae852a6db24abade967ea73cf81346a1e5c5a27c1",
       "excerpt": "",
-      "http_status": null,
-      "error": "URLError",
+      "http_status": 200,
+      "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_027170",
-        "checked_at": "2026-11-23T17:09:28.779512+08:00",
+        "checked_at": "2026-11-24T18:58:10.740331+08:00",
         "publication_date": "2026-10-29",
-        "content_sha256": "039787c1640f04feb1b80f7601428ca8bdb758d08533779f194416a444556e01",
+        "content_sha256": "79bcc2cdd7bfd4f88e3e462ae852a6db24abade967ea73cf81346a1e5c5a27c1",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -9063,7 +9262,46 @@
         "date_candidates": [],
         "excerpt": ""
       },
-      "stale": true,
+      "stale": false,
+      "bytes": 59173,
+      "final_url": "https://fundf10.eastmoney.com/jjjl_027170.html",
+      "manager": {
+        "appointments": [
+          {
+            "start_date": "2026-10-29",
+            "end_date": null,
+            "managers": [
+              "蔡铮"
+            ],
+            "end_marker": "至今"
+          },
+          {
+            "start_date": "2026-04-15",
+            "end_date": "2026-10-28",
+            "managers": [
+              "蔡铮",
+              "陈舒薇"
+            ],
+            "end_marker": "2026-10-28"
+          }
+        ],
+        "current_appointments": [
+          {
+            "start_date": "2026-10-29",
+            "end_date": null,
+            "managers": [
+              "蔡铮"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_managers": [
+          "蔡铮"
+        ],
+        "appointment_signature": "66b01211705e373d6db4ae3e660c9ffef7f0a0e5f93b6e2394daa7c7660d0bd6",
+        "excluded_future_count": 0,
+        "fact_reverified": false
+      },
       "attempted": true,
       "change_status": "first observation or unavailable"
     },
@@ -9076,7 +9314,7 @@
       "family": "manager_027170",
       "code": "027170",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:18.120687+08:00",
+      "checked_at": "2026-11-24T18:58:10.842333+08:00",
       "publication_date": "2026-10-29",
       "date_candidates": [
         {
@@ -9123,7 +9361,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_027170",
-        "checked_at": "2026-11-24T18:09:18.120687+08:00",
+        "checked_at": "2026-11-24T18:58:10.842333+08:00",
         "publication_date": "2026-10-29",
         "content_sha256": "4685a2459eb5544af832744b5d11807a642725c75989a9e1ebae604759792322",
         "status": "collected",
@@ -9328,7 +9566,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "manager_008270",
@@ -9338,21 +9576,21 @@
       "group": "manager",
       "family": "manager_008270",
       "code": "008270",
-      "status": "failed",
-      "checked_at": "2026-11-24T18:09:19.093300+08:00",
-      "publication_date": null,
+      "status": "collected",
+      "checked_at": "2026-11-24T18:58:11.024173+08:00",
+      "publication_date": "2019-12-30",
       "date_candidates": [],
-      "content_sha256": null,
+      "content_sha256": "654913144c4c6b5735d457f5bc74d0365547ad789f9dafb465e7f9fccc3ed74f",
       "excerpt": "",
-      "http_status": null,
-      "error": "URLError",
+      "http_status": 200,
+      "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_008270",
-        "checked_at": "2026-11-23T17:09:29.486514+08:00",
+        "checked_at": "2026-11-24T18:58:11.024173+08:00",
         "publication_date": "2019-12-30",
-        "content_sha256": "4300be031961b35b3ddd15c5bb4982358e0248bba2d84d466126a4a7d3bd7ef5",
+        "content_sha256": "654913144c4c6b5735d457f5bc74d0365547ad789f9dafb465e7f9fccc3ed74f",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -9385,7 +9623,37 @@
         "date_candidates": [],
         "excerpt": ""
       },
-      "stale": true,
+      "stale": false,
+      "bytes": 51146,
+      "final_url": "https://fundf10.eastmoney.com/jjjl_008270.html",
+      "manager": {
+        "appointments": [
+          {
+            "start_date": "2019-12-30",
+            "end_date": null,
+            "managers": [
+              "徐彦"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_appointments": [
+          {
+            "start_date": "2019-12-30",
+            "end_date": null,
+            "managers": [
+              "徐彦"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_managers": [
+          "徐彦"
+        ],
+        "appointment_signature": "e72f4acececf183875336430dc8d49ec929456e0c76aae10e7232bad1533966c",
+        "excluded_future_count": 0,
+        "fact_reverified": false
+      },
       "attempted": true,
       "change_status": "first observation or unavailable"
     },
@@ -9398,7 +9666,7 @@
       "family": "manager_008270",
       "code": "008270",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:27.672431+08:00",
+      "checked_at": "2026-11-24T18:58:11.294775+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -9455,7 +9723,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_008270",
-        "checked_at": "2026-11-24T18:09:27.672431+08:00",
+        "checked_at": "2026-11-24T18:58:11.294775+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "19259bd9a6d3ffd1d3adcf509517f991eb7fb5523e993d516f1750e56942b251",
         "status": "collected",
@@ -9720,21 +9988,21 @@
       "group": "manager",
       "family": "manager_019032",
       "code": "019032",
-      "status": "failed",
-      "checked_at": "2026-11-24T18:09:27.807561+08:00",
-      "publication_date": null,
+      "status": "collected",
+      "checked_at": "2026-11-24T18:58:11.896969+08:00",
+      "publication_date": "2023-11-15",
       "date_candidates": [],
-      "content_sha256": null,
+      "content_sha256": "4e6ce95aa2f239c66bd1e3b6ef46a9a8ea4fb96584e9d47423f258b04ff140ba",
       "excerpt": "",
-      "http_status": null,
-      "error": "URLError",
+      "http_status": 200,
+      "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_019032",
-        "checked_at": "2026-11-23T17:09:29.864724+08:00",
+        "checked_at": "2026-11-24T18:58:11.896969+08:00",
         "publication_date": "2023-11-15",
-        "content_sha256": "45457f4986492ee10e54fb55d3a35e1f9318035b8680a98a0f78d4ef179c2c72",
+        "content_sha256": "4e6ce95aa2f239c66bd1e3b6ef46a9a8ea4fb96584e9d47423f258b04ff140ba",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -9767,7 +10035,37 @@
         "date_candidates": [],
         "excerpt": ""
       },
-      "stale": true,
+      "stale": false,
+      "bytes": 46778,
+      "final_url": "https://fundf10.eastmoney.com/jjjl_019032.html",
+      "manager": {
+        "appointments": [
+          {
+            "start_date": "2023-11-15",
+            "end_date": null,
+            "managers": [
+              "祁禾"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_appointments": [
+          {
+            "start_date": "2023-11-15",
+            "end_date": null,
+            "managers": [
+              "祁禾"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_managers": [
+          "祁禾"
+        ],
+        "appointment_signature": "fbdf94603a5b28549665e7413c4a63c5bf944bd1dfd6c5e62651c4aca945f6d5",
+        "excluded_future_count": 0,
+        "fact_reverified": false
+      },
       "attempted": true,
       "change_status": "first observation or unavailable"
     },
@@ -9780,7 +10078,7 @@
       "family": "manager_019032",
       "code": "019032",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:28.229465+08:00",
+      "checked_at": "2026-11-24T18:58:12.167072+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -9802,7 +10100,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_019032",
-        "checked_at": "2026-11-24T18:09:28.229465+08:00",
+        "checked_at": "2026-11-24T18:58:12.167072+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "5c6bb7211031c3c0ce75e6d6bc844a815b4e44e39105f7fd4dfd95ab590218c3",
         "status": "collected",
@@ -9882,7 +10180,7 @@
         "fact_reverified": false
       },
       "attempted": true,
-      "change_status": "changed"
+      "change_status": "unchanged bytes; not reverified"
     },
     {
       "id": "manager_017787",
@@ -9893,10 +10191,10 @@
       "family": "manager_017787",
       "code": "017787",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:28.677139+08:00",
+      "checked_at": "2026-11-24T18:58:13.050241+08:00",
       "publication_date": "2023-01-17",
       "date_candidates": [],
-      "content_sha256": "3a66ddc296bb53384b4bc8b602eaafd55e424b053f307c9685c0c8aacaa4ecb8",
+      "content_sha256": "49baa655f9b72294194b3ad3fc819b81447e1bc5eb1bdb53c03f47d6f1299b7f",
       "excerpt": "",
       "http_status": 200,
       "error": null,
@@ -9904,9 +10202,9 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_017787",
-        "checked_at": "2026-11-24T18:09:28.677139+08:00",
+        "checked_at": "2026-11-24T18:58:13.050241+08:00",
         "publication_date": "2023-01-17",
-        "content_sha256": "3a66ddc296bb53384b4bc8b602eaafd55e424b053f307c9685c0c8aacaa4ecb8",
+        "content_sha256": "49baa655f9b72294194b3ad3fc819b81447e1bc5eb1bdb53c03f47d6f1299b7f",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -9940,7 +10238,7 @@
         "excerpt": ""
       },
       "stale": false,
-      "bytes": 44901,
+      "bytes": 44951,
       "final_url": "https://fundf10.eastmoney.com/jjjl_017787.html",
       "manager": {
         "appointments": [
@@ -9982,7 +10280,7 @@
       "family": "manager_017787",
       "code": "017787",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:29.205835+08:00",
+      "checked_at": "2026-11-24T18:58:13.720179+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -10024,7 +10322,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_017787",
-        "checked_at": "2026-11-24T18:09:29.205835+08:00",
+        "checked_at": "2026-11-24T18:58:13.720179+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "59a0c71d6f56358a1021b24fb7e713faffaec8980f78fe91cbb7f99525b52ff1",
         "status": "collected",
@@ -10214,21 +10512,21 @@
       "group": "manager",
       "family": "manager_020254",
       "code": "020254",
-      "status": "failed",
-      "checked_at": "2026-11-24T18:09:29.692196+08:00",
-      "publication_date": null,
+      "status": "collected",
+      "checked_at": "2026-11-24T18:58:13.816669+08:00",
+      "publication_date": "2023-12-13",
       "date_candidates": [],
-      "content_sha256": null,
+      "content_sha256": "a7264c31e6c382811cb46048953cd1051f3dce9a6e172ff5cca72093d609f450",
       "excerpt": "",
-      "http_status": null,
-      "error": "URLError",
+      "http_status": 200,
+      "error": null,
       "fact_reverified": false,
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_020254",
-        "checked_at": "2026-11-23T17:09:30.736432+08:00",
+        "checked_at": "2026-11-24T18:58:13.816669+08:00",
         "publication_date": "2023-12-13",
-        "content_sha256": "c51db57a1b34cc8a094a5b78bba29188b94308865b029b8b2b01de2b6c589bfa",
+        "content_sha256": "a7264c31e6c382811cb46048953cd1051f3dce9a6e172ff5cca72093d609f450",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -10261,7 +10559,37 @@
         "date_candidates": [],
         "excerpt": ""
       },
-      "stale": true,
+      "stale": false,
+      "bytes": 47505,
+      "final_url": "https://fundf10.eastmoney.com/jjjl_020254.html",
+      "manager": {
+        "appointments": [
+          {
+            "start_date": "2023-12-13",
+            "end_date": null,
+            "managers": [
+              "伍旋"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_appointments": [
+          {
+            "start_date": "2023-12-13",
+            "end_date": null,
+            "managers": [
+              "伍旋"
+            ],
+            "end_marker": "至今"
+          }
+        ],
+        "current_managers": [
+          "伍旋"
+        ],
+        "appointment_signature": "cfd293e6b5b0dd290a6001cf83a8a2092aa2174748ec215f2c12d2a6926ca680",
+        "excluded_future_count": 0,
+        "fact_reverified": false
+      },
       "attempted": true,
       "change_status": "first observation or unavailable"
     },
@@ -10274,7 +10602,7 @@
       "family": "manager_020254",
       "code": "020254",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:29.904521+08:00",
+      "checked_at": "2026-11-24T18:58:13.981979+08:00",
       "publication_date": "2026-10-26",
       "date_candidates": [
         {
@@ -10311,7 +10639,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_020254",
-        "checked_at": "2026-11-24T18:09:29.904521+08:00",
+        "checked_at": "2026-11-24T18:58:13.981979+08:00",
         "publication_date": "2026-10-26",
         "content_sha256": "14d6635daf33efb9626e3e2ac7e9686a1a773df4f80235a343601c5fe3daae2f",
         "status": "collected",
@@ -10477,10 +10805,10 @@
       "family": "manager_012817",
       "code": "012817",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:30.902620+08:00",
+      "checked_at": "2026-11-24T18:58:14.089128+08:00",
       "publication_date": "2022-01-21",
       "date_candidates": [],
-      "content_sha256": "f3dc800ccfcfc006ca3bbc0751a7477bd9e26baec6a9ee638f6975b3419b4ce6",
+      "content_sha256": "ee7ee40c2aa555087f305d11adc790ea64d3f21637c3970e09fe34cf72ff3ac5",
       "excerpt": "",
       "http_status": 200,
       "error": null,
@@ -10488,9 +10816,9 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_012817",
-        "checked_at": "2026-11-24T18:09:30.902620+08:00",
+        "checked_at": "2026-11-24T18:58:14.089128+08:00",
         "publication_date": "2022-01-21",
-        "content_sha256": "f3dc800ccfcfc006ca3bbc0751a7477bd9e26baec6a9ee638f6975b3419b4ce6",
+        "content_sha256": "ee7ee40c2aa555087f305d11adc790ea64d3f21637c3970e09fe34cf72ff3ac5",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -10524,7 +10852,7 @@
         "excerpt": ""
       },
       "stale": false,
-      "bytes": 44853,
+      "bytes": 44973,
       "final_url": "https://fundf10.eastmoney.com/jjjl_012817.html",
       "manager": {
         "appointments": [
@@ -10566,7 +10894,7 @@
       "family": "manager_012817",
       "code": "012817",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:31.630205+08:00",
+      "checked_at": "2026-11-24T18:58:14.432697+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -10603,7 +10931,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_012817",
-        "checked_at": "2026-11-24T18:09:31.630205+08:00",
+        "checked_at": "2026-11-24T18:58:14.432697+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "58bf76bff18453dc8db452ba6447f4e17f00482f9908696c30befef7cc4b739a",
         "status": "collected",
@@ -10769,10 +11097,10 @@
       "family": "manager_011370",
       "code": "011370",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:32.156136+08:00",
+      "checked_at": "2026-11-24T18:58:14.689408+08:00",
       "publication_date": "2025-03-04",
       "date_candidates": [],
-      "content_sha256": "f4f701ae0b39cd063c59ea37de889283d186423a20da8ba98c251b2d13d239df",
+      "content_sha256": "d6979856dc61cf75e6f8fefbc958792c7a424ba8dc1cde6176450a6a49ab3bd3",
       "excerpt": "",
       "http_status": 200,
       "error": null,
@@ -10780,9 +11108,9 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "manager_011370",
-        "checked_at": "2026-11-24T18:09:32.156136+08:00",
+        "checked_at": "2026-11-24T18:58:14.689408+08:00",
         "publication_date": "2025-03-04",
-        "content_sha256": "f4f701ae0b39cd063c59ea37de889283d186423a20da8ba98c251b2d13d239df",
+        "content_sha256": "d6979856dc61cf75e6f8fefbc958792c7a424ba8dc1cde6176450a6a49ab3bd3",
         "status": "collected",
         "manager": {
           "appointments": [
@@ -10841,7 +11169,7 @@
         "excerpt": ""
       },
       "stale": false,
-      "bytes": 45174,
+      "bytes": 45104,
       "final_url": "https://fundf10.eastmoney.com/jjjl_011370.html",
       "manager": {
         "appointments": [
@@ -10908,7 +11236,7 @@
       "family": "manager_011370",
       "code": "011370",
       "status": "collected",
-      "checked_at": "2026-11-24T18:09:33.398996+08:00",
+      "checked_at": "2026-11-24T18:58:14.994172+08:00",
       "publication_date": "2026-10-27",
       "date_candidates": [
         {
@@ -10950,7 +11278,7 @@
       "requires_independent_review": true,
       "last_success": {
         "id": "announcements_011370",
-        "checked_at": "2026-11-24T18:09:33.398996+08:00",
+        "checked_at": "2026-11-24T18:58:14.994172+08:00",
         "publication_date": "2026-10-27",
         "content_sha256": "117957f593c81fff2355170a2eddb390dc4935fba1d5f825e4602e50d3b0b83d",
         "status": "collected",
@@ -12059,17 +12387,28 @@
       "status": "needs independent review",
       "last_independent_review": "2026-11-22",
       "independent_review_complete": false,
-      "is_new_manager": null,
-      "new_manager_or_appointment": null,
+      "is_new_manager": false,
+      "new_manager_or_appointment": false,
       "appointment_changed_since_previous_collection": null,
-      "appointment_signature": null,
-      "current_managers": null,
-      "current_appointments": [],
+      "appointment_signature": "402e35284587169fcea7abf407439b5570b331aed2f9cc64fb7ecb027a6d25ab",
+      "current_managers": [
+        "田维"
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2024-12-06",
+          "end_date": null,
+          "managers": [
+            "田维"
+          ],
+          "end_marker": "至今"
+        }
+      ],
       "source_checks": [
         "manager_022415",
         "announcements_022415"
       ],
-      "evidence_status": "partial",
+      "evidence_status": "collected",
       "disclosure_ids": [
         "AN202610301831251690",
         "AN202610271830981947",
@@ -12153,20 +12492,106 @@
       "status": "needs independent review",
       "last_independent_review": "2026-11-22",
       "independent_review_complete": false,
-      "is_new_manager": null,
-      "new_manager_or_appointment": null,
+      "is_new_manager": false,
+      "new_manager_or_appointment": false,
       "appointment_changed_since_previous_collection": null,
-      "appointment_signature": null,
-      "current_managers": null,
-      "current_appointments": [],
+      "appointment_signature": "141141e6135f7ab287a811dd89e49d2f24be8c12e37fa527a9cd3724d1ff21dd",
+      "current_managers": [
+        "冯汉杰"
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2024-07-25",
+          "end_date": null,
+          "managers": [
+            "冯汉杰"
+          ],
+          "end_marker": "至今"
+        }
+      ],
       "source_checks": [
         "manager_021902",
         "announcements_021902"
       ],
-      "evidence_status": "partial",
-      "disclosure_ids": [],
-      "disclosures": [],
-      "new_disclosure_ids": [],
+      "evidence_status": "collected",
+      "disclosure_ids": [
+        "AN202610271830977352",
+        "AN202610261830940160",
+        "AN202608311828770345",
+        "AN202608301828742398",
+        "AN202607201827126462",
+        "AN202607191827112896"
+      ],
+      "disclosures": [
+        {
+          "id": "AN202610271830977352",
+          "title": "广发主题领先灵活配置混合型证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202610271830977352.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202610261830940160",
+          "title": "广发基金管理有限公司关于旗下基金2026年第3季度报告提示性公告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202610261830940160.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828770345",
+          "title": "广发主题领先灵活配置混合型证券投资基金2026年中期报告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202608311828770345.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608301828742398",
+          "title": "广发基金管理有限公司关于旗下基金2026年中期报告提示性公告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202608301828742398.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607201827126462",
+          "title": "广发主题领先灵活配置混合型证券投资基金2026年第2季度报告",
+          "publication_date": "2026-07-20",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202607201827126462.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607191827112896",
+          "title": "广发基金管理有限公司关于旗下基金2026年第2季度报告提示性公告",
+          "publication_date": "2026-07-20",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202607191827112896.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "new_disclosure_ids": [
+        "AN202610271830977352",
+        "AN202610261830940160",
+        "AN202608311828770345",
+        "AN202608301828742398",
+        "AN202607201827126462",
+        "AN202607191827112896"
+      ],
       "new_disclosure_basis": "previous collection",
       "requires_independent_review": true,
       "fact_reverified": false,
@@ -12317,17 +12742,28 @@
       "status": "needs independent review",
       "last_independent_review": "2026-11-22",
       "independent_review_complete": false,
-      "is_new_manager": null,
-      "new_manager_or_appointment": null,
+      "is_new_manager": false,
+      "new_manager_or_appointment": false,
       "appointment_changed_since_previous_collection": null,
-      "appointment_signature": null,
-      "current_managers": null,
-      "current_appointments": [],
+      "appointment_signature": "3432f7213d091db74993036a31104c2df91acc5f84798b17f2be0bf678c67a50",
+      "current_managers": [
+        "杨宗昌"
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2024-08-28",
+          "end_date": null,
+          "managers": [
+            "杨宗昌"
+          ],
+          "end_marker": "至今"
+        }
+      ],
       "source_checks": [
         "manager_021180",
         "announcements_021180"
       ],
-      "evidence_status": "partial",
+      "evidence_status": "collected",
       "disclosure_ids": [
         "AN202610271830959094",
         "AN202608311828748490"
@@ -12671,17 +13107,28 @@
       "status": "needs independent review",
       "last_independent_review": "2026-11-22",
       "independent_review_complete": false,
-      "is_new_manager": null,
-      "new_manager_or_appointment": null,
+      "is_new_manager": true,
+      "new_manager_or_appointment": false,
       "appointment_changed_since_previous_collection": null,
-      "appointment_signature": null,
-      "current_managers": null,
-      "current_appointments": [],
+      "appointment_signature": "66b01211705e373d6db4ae3e660c9ffef7f0a0e5f93b6e2394daa7c7660d0bd6",
+      "current_managers": [
+        "蔡铮"
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2026-10-29",
+          "end_date": null,
+          "managers": [
+            "蔡铮"
+          ],
+          "end_marker": "至今"
+        }
+      ],
       "source_checks": [
         "manager_027170",
         "announcements_027170"
       ],
-      "evidence_status": "partial",
+      "evidence_status": "collected",
       "disclosure_ids": [
         "AN202610291831147477",
         "AN202610271830995935",
@@ -12776,17 +13223,28 @@
       "status": "needs independent review",
       "last_independent_review": "2026-11-22",
       "independent_review_complete": false,
-      "is_new_manager": null,
-      "new_manager_or_appointment": null,
+      "is_new_manager": false,
+      "new_manager_or_appointment": false,
       "appointment_changed_since_previous_collection": null,
-      "appointment_signature": null,
-      "current_managers": null,
-      "current_appointments": [],
+      "appointment_signature": "e72f4acececf183875336430dc8d49ec929456e0c76aae10e7232bad1533966c",
+      "current_managers": [
+        "徐彦"
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2019-12-30",
+          "end_date": null,
+          "managers": [
+            "徐彦"
+          ],
+          "end_marker": "至今"
+        }
+      ],
       "source_checks": [
         "manager_008270",
         "announcements_008270"
       ],
-      "evidence_status": "partial",
+      "evidence_status": "collected",
       "disclosure_ids": [
         "AN202610271831024849",
         "AN202610271830979311",
@@ -12903,17 +13361,28 @@
       "status": "needs independent review",
       "last_independent_review": "2026-11-22",
       "independent_review_complete": false,
-      "is_new_manager": null,
-      "new_manager_or_appointment": null,
+      "is_new_manager": false,
+      "new_manager_or_appointment": false,
       "appointment_changed_since_previous_collection": null,
-      "appointment_signature": null,
-      "current_managers": null,
-      "current_appointments": [],
+      "appointment_signature": "fbdf94603a5b28549665e7413c4a63c5bf944bd1dfd6c5e62651c4aca945f6d5",
+      "current_managers": [
+        "祁禾"
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2023-11-15",
+          "end_date": null,
+          "managers": [
+            "祁禾"
+          ],
+          "end_marker": "至今"
+        }
+      ],
       "source_checks": [
         "manager_019032",
         "announcements_019032"
       ],
-      "evidence_status": "partial",
+      "evidence_status": "collected",
       "disclosure_ids": [
         "AN202610271830959277",
         "AN202608311828748477"
@@ -13058,17 +13527,28 @@
       "status": "needs independent review",
       "last_independent_review": "2026-11-22",
       "independent_review_complete": false,
-      "is_new_manager": null,
-      "new_manager_or_appointment": null,
+      "is_new_manager": false,
+      "new_manager_or_appointment": false,
       "appointment_changed_since_previous_collection": null,
-      "appointment_signature": null,
-      "current_managers": null,
-      "current_appointments": [],
+      "appointment_signature": "cfd293e6b5b0dd290a6001cf83a8a2092aa2174748ec215f2c12d2a6926ca680",
+      "current_managers": [
+        "伍旋"
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2023-12-13",
+          "end_date": null,
+          "managers": [
+            "伍旋"
+          ],
+          "end_marker": "至今"
+        }
+      ],
       "source_checks": [
         "manager_020254",
         "announcements_020254"
       ],
-      "evidence_status": "partial",
+      "evidence_status": "collected",
       "disclosure_ids": [
         "AN202610251830893163",
         "AN202608271828557968",
@@ -13402,6 +13882,7 @@
       "family": "manager_027170",
       "status": "historical; related family collected",
       "related_fresh_check_ids": [
+        "manager_027170",
         "announcements_027170"
       ],
       "historical": true,
@@ -13740,6 +14221,7 @@
       "family": "manager_022415",
       "status": "historical; related family collected",
       "related_fresh_check_ids": [
+        "manager_022415",
         "announcements_022415"
       ],
       "historical": true,
@@ -13754,8 +14236,11 @@
       "url": "https://pdf.dfcfw.com/pdf/H2_AN202610271830977352_1.pdf",
       "source_date_label": "持仓2026.09.30 / 发布2026.10",
       "family": "manager_021902",
-      "status": "needs_research",
-      "related_fresh_check_ids": [],
+      "status": "historical; related family collected",
+      "related_fresh_check_ids": [
+        "manager_021902",
+        "announcements_021902"
+      ],
       "historical": true,
       "original_source_fetched_today": false,
       "fact_reverified": false,
@@ -13787,6 +14272,7 @@
       "family": "manager_021180",
       "status": "historical; related family collected",
       "related_fresh_check_ids": [
+        "manager_021180",
         "announcements_021180"
       ],
       "historical": true,
@@ -13854,6 +14340,7 @@
       "family": "manager_027170",
       "status": "historical; related family collected",
       "related_fresh_check_ids": [
+        "manager_027170",
         "announcements_027170"
       ],
       "historical": true,
@@ -13870,6 +14357,7 @@
       "family": "manager_008270",
       "status": "historical; related family collected",
       "related_fresh_check_ids": [
+        "manager_008270",
         "announcements_008270"
       ],
       "historical": true,
@@ -13886,6 +14374,7 @@
       "family": "manager_019032",
       "status": "historical; related family collected",
       "related_fresh_check_ids": [
+        "manager_019032",
         "announcements_019032"
       ],
       "historical": true,
@@ -13919,6 +14408,7 @@
       "family": "manager_020254",
       "status": "historical; related family collected",
       "related_fresh_check_ids": [
+        "manager_020254",
         "announcements_020254"
       ],
       "historical": true,
@@ -14372,8 +14862,8 @@
   ],
   "coverage": {
     "attempted": 82,
-    "success": 71,
-    "failed": 11,
+    "success": 79,
+    "failed": 3,
     "groups": {
       "macro_market": {
         "attempted": 15,
@@ -14391,15 +14881,15 @@
       },
       "manager": {
         "attempted": 14,
-        "success": 7,
-        "failed": 7,
+        "success": 14,
+        "failed": 0,
         "planned": 14,
         "not_attempted": 0
       },
       "announcements": {
         "attempted": 14,
-        "success": 13,
-        "failed": 1,
+        "success": 14,
+        "failed": 0,
         "planned": 14,
         "not_attempted": 0
       }
@@ -14415,36 +14905,6 @@
     "not_attempted": 0
   },
   "changes": [
-    {
-      "kind": "intel_schema_reference",
-      "status": "needs independent review",
-      "change": "changed",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nbs_latest",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "pboc_latest",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "priority_6108d826c324",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nbs_interpretation",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
     {
       "kind": "source",
       "id": "fed_calendar",
@@ -14471,109 +14931,7 @@
     },
     {
       "kind": "source",
-      "id": "nav_001076",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_002051",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
       "id": "nav_002244",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_002943",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_004237",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_004407",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_006038",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_008270",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_010390",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_011066",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_011370",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_011437",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_012449",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_012817",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_012940",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_013620",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_013860",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_017787",
       "status": "needs independent review",
       "requires_independent_review": true
     },
@@ -14585,121 +14943,7 @@
     },
     {
       "kind": "source",
-      "id": "nav_019484",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_020254",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_021180",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_021277",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_021662",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_021902",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
       "id": "nav_022184",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_022415",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_022714",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_023875",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_027170",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_519697",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_110020",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_510300",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_510880",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_512010",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_512400",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_512480",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_513500",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "nav_515880",
       "status": "needs independent review",
       "requires_independent_review": true
     },
@@ -14711,19 +14955,7 @@
     },
     {
       "kind": "source",
-      "id": "announcements_021180",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
       "id": "manager_010390",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "announcements_010390",
       "status": "needs independent review",
       "requires_independent_review": true
     },
@@ -14736,18 +14968,6 @@
     {
       "kind": "source",
       "id": "manager_519697",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "announcements_027170",
-      "status": "needs independent review",
-      "requires_independent_review": true
-    },
-    {
-      "kind": "source",
-      "id": "announcements_019032",
       "status": "needs independent review",
       "requires_independent_review": true
     },
@@ -14788,54 +15008,6 @@
       "status": "failed",
       "error": "Short, empty, or access-challenge index",
       "http_status": 200
-    },
-    {
-      "id": "manager_022415",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_021902",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "announcements_021902",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_021180",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_027170",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_008270",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_019032",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_020254",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
     }
   ],
   "errors": [
@@ -14856,54 +15028,6 @@
       "status": "failed",
       "error": "Short, empty, or access-challenge index",
       "http_status": 200
-    },
-    {
-      "id": "manager_022415",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_021902",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "announcements_021902",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_021180",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_027170",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_008270",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_019032",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
-    },
-    {
-      "id": "manager_020254",
-      "status": "failed",
-      "error": "URLError",
-      "http_status": null
     }
   ],
   "limitations": [

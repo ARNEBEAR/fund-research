@@ -6,21 +6,21 @@
   "group": "manager",
   "family": "manager_020254",
   "code": "020254",
-  "status": "failed",
-  "checked_at": "2026-11-24T18:09:29.692196+08:00",
-  "publication_date": null,
+  "status": "collected",
+  "checked_at": "2026-11-24T18:58:13.816669+08:00",
+  "publication_date": "2023-12-13",
   "date_candidates": [],
-  "content_sha256": null,
+  "content_sha256": "a7264c31e6c382811cb46048953cd1051f3dce9a6e172ff5cca72093d609f450",
   "excerpt": "",
-  "http_status": null,
-  "error": "URLError",
+  "http_status": 200,
+  "error": null,
   "fact_reverified": false,
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_020254",
-    "checked_at": "2026-11-23T17:09:30.736432+08:00",
+    "checked_at": "2026-11-24T18:58:13.816669+08:00",
     "publication_date": "2023-12-13",
-    "content_sha256": "c51db57a1b34cc8a094a5b78bba29188b94308865b029b8b2b01de2b6c589bfa",
+    "content_sha256": "a7264c31e6c382811cb46048953cd1051f3dce9a6e172ff5cca72093d609f450",
     "status": "collected",
     "manager": {
       "appointments": [
@@ -53,7 +53,37 @@
     "date_candidates": [],
     "excerpt": ""
   },
-  "stale": true,
+  "stale": false,
+  "bytes": 47505,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_020254.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2023-12-13",
+        "end_date": null,
+        "managers": [
+          "伍旋"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2023-12-13",
+        "end_date": null,
+        "managers": [
+          "伍旋"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "伍旋"
+    ],
+    "appointment_signature": "cfd293e6b5b0dd290a6001cf83a8a2092aa2174748ec215f2c12d2a6926ca680",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
   "attempted": true,
   "change_status": "first observation or unavailable"
 }

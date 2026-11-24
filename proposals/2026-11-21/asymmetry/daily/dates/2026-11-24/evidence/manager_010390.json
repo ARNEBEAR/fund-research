@@ -7,10 +7,10 @@
   "family": "manager_010390",
   "code": "010390",
   "status": "collected",
-  "checked_at": "2026-11-24T18:09:11.587456+08:00",
+  "checked_at": "2026-11-24T18:58:09.350835+08:00",
   "publication_date": "2026-05-29",
   "date_candidates": [],
-  "content_sha256": "cd6ebe11b30670db0d4af4f72f61fd6e2567d1c7b684d91cdcd511b156b8b9dd",
+  "content_sha256": "63bed9b6927e637cea125ac7bb779aab075acb8faed0ede8ad8a4efca31e305a",
   "excerpt": "",
   "http_status": 200,
   "error": null,
@@ -18,9 +18,9 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_010390",
-    "checked_at": "2026-11-24T18:09:11.587456+08:00",
+    "checked_at": "2026-11-24T18:58:09.350835+08:00",
     "publication_date": "2026-05-29",
-    "content_sha256": "cd6ebe11b30670db0d4af4f72f61fd6e2567d1c7b684d91cdcd511b156b8b9dd",
+    "content_sha256": "63bed9b6927e637cea125ac7bb779aab075acb8faed0ede8ad8a4efca31e305a",
     "status": "collected",
     "manager": {
       "appointments": [
@@ -88,7 +88,7 @@
     "excerpt": ""
   },
   "stale": false,
-  "bytes": 42982,
+  "bytes": 42876,
   "final_url": "https://fundf10.eastmoney.com/jjjl_010390.html",
   "manager": {
     "appointments": [

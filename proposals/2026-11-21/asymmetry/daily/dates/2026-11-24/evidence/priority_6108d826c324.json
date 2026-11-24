@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "configured current public source",
   "status": "collected",
-  "checked_at": "2026-11-24T18:08:47.621769+08:00",
+  "checked_at": "2026-11-24T18:57:53.333988+08:00",
   "publication_date": null,
   "date_candidates": [],
   "content_sha256": "d4a897dcb637da8a0ae33f38ddd919b0b42dc2db5f530d4afad8257d79ca8f64",
@@ -18,7 +18,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "priority_6108d826c324",
-    "checked_at": "2026-11-24T18:08:47.621769+08:00",
+    "checked_at": "2026-11-24T18:57:53.333988+08:00",
     "publication_date": null,
     "content_sha256": "d4a897dcb637da8a0ae33f38ddd919b0b42dc2db5f530d4afad8257d79ca8f64",
     "status": "collected",
@@ -32,5 +32,5 @@
   "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
   "excluded_future_count": 0,
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }

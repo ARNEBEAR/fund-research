@@ -6,21 +6,21 @@
   "group": "manager",
   "family": "manager_022415",
   "code": "022415",
-  "status": "failed",
-  "checked_at": "2026-11-24T18:09:08.981731+08:00",
-  "publication_date": null,
+  "status": "collected",
+  "checked_at": "2026-11-24T18:58:07.209662+08:00",
+  "publication_date": "2024-12-06",
   "date_candidates": [],
-  "content_sha256": null,
+  "content_sha256": "7e4e6089d6c927cd878f864b4e49480aedcf272ff924ceacbc7b4386f850046f",
   "excerpt": "",
-  "http_status": null,
-  "error": "URLError",
+  "http_status": 200,
+  "error": null,
   "fact_reverified": false,
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_022415",
-    "checked_at": "2026-11-23T17:09:25.294441+08:00",
+    "checked_at": "2026-11-24T18:58:07.209662+08:00",
     "publication_date": "2024-12-06",
-    "content_sha256": "8e7833987c018f7742b9e7111fc0fdc2cb26f3c6550ec3b699862fbb029d8d81",
+    "content_sha256": "7e4e6089d6c927cd878f864b4e49480aedcf272ff924ceacbc7b4386f850046f",
     "status": "collected",
     "manager": {
       "appointments": [
@@ -53,7 +53,37 @@
     "date_candidates": [],
     "excerpt": ""
   },
-  "stale": true,
+  "stale": false,
+  "bytes": 49406,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_022415.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2024-12-06",
+        "end_date": null,
+        "managers": [
+          "田维"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2024-12-06",
+        "end_date": null,
+        "managers": [
+          "田维"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "田维"
+    ],
+    "appointment_signature": "402e35284587169fcea7abf407439b5570b331aed2f9cc64fb7ecb027a6d25ab",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
   "attempted": true,
   "change_status": "first observation or unavailable"
 }
