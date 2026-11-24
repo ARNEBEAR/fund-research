@@ -1,0 +1,59 @@
+{
+  "id": "manager_021902",
+  "name": "冯汉杰 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_021902.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_021902",
+  "code": "021902",
+  "status": "failed",
+  "checked_at": "2026-11-24T18:09:09.553570+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": null,
+  "excerpt": "",
+  "http_status": null,
+  "error": "URLError",
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_021902",
+    "checked_at": "2026-11-23T17:09:25.660943+08:00",
+    "publication_date": "2024-07-25",
+    "content_sha256": "c4cad08ddf57b0ff85651159bad9b422f1d9c74bf30420d34fd91dd8611c0e4a",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2024-07-25",
+          "end_date": null,
+          "managers": [
+            "冯汉杰"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2024-07-25",
+          "end_date": null,
+          "managers": [
+            "冯汉杰"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "冯汉杰"
+      ],
+      "appointment_signature": "141141e6135f7ab287a811dd89e49d2f24be8c12e37fa527a9cd3724d1ff21dd",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": true,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

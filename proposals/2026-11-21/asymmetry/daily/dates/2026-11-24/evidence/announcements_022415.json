@@ -1,0 +1,233 @@
+{
+  "id": "announcements_022415",
+  "name": "前海开源国企精选C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=022415&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_022415",
+  "code": "022415",
+  "status": "collected",
+  "checked_at": "2026-11-24T18:09:09.465595+08:00",
+  "publication_date": "2026-10-27",
+  "date_candidates": [
+    {
+      "title": "前海开源基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/022415,AN202610301831251690.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "前海开源国企精选混合型发起式证券投资基金2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/022415,AN202610271830981947.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "前海开源基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/022415,AN202608311828790765.html",
+      "publication_date": "2026-08-31"
+    },
+    {
+      "title": "前海开源国企精选混合型发起式证券投资基金2026年中期报告",
+      "url": "https://fund.eastmoney.com/gonggao/022415,AN202608311828759035.html",
+      "publication_date": "2026-08-31"
+    },
+    {
+      "title": "前海开源基金管理有限公司旗下部分基金2026年第二季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/022415,AN202607211827205799.html",
+      "publication_date": "2026-07-21"
+    },
+    {
+      "title": "前海开源国企精选混合型发起式证券投资基金2026年第2季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/022415,AN202607211827184728.html",
+      "publication_date": "2026-07-21"
+    }
+  ],
+  "content_sha256": "513432e526ed8573ff969ce66e5d997ebd74f7ed73313b39547464740f0433f6",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_022415",
+    "checked_at": "2026-11-24T18:09:09.465595+08:00",
+    "publication_date": "2026-10-27",
+    "content_sha256": "513432e526ed8573ff969ce66e5d997ebd74f7ed73313b39547464740f0433f6",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610301831251690",
+          "title": "前海开源基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/022415,AN202610301831251690.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202610271830981947",
+          "title": "前海开源国企精选混合型发起式证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/022415,AN202610271830981947.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828790765",
+          "title": "前海开源基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/022415,AN202608311828790765.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828759035",
+          "title": "前海开源国企精选混合型发起式证券投资基金2026年中期报告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/022415,AN202608311828759035.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827205799",
+          "title": "前海开源基金管理有限公司旗下部分基金2026年第二季度报告提示性公告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/022415,AN202607211827205799.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827184728",
+          "title": "前海开源国企精选混合型发起式证券投资基金2026年第2季度报告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/022415,AN202607211827184728.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 106,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "前海开源基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202610301831251690.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "前海开源国企精选混合型发起式证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202610271830981947.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "前海开源基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202608311828790765.html",
+        "publication_date": "2026-08-31"
+      },
+      {
+        "title": "前海开源国企精选混合型发起式证券投资基金2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202608311828759035.html",
+        "publication_date": "2026-08-31"
+      },
+      {
+        "title": "前海开源基金管理有限公司旗下部分基金2026年第二季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202607211827205799.html",
+        "publication_date": "2026-07-21"
+      },
+      {
+        "title": "前海开源国企精选混合型发起式证券投资基金2026年第2季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202607211827184728.html",
+        "publication_date": "2026-07-21"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 6353,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=022415&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610301831251690",
+        "title": "前海开源基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202610301831251690.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202610271830981947",
+        "title": "前海开源国企精选混合型发起式证券投资基金2026年第3季度报告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202610271830981947.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608311828790765",
+        "title": "前海开源基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+        "publication_date": "2026-08-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202608311828790765.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608311828759035",
+        "title": "前海开源国企精选混合型发起式证券投资基金2026年中期报告",
+        "publication_date": "2026-08-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202608311828759035.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827205799",
+        "title": "前海开源基金管理有限公司旗下部分基金2026年第二季度报告提示性公告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202607211827205799.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827184728",
+        "title": "前海开源国企精选混合型发起式证券投资基金2026年第2季度报告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/022415,AN202607211827184728.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 106,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}

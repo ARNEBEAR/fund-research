@@ -1,0 +1,113 @@
+{
+  "id": "announcements_010390",
+  "name": "易方达科益C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=010390&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_010390",
+  "code": "010390",
+  "status": "collected",
+  "checked_at": "2026-11-24T18:09:12.556884+08:00",
+  "publication_date": "2026-10-27",
+  "date_candidates": [
+    {
+      "title": "易方达科益混合型证券投资基金2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/010390,AN202610271830958903.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "易方达科益混合型证券投资基金2026年中期报告",
+      "url": "https://fund.eastmoney.com/gonggao/010390,AN202608311828748129.html",
+      "publication_date": "2026-08-31"
+    }
+  ],
+  "content_sha256": "6ddbd293504af0d3c0508c9808ec38657f15a37a188e4d27db3f08589735a962",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_010390",
+    "checked_at": "2026-11-24T18:09:12.556884+08:00",
+    "publication_date": "2026-10-27",
+    "content_sha256": "6ddbd293504af0d3c0508c9808ec38657f15a37a188e4d27db3f08589735a962",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610271830958903",
+          "title": "易方达科益混合型证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/010390,AN202610271830958903.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828748129",
+          "title": "易方达科益混合型证券投资基金2026年中期报告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/010390,AN202608311828748129.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 489,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "易方达科益混合型证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/010390,AN202610271830958903.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "易方达科益混合型证券投资基金2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/010390,AN202608311828748129.html",
+        "publication_date": "2026-08-31"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 5990,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=010390&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610271830958903",
+        "title": "易方达科益混合型证券投资基金2026年第3季度报告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/010390,AN202610271830958903.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608311828748129",
+        "title": "易方达科益混合型证券投资基金2026年中期报告",
+        "publication_date": "2026-08-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/010390,AN202608311828748129.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 489,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "changed"
+}

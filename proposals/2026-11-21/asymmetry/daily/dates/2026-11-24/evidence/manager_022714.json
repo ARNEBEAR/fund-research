@@ -1,0 +1,89 @@
+{
+  "id": "manager_022714",
+  "name": "莫海波 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_022714.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_022714",
+  "code": "022714",
+  "status": "collected",
+  "checked_at": "2026-11-24T18:09:12.927907+08:00",
+  "publication_date": "2024-11-27",
+  "date_candidates": [],
+  "content_sha256": "dc41938012bf4ccb431ed473d89037bd13fa33da48b9d12a7efcedf02927d7b9",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_022714",
+    "checked_at": "2026-11-24T18:09:12.927907+08:00",
+    "publication_date": "2024-11-27",
+    "content_sha256": "dc41938012bf4ccb431ed473d89037bd13fa33da48b9d12a7efcedf02927d7b9",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2024-11-27",
+          "end_date": null,
+          "managers": [
+            "莫海波"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2024-11-27",
+          "end_date": null,
+          "managers": [
+            "莫海波"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "莫海波"
+      ],
+      "appointment_signature": "78d7e2a3e3ec23b87208b2857ea2572b8e2fca0fc25e61678b2fae0f6f212e9f",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 49524,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_022714.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2024-11-27",
+        "end_date": null,
+        "managers": [
+          "莫海波"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2024-11-27",
+        "end_date": null,
+        "managers": [
+          "莫海波"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "莫海波"
+    ],
+    "appointment_signature": "78d7e2a3e3ec23b87208b2857ea2572b8e2fca0fc25e61678b2fae0f6f212e9f",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "changed"
+}

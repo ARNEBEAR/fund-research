@@ -1,0 +1,89 @@
+{
+  "id": "manager_012817",
+  "name": "郑有为 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_012817.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_012817",
+  "code": "012817",
+  "status": "collected",
+  "checked_at": "2026-11-24T18:09:30.902620+08:00",
+  "publication_date": "2022-01-21",
+  "date_candidates": [],
+  "content_sha256": "f3dc800ccfcfc006ca3bbc0751a7477bd9e26baec6a9ee638f6975b3419b4ce6",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_012817",
+    "checked_at": "2026-11-24T18:09:30.902620+08:00",
+    "publication_date": "2022-01-21",
+    "content_sha256": "f3dc800ccfcfc006ca3bbc0751a7477bd9e26baec6a9ee638f6975b3419b4ce6",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2022-01-21",
+          "end_date": null,
+          "managers": [
+            "郑有为"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2022-01-21",
+          "end_date": null,
+          "managers": [
+            "郑有为"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "郑有为"
+      ],
+      "appointment_signature": "a8b6fae25b7d6ff8596b79f185a0eaf54e7067cb1de9483ec5e6a47364fcfad0",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 44853,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_012817.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2022-01-21",
+        "end_date": null,
+        "managers": [
+          "郑有为"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2022-01-21",
+        "end_date": null,
+        "managers": [
+          "郑有为"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "郑有为"
+    ],
+    "appointment_signature": "a8b6fae25b7d6ff8596b79f185a0eaf54e7067cb1de9483ec5e6a47364fcfad0",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "changed"
+}

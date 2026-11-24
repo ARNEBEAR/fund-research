@@ -1,0 +1,233 @@
+{
+  "id": "announcements_017787",
+  "name": "万家宏观择时多策略C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=017787&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_017787",
+  "code": "017787",
+  "status": "collected",
+  "checked_at": "2026-11-24T18:09:29.205835+08:00",
+  "publication_date": "2026-10-27",
+  "date_candidates": [
+    {
+      "title": "万家基金管理有限公司关于旗下基金2026年第3季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/017787,AN202610271830997609.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/017787,AN202610271830981525.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "万家基金管理有限公司关于旗下基金2026年中期报告报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/017787,AN202608291828704145.html",
+      "publication_date": "2026-08-29"
+    },
+    {
+      "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年中期报告",
+      "url": "https://fund.eastmoney.com/gonggao/017787,AN202608291828684185.html",
+      "publication_date": "2026-08-29"
+    },
+    {
+      "title": "万家基金管理有限公司关于旗下基金2026年第2季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/017787,AN202607211827198646.html",
+      "publication_date": "2026-07-21"
+    },
+    {
+      "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年第2季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/017787,AN202607211827181270.html",
+      "publication_date": "2026-07-21"
+    }
+  ],
+  "content_sha256": "59a0c71d6f56358a1021b24fb7e713faffaec8980f78fe91cbb7f99525b52ff1",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_017787",
+    "checked_at": "2026-11-24T18:09:29.205835+08:00",
+    "publication_date": "2026-10-27",
+    "content_sha256": "59a0c71d6f56358a1021b24fb7e713faffaec8980f78fe91cbb7f99525b52ff1",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610271830997609",
+          "title": "万家基金管理有限公司关于旗下基金2026年第3季度报告提示性公告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/017787,AN202610271830997609.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202610271830981525",
+          "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/017787,AN202610271830981525.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608291828704145",
+          "title": "万家基金管理有限公司关于旗下基金2026年中期报告报告提示性公告",
+          "publication_date": "2026-08-29",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/017787,AN202608291828704145.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608291828684185",
+          "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年中期报告",
+          "publication_date": "2026-08-29",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/017787,AN202608291828684185.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827198646",
+          "title": "万家基金管理有限公司关于旗下基金2026年第2季度报告提示性公告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/017787,AN202607211827198646.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827181270",
+          "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年第2季度报告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/017787,AN202607211827181270.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 226,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "万家基金管理有限公司关于旗下基金2026年第3季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202610271830997609.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202610271830981525.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "万家基金管理有限公司关于旗下基金2026年中期报告报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202608291828704145.html",
+        "publication_date": "2026-08-29"
+      },
+      {
+        "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202608291828684185.html",
+        "publication_date": "2026-08-29"
+      },
+      {
+        "title": "万家基金管理有限公司关于旗下基金2026年第2季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202607211827198646.html",
+        "publication_date": "2026-07-21"
+      },
+      {
+        "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年第2季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202607211827181270.html",
+        "publication_date": "2026-07-21"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 6365,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=017787&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610271830997609",
+        "title": "万家基金管理有限公司关于旗下基金2026年第3季度报告提示性公告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202610271830997609.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202610271830981525",
+        "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年第3季度报告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202610271830981525.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608291828704145",
+        "title": "万家基金管理有限公司关于旗下基金2026年中期报告报告提示性公告",
+        "publication_date": "2026-08-29",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202608291828704145.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608291828684185",
+        "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年中期报告",
+        "publication_date": "2026-08-29",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202608291828684185.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827198646",
+        "title": "万家基金管理有限公司关于旗下基金2026年第2季度报告提示性公告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202607211827198646.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827181270",
+        "title": "万家宏观择时多策略灵活配置混合型证券投资基金2026年第2季度报告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/017787,AN202607211827181270.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 226,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}

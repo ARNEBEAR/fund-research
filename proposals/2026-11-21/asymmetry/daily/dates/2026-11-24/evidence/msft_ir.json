@@ -1,0 +1,150 @@
+{
+  "id": "msft_ir",
+  "name": "微软投资者关系",
+  "url": "https://www.microsoft.com/en-us/investor/default",
+  "kind": "html",
+  "family": "msft",
+  "group": "macro_market",
+  "scope": "current index or series; linked release bodies are not collected",
+  "status": "collected",
+  "checked_at": "2026-11-24T18:08:50.096517+08:00",
+  "publication_date": "2026-10-21",
+  "date_candidates": [
+    {
+      "title": "Volkswagen",
+      "url": "https://news.microsoft.com/source/2026/10/21/microsoft-empowers-more-than-330000-volkswagen-group-employees-with-copilot/",
+      "publication_date": "2026-10-21",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "Manulife",
+      "url": "https://news.microsoft.com/source/canada/2026/07/22/manulife-expands-partnership-with-microsoft-to-accelerate-enterprise-ai-governance-and-innovation/",
+      "publication_date": "2026-07-22",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "KPMG",
+      "url": "https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/",
+      "publication_date": "2026-06-09",
+      "date_basis": "link title or URL"
+    }
+  ],
+  "content_sha256": "af3fd4cf8466b8a31e836c9a445af587a34b5572649805ba40ab5c6348469ed3",
+  "excerpt": "Home page This is the Trace Id: a491cd4f288cf9042e36f5e716a6b958 Skip to main content Investor Relations Press Release & Webcast Metrics Overview Overview Board of Directors Board Committees Policies and Guidelines Environment Overview Responsible AI Privacy & Cybersecurity Workplace & Culture Diversity & Inclusion Human Rights Responsible Sourcing ESG Reports Hub Awards & Recognition Annual Reports SEC Filings Information for Investors Annual Meeting Dividends & Stock History Investment History Acquisition History FAQ All Events Past Events Upcoming Events Contacts Microsoft 365 Azure Copilot Windows Surface XBOX Deals Small Business Support Windows Apps Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams Computers Shop XBOX Accessories VR & mixed reality Certified Refurbished Trade-in for cash XBOX Game Pass Ultimate PC Game Pass XBOX games PC games Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Small Business Digital Sovereignty Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "msft_ir",
+    "checked_at": "2026-11-24T18:08:50.096517+08:00",
+    "publication_date": "2026-10-21",
+    "content_sha256": "af3fd4cf8466b8a31e836c9a445af587a34b5572649805ba40ab5c6348469ed3",
+    "status": "collected",
+    "date_candidates": [
+      {
+        "title": "Volkswagen",
+        "url": "https://news.microsoft.com/source/2026/10/21/microsoft-empowers-more-than-330000-volkswagen-group-employees-with-copilot/",
+        "publication_date": "2026-10-21",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "Manulife",
+        "url": "https://news.microsoft.com/source/canada/2026/07/22/manulife-expands-partnership-with-microsoft-to-accelerate-enterprise-ai-governance-and-innovation/",
+        "publication_date": "2026-07-22",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "KPMG",
+        "url": "https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/",
+        "publication_date": "2026-06-09",
+        "date_basis": "link title or URL"
+      }
+    ],
+    "excerpt": "Home page This is the Trace Id: a491cd4f288cf9042e36f5e716a6b958 Skip to main content Investor Relations Press Release & Webcast Metrics Overview Overview Board of Directors Board Committees Policies and Guidelines Environment Overview Responsible AI Privacy & Cybersecurity Workplace & Culture Diversity & Inclusion Human Rights Responsible Sourcing ESG Reports Hub Awards & Recognition Annual Reports SEC Filings Information for Investors Annual Meeting Dividends & Stock History Investment History Acquisition History FAQ All Events Past Events Upcoming Events Contacts Microsoft 365 Azure Copilot Windows Surface XBOX Deals Small Business Support Windows Apps Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams Computers Shop XBOX Accessories VR & mixed reality Certified Refurbished Trade-in for cash XBOX Game Pass Ultimate PC Game Pass XBOX games PC games Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Small Business Digital Sovereignty Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso"
+  },
+  "stale": false,
+  "bytes": 312716,
+  "final_url": "https://www.microsoft.com/en-us/investor/default",
+  "undated_links": [
+    {
+      "title": "Investor Relations",
+      "url": "https://www.microsoft.com/en-us/investor/default",
+      "publication_date": null
+    },
+    {
+      "title": "Press Release & Webcast",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+      "publication_date": null
+    },
+    {
+      "title": "Metrics",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/metrics",
+      "publication_date": null
+    },
+    {
+      "title": "Overview",
+      "url": "https://www.microsoft.com/en-us/Investor/corporate-governance/overview",
+      "publication_date": null
+    },
+    {
+      "title": "Overview",
+      "url": "https://www.microsoft.com/en-us/Investor/corporate-governance/framework",
+      "publication_date": null
+    },
+    {
+      "title": "Board of Directors",
+      "url": "https://news.microsoft.com/leadership/board-members/",
+      "publication_date": null
+    },
+    {
+      "title": "Board Committees",
+      "url": "https://www.microsoft.com/en-us/Investor/corporate-governance/board-of-directors",
+      "publication_date": null
+    },
+    {
+      "title": "Policies and Guidelines",
+      "url": "https://www.microsoft.com/en-us/Investor/corporate-governance/policies",
+      "publication_date": null
+    },
+    {
+      "title": "Environment",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability",
+      "publication_date": null
+    },
+    {
+      "title": "Overview",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility",
+      "publication_date": null
+    },
+    {
+      "title": "Responsible AI",
+      "url": "https://www.microsoft.com/en-us/ai/responsible-ai?ef_id=_k_60dc31553aed12d2c21a573941cc3017_k_&OCID=AIDcmm1o1fzy5i_SEM__k_60dc31553aed12d2c21a573941cc3017_k_&msclkid=60dc31553aed12d2c21a573941cc3017",
+      "publication_date": null
+    },
+    {
+      "title": "Privacy & Cybersecurity",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/privacy",
+      "publication_date": null
+    },
+    {
+      "title": "Workplace & Culture",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/empowering-employees",
+      "publication_date": null
+    },
+    {
+      "title": "Diversity & Inclusion",
+      "url": "https://www.microsoft.com/en-us/diversity/default.aspx",
+      "publication_date": null
+    },
+    {
+      "title": "Human Rights",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/human-rights",
+      "publication_date": null
+    }
+  ],
+  "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
+  "excluded_future_count": 0,
+  "attempted": true,
+  "change_status": "changed"
+}

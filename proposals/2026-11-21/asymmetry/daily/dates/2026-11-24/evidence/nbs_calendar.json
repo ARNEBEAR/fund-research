@@ -1,0 +1,162 @@
+{
+  "id": "nbs_calendar",
+  "name": "NBS official publication calendar",
+  "url": "https://www.stats.gov.cn/sj/fbrc/bnxxfb/",
+  "kind": "html",
+  "family": "nbs",
+  "group": "macro_market",
+  "scope": "current index or series; linked release bodies are not collected",
+  "status": "collected",
+  "checked_at": "2026-11-24T18:08:49.572640+08:00",
+  "publication_date": "2023-02-19",
+  "date_candidates": [
+    {
+      "title": "国际组织网站",
+      "url": "https://www.stats.gov.cn/xglj/gjzz/202302/t20230219_1913504.html",
+      "publication_date": "2023-02-19",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "联系我们",
+      "url": "https://www.stats.gov.cn/wzgl/202302/t20230217_1912858.html",
+      "publication_date": "2023-02-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "服务条款",
+      "url": "https://www.stats.gov.cn/wzgl/202302/t20230217_1912857.html",
+      "publication_date": "2023-02-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "国务院研究室",
+      "url": "http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm",
+      "publication_date": "2005-12-26",
+      "date_basis": "link title or URL"
+    }
+  ],
+  "content_sha256": "dc4e07081e16d3c81cf7ee4e68dc42043faf14b57109b4b731fd393a4a2e5646",
+  "excerpt": "最新统计信息发布日程 - 国家统计局 EN 搜索 首页 机构 新闻 时政要闻 统计新闻 数据 公开 服务 互动 知识 专题 最新统计信息发布日程 往年统计信息发布日程 当前位置： 首页 > 数据 > 发布日程 > 最新统计信息发布日程 2026年国家统计局主要统计信息发布日程表 序号 内容 1月 2月 3月 4月 5月 6月 7月 8月 9月 10月 11月 12月 1 国民经济运行情况 19/一 …… 16/一 16/四 18/一 16/二 15/三 17/一 15/二 19/一 16/一 15/二 10:00 10:00 10:00 10:00 10:00 10:00 15:00 10:00 10:00 10:00 10:00 2 2025年国民经济和社会发展统计公报 …… 28/六 …… …… …… …… …… …… …… …… …… …… 9:30 3 季度主要行业增加值初步核算报告 20/二 …… …… 17/五 …… …… 16/四 …… …… 20/二 …… …… 9:30 9:30 9:30 9:30 4 采购经理指数月度报告 31/六 …… 4/三 注5 31/二 30/四 31/日 30/二 31/五 31/一 30/三 31/六 30/一 31/四 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 5 居民消费价格指数月度报告 9/五 11/三 9/一 10/五 11/一 10/三 9/四 9/日 9/三 14/三 9/一 9/三 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 6 工业生产者价格指数月度报告 9/五 11/三 9/一 10/五 11/一 10/三 9/四 9/日 9/三 14/三 9/一 9/三 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 7 规模以上工业生产月度报告 19/一 …… 16/一 16/四 18/一 16/二 15/三 17/一 15/二 19/一 16/一 15/二 10:00 10:00 10:00 10:00 10:00 10:00 15:00 10:00 10:00 10:00 10:00 8 能源生产情况月度报告 19/一 …… 16/一 16/四 18/一 16/二 15/三 17/一 15/二 19/一 16/一 15/二 10:00 10:00 10:00 10:00 10:00 10:00 15:00 10:00 10:00 10:00 10:00 9 固定资产投资（不含农户）月度报告 19/一 …… 16/一 16/四 18/一 16/二 15/三 17/一 15/二 19/一 1",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "nbs_calendar",
+    "checked_at": "2026-11-24T18:08:49.572640+08:00",
+    "publication_date": "2023-02-19",
+    "content_sha256": "dc4e07081e16d3c81cf7ee4e68dc42043faf14b57109b4b731fd393a4a2e5646",
+    "status": "collected",
+    "date_candidates": [
+      {
+        "title": "国际组织网站",
+        "url": "https://www.stats.gov.cn/xglj/gjzz/202302/t20230219_1913504.html",
+        "publication_date": "2023-02-19",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "联系我们",
+        "url": "https://www.stats.gov.cn/wzgl/202302/t20230217_1912858.html",
+        "publication_date": "2023-02-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "服务条款",
+        "url": "https://www.stats.gov.cn/wzgl/202302/t20230217_1912857.html",
+        "publication_date": "2023-02-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "国务院研究室",
+        "url": "http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm",
+        "publication_date": "2005-12-26",
+        "date_basis": "link title or URL"
+      }
+    ],
+    "excerpt": "最新统计信息发布日程 - 国家统计局 EN 搜索 首页 机构 新闻 时政要闻 统计新闻 数据 公开 服务 互动 知识 专题 最新统计信息发布日程 往年统计信息发布日程 当前位置： 首页 > 数据 > 发布日程 > 最新统计信息发布日程 2026年国家统计局主要统计信息发布日程表 序号 内容 1月 2月 3月 4月 5月 6月 7月 8月 9月 10月 11月 12月 1 国民经济运行情况 19/一 …… 16/一 16/四 18/一 16/二 15/三 17/一 15/二 19/一 16/一 15/二 10:00 10:00 10:00 10:00 10:00 10:00 15:00 10:00 10:00 10:00 10:00 2 2025年国民经济和社会发展统计公报 …… 28/六 …… …… …… …… …… …… …… …… …… …… 9:30 3 季度主要行业增加值初步核算报告 20/二 …… …… 17/五 …… …… 16/四 …… …… 20/二 …… …… 9:30 9:30 9:30 9:30 4 采购经理指数月度报告 31/六 …… 4/三 注5 31/二 30/四 31/日 30/二 31/五 31/一 30/三 31/六 30/一 31/四 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 5 居民消费价格指数月度报告 9/五 11/三 9/一 10/五 11/一 10/三 9/四 9/日 9/三 14/三 9/一 9/三 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 6 工业生产者价格指数月度报告 9/五 11/三 9/一 10/五 11/一 10/三 9/四 9/日 9/三 14/三 9/一 9/三 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 9:30 7 规模以上工业生产月度报告 19/一 …… 16/一 16/四 18/一 16/二 15/三 17/一 15/二 19/一 16/一 15/二 10:00 10:00 10:00 10:00 10:00 10:00 15:00 10:00 10:00 10:00 10:00 8 能源生产情况月度报告 19/一 …… 16/一 16/四 18/一 16/二 15/三 17/一 15/二 19/一 16/一 15/二 10:00 10:00 10:00 10:00 10:00 10:00 15:00 10:00 10:00 10:00 10:00 9 固定资产投资（不含农户）月度报告 19/一 …… 16/一 16/四 18/一 16/二 15/三 17/一 15/二 19/一 1"
+  },
+  "stale": false,
+  "bytes": 225335,
+  "final_url": "https://www.stats.gov.cn/sj/fbrc/bnxxfb/",
+  "undated_links": [
+    {
+      "title": "EN",
+      "url": "https://www.stats.gov.cn/english/",
+      "publication_date": null
+    },
+    {
+      "title": "首页",
+      "url": "https://www.stats.gov.cn/",
+      "publication_date": null
+    },
+    {
+      "title": "机构",
+      "url": "https://www.stats.gov.cn/jg/",
+      "publication_date": null
+    },
+    {
+      "title": "时政要闻",
+      "url": "https://www.stats.gov.cn/xw/szyw/",
+      "publication_date": null
+    },
+    {
+      "title": "统计新闻",
+      "url": "https://www.stats.gov.cn/xw/tjxw/",
+      "publication_date": null
+    },
+    {
+      "title": "数据",
+      "url": "https://www.stats.gov.cn/sj/",
+      "publication_date": null
+    },
+    {
+      "title": "公开",
+      "url": "https://www.stats.gov.cn/gk/",
+      "publication_date": null
+    },
+    {
+      "title": "服务",
+      "url": "https://www.stats.gov.cn/fw/",
+      "publication_date": null
+    },
+    {
+      "title": "互动",
+      "url": "https://www.stats.gov.cn/hd/",
+      "publication_date": null
+    },
+    {
+      "title": "知识",
+      "url": "https://www.stats.gov.cn/zs/",
+      "publication_date": null
+    },
+    {
+      "title": "专题",
+      "url": "https://www.stats.gov.cn/zt_18555/",
+      "publication_date": null
+    },
+    {
+      "title": "最新统计信息发布日程",
+      "url": "https://www.stats.gov.cn/sj/fbrc/bnxxfb/",
+      "publication_date": null
+    },
+    {
+      "title": "往年统计信息发布日程",
+      "url": "https://www.stats.gov.cn/sj/fbrc/ljxxfb/",
+      "publication_date": null
+    },
+    {
+      "title": "发布日程",
+      "url": "https://www.stats.gov.cn/sj/fbrc/",
+      "publication_date": null
+    },
+    {
+      "title": "中央人民政府门户网站",
+      "url": "http://www.gov.cn/",
+      "publication_date": null
+    }
+  ],
+  "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
+  "excluded_future_count": 0,
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "announcements_021902",
+  "name": "广发主题领先C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=021902&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_021902",
+  "code": "021902",
+  "status": "failed",
+  "checked_at": "2026-11-24T18:09:09.965910+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": null,
+  "excerpt": "",
+  "http_status": null,
+  "error": "URLError",
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_021902",
+    "checked_at": "2026-11-23T17:09:26.069352+08:00",
+    "publication_date": "2026-10-27",
+    "content_sha256": "974c4d51589f0fe7f2101089c89a2843531d6a2ec0f9858ab6a77cdfe7dbb7c7",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610271830977352",
+          "title": "广发主题领先灵活配置混合型证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202610271830977352.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202610261830940160",
+          "title": "广发基金管理有限公司关于旗下基金2026年第3季度报告提示性公告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202610261830940160.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828770345",
+          "title": "广发主题领先灵活配置混合型证券投资基金2026年中期报告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202608311828770345.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608301828742398",
+          "title": "广发基金管理有限公司关于旗下基金2026年中期报告提示性公告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202608301828742398.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607201827126462",
+          "title": "广发主题领先灵活配置混合型证券投资基金2026年第2季度报告",
+          "publication_date": "2026-07-20",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202607201827126462.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607191827112896",
+          "title": "广发基金管理有限公司关于旗下基金2026年第2季度报告提示性公告",
+          "publication_date": "2026-07-20",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021902,AN202607191827112896.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 108,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "广发主题领先灵活配置混合型证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/021902,AN202610271830977352.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "广发基金管理有限公司关于旗下基金2026年第3季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/021902,AN202610261830940160.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "广发主题领先灵活配置混合型证券投资基金2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/021902,AN202608311828770345.html",
+        "publication_date": "2026-08-31"
+      },
+      {
+        "title": "广发基金管理有限公司关于旗下基金2026年中期报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/021902,AN202608301828742398.html",
+        "publication_date": "2026-08-31"
+      },
+      {
+        "title": "广发主题领先灵活配置混合型证券投资基金2026年第2季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/021902,AN202607201827126462.html",
+        "publication_date": "2026-07-20"
+      },
+      {
+        "title": "广发基金管理有限公司关于旗下基金2026年第2季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/021902,AN202607191827112896.html",
+        "publication_date": "2026-07-20"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": true,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}
