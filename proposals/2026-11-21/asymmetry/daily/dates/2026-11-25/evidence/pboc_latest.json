@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-25T16:54:01.871955+08:00",
+  "checked_at": "2026-11-25T17:53:16.639519+08:00",
   "publication_date": "2026-11-23",
   "date_candidates": [
     {
@@ -109,7 +109,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "pboc_latest",
-    "checked_at": "2026-11-25T16:54:01.871955+08:00",
+    "checked_at": "2026-11-25T17:53:16.639519+08:00",
     "publication_date": "2026-11-23",
     "content_sha256": "1e6a59daab75b9c5b66b276d14e83d21d8af418a29984443bb0628baebcfa230",
     "status": "collected",

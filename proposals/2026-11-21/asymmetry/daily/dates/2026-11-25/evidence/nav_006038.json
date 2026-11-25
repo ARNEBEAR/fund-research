@@ -8,7 +8,7 @@
   "code": "006038",
   "product_kind": "fund",
   "status": "collected",
-  "checked_at": "2026-11-25T16:54:08.457036+08:00",
+  "checked_at": "2026-11-25T17:53:23.578928+08:00",
   "publication_date": "2026-11-24",
   "date_candidates": [],
   "content_sha256": "9244ea99bde38db66acd9c938d33322e4130f356b2201269aeb9491cf9c59310",
@@ -19,7 +19,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nav_006038",
-    "checked_at": "2026-11-25T16:54:08.457036+08:00",
+    "checked_at": "2026-11-25T17:53:23.578928+08:00",
     "publication_date": "2026-11-24",
     "content_sha256": "9244ea99bde38db66acd9c938d33322e4130f356b2201269aeb9491cf9c59310",
     "status": "collected",
@@ -58,5 +58,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }

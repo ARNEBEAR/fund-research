@@ -7,7 +7,7 @@
   "family": "manager_010390",
   "code": "010390",
   "status": "collected",
-  "checked_at": "2026-11-25T16:54:23.109680+08:00",
+  "checked_at": "2026-11-25T17:53:34.272109+08:00",
   "publication_date": "2026-10-27",
   "date_candidates": [
     {
@@ -29,7 +29,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "announcements_010390",
-    "checked_at": "2026-11-25T16:54:23.109680+08:00",
+    "checked_at": "2026-11-25T17:53:34.272109+08:00",
     "publication_date": "2026-10-27",
     "content_sha256": "6ddbd293504af0d3c0508c9808ec38657f15a37a188e4d27db3f08589735a962",
     "status": "collected",

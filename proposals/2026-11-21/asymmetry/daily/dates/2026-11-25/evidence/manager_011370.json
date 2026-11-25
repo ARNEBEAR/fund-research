@@ -6,21 +6,21 @@
   "group": "manager",
   "family": "manager_011370",
   "code": "011370",
-  "status": "failed",
-  "checked_at": "2026-11-25T16:54:27.575673+08:00",
-  "publication_date": null,
+  "status": "collected",
+  "checked_at": "2026-11-25T17:53:37.568389+08:00",
+  "publication_date": "2025-03-04",
   "date_candidates": [],
-  "content_sha256": null,
+  "content_sha256": "2f93050c25b13fd5c83a30439fad93a11f9bb2452977b343249f956e91f108ae",
   "excerpt": "",
-  "http_status": null,
-  "error": "URLError",
+  "http_status": 200,
+  "error": null,
   "fact_reverified": false,
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_011370",
-    "checked_at": "2026-11-24T18:58:14.689408+08:00",
+    "checked_at": "2026-11-25T17:53:37.568389+08:00",
     "publication_date": "2025-03-04",
-    "content_sha256": "d6979856dc61cf75e6f8fefbc958792c7a424ba8dc1cde6176450a6a49ab3bd3",
+    "content_sha256": "2f93050c25b13fd5c83a30439fad93a11f9bb2452977b343249f956e91f108ae",
     "status": "collected",
     "manager": {
       "appointments": [
@@ -78,7 +78,62 @@
     "date_candidates": [],
     "excerpt": ""
   },
-  "stale": true,
+  "stale": false,
+  "bytes": 45071,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_011370.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2025-03-04",
+        "end_date": null,
+        "managers": [
+          "张明昕"
+        ],
+        "end_marker": "至今"
+      },
+      {
+        "start_date": "2022-06-20",
+        "end_date": "2025-03-03",
+        "managers": [
+          "童立"
+        ],
+        "end_marker": "2025-03-03"
+      },
+      {
+        "start_date": "2022-05-19",
+        "end_date": "2022-06-19",
+        "managers": [
+          "梁皓",
+          "童立"
+        ],
+        "end_marker": "2022-06-19"
+      },
+      {
+        "start_date": "2021-04-08",
+        "end_date": "2022-05-18",
+        "managers": [
+          "梁皓"
+        ],
+        "end_marker": "2022-05-18"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2025-03-04",
+        "end_date": null,
+        "managers": [
+          "张明昕"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "张明昕"
+    ],
+    "appointment_signature": "22a035f0562f89d85c6506b03417c7f55944215e8eed0a3f319d257969dd4e33",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
   "attempted": true,
   "change_status": "first observation or unavailable"
 }

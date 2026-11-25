@@ -7,7 +7,7 @@
   "family": "manager_519697",
   "code": "519697",
   "status": "collected",
-  "checked_at": "2026-11-25T16:54:24.338629+08:00",
+  "checked_at": "2026-11-25T17:53:34.741767+08:00",
   "publication_date": "2015-07-11",
   "date_candidates": [],
   "content_sha256": "fb993097a1c4c21bb1a5bd84ffe4dc3cbb68deb8ceb006e00cff5275308bd136",
@@ -18,7 +18,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_519697",
-    "checked_at": "2026-11-25T16:54:24.338629+08:00",
+    "checked_at": "2026-11-25T17:53:34.741767+08:00",
     "publication_date": "2015-07-11",
     "content_sha256": "fb993097a1c4c21bb1a5bd84ffe4dc3cbb68deb8ceb006e00cff5275308bd136",
     "status": "collected",
@@ -119,5 +119,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }

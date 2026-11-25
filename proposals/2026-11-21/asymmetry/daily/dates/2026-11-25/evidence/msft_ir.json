@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-25T16:54:04.693686+08:00",
+  "checked_at": "2026-11-25T17:53:18.860909+08:00",
   "publication_date": "2026-10-21",
   "date_candidates": [
     {
@@ -29,17 +29,17 @@
       "date_basis": "link title or URL"
     }
   ],
-  "content_sha256": "92a9601994182f7ec329a71297633bc6caba82d17cf9fd33ef094a28cd0fc7db",
-  "excerpt": "Home page This is the Trace Id: 11ca7c439a7e73baf1448608dc7e7f8f Skip to main content Investor Relations Press Release & Webcast Metrics Overview Overview Board of Directors Board Committees Policies and Guidelines Environment Overview Responsible AI Privacy & Cybersecurity Workplace & Culture Diversity & Inclusion Human Rights Responsible Sourcing ESG Reports Hub Awards & Recognition Annual Reports SEC Filings Information for Investors Annual Meeting Dividends & Stock History Investment History Acquisition History FAQ All Events Past Events Upcoming Events Contacts Microsoft 365 Azure Copilot Windows Surface XBOX Deals Small Business Support Windows Apps Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams Computers Shop XBOX Accessories VR & mixed reality Certified Refurbished Trade-in for cash XBOX Game Pass Ultimate PC Game Pass XBOX games PC games Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Small Business Digital Sovereignty Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso",
+  "content_sha256": "cbaac07f38b839f13ab16170ffa306d9eb69a161f4d0839387c94ad0201b7a53",
+  "excerpt": "Home page This is the Trace Id: f66b42f12542aa4dacd1ad425c3e396e Skip to main content Investor Relations Press Release & Webcast Metrics Overview Overview Board of Directors Board Committees Policies and Guidelines Environment Overview Responsible AI Privacy & Cybersecurity Workplace & Culture Diversity & Inclusion Human Rights Responsible Sourcing ESG Reports Hub Awards & Recognition Annual Reports SEC Filings Information for Investors Annual Meeting Dividends & Stock History Investment History Acquisition History FAQ All Events Past Events Upcoming Events Contacts Microsoft 365 Azure Copilot Windows Surface XBOX Deals Small Business Support Windows Apps Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams Computers Shop XBOX Accessories VR & mixed reality Certified Refurbished Trade-in for cash XBOX Game Pass Ultimate PC Game Pass XBOX games PC games Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Small Business Digital Sovereignty Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso",
   "http_status": 200,
   "error": null,
   "fact_reverified": false,
   "requires_independent_review": true,
   "last_success": {
     "id": "msft_ir",
-    "checked_at": "2026-11-25T16:54:04.693686+08:00",
+    "checked_at": "2026-11-25T17:53:18.860909+08:00",
     "publication_date": "2026-10-21",
-    "content_sha256": "92a9601994182f7ec329a71297633bc6caba82d17cf9fd33ef094a28cd0fc7db",
+    "content_sha256": "cbaac07f38b839f13ab16170ffa306d9eb69a161f4d0839387c94ad0201b7a53",
     "status": "collected",
     "date_candidates": [
       {
@@ -61,7 +61,7 @@
         "date_basis": "link title or URL"
       }
     ],
-    "excerpt": "Home page This is the Trace Id: 11ca7c439a7e73baf1448608dc7e7f8f Skip to main content Investor Relations Press Release & Webcast Metrics Overview Overview Board of Directors Board Committees Policies and Guidelines Environment Overview Responsible AI Privacy & Cybersecurity Workplace & Culture Diversity & Inclusion Human Rights Responsible Sourcing ESG Reports Hub Awards & Recognition Annual Reports SEC Filings Information for Investors Annual Meeting Dividends & Stock History Investment History Acquisition History FAQ All Events Past Events Upcoming Events Contacts Microsoft 365 Azure Copilot Windows Surface XBOX Deals Small Business Support Windows Apps Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams Computers Shop XBOX Accessories VR & mixed reality Certified Refurbished Trade-in for cash XBOX Game Pass Ultimate PC Game Pass XBOX games PC games Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Small Business Digital Sovereignty Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso"
+    "excerpt": "Home page This is the Trace Id: f66b42f12542aa4dacd1ad425c3e396e Skip to main content Investor Relations Press Release & Webcast Metrics Overview Overview Board of Directors Board Committees Policies and Guidelines Environment Overview Responsible AI Privacy & Cybersecurity Workplace & Culture Diversity & Inclusion Human Rights Responsible Sourcing ESG Reports Hub Awards & Recognition Annual Reports SEC Filings Information for Investors Annual Meeting Dividends & Stock History Investment History Acquisition History FAQ All Events Past Events Upcoming Events Contacts Microsoft 365 Azure Copilot Windows Surface XBOX Deals Small Business Support Windows Apps Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams Computers Shop XBOX Accessories VR & mixed reality Certified Refurbished Trade-in for cash XBOX Game Pass Ultimate PC Game Pass XBOX games PC games Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Small Business Digital Sovereignty Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual Studio Microso"
   },
   "stale": false,
   "bytes": 312835,

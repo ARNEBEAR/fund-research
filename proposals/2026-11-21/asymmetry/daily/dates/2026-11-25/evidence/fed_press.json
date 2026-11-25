@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-25T16:54:01.872599+08:00",
+  "checked_at": "2026-11-25T17:53:16.640545+08:00",
   "publication_date": "2026-11-24",
   "date_candidates": [
     {
@@ -139,7 +139,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "fed_press",
-    "checked_at": "2026-11-25T16:54:01.872599+08:00",
+    "checked_at": "2026-11-25T17:53:16.640545+08:00",
     "publication_date": "2026-11-24",
     "content_sha256": "0684e9111c8b2bd5f1ecf4b55535393824cd8e7ce2019ed1ef3ac89ae6df0670",
     "status": "collected",
@@ -273,5 +273,5 @@
   "excerpt_scope": "fresh official feed titles, not full linked articles",
   "excluded_future_count": 0,
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }

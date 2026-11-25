@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-25T16:54:05.281491+08:00",
+  "checked_at": "2026-11-25T17:53:20.518444+08:00",
   "publication_date": null,
   "date_candidates": [],
   "content_sha256": "c88cf7a4f435f3a1951de1e1fcf588ce0745b43a891707971bba7db6824c0fc8",
@@ -18,7 +18,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nvidia_ir",
-    "checked_at": "2026-11-25T16:54:05.281491+08:00",
+    "checked_at": "2026-11-25T17:53:20.518444+08:00",
     "publication_date": null,
     "content_sha256": "c88cf7a4f435f3a1951de1e1fcf588ce0745b43a891707971bba7db6824c0fc8",
     "status": "collected",
@@ -108,5 +108,5 @@
   "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
   "excluded_future_count": 0,
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }
