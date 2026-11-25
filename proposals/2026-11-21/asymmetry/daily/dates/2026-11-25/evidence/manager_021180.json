@@ -1,0 +1,89 @@
+{
+  "id": "manager_021180",
+  "name": "杨宗昌 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_021180.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_021180",
+  "code": "021180",
+  "status": "collected",
+  "checked_at": "2026-11-25T16:54:21.786806+08:00",
+  "publication_date": "2024-08-28",
+  "date_candidates": [],
+  "content_sha256": "f440c5ba5014d18f00a9e242adf62209fb27e38bc2936614fb019649f0ecc32e",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_021180",
+    "checked_at": "2026-11-25T16:54:21.786806+08:00",
+    "publication_date": "2024-08-28",
+    "content_sha256": "f440c5ba5014d18f00a9e242adf62209fb27e38bc2936614fb019649f0ecc32e",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2024-08-28",
+          "end_date": null,
+          "managers": [
+            "杨宗昌"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2024-08-28",
+          "end_date": null,
+          "managers": [
+            "杨宗昌"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "杨宗昌"
+      ],
+      "appointment_signature": "3432f7213d091db74993036a31104c2df91acc5f84798b17f2be0bf678c67a50",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 43490,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_021180.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2024-08-28",
+        "end_date": null,
+        "managers": [
+          "杨宗昌"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2024-08-28",
+        "end_date": null,
+        "managers": [
+          "杨宗昌"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "杨宗昌"
+    ],
+    "appointment_signature": "3432f7213d091db74993036a31104c2df91acc5f84798b17f2be0bf678c67a50",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "changed"
+}

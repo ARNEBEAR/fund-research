@@ -1,0 +1,294 @@
+{
+  "id": "pboc_latest",
+  "name": "PBOC latest news and statistics",
+  "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html",
+  "kind": "html",
+  "family": "pboc",
+  "group": "macro_market",
+  "scope": "current index or series; linked release bodies are not collected",
+  "status": "collected",
+  "checked_at": "2026-11-25T16:54:01.871955+08:00",
+  "publication_date": "2026-11-23",
+  "date_candidates": [
+    {
+      "title": "中国人民银行行长潘功胜会见欧洲中央银行、欧盟委员会和欧元集团相关负责人",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112319381491628/index.html",
+      "publication_date": "2026-11-23",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "中国人民银行召开党的二十届五中全会精神宣讲报告会",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112109473354413/index.html",
+      "publication_date": "2026-11-21",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "中国人民银行行长潘功胜会见万事达卡首席执行官孟轲",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112018344539698/index.html",
+      "publication_date": "2026-11-20",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "2026年10月金融市场运行情况",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112015225760018/index.html",
+      "publication_date": "2026-11-20",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "中国人民银行公告﹝2026﹞第29号",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112014315654038/index.html",
+      "publication_date": "2026-11-20",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "中国人民银行与加拿大财政部、加拿大央行共同签署《中加金融工作组工作规范...",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111809190698994/index.html",
+      "publication_date": "2026-11-18",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "2026年10月金融统计数据报告",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111315073060062/index.html",
+      "publication_date": "2026-11-13",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "金融科技发展奖评审领导小组会议召开",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111210072039722/index.html",
+      "publication_date": "2026-11-12",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "2026年第三季度中国货币政策执行报告",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116292271519/index.html",
+      "publication_date": "2026-11-11",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "2026年前三季度中国货币政策大事记",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116304170164/index.html",
+      "publication_date": "2026-11-11",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111115493736794/index.html",
+      "publication_date": "2026-11-11",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110516262373524/index.html",
+      "publication_date": "2026-11-05",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110516113533346/index.html",
+      "publication_date": "2026-11-05",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110515320167091/index.html",
+      "publication_date": "2026-11-05",
+      "date_basis": "bounded link row text"
+    },
+    {
+      "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110510330636555/index.html",
+      "publication_date": "2026-11-03",
+      "date_basis": "link title or URL"
+    }
+  ],
+  "content_sha256": "1e6a59daab75b9c5b66b276d14e83d21d8af418a29984443bb0628baebcfa230",
+  "excerpt": "新闻 术语表 网站地图 无障碍浏览 English Version 信息公开 新闻发布 法律法规 货币政策 宏观审慎 信贷政策 金融市场 金融稳定 调查统计 银行会计 支付体系 金融科技 人民币 经理国库 国际交往 人员招录 学术交流 征信管理 反洗钱 党建工作 服务互动 政务公开 政策解读 公告信息 图文直播 央行研究 音频视频 市场动态 网上展厅 报告下载 报刊年鉴 网送文告 办事大厅 在线申报 下载中心 网上调查 意见征集 金融知识 关于我们 |　我的位置： 沟通交流 > 沟通交流 > 新闻 高级搜索 中国人民银行行长潘功胜会见欧洲中央银行、欧盟委员会和欧元集团相关负责人 2026-11-23 中国人民银行召开党的二十届五中全会精神宣讲报告会 2026-11-21 中国人民银行行长潘功胜会见万事达卡首席执行官孟轲 2026-11-20 2026年10月金融市场运行情况 2026-11-20 中国人民银行公告﹝2026﹞第29号 2026-11-20 中国人民银行与加拿大财政部、加拿大央行共同签署《中加金融工作组工作规范... 2026-11-18 2026年10月金融统计数据报告 2026-11-13 金融科技发展奖评审领导小组会议召开 2026-11-12 2026年第三季度中国货币政策执行报告 2026-11-11 2026年前三季度中国货币政策大事记 2026-11-11 中国人民银行副行长宣昌能出席国际清算银行行长例会 2026-11-11 中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德 2026-11-05 中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会 2026-11-05 中国人民银行与印度尼西亚银行举行联合工作机制工作会议 2026-11-05 国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常... 2026-11-05 首页 上一页 下一页 尾页 总记录数:6201,每页显示15条记录,当前页: 1 /414 跳转至 页 法律声明 | 联系我们 | 设为首页 | 加入收藏 | 网站地图 京ICP备05073439号 网站标识码：bm25000001 京公网安备 11010202000016号 网站主办单位：中国人民银行办公厅　最佳分辨率：1024*768",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "pboc_latest",
+    "checked_at": "2026-11-25T16:54:01.871955+08:00",
+    "publication_date": "2026-11-23",
+    "content_sha256": "1e6a59daab75b9c5b66b276d14e83d21d8af418a29984443bb0628baebcfa230",
+    "status": "collected",
+    "date_candidates": [
+      {
+        "title": "中国人民银行行长潘功胜会见欧洲中央银行、欧盟委员会和欧元集团相关负责人",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112319381491628/index.html",
+        "publication_date": "2026-11-23",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "中国人民银行召开党的二十届五中全会精神宣讲报告会",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112109473354413/index.html",
+        "publication_date": "2026-11-21",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "中国人民银行行长潘功胜会见万事达卡首席执行官孟轲",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112018344539698/index.html",
+        "publication_date": "2026-11-20",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "2026年10月金融市场运行情况",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112015225760018/index.html",
+        "publication_date": "2026-11-20",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "中国人民银行公告﹝2026﹞第29号",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112014315654038/index.html",
+        "publication_date": "2026-11-20",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "中国人民银行与加拿大财政部、加拿大央行共同签署《中加金融工作组工作规范...",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111809190698994/index.html",
+        "publication_date": "2026-11-18",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "2026年10月金融统计数据报告",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111315073060062/index.html",
+        "publication_date": "2026-11-13",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "金融科技发展奖评审领导小组会议召开",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111210072039722/index.html",
+        "publication_date": "2026-11-12",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "2026年第三季度中国货币政策执行报告",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116292271519/index.html",
+        "publication_date": "2026-11-11",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "2026年前三季度中国货币政策大事记",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116304170164/index.html",
+        "publication_date": "2026-11-11",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111115493736794/index.html",
+        "publication_date": "2026-11-11",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110516262373524/index.html",
+        "publication_date": "2026-11-05",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110516113533346/index.html",
+        "publication_date": "2026-11-05",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110515320167091/index.html",
+        "publication_date": "2026-11-05",
+        "date_basis": "bounded link row text"
+      },
+      {
+        "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常...",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110510330636555/index.html",
+        "publication_date": "2026-11-03",
+        "date_basis": "link title or URL"
+      }
+    ],
+    "excerpt": "新闻 术语表 网站地图 无障碍浏览 English Version 信息公开 新闻发布 法律法规 货币政策 宏观审慎 信贷政策 金融市场 金融稳定 调查统计 银行会计 支付体系 金融科技 人民币 经理国库 国际交往 人员招录 学术交流 征信管理 反洗钱 党建工作 服务互动 政务公开 政策解读 公告信息 图文直播 央行研究 音频视频 市场动态 网上展厅 报告下载 报刊年鉴 网送文告 办事大厅 在线申报 下载中心 网上调查 意见征集 金融知识 关于我们 |　我的位置： 沟通交流 > 沟通交流 > 新闻 高级搜索 中国人民银行行长潘功胜会见欧洲中央银行、欧盟委员会和欧元集团相关负责人 2026-11-23 中国人民银行召开党的二十届五中全会精神宣讲报告会 2026-11-21 中国人民银行行长潘功胜会见万事达卡首席执行官孟轲 2026-11-20 2026年10月金融市场运行情况 2026-11-20 中国人民银行公告﹝2026﹞第29号 2026-11-20 中国人民银行与加拿大财政部、加拿大央行共同签署《中加金融工作组工作规范... 2026-11-18 2026年10月金融统计数据报告 2026-11-13 金融科技发展奖评审领导小组会议召开 2026-11-12 2026年第三季度中国货币政策执行报告 2026-11-11 2026年前三季度中国货币政策大事记 2026-11-11 中国人民银行副行长宣昌能出席国际清算银行行长例会 2026-11-11 中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德 2026-11-05 中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会 2026-11-05 中国人民银行与印度尼西亚银行举行联合工作机制工作会议 2026-11-05 国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常... 2026-11-05 首页 上一页 下一页 尾页 总记录数:6201,每页显示15条记录,当前页: 1 /414 跳转至 页 法律声明 | 联系我们 | 设为首页 | 加入收藏 | 网站地图 京ICP备05073439号 网站标识码：bm25000001 京公网安备 11010202000016号 网站主办单位：中国人民银行办公厅　最佳分辨率：1024*768"
+  },
+  "stale": false,
+  "bytes": 37803,
+  "final_url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html",
+  "undated_links": [
+    {
+      "title": "术语表",
+      "url": "https://www.pbc.gov.cn/rmyh/109339/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "网站地图",
+      "url": "https://www.pbc.gov.cn/rmyh/109342/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "无障碍浏览",
+      "url": "https://www.pbc.gov.cn/AiWza/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "English Version",
+      "url": "https://www.pbc.gov.cn/en/3688006/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "新闻发布",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "法律法规",
+      "url": "https://www.pbc.gov.cn/tiaofasi/144941/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "货币政策",
+      "url": "https://www.pbc.gov.cn/rmyh/105145/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "宏观审慎",
+      "url": "https://www.pbc.gov.cn/huobizhengceersi/214481/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "信贷政策",
+      "url": "https://www.pbc.gov.cn/xindaishichangsi/5443861/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "金融市场",
+      "url": "https://www.pbc.gov.cn/jinrongshichangsi/147160/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "金融稳定",
+      "url": "https://www.pbc.gov.cn/jinrongwendingju/146766/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "调查统计",
+      "url": "https://www.pbc.gov.cn/diaochatongjisi/116219/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "银行会计",
+      "url": "https://www.pbc.gov.cn/kuaijicaiwusi/145920/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "支付体系",
+      "url": "https://www.pbc.gov.cn/zhifujiesuansi/128525/index.html",
+      "publication_date": null
+    },
+    {
+      "title": "金融科技",
+      "url": "https://www.pbc.gov.cn/kejisi/146812/index.html",
+      "publication_date": null
+    }
+  ],
+  "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
+  "excluded_future_count": 0,
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}

@@ -1,0 +1,203 @@
+{
+  "id": "announcements_012817",
+  "name": "国泰致和C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=012817&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_012817",
+  "code": "012817",
+  "status": "collected",
+  "checked_at": "2026-11-25T16:54:27.497187+08:00",
+  "publication_date": "2026-10-27",
+  "date_candidates": [
+    {
+      "title": "国泰基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/012817,AN202610271831029987.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "国泰致和混合型证券投资基金2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/012817,AN202610271830985224.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "国泰基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/012817,AN202609011828875592.html",
+      "publication_date": "2026-08-31"
+    },
+    {
+      "title": "国泰致和混合型证券投资基金2026年中期报告",
+      "url": "https://fund.eastmoney.com/gonggao/012817,AN202608311828771964.html",
+      "publication_date": "2026-08-31"
+    },
+    {
+      "title": "国泰致和混合型证券投资基金2026年第2季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/012817,AN202607211827190835.html",
+      "publication_date": "2026-07-21"
+    }
+  ],
+  "content_sha256": "58bf76bff18453dc8db452ba6447f4e17f00482f9908696c30befef7cc4b739a",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_012817",
+    "checked_at": "2026-11-25T16:54:27.497187+08:00",
+    "publication_date": "2026-10-27",
+    "content_sha256": "58bf76bff18453dc8db452ba6447f4e17f00482f9908696c30befef7cc4b739a",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610271831029987",
+          "title": "国泰基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/012817,AN202610271831029987.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202610271830985224",
+          "title": "国泰致和混合型证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/012817,AN202610271830985224.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202609011828875592",
+          "title": "国泰基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/012817,AN202609011828875592.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828771964",
+          "title": "国泰致和混合型证券投资基金2026年中期报告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/012817,AN202608311828771964.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827190835",
+          "title": "国泰致和混合型证券投资基金2026年第2季度报告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/012817,AN202607211827190835.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 249,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "国泰基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/012817,AN202610271831029987.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "国泰致和混合型证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/012817,AN202610271830985224.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "国泰基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/012817,AN202609011828875592.html",
+        "publication_date": "2026-08-31"
+      },
+      {
+        "title": "国泰致和混合型证券投资基金2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/012817,AN202608311828771964.html",
+        "publication_date": "2026-08-31"
+      },
+      {
+        "title": "国泰致和混合型证券投资基金2026年第2季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/012817,AN202607211827190835.html",
+        "publication_date": "2026-07-21"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 5679,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=012817&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610271831029987",
+        "title": "国泰基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/012817,AN202610271831029987.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202610271830985224",
+        "title": "国泰致和混合型证券投资基金2026年第3季度报告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/012817,AN202610271830985224.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202609011828875592",
+        "title": "国泰基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+        "publication_date": "2026-08-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/012817,AN202609011828875592.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608311828771964",
+        "title": "国泰致和混合型证券投资基金2026年中期报告",
+        "publication_date": "2026-08-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/012817,AN202608311828771964.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827190835",
+        "title": "国泰致和混合型证券投资基金2026年第2季度报告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/012817,AN202607211827190835.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 249,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}

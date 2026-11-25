@@ -1,0 +1,233 @@
+{
+  "id": "announcements_011370",
+  "name": "华商均衡成长C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=011370&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_011370",
+  "code": "011370",
+  "status": "collected",
+  "checked_at": "2026-11-25T16:54:28.485028+08:00",
+  "publication_date": "2026-10-27",
+  "date_candidates": [
+    {
+      "title": "华商基金管理有限公司旗下基金2026年第三季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/011370,AN202610271831042840.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "华商均衡成长混合型证券投资基金2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/011370,AN202610271830990667.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "华商基金管理有限公司旗下基金2026年中期报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/011370,AN202608311828803719.html",
+      "publication_date": "2026-08-31"
+    },
+    {
+      "title": "华商均衡成长混合型证券投资基金2026年中期报告",
+      "url": "https://fund.eastmoney.com/gonggao/011370,AN202608311828786897.html",
+      "publication_date": "2026-08-31"
+    },
+    {
+      "title": "华商基金管理有限公司旗下基金2026年第二季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/011370,AN202607211827207854.html",
+      "publication_date": "2026-07-21"
+    },
+    {
+      "title": "华商均衡成长混合型证券投资基金2026年第2季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/011370,AN202607211827190882.html",
+      "publication_date": "2026-07-21"
+    }
+  ],
+  "content_sha256": "117957f593c81fff2355170a2eddb390dc4935fba1d5f825e4602e50d3b0b83d",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_011370",
+    "checked_at": "2026-11-25T16:54:28.485028+08:00",
+    "publication_date": "2026-10-27",
+    "content_sha256": "117957f593c81fff2355170a2eddb390dc4935fba1d5f825e4602e50d3b0b83d",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610271831042840",
+          "title": "华商基金管理有限公司旗下基金2026年第三季度报告提示性公告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011370,AN202610271831042840.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202610271830990667",
+          "title": "华商均衡成长混合型证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011370,AN202610271830990667.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828803719",
+          "title": "华商基金管理有限公司旗下基金2026年中期报告提示性公告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011370,AN202608311828803719.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828786897",
+          "title": "华商均衡成长混合型证券投资基金2026年中期报告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011370,AN202608311828786897.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827207854",
+          "title": "华商基金管理有限公司旗下基金2026年第二季度报告提示性公告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011370,AN202607211827207854.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827190882",
+          "title": "华商均衡成长混合型证券投资基金2026年第2季度报告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011370,AN202607211827190882.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 179,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "华商基金管理有限公司旗下基金2026年第三季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202610271831042840.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "华商均衡成长混合型证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202610271830990667.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "华商基金管理有限公司旗下基金2026年中期报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202608311828803719.html",
+        "publication_date": "2026-08-31"
+      },
+      {
+        "title": "华商均衡成长混合型证券投资基金2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202608311828786897.html",
+        "publication_date": "2026-08-31"
+      },
+      {
+        "title": "华商基金管理有限公司旗下基金2026年第二季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202607211827207854.html",
+        "publication_date": "2026-07-21"
+      },
+      {
+        "title": "华商均衡成长混合型证券投资基金2026年第2季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202607211827190882.html",
+        "publication_date": "2026-07-21"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 6014,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=011370&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610271831042840",
+        "title": "华商基金管理有限公司旗下基金2026年第三季度报告提示性公告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202610271831042840.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202610271830990667",
+        "title": "华商均衡成长混合型证券投资基金2026年第3季度报告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202610271830990667.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608311828803719",
+        "title": "华商基金管理有限公司旗下基金2026年中期报告提示性公告",
+        "publication_date": "2026-08-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202608311828803719.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608311828786897",
+        "title": "华商均衡成长混合型证券投资基金2026年中期报告",
+        "publication_date": "2026-08-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202608311828786897.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827207854",
+        "title": "华商基金管理有限公司旗下基金2026年第二季度报告提示性公告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202607211827207854.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827190882",
+        "title": "华商均衡成长混合型证券投资基金2026年第2季度报告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011370,AN202607211827190882.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 179,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}

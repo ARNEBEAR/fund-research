@@ -1,0 +1,157 @@
+{
+  "id": "manager_010390",
+  "name": "黄蕴藉 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_010390.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_010390",
+  "code": "010390",
+  "status": "collected",
+  "checked_at": "2026-11-25T16:54:23.059242+08:00",
+  "publication_date": "2026-05-29",
+  "date_candidates": [],
+  "content_sha256": "e55aa43974f8999f401ee5fb92e4ff86a5e4b010550312089c1ce20b4f490a57",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_010390",
+    "checked_at": "2026-11-25T16:54:23.059242+08:00",
+    "publication_date": "2026-05-29",
+    "content_sha256": "e55aa43974f8999f401ee5fb92e4ff86a5e4b010550312089c1ce20b4f490a57",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2026-05-29",
+          "end_date": null,
+          "managers": [
+            "黄蕴藉"
+          ],
+          "end_marker": "至今"
+        },
+        {
+          "start_date": "2025-09-17",
+          "end_date": "2026-05-28",
+          "managers": [
+            "彭珂",
+            "黄蕴藉"
+          ],
+          "end_marker": "2026-05-28"
+        },
+        {
+          "start_date": "2024-09-28",
+          "end_date": "2025-09-16",
+          "managers": [
+            "彭珂"
+          ],
+          "end_marker": "2025-09-16"
+        },
+        {
+          "start_date": "2023-10-14",
+          "end_date": "2024-09-27",
+          "managers": [
+            "彭珂",
+            "杨嘉文"
+          ],
+          "end_marker": "2024-09-27"
+        },
+        {
+          "start_date": "2020-11-02",
+          "end_date": "2023-10-13",
+          "managers": [
+            "杨嘉文"
+          ],
+          "end_marker": "2023-10-13"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2026-05-29",
+          "end_date": null,
+          "managers": [
+            "黄蕴藉"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "黄蕴藉"
+      ],
+      "appointment_signature": "d802fe4b098f2f1af18cf8dc763dd2326d1336bb0573feeed58c22a92d2df529",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 42945,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_010390.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2026-05-29",
+        "end_date": null,
+        "managers": [
+          "黄蕴藉"
+        ],
+        "end_marker": "至今"
+      },
+      {
+        "start_date": "2025-09-17",
+        "end_date": "2026-05-28",
+        "managers": [
+          "彭珂",
+          "黄蕴藉"
+        ],
+        "end_marker": "2026-05-28"
+      },
+      {
+        "start_date": "2024-09-28",
+        "end_date": "2025-09-16",
+        "managers": [
+          "彭珂"
+        ],
+        "end_marker": "2025-09-16"
+      },
+      {
+        "start_date": "2023-10-14",
+        "end_date": "2024-09-27",
+        "managers": [
+          "彭珂",
+          "杨嘉文"
+        ],
+        "end_marker": "2024-09-27"
+      },
+      {
+        "start_date": "2020-11-02",
+        "end_date": "2023-10-13",
+        "managers": [
+          "杨嘉文"
+        ],
+        "end_marker": "2023-10-13"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2026-05-29",
+        "end_date": null,
+        "managers": [
+          "黄蕴藉"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "黄蕴藉"
+    ],
+    "appointment_signature": "d802fe4b098f2f1af18cf8dc763dd2326d1336bb0573feeed58c22a92d2df529",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "changed"
+}

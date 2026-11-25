@@ -1,0 +1,263 @@
+{
+  "id": "announcements_027170",
+  "name": "交银环球精选C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=027170&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_027170",
+  "code": "027170",
+  "status": "collected",
+  "checked_at": "2026-11-25T16:54:24.736855+08:00",
+  "publication_date": "2026-10-29",
+  "date_candidates": [
+    {
+      "title": "交银施罗德基金管理有限公司关于交银施罗德环球精选价值证券投资基金基金经理变更公告",
+      "url": "https://fund.eastmoney.com/gonggao/027170,AN202610291831147477.html",
+      "publication_date": "2026-10-29"
+    },
+    {
+      "title": "交银施罗德基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/027170,AN202610271830995935.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "交银施罗德环球精选价值证券投资基金2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/027170,AN202610271830987041.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "交银施罗德环球精选价值证券投资基金2026年中期报告",
+      "url": "https://fund.eastmoney.com/gonggao/027170,AN202608311828774011.html",
+      "publication_date": "2026-08-31"
+    },
+    {
+      "title": "交银施罗德基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/027170,AN202608311828761519.html",
+      "publication_date": "2026-08-31"
+    },
+    {
+      "title": "交银施罗德环球精选价值证券投资基金2026年第2季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/027170,AN202607201827127535.html",
+      "publication_date": "2026-07-20"
+    },
+    {
+      "title": "交银施罗德基金管理有限公司旗下部分基金2026年第二季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/027170,AN202607201827126342.html",
+      "publication_date": "2026-07-20"
+    }
+  ],
+  "content_sha256": "4685a2459eb5544af832744b5d11807a642725c75989a9e1ebae604759792322",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_027170",
+    "checked_at": "2026-11-25T16:54:24.736855+08:00",
+    "publication_date": "2026-10-29",
+    "content_sha256": "4685a2459eb5544af832744b5d11807a642725c75989a9e1ebae604759792322",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610291831147477",
+          "title": "交银施罗德基金管理有限公司关于交银施罗德环球精选价值证券投资基金基金经理变更公告",
+          "publication_date": "2026-10-29",
+          "kind": "manager",
+          "url": "https://fund.eastmoney.com/gonggao/027170,AN202610291831147477.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202610271830995935",
+          "title": "交银施罗德基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/027170,AN202610271830995935.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202610271830987041",
+          "title": "交银施罗德环球精选价值证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/027170,AN202610271830987041.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828774011",
+          "title": "交银施罗德环球精选价值证券投资基金2026年中期报告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/027170,AN202608311828774011.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828761519",
+          "title": "交银施罗德基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/027170,AN202608311828761519.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607201827127535",
+          "title": "交银施罗德环球精选价值证券投资基金2026年第2季度报告",
+          "publication_date": "2026-07-20",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/027170,AN202607201827127535.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607201827126342",
+          "title": "交银施罗德基金管理有限公司旗下部分基金2026年第二季度报告提示性公告",
+          "publication_date": "2026-07-20",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/027170,AN202607201827126342.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 33,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "交银施罗德基金管理有限公司关于交银施罗德环球精选价值证券投资基金基金经理变更公告",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202610291831147477.html",
+        "publication_date": "2026-10-29"
+      },
+      {
+        "title": "交银施罗德基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202610271830995935.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "交银施罗德环球精选价值证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202610271830987041.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "交银施罗德环球精选价值证券投资基金2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202608311828774011.html",
+        "publication_date": "2026-08-31"
+      },
+      {
+        "title": "交银施罗德基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202608311828761519.html",
+        "publication_date": "2026-08-31"
+      },
+      {
+        "title": "交银施罗德环球精选价值证券投资基金2026年第2季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202607201827127535.html",
+        "publication_date": "2026-07-20"
+      },
+      {
+        "title": "交银施罗德基金管理有限公司旗下部分基金2026年第二季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202607201827126342.html",
+        "publication_date": "2026-07-20"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 6123,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=027170&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610291831147477",
+        "title": "交银施罗德基金管理有限公司关于交银施罗德环球精选价值证券投资基金基金经理变更公告",
+        "publication_date": "2026-10-29",
+        "kind": "manager",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202610291831147477.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202610271830995935",
+        "title": "交银施罗德基金管理有限公司旗下部分基金2026年第三季度报告提示性公告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202610271830995935.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202610271830987041",
+        "title": "交银施罗德环球精选价值证券投资基金2026年第3季度报告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202610271830987041.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608311828774011",
+        "title": "交银施罗德环球精选价值证券投资基金2026年中期报告",
+        "publication_date": "2026-08-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202608311828774011.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608311828761519",
+        "title": "交银施罗德基金管理有限公司旗下部分基金2026年中期报告提示性公告",
+        "publication_date": "2026-08-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202608311828761519.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607201827127535",
+        "title": "交银施罗德环球精选价值证券投资基金2026年第2季度报告",
+        "publication_date": "2026-07-20",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202607201827127535.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607201827126342",
+        "title": "交银施罗德基金管理有限公司旗下部分基金2026年第二季度报告提示性公告",
+        "publication_date": "2026-07-20",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/027170,AN202607201827126342.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 33,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}

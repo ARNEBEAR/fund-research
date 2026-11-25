@@ -1,0 +1,203 @@
+{
+  "id": "announcements_020254",
+  "name": "鹏华盛世创新LOF C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=020254&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_020254",
+  "code": "020254",
+  "status": "collected",
+  "checked_at": "2026-11-25T16:54:27.284300+08:00",
+  "publication_date": "2026-10-26",
+  "date_candidates": [
+    {
+      "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/020254,AN202610251830893163.html",
+      "publication_date": "2026-10-26"
+    },
+    {
+      "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年中期报告",
+      "url": "https://fund.eastmoney.com/gonggao/020254,AN202608271828557968.html",
+      "publication_date": "2026-08-28"
+    },
+    {
+      "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第2季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/020254,AN202607191827110646.html",
+      "publication_date": "2026-07-20"
+    },
+    {
+      "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第1季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/020254,AN202604201821354850.html",
+      "publication_date": "2026-04-21"
+    },
+    {
+      "title": "鹏华盛世创新混合型证券投资基金(LOF)2025年年度报告",
+      "url": "https://fund.eastmoney.com/gonggao/020254,AN202603291820838433.html",
+      "publication_date": "2026-03-30"
+    }
+  ],
+  "content_sha256": "14d6635daf33efb9626e3e2ac7e9686a1a773df4f80235a343601c5fe3daae2f",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_020254",
+    "checked_at": "2026-11-25T16:54:27.284300+08:00",
+    "publication_date": "2026-10-26",
+    "content_sha256": "14d6635daf33efb9626e3e2ac7e9686a1a773df4f80235a343601c5fe3daae2f",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610251830893163",
+          "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第3季度报告",
+          "publication_date": "2026-10-26",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/020254,AN202610251830893163.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608271828557968",
+          "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年中期报告",
+          "publication_date": "2026-08-28",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/020254,AN202608271828557968.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607191827110646",
+          "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第2季度报告",
+          "publication_date": "2026-07-20",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/020254,AN202607191827110646.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202604201821354850",
+          "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第1季度报告",
+          "publication_date": "2026-04-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/020254,AN202604201821354850.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202603291820838433",
+          "title": "鹏华盛世创新混合型证券投资基金(LOF)2025年年度报告",
+          "publication_date": "2026-03-30",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/020254,AN202603291820838433.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 102,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/020254,AN202610251830893163.html",
+        "publication_date": "2026-10-26"
+      },
+      {
+        "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/020254,AN202608271828557968.html",
+        "publication_date": "2026-08-28"
+      },
+      {
+        "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第2季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/020254,AN202607191827110646.html",
+        "publication_date": "2026-07-20"
+      },
+      {
+        "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第1季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/020254,AN202604201821354850.html",
+        "publication_date": "2026-04-21"
+      },
+      {
+        "title": "鹏华盛世创新混合型证券投资基金(LOF)2025年年度报告",
+        "url": "https://fund.eastmoney.com/gonggao/020254,AN202603291820838433.html",
+        "publication_date": "2026-03-30"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 6131,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=020254&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610251830893163",
+        "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第3季度报告",
+        "publication_date": "2026-10-26",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/020254,AN202610251830893163.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608271828557968",
+        "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年中期报告",
+        "publication_date": "2026-08-28",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/020254,AN202608271828557968.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607191827110646",
+        "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第2季度报告",
+        "publication_date": "2026-07-20",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/020254,AN202607191827110646.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202604201821354850",
+        "title": "鹏华盛世创新混合型证券投资基金(LOF)2026年第1季度报告",
+        "publication_date": "2026-04-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/020254,AN202604201821354850.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202603291820838433",
+        "title": "鹏华盛世创新混合型证券投资基金(LOF)2025年年度报告",
+        "publication_date": "2026-03-30",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/020254,AN202603291820838433.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 102,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}
