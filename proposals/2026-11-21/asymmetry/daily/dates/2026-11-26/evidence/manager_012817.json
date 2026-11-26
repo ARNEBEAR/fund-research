@@ -7,7 +7,7 @@
   "family": "manager_012817",
   "code": "012817",
   "status": "collected",
-  "checked_at": "2026-11-26T16:40:29.243814+08:00",
+  "checked_at": "2026-11-26T17:34:03.328180+08:00",
   "publication_date": "2022-01-21",
   "date_candidates": [],
   "content_sha256": "fe729efe994933845e71894048b7781de6fc1e1052c2bf429fa8f9feee54c044",
@@ -18,7 +18,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "manager_012817",
-    "checked_at": "2026-11-26T16:40:29.243814+08:00",
+    "checked_at": "2026-11-26T17:34:03.328180+08:00",
     "publication_date": "2022-01-21",
     "content_sha256": "fe729efe994933845e71894048b7781de6fc1e1052c2bf429fa8f9feee54c044",
     "status": "collected",
@@ -85,5 +85,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }

@@ -8,7 +8,7 @@
   "code": "510880",
   "product_kind": "etf",
   "status": "collected",
-  "checked_at": "2026-11-26T16:40:18.675454+08:00",
+  "checked_at": "2026-11-26T17:33:38.248431+08:00",
   "publication_date": "2026-11-25",
   "date_candidates": [],
   "content_sha256": "b31e738758c90857c04d02cac61d466c977f3235e6ae2e7b2257011d85a1bfc4",
@@ -19,7 +19,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nav_510880",
-    "checked_at": "2026-11-26T16:40:18.675454+08:00",
+    "checked_at": "2026-11-26T17:33:38.248431+08:00",
     "publication_date": "2026-11-25",
     "content_sha256": "b31e738758c90857c04d02cac61d466c977f3235e6ae2e7b2257011d85a1bfc4",
     "status": "collected",
@@ -58,5 +58,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }

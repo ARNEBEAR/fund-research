@@ -7,7 +7,7 @@
   "family": "manager_021180",
   "code": "021180",
   "status": "collected",
-  "checked_at": "2026-11-26T16:40:22.775803+08:00",
+  "checked_at": "2026-11-26T17:33:41.895615+08:00",
   "publication_date": "2026-10-27",
   "date_candidates": [
     {
@@ -29,7 +29,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "announcements_021180",
-    "checked_at": "2026-11-26T16:40:22.775803+08:00",
+    "checked_at": "2026-11-26T17:33:41.895615+08:00",
     "publication_date": "2026-10-27",
     "content_sha256": "35d6d2fe125c48bbbc6642534354033ad2a6d046f86b5e5eafe7e85cde142431",
     "status": "collected",
@@ -109,5 +109,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }
