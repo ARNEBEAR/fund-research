@@ -1,0 +1,59 @@
+{
+  "id": "manager_011066",
+  "name": "刘旭 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_011066.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_011066",
+  "code": "011066",
+  "status": "failed",
+  "checked_at": "2026-11-26T16:40:22.016618+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": null,
+  "excerpt": "",
+  "http_status": null,
+  "error": "URLError",
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_011066",
+    "checked_at": "2026-11-25T17:53:33.297677+08:00",
+    "publication_date": "2020-12-25",
+    "content_sha256": "f464c1bb274ecc40ce6ada320e4d5482b3f88bf94187970eec45d56a64fdb417",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2020-12-25",
+          "end_date": null,
+          "managers": [
+            "刘旭"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2020-12-25",
+          "end_date": null,
+          "managers": [
+            "刘旭"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "刘旭"
+      ],
+      "appointment_signature": "d92788258bb20eafc43986d687b0115c40adf80475f6a2791ddac9c60d31d9e2",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": true,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "manager_019032",
+  "name": "祁禾 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_019032.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_019032",
+  "code": "019032",
+  "status": "collected",
+  "checked_at": "2026-11-26T16:40:26.820574+08:00",
+  "publication_date": "2023-11-15",
+  "date_candidates": [],
+  "content_sha256": "e4b7d47c751c96d9429b12728ef6a7ac9ede0a77b9aaf6824c239ece6adaeec4",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_019032",
+    "checked_at": "2026-11-26T16:40:26.820574+08:00",
+    "publication_date": "2023-11-15",
+    "content_sha256": "e4b7d47c751c96d9429b12728ef6a7ac9ede0a77b9aaf6824c239ece6adaeec4",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2023-11-15",
+          "end_date": null,
+          "managers": [
+            "祁禾"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2023-11-15",
+          "end_date": null,
+          "managers": [
+            "祁禾"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "祁禾"
+      ],
+      "appointment_signature": "fbdf94603a5b28549665e7413c4a63c5bf944bd1dfd6c5e62651c4aca945f6d5",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 46912,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_019032.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2023-11-15",
+        "end_date": null,
+        "managers": [
+          "祁禾"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2023-11-15",
+        "end_date": null,
+        "managers": [
+          "祁禾"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "祁禾"
+    ],
+    "appointment_signature": "fbdf94603a5b28549665e7413c4a63c5bf944bd1dfd6c5e62651c4aca945f6d5",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "changed"
+}

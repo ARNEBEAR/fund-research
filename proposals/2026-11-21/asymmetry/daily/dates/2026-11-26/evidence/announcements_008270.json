@@ -1,0 +1,323 @@
+{
+  "id": "announcements_008270",
+  "name": "大成睿享C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=008270&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_008270",
+  "code": "008270",
+  "status": "collected",
+  "checked_at": "2026-11-26T16:40:26.796198+08:00",
+  "publication_date": "2026-10-27",
+  "date_candidates": [
+    {
+      "title": "大成基金管理有限公司旗下228只公募基金2026年第3季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/008270,AN202610271831024849.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "大成睿享混合型证券投资基金2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/008270,AN202610271830979311.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "大成基金管理有限公司旗下218只公募基金2026年中期报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/008270,AN202608281828628880.html",
+      "publication_date": "2026-08-28"
+    },
+    {
+      "title": "大成睿享混合型证券投资基金2026年中期报告",
+      "url": "https://fund.eastmoney.com/gonggao/008270,AN202608281828588988.html",
+      "publication_date": "2026-08-28"
+    },
+    {
+      "title": "大成基金管理有限公司旗下219只公募基金2026年第2季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/008270,AN202607211827206853.html",
+      "publication_date": "2026-07-21"
+    },
+    {
+      "title": "大成睿享混合型证券投资基金2026年第2季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/008270,AN202607211827191137.html",
+      "publication_date": "2026-07-21"
+    },
+    {
+      "title": "大成睿享混合型证券投资基金2026年第1季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/008270,AN202604221821424924.html",
+      "publication_date": "2026-04-22"
+    },
+    {
+      "title": "大成睿享混合型证券投资基金2025年年度报告",
+      "url": "https://fund.eastmoney.com/gonggao/008270,AN202603311820900221.html",
+      "publication_date": "2026-03-31"
+    },
+    {
+      "title": "大成睿享混合型证券投资基金2025年第4季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/008270,AN202601221818250011.html",
+      "publication_date": "2026-01-22"
+    }
+  ],
+  "content_sha256": "19259bd9a6d3ffd1d3adcf509517f991eb7fb5523e993d516f1750e56942b251",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_008270",
+    "checked_at": "2026-11-26T16:40:26.796198+08:00",
+    "publication_date": "2026-10-27",
+    "content_sha256": "19259bd9a6d3ffd1d3adcf509517f991eb7fb5523e993d516f1750e56942b251",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610271831024849",
+          "title": "大成基金管理有限公司旗下228只公募基金2026年第3季度报告提示性公告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/008270,AN202610271831024849.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202610271830979311",
+          "title": "大成睿享混合型证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/008270,AN202610271830979311.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608281828628880",
+          "title": "大成基金管理有限公司旗下218只公募基金2026年中期报告提示性公告",
+          "publication_date": "2026-08-28",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/008270,AN202608281828628880.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608281828588988",
+          "title": "大成睿享混合型证券投资基金2026年中期报告",
+          "publication_date": "2026-08-28",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/008270,AN202608281828588988.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827206853",
+          "title": "大成基金管理有限公司旗下219只公募基金2026年第2季度报告提示性公告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/008270,AN202607211827206853.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827191137",
+          "title": "大成睿享混合型证券投资基金2026年第2季度报告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/008270,AN202607211827191137.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202604221821424924",
+          "title": "大成睿享混合型证券投资基金2026年第1季度报告",
+          "publication_date": "2026-04-22",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/008270,AN202604221821424924.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202603311820900221",
+          "title": "大成睿享混合型证券投资基金2025年年度报告",
+          "publication_date": "2026-03-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/008270,AN202603311820900221.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202601221818250011",
+          "title": "大成睿享混合型证券投资基金2025年第4季度报告",
+          "publication_date": "2026-01-22",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/008270,AN202601221818250011.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 271,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "大成基金管理有限公司旗下228只公募基金2026年第3季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202610271831024849.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "大成睿享混合型证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202610271830979311.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "大成基金管理有限公司旗下218只公募基金2026年中期报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202608281828628880.html",
+        "publication_date": "2026-08-28"
+      },
+      {
+        "title": "大成睿享混合型证券投资基金2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202608281828588988.html",
+        "publication_date": "2026-08-28"
+      },
+      {
+        "title": "大成基金管理有限公司旗下219只公募基金2026年第2季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202607211827206853.html",
+        "publication_date": "2026-07-21"
+      },
+      {
+        "title": "大成睿享混合型证券投资基金2026年第2季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202607211827191137.html",
+        "publication_date": "2026-07-21"
+      },
+      {
+        "title": "大成睿享混合型证券投资基金2026年第1季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202604221821424924.html",
+        "publication_date": "2026-04-22"
+      },
+      {
+        "title": "大成睿享混合型证券投资基金2025年年度报告",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202603311820900221.html",
+        "publication_date": "2026-03-31"
+      },
+      {
+        "title": "大成睿享混合型证券投资基金2025年第4季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202601221818250011.html",
+        "publication_date": "2026-01-22"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 5641,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=008270&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610271831024849",
+        "title": "大成基金管理有限公司旗下228只公募基金2026年第3季度报告提示性公告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202610271831024849.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202610271830979311",
+        "title": "大成睿享混合型证券投资基金2026年第3季度报告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202610271830979311.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608281828628880",
+        "title": "大成基金管理有限公司旗下218只公募基金2026年中期报告提示性公告",
+        "publication_date": "2026-08-28",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202608281828628880.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608281828588988",
+        "title": "大成睿享混合型证券投资基金2026年中期报告",
+        "publication_date": "2026-08-28",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202608281828588988.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827206853",
+        "title": "大成基金管理有限公司旗下219只公募基金2026年第2季度报告提示性公告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202607211827206853.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827191137",
+        "title": "大成睿享混合型证券投资基金2026年第2季度报告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202607211827191137.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202604221821424924",
+        "title": "大成睿享混合型证券投资基金2026年第1季度报告",
+        "publication_date": "2026-04-22",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202604221821424924.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202603311820900221",
+        "title": "大成睿享混合型证券投资基金2025年年度报告",
+        "publication_date": "2026-03-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202603311820900221.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202601221818250011",
+        "title": "大成睿享混合型证券投资基金2025年第4季度报告",
+        "publication_date": "2026-01-22",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/008270,AN202601221818250011.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 271,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}

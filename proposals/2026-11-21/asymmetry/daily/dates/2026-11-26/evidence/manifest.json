@@ -1,0 +1,658 @@
+[
+  {
+    "id": "mof_latest",
+    "file": "mof_latest.json",
+    "url": "https://gks.mof.gov.cn/tongjishuju/",
+    "checked_at": "2026-11-26T16:40:04.786715+08:00",
+    "content_sha256": null,
+    "status": "failed"
+  },
+  {
+    "id": "nbs_latest",
+    "file": "nbs_latest.json",
+    "url": "https://www.stats.gov.cn/sj/zxfb/",
+    "checked_at": "2026-11-26T16:40:04.787344+08:00",
+    "content_sha256": "620847b4d38bc69729fb11e1849a6c45209f8065f1d01ecf3a27df0ca2d3936b",
+    "status": "collected"
+  },
+  {
+    "id": "pboc_latest",
+    "file": "pboc_latest.json",
+    "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html",
+    "checked_at": "2026-11-26T16:40:04.787506+08:00",
+    "content_sha256": "cea6ff9569d9a573dcae81537013ec29e5369ec33f3dfa0ef12a65d6e800f468",
+    "status": "collected"
+  },
+  {
+    "id": "sse_latest",
+    "file": "sse_latest.json",
+    "url": "https://www.sse.com.cn/aboutus/mediacenter/conference/",
+    "checked_at": "2026-11-26T16:40:04.787651+08:00",
+    "content_sha256": "9362dea13034760870f44db606001abba1614b4539faa0b2cf7958cd2cd8507c",
+    "status": "collected"
+  },
+  {
+    "id": "fed_press",
+    "file": "fed_press.json",
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "checked_at": "2026-11-26T16:40:04.787834+08:00",
+    "content_sha256": "b0b75fbd438ed27fdec21887552a2f62840b97c2b5cea90553c9be9590a3bf3d",
+    "status": "collected"
+  },
+  {
+    "id": "priority_6108d826c324",
+    "file": "priority_6108d826c324.json",
+    "url": "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/showHistory?locale=cn_ZH",
+    "checked_at": "2026-11-26T16:40:04.787986+08:00",
+    "content_sha256": "d18997878462eed38de4f2d39dfa62526feb172978ad78a71ce97a7eb4ea6847",
+    "status": "collected"
+  },
+  {
+    "id": "mof_current",
+    "file": "mof_current.json",
+    "url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+    "checked_at": "2026-11-26T16:40:04.882307+08:00",
+    "content_sha256": "c436fe9bd6a7e38fe042caef85de95497d1d30b528f4d7f9d20f2f53e0e62790",
+    "status": "collected"
+  },
+  {
+    "id": "nbs_interpretation",
+    "file": "nbs_interpretation.json",
+    "url": "https://www.stats.gov.cn/sj/zxfbhjd/",
+    "checked_at": "2026-11-26T16:40:07.306612+08:00",
+    "content_sha256": "c1087bfdb5d3b7fba447a24bfcabe18231532fc71b0b61269449f4304b550634",
+    "status": "collected"
+  },
+  {
+    "id": "nbs_calendar",
+    "file": "nbs_calendar.json",
+    "url": "https://www.stats.gov.cn/sj/fbrc/bnxxfb/",
+    "checked_at": "2026-11-26T16:40:08.123665+08:00",
+    "content_sha256": "dc4e07081e16d3c81cf7ee4e68dc42043faf14b57109b4b731fd393a4a2e5646",
+    "status": "collected"
+  },
+  {
+    "id": "fed_calendar",
+    "file": "fed_calendar.json",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "checked_at": "2026-11-26T16:40:08.186139+08:00",
+    "content_sha256": "4de239037521dad0248cd9fde263e061a6418fe689692b053ccbb9a425b8d723",
+    "status": "collected"
+  },
+  {
+    "id": "msft_ir",
+    "file": "msft_ir.json",
+    "url": "https://www.microsoft.com/en-us/investor/default",
+    "checked_at": "2026-11-26T16:40:08.329146+08:00",
+    "content_sha256": "02b56eac72d9f78b743c8fd6693ab319e8c54ab4a2fc3376e35b9fa23f6b6691",
+    "status": "collected"
+  },
+  {
+    "id": "real_yield",
+    "file": "real_yield.json",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10",
+    "checked_at": "2026-11-26T16:40:08.698149+08:00",
+    "content_sha256": null,
+    "status": "failed"
+  },
+  {
+    "id": "treasury_real",
+    "file": "treasury_real.json",
+    "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/pages/xml?data=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+    "checked_at": "2026-11-26T16:40:09.621152+08:00",
+    "content_sha256": null,
+    "status": "failed"
+  },
+  {
+    "id": "nvidia_ir",
+    "file": "nvidia_ir.json",
+    "url": "https://investor.nvidia.com/",
+    "checked_at": "2026-11-26T16:40:09.902835+08:00",
+    "content_sha256": "bc6877d8d35431b980e825254bbfdedee951e7f4a90fe8dad6e10217fafe387e",
+    "status": "collected"
+  },
+  {
+    "id": "wuxi_ir",
+    "file": "wuxi_ir.json",
+    "url": "https://www.wuxiapptec.cn/investors",
+    "checked_at": "2026-11-26T16:40:10.052928+08:00",
+    "content_sha256": "35998e58a55d605d649962bef993d36ab9a13fee144fff0c7d428302e418e804",
+    "status": "failed"
+  },
+  {
+    "id": "nav_001076",
+    "file": "nav_001076.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=001076&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:10.204963+08:00",
+    "content_sha256": "b186d341d8de495d08ecc7f0e5d7524bebf79475782848c353c0874f71fbb9b3",
+    "status": "collected"
+  },
+  {
+    "id": "nav_002051",
+    "file": "nav_002051.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=002051&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:10.582875+08:00",
+    "content_sha256": "aed60a64454f7f55f40defb66f4d54f100c2634d6b88c277e78c4dfbbf522071",
+    "status": "collected"
+  },
+  {
+    "id": "nav_002244",
+    "file": "nav_002244.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=002244&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:11.105803+08:00",
+    "content_sha256": "aaf0fab214ad44d283856ede60d9ca0426d18be057340e4d538e35d8bc2b9c2e",
+    "status": "collected"
+  },
+  {
+    "id": "nav_002943",
+    "file": "nav_002943.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=002943&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:11.228902+08:00",
+    "content_sha256": "754be2deaf333a0585abc0728c225bef42d7c6330b590ac85fc45cda4c913ae4",
+    "status": "collected"
+  },
+  {
+    "id": "nav_004237",
+    "file": "nav_004237.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=004237&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:11.537136+08:00",
+    "content_sha256": "3e01d454d45f2a993c07110a0ea71a932e3afa5d0db4be0aa7675a71625fc668",
+    "status": "collected"
+  },
+  {
+    "id": "nav_004407",
+    "file": "nav_004407.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=004407&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:11.982526+08:00",
+    "content_sha256": "33f586670bfcbf7668761de27345fc4fab63546cb206351ce0d91e84a21ba8d5",
+    "status": "collected"
+  },
+  {
+    "id": "nav_006038",
+    "file": "nav_006038.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=006038&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:11.992986+08:00",
+    "content_sha256": "6a37129709f4a6dd8e17542f3c5d1113c9ed3fd26104761a9d3303f306a6b10a",
+    "status": "collected"
+  },
+  {
+    "id": "nav_008270",
+    "file": "nav_008270.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=008270&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:12.150487+08:00",
+    "content_sha256": "d5ecaa5ceb55b7cd1b794a273ad73c43f4aeed8931d75abced64f24798f798c9",
+    "status": "collected"
+  },
+  {
+    "id": "nav_010390",
+    "file": "nav_010390.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=010390&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:12.500682+08:00",
+    "content_sha256": "c8596b499af0f4a351d54ebf4dd0746d73c24dab091d6811e02d45d2f9f65dcc",
+    "status": "collected"
+  },
+  {
+    "id": "nav_011066",
+    "file": "nav_011066.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=011066&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:12.848238+08:00",
+    "content_sha256": "66130862850d37734576e732b2ec239bc1668488a6893f746803d19f5fa41607",
+    "status": "collected"
+  },
+  {
+    "id": "nav_011370",
+    "file": "nav_011370.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=011370&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:13.752416+08:00",
+    "content_sha256": "6aac4d161e28d3d02a8445fd276bfa4e8ee1fcef39fc2e4da9a59ea163dd7451",
+    "status": "collected"
+  },
+  {
+    "id": "nav_011437",
+    "file": "nav_011437.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=011437&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:13.890295+08:00",
+    "content_sha256": "89fa480cfb2440d013d34a35a8d63eeec842eb0ee522d0b36aeec33cc32141e0",
+    "status": "collected"
+  },
+  {
+    "id": "nav_012449",
+    "file": "nav_012449.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=012449&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:13.912391+08:00",
+    "content_sha256": "0ab52ce323e67bd221f9403becda91cb87624416a32eaa866aa7a974c37e5af3",
+    "status": "collected"
+  },
+  {
+    "id": "nav_012817",
+    "file": "nav_012817.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=012817&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:14.218016+08:00",
+    "content_sha256": "6a86e7fed85822d3d085dc29c732211ff3c8e03b6532ca67be416f47ee65b51f",
+    "status": "collected"
+  },
+  {
+    "id": "nav_012940",
+    "file": "nav_012940.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=012940&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:14.624664+08:00",
+    "content_sha256": "59730bf4622693b3ec9688e7d8f27fa760aea40de3bf268c6bae30b880e08953",
+    "status": "collected"
+  },
+  {
+    "id": "nav_013620",
+    "file": "nav_013620.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=013620&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:14.820913+08:00",
+    "content_sha256": "b906e62f3906399062fe9543aa273cdd25e3aba4e6b8eef3b6c72f117fd8128d",
+    "status": "collected"
+  },
+  {
+    "id": "nav_013860",
+    "file": "nav_013860.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=013860&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:14.883495+08:00",
+    "content_sha256": "4d25b4a9ae6c11622491676b7650e9c39c1b0524c30c11c64d284048b1d7fc05",
+    "status": "collected"
+  },
+  {
+    "id": "nav_017787",
+    "file": "nav_017787.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=017787&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:15.219890+08:00",
+    "content_sha256": "f0fd41b3f949762b04a5694cedb2a59376ca7e69cc8f256305394cd9e60228c6",
+    "status": "collected"
+  },
+  {
+    "id": "nav_019032",
+    "file": "nav_019032.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=019032&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:15.291115+08:00",
+    "content_sha256": "e625644ef85325a995593639885965118d711a5ac06e008fa366eb421cc29721",
+    "status": "collected"
+  },
+  {
+    "id": "nav_019484",
+    "file": "nav_019484.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=019484&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:15.508445+08:00",
+    "content_sha256": "623e7e62cb1e6528fc0446ff244cb7a62ec9eab4fc14ba5540610f7622d6988f",
+    "status": "collected"
+  },
+  {
+    "id": "nav_020254",
+    "file": "nav_020254.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=020254&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:15.842336+08:00",
+    "content_sha256": "3fc94077b6ef32000519e8eb6d35ad73f34087caac36ff60b8071edff4d956bf",
+    "status": "collected"
+  },
+  {
+    "id": "nav_021180",
+    "file": "nav_021180.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021180&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:16.387495+08:00",
+    "content_sha256": "b1ef55fc9c1b6d3042c30dd72feccaa03e1a107d081372ef1ccd9f61d90efe38",
+    "status": "collected"
+  },
+  {
+    "id": "nav_021277",
+    "file": "nav_021277.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021277&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:16.398401+08:00",
+    "content_sha256": "03bdc6bdd3e35e7b63772de7defac69692687f1143e0c731d9dabc7bf3ded075",
+    "status": "collected"
+  },
+  {
+    "id": "nav_021662",
+    "file": "nav_021662.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021662&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:16.755756+08:00",
+    "content_sha256": "0a0cee425ca9f8f6ec388b19e427819324f834a2136fc610141316717107ac9c",
+    "status": "collected"
+  },
+  {
+    "id": "nav_021902",
+    "file": "nav_021902.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=021902&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:16.799666+08:00",
+    "content_sha256": "2d5e977129661717892734050432576857906e13f107d0ffa73689cbf59481a9",
+    "status": "collected"
+  },
+  {
+    "id": "nav_022184",
+    "file": "nav_022184.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=022184&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:17.182377+08:00",
+    "content_sha256": "87e4eb0a17c24ae309817a27046ac8163777587205bd36445b98ddd08670c575",
+    "status": "collected"
+  },
+  {
+    "id": "nav_022415",
+    "file": "nav_022415.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=022415&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:17.259482+08:00",
+    "content_sha256": "01833001f50482326fe9b06f0aefcbb72d118a3febb68103f7fd061cbc6624c6",
+    "status": "collected"
+  },
+  {
+    "id": "nav_022714",
+    "file": "nav_022714.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=022714&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:17.671310+08:00",
+    "content_sha256": "95a1e20f74fbfcbd2bc481f77b9f2ef6d01550f91b7527762e6621944163127d",
+    "status": "collected"
+  },
+  {
+    "id": "nav_023875",
+    "file": "nav_023875.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=023875&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:17.744072+08:00",
+    "content_sha256": "3fcf12cd49748a3896d0af4eb88426bb5bac25806fd1346cbe27ad594e0fc973",
+    "status": "collected"
+  },
+  {
+    "id": "nav_027170",
+    "file": "nav_027170.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=027170&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:18.097184+08:00",
+    "content_sha256": "f4c1a7bcab64a3ea56a4f392430a3fd434ad53b6fac70436c5a39f54eac99fd1",
+    "status": "collected"
+  },
+  {
+    "id": "nav_519697",
+    "file": "nav_519697.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=519697&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:18.122637+08:00",
+    "content_sha256": "e3037ceaee0b5a1d9db8101e2e3e3bf52e459ce6631b3979902563a816b2c110",
+    "status": "collected"
+  },
+  {
+    "id": "nav_110020",
+    "file": "nav_110020.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=110020&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:18.230235+08:00",
+    "content_sha256": "342866bbc0b29c7b705924c5230029dcbf0439df7778e0de7a1b29a7204d19cc",
+    "status": "collected"
+  },
+  {
+    "id": "nav_510300",
+    "file": "nav_510300.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=510300&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:18.538573+08:00",
+    "content_sha256": "dc8922b3d516f7ddbe343b6b30759399b0afaca5a7d2070b88e3ded792f8cc37",
+    "status": "collected"
+  },
+  {
+    "id": "nav_510880",
+    "file": "nav_510880.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=510880&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:18.675454+08:00",
+    "content_sha256": "b31e738758c90857c04d02cac61d466c977f3235e6ae2e7b2257011d85a1bfc4",
+    "status": "collected"
+  },
+  {
+    "id": "nav_512010",
+    "file": "nav_512010.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=512010&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:19.020987+08:00",
+    "content_sha256": "eecf74e820a3faaffdd85ab9ad852f3ba3ba3047caa0cde506c3d35913c11009",
+    "status": "collected"
+  },
+  {
+    "id": "nav_512400",
+    "file": "nav_512400.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=512400&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:19.804096+08:00",
+    "content_sha256": "51b2f4b027a23a5c604824b1150cdd4953dfd3b435fc8284a23ded55b4242053",
+    "status": "collected"
+  },
+  {
+    "id": "nav_512480",
+    "file": "nav_512480.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=512480&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:20.012650+08:00",
+    "content_sha256": "f5347cc054668a2950f48a5d4e8c0f0fb671f5915c34bbcda49257ae0a86ed8f",
+    "status": "collected"
+  },
+  {
+    "id": "nav_513500",
+    "file": "nav_513500.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=513500&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:20.219322+08:00",
+    "content_sha256": "1c9955ba6d508a6d0cd63d4215fc8ad26d99513797c2ddb3aa1e7562b2d627f0",
+    "status": "collected"
+  },
+  {
+    "id": "nav_515880",
+    "file": "nav_515880.json",
+    "url": "https://api.fund.eastmoney.com/f10/lsjz?fundCode=515880&pageIndex=1&pageSize=5&endDate=2026-11-26",
+    "checked_at": "2026-11-26T16:40:20.455923+08:00",
+    "content_sha256": "00d79faefeba0a074812d2b4bb56deca6635d5dff69be14123f88e205abbf4a5",
+    "status": "collected"
+  },
+  {
+    "id": "manager_022415",
+    "file": "manager_022415.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_022415.html",
+    "checked_at": "2026-11-26T16:40:20.598108+08:00",
+    "content_sha256": "4fbe0a20c85bf2fedf2eb012a0724100310f968c197f41221b7c38ffddffeb62",
+    "status": "collected"
+  },
+  {
+    "id": "announcements_022415",
+    "file": "announcements_022415.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=022415&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:20.778482+08:00",
+    "content_sha256": "513432e526ed8573ff969ce66e5d997ebd74f7ed73313b39547464740f0433f6",
+    "status": "collected"
+  },
+  {
+    "id": "manager_021902",
+    "file": "manager_021902.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_021902.html",
+    "checked_at": "2026-11-26T16:40:21.714375+08:00",
+    "content_sha256": "73da0c1029138053bcd64fa85821e1bdebe89766caa4a2391f2cfbaa5402a2b0",
+    "status": "collected"
+  },
+  {
+    "id": "announcements_021902",
+    "file": "announcements_021902.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=021902&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:21.826367+08:00",
+    "content_sha256": "974c4d51589f0fe7f2101089c89a2843531d6a2ec0f9858ab6a77cdfe7dbb7c7",
+    "status": "collected"
+  },
+  {
+    "id": "manager_011066",
+    "file": "manager_011066.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_011066.html",
+    "checked_at": "2026-11-26T16:40:22.016618+08:00",
+    "content_sha256": null,
+    "status": "failed"
+  },
+  {
+    "id": "announcements_011066",
+    "file": "announcements_011066.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=011066&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:22.170422+08:00",
+    "content_sha256": "1d97ed52a9ec4decbf28cbae89c3ecbccd5c4be03d7a6500d5bee818fdf446c5",
+    "status": "collected"
+  },
+  {
+    "id": "manager_021180",
+    "file": "manager_021180.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_021180.html",
+    "checked_at": "2026-11-26T16:40:22.571215+08:00",
+    "content_sha256": null,
+    "status": "failed"
+  },
+  {
+    "id": "announcements_021180",
+    "file": "announcements_021180.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=021180&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:22.775803+08:00",
+    "content_sha256": "35d6d2fe125c48bbbc6642534354033ad2a6d046f86b5e5eafe7e85cde142431",
+    "status": "collected"
+  },
+  {
+    "id": "manager_010390",
+    "file": "manager_010390.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_010390.html",
+    "checked_at": "2026-11-26T16:40:22.917858+08:00",
+    "content_sha256": "994a34cabb9e7566358cb9a830d5429707c60e44d319fbf86d59217df4143c0d",
+    "status": "collected"
+  },
+  {
+    "id": "announcements_010390",
+    "file": "announcements_010390.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=010390&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:23.148006+08:00",
+    "content_sha256": "18004d1b236b8b4f0e97e8c5199db63a83f6e1fc770bc31b37dabfe170f50f28",
+    "status": "collected"
+  },
+  {
+    "id": "manager_022714",
+    "file": "manager_022714.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_022714.html",
+    "checked_at": "2026-11-26T16:40:23.837206+08:00",
+    "content_sha256": "18d4c3c6d66e4b7348bd38518099b1ff7fe51181ea00c18b96691cf1bf17f2a2",
+    "status": "collected"
+  },
+  {
+    "id": "announcements_022714",
+    "file": "announcements_022714.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=022714&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:24.120917+08:00",
+    "content_sha256": "2a5ab5ecf147b1b39e90acc9e807e76f51334c441d541c727b5b91b8462c8095",
+    "status": "collected"
+  },
+  {
+    "id": "manager_519697",
+    "file": "manager_519697.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_519697.html",
+    "checked_at": "2026-11-26T16:40:24.763451+08:00",
+    "content_sha256": null,
+    "status": "failed"
+  },
+  {
+    "id": "announcements_519697",
+    "file": "announcements_519697.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=519697&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:25.057509+08:00",
+    "content_sha256": "e48c3af5bd1d6f1f4cf98a353e1c626070b57129050a9c5e03673f69920ca72c",
+    "status": "collected"
+  },
+  {
+    "id": "manager_027170",
+    "file": "manager_027170.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_027170.html",
+    "checked_at": "2026-11-26T16:40:25.526031+08:00",
+    "content_sha256": "2036c32fe871a0b64a72bad9005d6d90186c56b0f16f8e6006e0c4a2f924827b",
+    "status": "collected"
+  },
+  {
+    "id": "announcements_027170",
+    "file": "announcements_027170.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=027170&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:25.919884+08:00",
+    "content_sha256": "4685a2459eb5544af832744b5d11807a642725c75989a9e1ebae604759792322",
+    "status": "collected"
+  },
+  {
+    "id": "manager_008270",
+    "file": "manager_008270.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_008270.html",
+    "checked_at": "2026-11-26T16:40:26.449366+08:00",
+    "content_sha256": "e62b5c23c416fcd0c3a427cedfefd2c344deb249f9012afb2c2922733dcf5cd3",
+    "status": "collected"
+  },
+  {
+    "id": "announcements_008270",
+    "file": "announcements_008270.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=008270&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:26.796198+08:00",
+    "content_sha256": "19259bd9a6d3ffd1d3adcf509517f991eb7fb5523e993d516f1750e56942b251",
+    "status": "collected"
+  },
+  {
+    "id": "manager_019032",
+    "file": "manager_019032.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_019032.html",
+    "checked_at": "2026-11-26T16:40:26.820574+08:00",
+    "content_sha256": "e4b7d47c751c96d9429b12728ef6a7ac9ede0a77b9aaf6824c239ece6adaeec4",
+    "status": "collected"
+  },
+  {
+    "id": "announcements_019032",
+    "file": "announcements_019032.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=019032&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:27.304037+08:00",
+    "content_sha256": "d2a7e5017c40652f6b2fb8bb457706671c3e3faea359aa92b118bd466253d4fd",
+    "status": "collected"
+  },
+  {
+    "id": "manager_017787",
+    "file": "manager_017787.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_017787.html",
+    "checked_at": "2026-11-26T16:40:27.690801+08:00",
+    "content_sha256": "f025a0d61888ced98b4ba899c6e2024c800ba6f3df8ccc8ade1a8784672c67d0",
+    "status": "collected"
+  },
+  {
+    "id": "announcements_017787",
+    "file": "announcements_017787.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=017787&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:27.754668+08:00",
+    "content_sha256": "59a0c71d6f56358a1021b24fb7e713faffaec8980f78fe91cbb7f99525b52ff1",
+    "status": "collected"
+  },
+  {
+    "id": "manager_020254",
+    "file": "manager_020254.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_020254.html",
+    "checked_at": "2026-11-26T16:40:28.573115+08:00",
+    "content_sha256": null,
+    "status": "failed"
+  },
+  {
+    "id": "announcements_020254",
+    "file": "announcements_020254.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=020254&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:28.624917+08:00",
+    "content_sha256": "14d6635daf33efb9626e3e2ac7e9686a1a773df4f80235a343601c5fe3daae2f",
+    "status": "collected"
+  },
+  {
+    "id": "manager_012817",
+    "file": "manager_012817.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_012817.html",
+    "checked_at": "2026-11-26T16:40:29.243814+08:00",
+    "content_sha256": "fe729efe994933845e71894048b7781de6fc1e1052c2bf429fa8f9feee54c044",
+    "status": "collected"
+  },
+  {
+    "id": "announcements_012817",
+    "file": "announcements_012817.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=012817&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:29.557777+08:00",
+    "content_sha256": "4a4d424d728c558be93674662d5157c242d0f8713c621b48272ea92b25941bde",
+    "status": "collected"
+  },
+  {
+    "id": "manager_011370",
+    "file": "manager_011370.json",
+    "url": "https://fundf10.eastmoney.com/jjjl_011370.html",
+    "checked_at": "2026-11-26T16:40:30.196569+08:00",
+    "content_sha256": "2b3c8bb015a0fab913c314513a0d3b5045c1a78a98f1cb3c9a187fb17d65e308",
+    "status": "collected"
+  },
+  {
+    "id": "announcements_011370",
+    "file": "announcements_011370.json",
+    "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=011370&pageIndex=1&pageSize=20&type=0",
+    "checked_at": "2026-11-26T16:40:30.542750+08:00",
+    "content_sha256": "117957f593c81fff2355170a2eddb390dc4935fba1d5f825e4602e50d3b0b83d",
+    "status": "collected"
+  }
+]

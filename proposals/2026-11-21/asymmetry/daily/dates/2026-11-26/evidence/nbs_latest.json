@@ -1,0 +1,342 @@
+{
+  "id": "nbs_latest",
+  "name": "NBS latest releases",
+  "url": "https://www.stats.gov.cn/sj/zxfb/",
+  "kind": "html",
+  "family": "nbs",
+  "group": "macro_market",
+  "scope": "current index or series; linked release bodies are not collected",
+  "status": "collected",
+  "checked_at": "2026-11-26T16:40:04.787344+08:00",
+  "publication_date": "2026-11-23",
+  "date_candidates": [
+    {
+      "title": "2026年11月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261123_1965935.html",
+      "publication_date": "2026-11-23",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "10月份国民经济运行总体平稳、向新向优",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html",
+      "publication_date": "2026-11-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年10月份规模以上工业增加值增长4.8%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html",
+      "publication_date": "2026-11-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年1—10月份全国固定资产投资基本情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965841.html",
+      "publication_date": "2026-11-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年1—10月份全国房地产市场基本情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965840.html",
+      "publication_date": "2026-11-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年1—10月份社会消费品零售总额增长1.0%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965839.html",
+      "publication_date": "2026-11-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年10月份能源生产情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965837.html",
+      "publication_date": "2026-11-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年10月份70个大中城市商品住宅销售价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965836.html",
+      "publication_date": "2026-11-16",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
+      "publication_date": "2026-11-13",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年10月份居民消费价格同比上涨0.7%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+      "publication_date": "2026-11-09",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+      "publication_date": "2026-11-09",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261103_1965738.html",
+      "publication_date": "2026-11-03",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年10月中国采购经理指数运行情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+      "publication_date": "2026-10-31",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "社会事业全面发展　民生福祉取得新进步——2025年社会民生统计报告",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261030_1965711.html",
+      "publication_date": "2026-10-30",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261030_1965708.html",
+      "publication_date": "2026-10-30",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "国际组织网站",
+      "url": "https://www.stats.gov.cn/xglj/gjzz/202302/t20230219_1913504.html",
+      "publication_date": "2023-02-19",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "联系我们",
+      "url": "https://www.stats.gov.cn/wzgl/202302/t20230217_1912858.html",
+      "publication_date": "2023-02-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "服务条款",
+      "url": "https://www.stats.gov.cn/wzgl/202302/t20230217_1912857.html",
+      "publication_date": "2023-02-17",
+      "date_basis": "link title or URL"
+    },
+    {
+      "title": "国务院研究室",
+      "url": "http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm",
+      "publication_date": "2005-12-26",
+      "date_basis": "link title or URL"
+    }
+  ],
+  "content_sha256": "620847b4d38bc69729fb11e1849a6c45209f8065f1d01ecf3a27df0ca2d3936b",
+  "excerpt": "数据发布 - 国家统计局 EN 搜索 首页 机构 新闻 时政要闻 统计新闻 数据 公开 服务 互动 知识 专题 当前位置： 首页 > 数据 > 数据发布 数据发布 2026年11月中旬流通领域重要生产资料市场价格变动情况 2026年11月中旬流通领域重要生产资料市场价格变动情况 2026年11月中旬流通领域重要生产资料市... 2026-11-24 10月份国民经济运行总体平稳、向新向优 10月份国民经济运行总体平稳、向新向优 10月份国民经济运行总体平稳、向新向优 2026-11-16 2026年10月份规模以上工业增加值增长4.8% 2026年10月份规模以上工业增加值增长4.8% 2026年10月份规模以上工业增加值增长4.8% 2026-11-16 2026年1—10月份全国固定资产投资基本情况 2026年1—10月份全国固定资产投资基本情况 2026年1—10月份全国固定资产投资基本情况 2026-11-16 2026年1—10月份全国房地产市场基本情况 2026年1—10月份全国房地产市场基本情况 2026年1—10月份全国房地产市场基本情况 2026-11-16 2026年1—10月份社会消费品零售总额增长1.0% 2026年1—10月份社会消费品零售总额增长1.0% 2026年1—10月份社会消费品零售总额增长... 2026-11-16 2026年10月份能源生产情况 2026年10月份能源生产情况 2026年10月份能源生产情况 2026-11-16 2026年10月份70个大中城市商品住宅销售价格变动情况 2026年10月份70个大中城市商品住宅销售价格变动情况 2026年10月份70个大中城市商品住宅销售... 2026-11-16 2026年11月上旬流通领域重要生产资料市场价格变动情况 2026年11月上旬流通领域重要生产资料市场价格变动情况 2026年11月上旬流通领域重要生产资料市... 2026-11-14 2026年10月份居民消费价格同比上涨0.7% 2026年10月份居民消费价格同比上涨0.7% 2026年10月份居民消费价格同比上涨0.7% 2026-11-09 2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7% 2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7% 2026年10月份工业生产者出厂价格同比上... 2026-11-09 2026年10月下旬流通领域重要生产资料市场价格变动情况 2026年10月下旬流通领域重要生产资料市场价格变动情况 2026年10月下旬流通领域重要生产资料市... 2026-11-04 2026年10月中国采购经理指数运行情况 2026年10月中国采购经理指数运行情况 2026年10月中国采购经理指数运行情况 2026-10-31 社会事业全面",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "nbs_latest",
+    "checked_at": "2026-11-26T16:40:04.787344+08:00",
+    "publication_date": "2026-11-23",
+    "content_sha256": "620847b4d38bc69729fb11e1849a6c45209f8065f1d01ecf3a27df0ca2d3936b",
+    "status": "collected",
+    "date_candidates": [
+      {
+        "title": "2026年11月中旬流通领域重要生产资料市场价格变动情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261123_1965935.html",
+        "publication_date": "2026-11-23",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "10月份国民经济运行总体平稳、向新向优",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html",
+        "publication_date": "2026-11-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年10月份规模以上工业增加值增长4.8%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html",
+        "publication_date": "2026-11-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年1—10月份全国固定资产投资基本情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965841.html",
+        "publication_date": "2026-11-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年1—10月份全国房地产市场基本情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965840.html",
+        "publication_date": "2026-11-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年1—10月份社会消费品零售总额增长1.0%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965839.html",
+        "publication_date": "2026-11-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年10月份能源生产情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965837.html",
+        "publication_date": "2026-11-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年10月份70个大中城市商品住宅销售价格变动情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965836.html",
+        "publication_date": "2026-11-16",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
+        "publication_date": "2026-11-13",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年10月份居民消费价格同比上涨0.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+        "publication_date": "2026-11-09",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+        "publication_date": "2026-11-09",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261103_1965738.html",
+        "publication_date": "2026-11-03",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年10月中国采购经理指数运行情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+        "publication_date": "2026-10-31",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "社会事业全面发展　民生福祉取得新进步——2025年社会民生统计报告",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261030_1965711.html",
+        "publication_date": "2026-10-30",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261030_1965708.html",
+        "publication_date": "2026-10-30",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "国际组织网站",
+        "url": "https://www.stats.gov.cn/xglj/gjzz/202302/t20230219_1913504.html",
+        "publication_date": "2023-02-19",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "联系我们",
+        "url": "https://www.stats.gov.cn/wzgl/202302/t20230217_1912858.html",
+        "publication_date": "2023-02-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "服务条款",
+        "url": "https://www.stats.gov.cn/wzgl/202302/t20230217_1912857.html",
+        "publication_date": "2023-02-17",
+        "date_basis": "link title or URL"
+      },
+      {
+        "title": "国务院研究室",
+        "url": "http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm",
+        "publication_date": "2005-12-26",
+        "date_basis": "link title or URL"
+      }
+    ],
+    "excerpt": "数据发布 - 国家统计局 EN 搜索 首页 机构 新闻 时政要闻 统计新闻 数据 公开 服务 互动 知识 专题 当前位置： 首页 > 数据 > 数据发布 数据发布 2026年11月中旬流通领域重要生产资料市场价格变动情况 2026年11月中旬流通领域重要生产资料市场价格变动情况 2026年11月中旬流通领域重要生产资料市... 2026-11-24 10月份国民经济运行总体平稳、向新向优 10月份国民经济运行总体平稳、向新向优 10月份国民经济运行总体平稳、向新向优 2026-11-16 2026年10月份规模以上工业增加值增长4.8% 2026年10月份规模以上工业增加值增长4.8% 2026年10月份规模以上工业增加值增长4.8% 2026-11-16 2026年1—10月份全国固定资产投资基本情况 2026年1—10月份全国固定资产投资基本情况 2026年1—10月份全国固定资产投资基本情况 2026-11-16 2026年1—10月份全国房地产市场基本情况 2026年1—10月份全国房地产市场基本情况 2026年1—10月份全国房地产市场基本情况 2026-11-16 2026年1—10月份社会消费品零售总额增长1.0% 2026年1—10月份社会消费品零售总额增长1.0% 2026年1—10月份社会消费品零售总额增长... 2026-11-16 2026年10月份能源生产情况 2026年10月份能源生产情况 2026年10月份能源生产情况 2026-11-16 2026年10月份70个大中城市商品住宅销售价格变动情况 2026年10月份70个大中城市商品住宅销售价格变动情况 2026年10月份70个大中城市商品住宅销售... 2026-11-16 2026年11月上旬流通领域重要生产资料市场价格变动情况 2026年11月上旬流通领域重要生产资料市场价格变动情况 2026年11月上旬流通领域重要生产资料市... 2026-11-14 2026年10月份居民消费价格同比上涨0.7% 2026年10月份居民消费价格同比上涨0.7% 2026年10月份居民消费价格同比上涨0.7% 2026-11-09 2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7% 2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7% 2026年10月份工业生产者出厂价格同比上... 2026-11-09 2026年10月下旬流通领域重要生产资料市场价格变动情况 2026年10月下旬流通领域重要生产资料市场价格变动情况 2026年10月下旬流通领域重要生产资料市... 2026-11-04 2026年10月中国采购经理指数运行情况 2026年10月中国采购经理指数运行情况 2026年10月中国采购经理指数运行情况 2026-10-31 社会事业全面"
+  },
+  "stale": false,
+  "bytes": 73411,
+  "final_url": "https://www.stats.gov.cn/sj/zxfb/",
+  "undated_links": [
+    {
+      "title": "EN",
+      "url": "https://www.stats.gov.cn/english/",
+      "publication_date": null
+    },
+    {
+      "title": "首页",
+      "url": "https://www.stats.gov.cn/",
+      "publication_date": null
+    },
+    {
+      "title": "机构",
+      "url": "https://www.stats.gov.cn/jg/",
+      "publication_date": null
+    },
+    {
+      "title": "时政要闻",
+      "url": "https://www.stats.gov.cn/xw/szyw/",
+      "publication_date": null
+    },
+    {
+      "title": "统计新闻",
+      "url": "https://www.stats.gov.cn/xw/tjxw/",
+      "publication_date": null
+    },
+    {
+      "title": "数据",
+      "url": "https://www.stats.gov.cn/sj/",
+      "publication_date": null
+    },
+    {
+      "title": "公开",
+      "url": "https://www.stats.gov.cn/gk/",
+      "publication_date": null
+    },
+    {
+      "title": "服务",
+      "url": "https://www.stats.gov.cn/fw/",
+      "publication_date": null
+    },
+    {
+      "title": "互动",
+      "url": "https://www.stats.gov.cn/hd/",
+      "publication_date": null
+    },
+    {
+      "title": "知识",
+      "url": "https://www.stats.gov.cn/zs/",
+      "publication_date": null
+    },
+    {
+      "title": "专题",
+      "url": "https://www.stats.gov.cn/zt_18555/",
+      "publication_date": null
+    },
+    {
+      "title": "数据发布",
+      "url": "https://www.stats.gov.cn/sj/zxfb/",
+      "publication_date": null
+    },
+    {
+      "title": "中央人民政府门户网站",
+      "url": "http://www.gov.cn/",
+      "publication_date": null
+    },
+    {
+      "title": "外交部",
+      "url": "http://www.fmprc.gov.cn/",
+      "publication_date": null
+    },
+    {
+      "title": "国防部",
+      "url": "http://www.mod.gov.cn/",
+      "publication_date": null
+    }
+  ],
+  "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
+  "excluded_future_count": 0,
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}
