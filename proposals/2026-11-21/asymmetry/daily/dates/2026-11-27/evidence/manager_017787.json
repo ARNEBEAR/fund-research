@@ -1,0 +1,89 @@
+{
+  "id": "manager_017787",
+  "name": "黄海 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_017787.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_017787",
+  "code": "017787",
+  "status": "collected",
+  "checked_at": "2026-11-27T16:50:38.392307+08:00",
+  "publication_date": "2023-01-17",
+  "date_candidates": [],
+  "content_sha256": "19004489f9e4ef3029fb3a4121739d4acc8b980c524218330f1475e0005724c9",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_017787",
+    "checked_at": "2026-11-27T16:50:38.392307+08:00",
+    "publication_date": "2023-01-17",
+    "content_sha256": "19004489f9e4ef3029fb3a4121739d4acc8b980c524218330f1475e0005724c9",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2023-01-17",
+          "end_date": null,
+          "managers": [
+            "黄海"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2023-01-17",
+          "end_date": null,
+          "managers": [
+            "黄海"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "黄海"
+      ],
+      "appointment_signature": "b192264453178e69582079ed5268f6d3540feb968334fc6be3b1988b8f0ce941",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 44867,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_017787.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2023-01-17",
+        "end_date": null,
+        "managers": [
+          "黄海"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2023-01-17",
+        "end_date": null,
+        "managers": [
+          "黄海"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "黄海"
+    ],
+    "appointment_signature": "b192264453178e69582079ed5268f6d3540feb968334fc6be3b1988b8f0ce941",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

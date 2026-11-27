@@ -1,0 +1,23 @@
+{
+  "id": "real_yield",
+  "name": "FRED十年实际利率",
+  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10",
+  "kind": "csv",
+  "family": "rates",
+  "group": "macro_market",
+  "scope": "current index or series; linked release bodies are not collected",
+  "status": "failed",
+  "checked_at": "2026-11-27T16:50:20.008419+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": null,
+  "excerpt": "",
+  "http_status": null,
+  "error": "TimeoutError",
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": null,
+  "stale": true,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "manager_011370",
+  "name": "张明昕 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_011370.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_011370",
+  "code": "011370",
+  "status": "failed",
+  "checked_at": "2026-11-27T16:50:41.232973+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": null,
+  "excerpt": "",
+  "http_status": null,
+  "error": "URLError",
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_011370",
+    "checked_at": "2026-11-26T16:40:30.196569+08:00",
+    "publication_date": "2025-03-04",
+    "content_sha256": "2b3c8bb015a0fab913c314513a0d3b5045c1a78a98f1cb3c9a187fb17d65e308",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2025-03-04",
+          "end_date": null,
+          "managers": [
+            "张明昕"
+          ],
+          "end_marker": "至今"
+        },
+        {
+          "start_date": "2022-06-20",
+          "end_date": "2025-03-03",
+          "managers": [
+            "童立"
+          ],
+          "end_marker": "2025-03-03"
+        },
+        {
+          "start_date": "2022-05-19",
+          "end_date": "2022-06-19",
+          "managers": [
+            "梁皓",
+            "童立"
+          ],
+          "end_marker": "2022-06-19"
+        },
+        {
+          "start_date": "2021-04-08",
+          "end_date": "2022-05-18",
+          "managers": [
+            "梁皓"
+          ],
+          "end_marker": "2022-05-18"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2025-03-04",
+          "end_date": null,
+          "managers": [
+            "张明昕"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "张明昕"
+      ],
+      "appointment_signature": "22a035f0562f89d85c6506b03417c7f55944215e8eed0a3f319d257969dd4e33",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": true,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}
