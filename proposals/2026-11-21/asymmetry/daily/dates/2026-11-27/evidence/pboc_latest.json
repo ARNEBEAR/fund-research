@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-27T16:50:15.702147+08:00",
+  "checked_at": "2026-11-27T17:42:57.137766+08:00",
   "publication_date": "2026-11-26",
   "date_candidates": [
     {
@@ -109,7 +109,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "pboc_latest",
-    "checked_at": "2026-11-27T16:50:15.702147+08:00",
+    "checked_at": "2026-11-27T17:42:57.137766+08:00",
     "publication_date": "2026-11-26",
     "content_sha256": "eb8a3bd27b4ef14d5632ea943511099b057e4bb0c50bf92e04e753384ab217a5",
     "status": "collected",
@@ -290,5 +290,5 @@
   "excerpt_scope": "freshly retrieved index visible text only; linked bodies not reviewed",
   "excluded_future_count": 0,
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }

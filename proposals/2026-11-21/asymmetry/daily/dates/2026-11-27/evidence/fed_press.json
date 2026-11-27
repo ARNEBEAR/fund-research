@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-27T16:50:15.702665+08:00",
+  "checked_at": "2026-11-27T17:42:57.138243+08:00",
   "publication_date": "2026-11-25",
   "date_candidates": [
     {
@@ -139,7 +139,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "fed_press",
-    "checked_at": "2026-11-27T16:50:15.702665+08:00",
+    "checked_at": "2026-11-27T17:42:57.138243+08:00",
     "publication_date": "2026-11-25",
     "content_sha256": "b0b75fbd438ed27fdec21887552a2f62840b97c2b5cea90553c9be9590a3bf3d",
     "status": "collected",

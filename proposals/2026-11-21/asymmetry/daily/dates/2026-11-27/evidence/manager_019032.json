@@ -6,14 +6,14 @@
   "group": "manager",
   "family": "manager_019032",
   "code": "019032",
-  "status": "collected",
-  "checked_at": "2026-11-27T16:50:37.274385+08:00",
-  "publication_date": "2023-11-15",
+  "status": "failed",
+  "checked_at": "2026-11-27T17:43:34.338508+08:00",
+  "publication_date": null,
   "date_candidates": [],
-  "content_sha256": "c8a09a0ee0967c7fe96701a07d7bdc03b0dd82f539293df23caecdb07038ddc5",
+  "content_sha256": null,
   "excerpt": "",
-  "http_status": 200,
-  "error": null,
+  "http_status": null,
+  "error": "URLError",
   "fact_reverified": false,
   "requires_independent_review": true,
   "last_success": {
@@ -53,37 +53,7 @@
     "date_candidates": [],
     "excerpt": ""
   },
-  "stale": false,
-  "bytes": 46868,
-  "final_url": "https://fundf10.eastmoney.com/jjjl_019032.html",
-  "manager": {
-    "appointments": [
-      {
-        "start_date": "2023-11-15",
-        "end_date": null,
-        "managers": [
-          "祁禾"
-        ],
-        "end_marker": "至今"
-      }
-    ],
-    "current_appointments": [
-      {
-        "start_date": "2023-11-15",
-        "end_date": null,
-        "managers": [
-          "祁禾"
-        ],
-        "end_marker": "至今"
-      }
-    ],
-    "current_managers": [
-      "祁禾"
-    ],
-    "appointment_signature": "fbdf94603a5b28549665e7413c4a63c5bf944bd1dfd6c5e62651c4aca945f6d5",
-    "excluded_future_count": 0,
-    "fact_reverified": false
-  },
+  "stale": true,
   "attempted": true,
   "change_status": "first observation or unavailable"
 }
