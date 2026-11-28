@@ -1,0 +1,59 @@
+{
+  "id": "manager_022714",
+  "name": "莫海波 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_022714.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_022714",
+  "code": "022714",
+  "status": "failed",
+  "checked_at": "2026-11-28T16:07:44.659609+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": null,
+  "excerpt": "",
+  "http_status": null,
+  "error": "URLError",
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_022714",
+    "checked_at": "2026-11-27T17:43:19.478666+08:00",
+    "publication_date": "2024-11-27",
+    "content_sha256": "f34acc14100fce69f312ec77ecf6a8ed57e3b0df781e7c435d8e9864e93d8223",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2024-11-27",
+          "end_date": null,
+          "managers": [
+            "莫海波"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2024-11-27",
+          "end_date": null,
+          "managers": [
+            "莫海波"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "莫海波"
+      ],
+      "appointment_signature": "78d7e2a3e3ec23b87208b2857ea2572b8e2fca0fc25e61678b2fae0f6f212e9f",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": true,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

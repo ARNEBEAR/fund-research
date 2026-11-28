@@ -1,0 +1,323 @@
+{
+  "id": "announcements_011066",
+  "name": "大成高鑫C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=011066&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_011066",
+  "code": "011066",
+  "status": "collected",
+  "checked_at": "2026-11-28T16:07:33.376956+08:00",
+  "publication_date": "2026-10-27",
+  "date_candidates": [
+    {
+      "title": "大成基金管理有限公司旗下228只公募基金2026年第3季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/011066,AN202610271831024849.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "大成高鑫股票型证券投资基金2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/011066,AN202610271830979356.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "大成基金管理有限公司旗下218只公募基金2026年中期报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/011066,AN202608281828628880.html",
+      "publication_date": "2026-08-28"
+    },
+    {
+      "title": "大成高鑫股票型证券投资基金2026年中期报告",
+      "url": "https://fund.eastmoney.com/gonggao/011066,AN202608281828585869.html",
+      "publication_date": "2026-08-28"
+    },
+    {
+      "title": "大成基金管理有限公司旗下219只公募基金2026年第2季度报告提示性公告",
+      "url": "https://fund.eastmoney.com/gonggao/011066,AN202607211827206853.html",
+      "publication_date": "2026-07-21"
+    },
+    {
+      "title": "大成高鑫股票型证券投资基金2026年第2季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/011066,AN202607211827193947.html",
+      "publication_date": "2026-07-21"
+    },
+    {
+      "title": "大成高鑫股票型证券投资基金2026年第1季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/011066,AN202604221821422180.html",
+      "publication_date": "2026-04-22"
+    },
+    {
+      "title": "大成高鑫股票型证券投资基金2025年年度报告",
+      "url": "https://fund.eastmoney.com/gonggao/011066,AN202603311820900721.html",
+      "publication_date": "2026-03-31"
+    },
+    {
+      "title": "大成高鑫股票型证券投资基金2025年第4季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/011066,AN202601221818253376.html",
+      "publication_date": "2026-01-22"
+    }
+  ],
+  "content_sha256": "1d97ed52a9ec4decbf28cbae89c3ecbccd5c4be03d7a6500d5bee818fdf446c5",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_011066",
+    "checked_at": "2026-11-28T16:07:33.376956+08:00",
+    "publication_date": "2026-10-27",
+    "content_sha256": "1d97ed52a9ec4decbf28cbae89c3ecbccd5c4be03d7a6500d5bee818fdf446c5",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610271831024849",
+          "title": "大成基金管理有限公司旗下228只公募基金2026年第3季度报告提示性公告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202610271831024849.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202610271830979356",
+          "title": "大成高鑫股票型证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202610271830979356.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608281828628880",
+          "title": "大成基金管理有限公司旗下218只公募基金2026年中期报告提示性公告",
+          "publication_date": "2026-08-28",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202608281828628880.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608281828585869",
+          "title": "大成高鑫股票型证券投资基金2026年中期报告",
+          "publication_date": "2026-08-28",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202608281828585869.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827206853",
+          "title": "大成基金管理有限公司旗下219只公募基金2026年第2季度报告提示性公告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202607211827206853.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202607211827193947",
+          "title": "大成高鑫股票型证券投资基金2026年第2季度报告",
+          "publication_date": "2026-07-21",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202607211827193947.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202604221821422180",
+          "title": "大成高鑫股票型证券投资基金2026年第1季度报告",
+          "publication_date": "2026-04-22",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202604221821422180.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202603311820900721",
+          "title": "大成高鑫股票型证券投资基金2025年年度报告",
+          "publication_date": "2026-03-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202603311820900721.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202601221818253376",
+          "title": "大成高鑫股票型证券投资基金2025年第4季度报告",
+          "publication_date": "2026-01-22",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/011066,AN202601221818253376.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 287,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "大成基金管理有限公司旗下228只公募基金2026年第3季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202610271831024849.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "大成高鑫股票型证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202610271830979356.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "大成基金管理有限公司旗下218只公募基金2026年中期报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202608281828628880.html",
+        "publication_date": "2026-08-28"
+      },
+      {
+        "title": "大成高鑫股票型证券投资基金2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202608281828585869.html",
+        "publication_date": "2026-08-28"
+      },
+      {
+        "title": "大成基金管理有限公司旗下219只公募基金2026年第2季度报告提示性公告",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202607211827206853.html",
+        "publication_date": "2026-07-21"
+      },
+      {
+        "title": "大成高鑫股票型证券投资基金2026年第2季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202607211827193947.html",
+        "publication_date": "2026-07-21"
+      },
+      {
+        "title": "大成高鑫股票型证券投资基金2026年第1季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202604221821422180.html",
+        "publication_date": "2026-04-22"
+      },
+      {
+        "title": "大成高鑫股票型证券投资基金2025年年度报告",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202603311820900721.html",
+        "publication_date": "2026-03-31"
+      },
+      {
+        "title": "大成高鑫股票型证券投资基金2025年第4季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202601221818253376.html",
+        "publication_date": "2026-01-22"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 5641,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=011066&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610271831024849",
+        "title": "大成基金管理有限公司旗下228只公募基金2026年第3季度报告提示性公告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202610271831024849.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202610271830979356",
+        "title": "大成高鑫股票型证券投资基金2026年第3季度报告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202610271830979356.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608281828628880",
+        "title": "大成基金管理有限公司旗下218只公募基金2026年中期报告提示性公告",
+        "publication_date": "2026-08-28",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202608281828628880.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608281828585869",
+        "title": "大成高鑫股票型证券投资基金2026年中期报告",
+        "publication_date": "2026-08-28",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202608281828585869.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827206853",
+        "title": "大成基金管理有限公司旗下219只公募基金2026年第2季度报告提示性公告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202607211827206853.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202607211827193947",
+        "title": "大成高鑫股票型证券投资基金2026年第2季度报告",
+        "publication_date": "2026-07-21",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202607211827193947.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202604221821422180",
+        "title": "大成高鑫股票型证券投资基金2026年第1季度报告",
+        "publication_date": "2026-04-22",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202604221821422180.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202603311820900721",
+        "title": "大成高鑫股票型证券投资基金2025年年度报告",
+        "publication_date": "2026-03-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202603311820900721.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202601221818253376",
+        "title": "大成高鑫股票型证券投资基金2025年第4季度报告",
+        "publication_date": "2026-01-22",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/011066,AN202601221818253376.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 287,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}

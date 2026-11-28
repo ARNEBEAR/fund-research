@@ -1,0 +1,83 @@
+{
+  "id": "announcements_019032",
+  "name": "易方达环保主题C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=019032&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_019032",
+  "code": "019032",
+  "status": "collected",
+  "checked_at": "2026-11-28T16:07:54.724874+08:00",
+  "publication_date": "2026-10-27",
+  "date_candidates": [
+    {
+      "title": "易方达环保主题灵活配置混合型证券投资基金2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/019032,AN202610271830959277.html",
+      "publication_date": "2026-10-27"
+    }
+  ],
+  "content_sha256": "d2a7e5017c40652f6b2fb8bb457706671c3e3faea359aa92b118bd466253d4fd",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_019032",
+    "checked_at": "2026-11-28T16:07:54.724874+08:00",
+    "publication_date": "2026-10-27",
+    "content_sha256": "d2a7e5017c40652f6b2fb8bb457706671c3e3faea359aa92b118bd466253d4fd",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610271830959277",
+          "title": "易方达环保主题灵活配置混合型证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/019032,AN202610271830959277.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 226,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "易方达环保主题灵活配置混合型证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/019032,AN202610271830959277.html",
+        "publication_date": "2026-10-27"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 6183,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=019032&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610271830959277",
+        "title": "易方达环保主题灵活配置混合型证券投资基金2026年第3季度报告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/019032,AN202610271830959277.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 226,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}

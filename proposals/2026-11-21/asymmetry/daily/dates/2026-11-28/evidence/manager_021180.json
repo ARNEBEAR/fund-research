@@ -1,0 +1,59 @@
+{
+  "id": "manager_021180",
+  "name": "杨宗昌 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_021180.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_021180",
+  "code": "021180",
+  "status": "failed",
+  "checked_at": "2026-11-28T16:07:35.000915+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": null,
+  "excerpt": "",
+  "http_status": null,
+  "error": "URLError",
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_021180",
+    "checked_at": "2026-11-27T16:50:33.916565+08:00",
+    "publication_date": "2024-08-28",
+    "content_sha256": "a282341236ca700b4e885eec944e8b288fe49dd5b2b540f2629a8abd24408e07",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2024-08-28",
+          "end_date": null,
+          "managers": [
+            "杨宗昌"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2024-08-28",
+          "end_date": null,
+          "managers": [
+            "杨宗昌"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "杨宗昌"
+      ],
+      "appointment_signature": "3432f7213d091db74993036a31104c2df91acc5f84798b17f2be0bf678c67a50",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": true,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

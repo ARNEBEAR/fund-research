@@ -1,0 +1,139 @@
+{
+  "id": "manager_011370",
+  "name": "张明昕 appointment",
+  "url": "https://fundf10.eastmoney.com/jjjl_011370.html",
+  "kind": "manager",
+  "group": "manager",
+  "family": "manager_011370",
+  "code": "011370",
+  "status": "collected",
+  "checked_at": "2026-11-28T16:08:05.315730+08:00",
+  "publication_date": "2025-03-04",
+  "date_candidates": [],
+  "content_sha256": "aa0e578ccdfb9ad78a95d51af21a682cded67d38072e4e04b9bab80241dec04c",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "manager_011370",
+    "checked_at": "2026-11-28T16:08:05.315730+08:00",
+    "publication_date": "2025-03-04",
+    "content_sha256": "aa0e578ccdfb9ad78a95d51af21a682cded67d38072e4e04b9bab80241dec04c",
+    "status": "collected",
+    "manager": {
+      "appointments": [
+        {
+          "start_date": "2025-03-04",
+          "end_date": null,
+          "managers": [
+            "张明昕"
+          ],
+          "end_marker": "至今"
+        },
+        {
+          "start_date": "2022-06-20",
+          "end_date": "2025-03-03",
+          "managers": [
+            "童立"
+          ],
+          "end_marker": "2025-03-03"
+        },
+        {
+          "start_date": "2022-05-19",
+          "end_date": "2022-06-19",
+          "managers": [
+            "梁皓",
+            "童立"
+          ],
+          "end_marker": "2022-06-19"
+        },
+        {
+          "start_date": "2021-04-08",
+          "end_date": "2022-05-18",
+          "managers": [
+            "梁皓"
+          ],
+          "end_marker": "2022-05-18"
+        }
+      ],
+      "current_appointments": [
+        {
+          "start_date": "2025-03-04",
+          "end_date": null,
+          "managers": [
+            "张明昕"
+          ],
+          "end_marker": "至今"
+        }
+      ],
+      "current_managers": [
+        "张明昕"
+      ],
+      "appointment_signature": "22a035f0562f89d85c6506b03417c7f55944215e8eed0a3f319d257969dd4e33",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 45158,
+  "final_url": "https://fundf10.eastmoney.com/jjjl_011370.html",
+  "manager": {
+    "appointments": [
+      {
+        "start_date": "2025-03-04",
+        "end_date": null,
+        "managers": [
+          "张明昕"
+        ],
+        "end_marker": "至今"
+      },
+      {
+        "start_date": "2022-06-20",
+        "end_date": "2025-03-03",
+        "managers": [
+          "童立"
+        ],
+        "end_marker": "2025-03-03"
+      },
+      {
+        "start_date": "2022-05-19",
+        "end_date": "2022-06-19",
+        "managers": [
+          "梁皓",
+          "童立"
+        ],
+        "end_marker": "2022-06-19"
+      },
+      {
+        "start_date": "2021-04-08",
+        "end_date": "2022-05-18",
+        "managers": [
+          "梁皓"
+        ],
+        "end_marker": "2022-05-18"
+      }
+    ],
+    "current_appointments": [
+      {
+        "start_date": "2025-03-04",
+        "end_date": null,
+        "managers": [
+          "张明昕"
+        ],
+        "end_marker": "至今"
+      }
+    ],
+    "current_managers": [
+      "张明昕"
+    ],
+    "appointment_signature": "22a035f0562f89d85c6506b03417c7f55944215e8eed0a3f319d257969dd4e33",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "changed"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "treasury_real",
+  "name": "美国财政部实际收益率曲线",
+  "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/pages/xml?data=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+  "kind": "xml_rates",
+  "family": "rates",
+  "group": "macro_market",
+  "scope": "current index or series; linked release bodies are not collected",
+  "status": "failed",
+  "checked_at": "2026-11-28T16:07:19.412085+08:00",
+  "publication_date": null,
+  "date_candidates": [],
+  "content_sha256": null,
+  "excerpt": "",
+  "http_status": 404,
+  "error": "HTTPError",
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": null,
+  "stale": true,
+  "attempted": true,
+  "change_status": "first observation or unavailable"
+}

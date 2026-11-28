@@ -1,0 +1,113 @@
+{
+  "id": "announcements_021180",
+  "name": "易方达产业机遇C disclosures",
+  "url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=021180&pageIndex=1&pageSize=20&type=0",
+  "kind": "announcements",
+  "group": "announcements",
+  "family": "manager_021180",
+  "code": "021180",
+  "status": "collected",
+  "checked_at": "2026-11-28T16:07:36.625094+08:00",
+  "publication_date": "2026-10-27",
+  "date_candidates": [
+    {
+      "title": "易方达产业机遇混合型证券投资基金2026年第3季度报告",
+      "url": "https://fund.eastmoney.com/gonggao/021180,AN202610271830959094.html",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "title": "易方达产业机遇混合型证券投资基金2026年中期报告",
+      "url": "https://fund.eastmoney.com/gonggao/021180,AN202608311828748490.html",
+      "publication_date": "2026-08-31"
+    }
+  ],
+  "content_sha256": "35d6d2fe125c48bbbc6642534354033ad2a6d046f86b5e5eafe7e85cde142431",
+  "excerpt": "",
+  "http_status": 200,
+  "error": null,
+  "fact_reverified": false,
+  "requires_independent_review": true,
+  "last_success": {
+    "id": "announcements_021180",
+    "checked_at": "2026-11-28T16:07:36.625094+08:00",
+    "publication_date": "2026-10-27",
+    "content_sha256": "35d6d2fe125c48bbbc6642534354033ad2a6d046f86b5e5eafe7e85cde142431",
+    "status": "collected",
+    "announcements": {
+      "items": [
+        {
+          "id": "AN202610271830959094",
+          "title": "易方达产业机遇混合型证券投资基金2026年第3季度报告",
+          "publication_date": "2026-10-27",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021180,AN202610271830959094.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        },
+        {
+          "id": "AN202608311828748490",
+          "title": "易方达产业机遇混合型证券投资基金2026年中期报告",
+          "publication_date": "2026-08-31",
+          "kind": "periodic_report",
+          "url": "https://fund.eastmoney.com/gonggao/021180,AN202608311828748490.html",
+          "body_reviewed": false,
+          "requires_independent_review": true,
+          "new_since_independent_review": false
+        }
+      ],
+      "records_returned": 20,
+      "api_total_count": 189,
+      "window": "first 20 announcements only; older or omitted pages are not reviewed",
+      "excluded_future_count": 0,
+      "fact_reverified": false
+    },
+    "date_candidates": [
+      {
+        "title": "易方达产业机遇混合型证券投资基金2026年第3季度报告",
+        "url": "https://fund.eastmoney.com/gonggao/021180,AN202610271830959094.html",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "title": "易方达产业机遇混合型证券投资基金2026年中期报告",
+        "url": "https://fund.eastmoney.com/gonggao/021180,AN202608311828748490.html",
+        "publication_date": "2026-08-31"
+      }
+    ],
+    "excerpt": ""
+  },
+  "stale": false,
+  "bytes": 6108,
+  "final_url": "https://api.fund.eastmoney.com/f10/JJGG?fundcode=021180&pageIndex=1&pageSize=20&type=0",
+  "announcements": {
+    "items": [
+      {
+        "id": "AN202610271830959094",
+        "title": "易方达产业机遇混合型证券投资基金2026年第3季度报告",
+        "publication_date": "2026-10-27",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/021180,AN202610271830959094.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      },
+      {
+        "id": "AN202608311828748490",
+        "title": "易方达产业机遇混合型证券投资基金2026年中期报告",
+        "publication_date": "2026-08-31",
+        "kind": "periodic_report",
+        "url": "https://fund.eastmoney.com/gonggao/021180,AN202608311828748490.html",
+        "body_reviewed": false,
+        "requires_independent_review": true,
+        "new_since_independent_review": false
+      }
+    ],
+    "records_returned": 20,
+    "api_total_count": 189,
+    "window": "first 20 announcements only; older or omitted pages are not reviewed",
+    "excluded_future_count": 0,
+    "fact_reverified": false
+  },
+  "attempted": true,
+  "change_status": "unchanged bytes; not reverified"
+}
