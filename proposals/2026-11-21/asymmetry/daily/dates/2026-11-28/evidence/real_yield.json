@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "current index or series; linked release bodies are not collected",
   "status": "collected",
-  "checked_at": "2026-11-28T16:07:19.372381+08:00",
+  "checked_at": "2026-11-28T16:56:45.190528+08:00",
   "publication_date": "2026-11-25",
   "date_candidates": [],
   "content_sha256": "7f55e2fc8b403d9d6b8b57f100965b12dee3920344a92f298c973c0657704de7",
@@ -18,7 +18,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "real_yield",
-    "checked_at": "2026-11-28T16:07:19.372381+08:00",
+    "checked_at": "2026-11-28T16:56:45.190528+08:00",
     "publication_date": "2026-11-25",
     "content_sha256": "7f55e2fc8b403d9d6b8b57f100965b12dee3920344a92f298c973c0657704de7",
     "status": "collected",
@@ -38,5 +38,5 @@
   },
   "excerpt_scope": "latest structured observation; not an article",
   "attempted": true,
-  "change_status": "first observation or unavailable"
+  "change_status": "unchanged bytes; not reverified"
 }

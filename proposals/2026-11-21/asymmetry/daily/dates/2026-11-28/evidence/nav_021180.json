@@ -8,7 +8,7 @@
   "code": "021180",
   "product_kind": "fund",
   "status": "collected",
-  "checked_at": "2026-11-28T16:07:27.152576+08:00",
+  "checked_at": "2026-11-28T16:56:51.626553+08:00",
   "publication_date": "2026-11-27",
   "date_candidates": [],
   "content_sha256": "2a29f7929b2eb2f1c9a94e4a4d9f73a8a7e2077f0f59b035dc1186232fc76f6f",
@@ -19,7 +19,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "nav_021180",
-    "checked_at": "2026-11-28T16:07:27.152576+08:00",
+    "checked_at": "2026-11-28T16:56:51.626553+08:00",
     "publication_date": "2026-11-27",
     "content_sha256": "2a29f7929b2eb2f1c9a94e4a4d9f73a8a7e2077f0f59b035dc1186232fc76f6f",
     "status": "collected",
@@ -58,5 +58,5 @@
     "fact_reverified": false
   },
   "attempted": true,
-  "change_status": "changed"
+  "change_status": "unchanged bytes; not reverified"
 }

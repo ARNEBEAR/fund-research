@@ -7,7 +7,7 @@
   "group": "macro_market",
   "scope": "configured current public source",
   "status": "collected",
-  "checked_at": "2026-11-28T16:07:16.494204+08:00",
+  "checked_at": "2026-11-28T16:56:41.506943+08:00",
   "publication_date": null,
   "date_candidates": [],
   "content_sha256": "55989f5bbd02ab609321df011170f9a6d9b1bdb296f56cb9224f2de4a478607e",
@@ -18,7 +18,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "priority_6108d826c324",
-    "checked_at": "2026-11-28T16:07:16.494204+08:00",
+    "checked_at": "2026-11-28T16:56:41.506943+08:00",
     "publication_date": null,
     "content_sha256": "55989f5bbd02ab609321df011170f9a6d9b1bdb296f56cb9224f2de4a478607e",
     "status": "collected",

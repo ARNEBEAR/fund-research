@@ -7,7 +7,7 @@
   "family": "manager_021902",
   "code": "021902",
   "status": "collected",
-  "checked_at": "2026-11-28T16:07:33.076485+08:00",
+  "checked_at": "2026-11-28T16:56:57.261012+08:00",
   "publication_date": "2026-10-27",
   "date_candidates": [
     {
@@ -49,7 +49,7 @@
   "requires_independent_review": true,
   "last_success": {
     "id": "announcements_021902",
-    "checked_at": "2026-11-28T16:07:33.076485+08:00",
+    "checked_at": "2026-11-28T16:56:57.261012+08:00",
     "publication_date": "2026-10-27",
     "content_sha256": "7409ce82eeb24a02982346c28b638b393f22c682ca937d4933de1ba697087956",
     "status": "collected",
